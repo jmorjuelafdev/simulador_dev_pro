@@ -622,54 +622,57 @@ function Quiz({
           tabIndex={0}
         >
           <strong>{estadoRespuesta === "correcto" ? "¡Bien hecho!" : "Inténtalo de nuevo"}</strong>
-          {esCorrecta ? (
-            <>
-              <p style={{ margin: "4px 0 0" }}>
-                Excelente. La respuesta correcta es:{" "}
-                <strong>
-                  {pregunta.tipo === "codigo"
-                    ? slotSolution || pregunta.respuesta || codigoSolution || "Código enviado"
-                    : pregunta.respuesta}
-                </strong>
-              </p>
-              <p style={{ margin: "4px 0 0" }}>{respuestaActual.feedback}</p>
-            </>
-          ) : (
-            <>
-              {isSlotQuestion && slotSolution && (
-                <p style={{ margin: "8px 0 0" }}>
-                  La combinación correcta es:
-                  <pre
-                    style={{
-                      margin: "8px 0 0",
-                      padding: "12px",
-                      background: "var(--color-surface-elevated)",
-                      borderRadius: 8,
-                      overflowX: "auto"
-                    }}
-                  >
-                    {slotSolution}
-                  </pre>
-                </p>
-              )}
-              {!isSlotQuestion && codigoSolution && (
-                <p style={{ margin: "8px 0 0" }}>
-                  Ejemplo de solución:
-                  <pre
-                    style={{
-                      margin: "8px 0 0",
-                      padding: "12px",
-                      background: "var(--color-surface-elevated)",
-                      borderRadius: 8,
-                      overflowX: "auto"
-                    }}
-                  >
-                    {codigoSolution}
-                  </pre>
-                </p>
-              )}
-            </>
-          )}
+          <ul className="feedback-panel__list">
+            {esCorrecta ? (
+              <>
+                <li>
+                  Excelente. La respuesta correcta es:{" "}
+                  <strong>
+                    {pregunta.tipo === "codigo"
+                      ? slotSolution || pregunta.respuesta || codigoSolution || "Código enviado"
+                      : pregunta.respuesta}
+                  </strong>
+                </li>
+                {respuestaActual?.feedback && <li>{respuestaActual.feedback}</li>}
+              </>
+            ) : (
+              <>
+                {isSlotQuestion && slotSolution && (
+                  <li>
+                    La combinación correcta es:
+                    <pre
+                      style={{
+                        margin: "8px 0 0",
+                        padding: "12px",
+                        background: "var(--color-surface-elevated)",
+                        borderRadius: 8,
+                        overflowX: "auto"
+                      }}
+                    >
+                      {slotSolution}
+                    </pre>
+                  </li>
+                )}
+                {!isSlotQuestion && codigoSolution && (
+                  <li>
+                    Ejemplo de solución:
+                    <pre
+                      style={{
+                        margin: "8px 0 0",
+                        padding: "12px",
+                        background: "var(--color-surface-elevated)",
+                        borderRadius: 8,
+                        overflowX: "auto"
+                      }}
+                    >
+                      {codigoSolution}
+                    </pre>
+                  </li>
+                )}
+                {respuestaActual?.feedback && <li>{respuestaActual.feedback}</li>}
+              </>
+            )}
+          </ul>
           <span className="sr-only" aria-live="polite">
             {estadoRespuesta === "correcto" ? "Respuesta correcta." : "Respuesta incorrecta."}
           </span>

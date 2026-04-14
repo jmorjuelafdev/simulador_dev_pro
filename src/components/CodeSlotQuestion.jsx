@@ -163,9 +163,16 @@ function CodeSlotQuestion({ pregunta, respuestaActual, onResponder, disabled }) 
         </small>
       )}
 
-      <pre className="slot-preview" aria-live="polite">
-        {renderedCodigo}
-      </pre>
+      <div className="slot-preview" aria-live="polite">
+        <ul className="slot-preview__list">
+          {renderedCodigo
+            .split(/\n+/)
+            .filter((linea) => linea.trim().length)
+            .map((linea, index) => (
+              <li key={`preview-line-${index}`}>{linea.trim()}</li>
+            ))}
+        </ul>
+      </div>
     </div>
   );
 }
