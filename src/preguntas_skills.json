@@ -1,0 +1,940 @@
+[
+  {
+    "id": "sk-1",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "Cuando necesitas aprender una nueva tecnología o herramienta desde cero, ¿cuál consideras que es la forma más efectiva de abordarlo para lograr un aprendizaje sólido?",
+    "opciones": [
+      "Revisar la documentación oficial, practicar con ejemplos pequeños y aplicar progresivamente en casos reales.",
+      "Esperar a que alguien más explique todo antes de comenzar el aprendizaje.",
+      "Memorizar únicamente la teoría sin realizar práctica concreta.",
+      "Usarla directamente sin revisar documentación ni ejemplos previos."
+    ],
+    "respuesta": "Revisar la documentación oficial, practicar con ejemplos pequeños y aplicar progresivamente en casos reales.",
+    "puntos": 15,
+    "timeLimit": 30
+  },
+  {
+    "id": "sk-2",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "En el contexto del desarrollo de software, ¿qué aspectos suelen motivar a una persona que está iniciando su camino como desarrollador?",
+    "opciones": [
+      "Resolver problemas de forma creativa y innovadora.",
+      "Construir aplicaciones o soluciones desde cero para satisfacer las necesidades de los usuarios.",
+      "Evitar aprender nuevas tecnologías y herramientas de programación sin explorar otras posibilidades.",
+      "Aprender constantemente y mejorar habilidades de programación sin preocuparse por el impacto del producto.",
+      "Trabajar sin interés en el impacto del producto final para satisfacer las necesidades de los clientes."
+    ],
+    "respuesta": [
+      "Resolver problemas de forma creativa y innovadora.",
+      "Construir aplicaciones o soluciones desde cero para satisfacer las necesidades de los usuarios.",
+      "Aprender constantemente y mejorar habilidades de programación sin preocuparse por el impacto del producto."
+    ],
+    "puntos": 15,
+    "timeLimit": 30
+  },
+  {
+    "id": "sk-3",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "Al iniciar como desarrollador junior, ¿cuál es uno de los principales retos al enfrentarse al entorno laboral por primera vez?",
+    "opciones": [
+      "Adaptarse al entorno laboral, aprender buenas prácticas y mejorar constantemente con el tiempo de forma autodidacta.",
+      "Limitarse a tareas simples sin aprender nuevas habilidades de programación o tecnologías nuevas.",
+      "Evitar pedir ayuda para no parecer inexperto en el trabajo de desarrollador.",
+      "Usar siempre la misma tecnología sin explorar otras opciones posibles en el futuro."
+    ],
+    "respuesta": "Adaptarse al entorno laboral, aprender buenas prácticas y mejorar constantemente con el tiempo de forma autodidacta.",
+    "puntos": 15,
+    "timeLimit": 30
+  },
+  {
+    "id": "sk-4",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "En el desarrollo full stack, ¿cuál es uno de los mayores desafíos que debe afrontar un desarrollador?",
+    "opciones": [
+      "Mantenerse actualizado en múltiples tecnologías de frontend, backend, bases de datos y despliegue sin explorar otras posibilidades.",
+      "Trabajar únicamente en el diseño visual sin lógica de programación frontend y backend sin explorar otras posibilidades.",
+      "Aprender solo HTML y CSS sin explorar otras tecnologías de frontend y backend sin explorar otras posibilidades.",
+      "Usar una sola herramienta durante todo el proyecto sin explorar otras posibilidades."
+    ],
+    "respuesta": "Mantenerse actualizado en múltiples tecnologías de frontend, backend, bases de datos y despliegue sin explorar otras posibilidades.",
+    "puntos": 15,
+    "timeLimit": 30
+  },
+  {
+    "id": "sk-5",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "Dentro del desarrollo frontend, ¿qué aspecto representa un desafío constante para un desarrollador?",
+    "opciones": [
+      "Mantenerse actualizado con frameworks, librerías y buenas prácticas de desarrollo de frontend.",
+      "Trabajar únicamente en el diseño visual sin lógica de programación frontend.",
+      "Aprender solo HTML y CSS sin explorar otras tecnologías de frontend.",
+      "No adaptarse a nuevas herramientas sin explorar otras posibilidades posibles de frontend."
+    ],
+    "respuesta": "Mantenerse actualizado con frameworks, librerías y buenas prácticas de desarrollo de frontend.",
+    "puntos": 15,
+    "timeLimit": 30
+  },
+  {
+    "id": "sk-6",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "En el desarrollo backend, ¿qué reto técnico es más representativo para un desarrollador junior?",
+    "opciones": [
+      "Mantenerse actualizado en arquitecturas, frameworks y buenas prácticas de desarrollo de backend.",
+      "Trabajar únicamente en la interfaz visual sin lógica de programación backend.",
+      "Aprender solo HTML y CSS sin explorar otras tecnologías de backend.",
+      "Usar siempre la misma herramienta sin explorar otras posibilidades de backend."
+    ],
+    "respuesta": "Mantenerse actualizado en arquitecturas, frameworks y buenas prácticas de desarrollo de backend.",
+    "puntos": 15,
+    "timeLimit": 30
+  },
+  {
+    "id": "sk-7",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "En el desarrollo de aplicaciones, ¿cómo se diferencian los conceptos de UX y UI?",
+    "opciones": [
+      "UX se enfoca en la experiencia del usuario y UI en el diseño visual de la interfaz de usuario.",
+      "UX se encarga del backend y UI del frontend de la aplicación.",
+      "UX diseña bases de datos y UI APIs para la aplicación.",
+      "UX programa la aplicación y UI la despliega en un servidor."
+    ],
+    "respuesta": "UX se enfoca en la experiencia del usuario y UI en el diseño visual de la interfaz de usuario.",
+    "puntos": 15,
+    "timeLimit": 30
+  },
+  {
+    "id": "sk-8",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué prácticas ayudan a un desarrollador junior a mejorar la calidad de su código y su crecimiento profesional?",
+    "opciones": [
+      "Escribir código claro y bien estructurado para facilitar su entendimiento a otros desarrolladores.",
+      "Ignorar documentación del proyecto y escribir código sin comentarios de manera clara.",
+      "Probar el código antes de entregarlo dentro de un equipo de desarrollo de manera regular.",
+      "Evitar preguntar dudas antes de entregar el código dentro de un equipo de desarrollo.",
+      "Aprender continuamente nuevas tecnologías sin explorar otras posibilidades de aprendizaje."
+    ],
+    "respuesta": [
+      "Escribir código claro y bien estructurado para facilitar su entendimiento a otros desarrolladores.",
+      "Probar el código antes de entregarlo dentro de un equipo de desarrollo de manera regular.",
+      "Aprender continuamente nuevas tecnologías sin explorar otras posibilidades de aprendizaje."
+    ],
+    "puntos": 15,
+    "timeLimit": 30
+  },
+  {
+    "id": "sk-9",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "Al trabajar en equipo dentro de un proyecto de software, ¿qué objetivos son importantes para un desarrollador junior?",
+    "opciones": [
+      "Colaborar y comunicarse de forma efectiva con el equipo de desarrollo.",
+      "Trabajar de forma aislada sin interacciones con otros desarrolladores del proyecto.",
+      "Evitar recibir feedback de otros desarrolladores sin contribuir con el proyecto .",
+      "Aprender del equipo sin explorar otras posibilidades de colaboración.",
+      "Ignorar estándares del proyecto y trabajar de manera individual sin coordinación."
+    ],
+    "respuesta": [
+      "Colaborar y comunicarse de forma efectiva con el equipo de desarrollo.",
+      "Aprender del equipo sin explorar otras posibilidades de colaboración."
+    ],
+    "puntos": 15,
+    "timeLimit": 30
+  },
+  {
+    "id": "sk-10",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "Dentro del desarrollo de software, ¿por qué es importante escribir código limpio y bien organizado desde etapas tempranas?",
+    "opciones": [
+      "Facilita el mantenimiento y comprensión del código por otros desarrolladores.",
+      "Reduce la necesidad de documentación para entender el código fuente.",
+      "Hace que el código sea más largo y complejo para otros desarrolladores.",
+      "Evita completamente la aparición de errores de sintaxis en el código."
+    ],
+    "respuesta": "Facilita el mantenimiento y comprensión del código por otros desarrolladores.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "sk-11",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "Cuando un desarrollador junior encuentra un error en su código, ¿cuál es la mejor forma de abordarlo inicialmente?",
+    "opciones": [
+      "Analizar el problema y tratar de reproducirlo antes de solucionarlo.",
+      "Ignorarlo si no es crítico y continuar con el código siguiente sin solucionarlo.",
+      "Eliminar partes del código sin analizar el problema completo antes de solucionarlo.",
+      "Esperar que alguien más lo resuelva antes de intentar solucionarlo."
+    ],
+    "respuesta": "Analizar el problema y tratar de reproducirlo antes de solucionarlo.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "sk-12",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué rol cumple la documentación dentro de un proyecto de software?",
+    "opciones": [
+      "Facilitar la comprensión del sistema y apoyar la colaboración de otros desarrolladores sin explorar otras posibilidades.",
+      "Aumentar el tamaño del proyecto sin aportar valor adicional a la comprensión del sistema.",
+      "Reemplazar el código fuente por documentación sin aportar valor adicional a la comprensión del sistema.",
+      "Ser utilizada únicamente al final del proyecto sin explorar otras posibilidades para la comprensión del sistema."
+    ],
+    "respuesta": "Facilitar la comprensión del sistema y apoyar la colaboración de otros desarrolladores sin explorar otras posibilidades.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "sk-13",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "Si recibes una tarea con requisitos poco claros, ¿qué acción es más adecuada antes de comenzar a desarrollarla?",
+    "opciones": [
+      "Solicitar aclaraciones y confirmar los requisitos de la tarea antes de comenzar el desarrollo.",
+      "Comenzar a desarrollar con suposiciones y esperar aclaraciones de los requisitos de la tarea luego del desarrollo final.",
+      "Ignorar la ambigüedad y continuar con el desarrollo sin preocupaciones por las aclaraciones de los requisitos de la tarea.",
+      "Esperar sin comunicarte con el equipo de desarrollo antes de comenzar el desarrollo de la tarea y esperar aclaraciones de los requisitos."
+    ],
+    "respuesta": "Solicitar aclaraciones y confirmar los requisitos de la tarea antes de comenzar el desarrollo.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "sk-14",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Por qué es importante probar el código antes de entregarlo dentro de un equipo de desarrollo?",
+    "opciones": [
+      "Para detectar errores y asegurar que funciona correctamente antes de entregarlo al equipo de desarrollo.",
+      "Para reducir el tamaño del código sin perder calidad de desarrollo antes de entregarlo al equipo de desarrollo.",
+      "Para evitar escribir documentación no necesaria antes de entregar el código al equipo de desarrollo.",
+      "Para acelerar el desarrollo sin validación de calidad antes de entregarlo al equipo de desarrollo."
+    ],
+    "respuesta": "Para detectar errores y asegurar que funciona correctamente antes de entregarlo al equipo de desarrollo.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "sk-15",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "En el trabajo diario de un desarrollador, ¿por qué es importante la comunicación con el equipo?",
+    "opciones": [
+      "Permite coordinar tareas, resolver dudas y evitar errores de comunicación.",
+      "No tiene impacto en el desarrollo del código fuente del proyecto.",
+      "Solo es necesaria para roles no técnicos del equipo de desarrollo.",
+      "Reduce la necesidad de escribir código sin comunicación con el equipo de desarrollo."
+    ],
+    "respuesta": "Permite coordinar tareas, resolver dudas y evitar errores de comunicación.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "sk-16",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué significa trabajar de manera iterativa en el desarrollo de software?",
+    "opciones": [
+      "Desarrollar en pequeñas partes y mejorar progresivamente el código del sistema.",
+      "Construir todo el sistema de una sola vez sin revisar ni mejorar el código del sistema.",
+      "Trabajar sin planificación de tareas del proyecto.",
+      "Evitar cambios durante el desarrollo de la aplicación del proyecto."
+    ],
+    "respuesta": "Desarrollar en pequeñas partes y mejorar progresivamente el código del sistema.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "sk-17",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Cuál es una buena práctica al trabajar con código de otros desarrolladores dentro de un proyecto?",
+    "opciones": [
+      "Leer y entender el código del proyecto antes de modificarlo .",
+      "Modificar el código del proyecto directamente sin revisarlo previamente.",
+      "Eliminar el código del proyecto si no se entiende su funcionamiento.",
+      "Reescribir todo el código del proyecto desde cero siempre que se solicite."
+    ],
+    "respuesta": "Leer y entender el código del proyecto antes de modificarlo.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "sk-18",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "Al trabajar en una tarea asignada, ¿qué acciones ayudan a asegurar que el resultado final cumpla con estándares de calidad antes de entregarlo?",
+    "opciones": [
+      "Revisar el trabajo realizado antes de entregarlo para asegurar que cumple con los requisitos.",
+      "Realizar pruebas para validar el funcionamiento del código.",
+      "Ignorar errores menores para ahorrar tiempo de desarrollo.",
+      "Utilizar herramientas como linters o pruebas automatizadas para validar el código.",
+      "Entregar el código sin validarlo previamente."
+    ],
+    "respuesta": [
+      "Revisar el trabajo realizado antes de entregarlo para asegurar que cumple con los requisitos.",
+      "Realizar pruebas para validar el funcionamiento del código.",
+      "Utilizar herramientas como linters o pruebas automatizadas para validar el código."
+    ],
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "sk-19",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "Cuando recibes comentarios o críticas sobre tu código dentro de un equipo de desarrollo, ¿qué actitudes son más adecuadas para mejorar profesionalmente?",
+    "opciones": [
+      "Aceptar la retroalimentación como una oportunidad de mejora personal.",
+      "Ignorar los comentarios para evitar incomodidad en el equipo.",
+      "Analizar los comentarios de forma objetiva y buscar soluciones.",
+      "Tomar las críticas como algo personal y ignorarlas.",
+      "Buscar activamente feedback para seguir mejorando el código."
+    ],
+    "respuesta": [
+      "Aceptar la retroalimentación como una oportunidad de mejora personal.",
+      "Analizar los comentarios de forma objetiva y buscar soluciones.",
+      "Buscar activamente feedback para seguir mejorando el código."
+    ],
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "sk-20",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "Al trabajar en un equipo remoto de desarrollo, ¿qué prácticas contribuyen a una colaboración efectiva y organizada?",
+    "opciones": [
+      "Definir objetivos claros y organizar las tareas de manera clara.",
+      "Utilizar herramientas de comunicación y colaboración para compartir información.",
+      "Trabajar de forma aislada sin interacción constante con el equipo.",
+      "Mantener una comunicación proactiva con el equipo para solucionar problemas.",
+      "Evitar reuniones para ahorrar tiempo de desarrollo y comunicación."
+    ],
+    "respuesta": [
+      "Definir objetivos claros y organizar las tareas de manera clara.",
+      "Utilizar herramientas de comunicación y colaboración para compartir información.",
+      "Mantener una comunicación proactiva con el equipo para solucionar problemas."
+    ],
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "sk-21",
+    "categoria": "Skills",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa la siguiente afirmación:.",
+    "modo": "slots",
+    "plantilla": "En programación deploy significa {{slot0}}.",
+    "opcionesSlots": [
+      "publicar una aplicación en un servidor de desarrollo o producción para que esté disponible para los usuarios",
+      "escribir código sin seguir buenas prácticas de programación para acelerar el desarrollo",
+      "eliminar errores de código para mejorar la calidad del código sin realizar pruebas",
+      "diseñar interfaces gráficas de usuarios para aplicaciones web sin considerar la experiencia del usuario"
+    ],
+    "respuestasSlots": [
+      "publicar una aplicación en un servidor de desarrollo o producción para que esté disponible para los usuarios"
+    ],
+    "evaluacion": "slots",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "sk-22",
+    "categoria": "Skills",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Relaciona los conceptos de monitoreo con su definición correspondiente.",
+    "modo": "slots",
+    "plantilla": "{{slot0}}: Son mensajes que registra el sistema sobre eventos o errores importantes en tiempo real y se utilizan para diagnosticar problemas y mejorar el rendimiento del sistema.\n\n{{slot1}}: Son valores numéricos que indican el rendimiento del sistema en diferentes aspectos como rendimiento, uso de recursos, etc.",
+    "opcionesArrastrar": [
+      "Logs",
+      "Métricas"
+    ],
+    "respuestasSlots": [
+      "Logs",
+      "Métricas"
+    ],
+    "evaluacion": "slots",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "sk-23",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "En desarrollo web, ¿qué es Lazy Loading y para qué se utiliza?",
+    "opciones": [
+      "Lazy Loading es la carga de recursos en tiempo real de una aplicación web de manera asincrona para mejorar el rendimiento del sitio web.",
+      "Cargar toda la aplicación al inicio para mejorar la experiencia del usuario y reducir el tiempo de carga de la página.",
+      "Eliminar archivos del servidor cuando no sean utilizados para mejorar el rendimiento de la aplicación.",
+      "Optimizar bases de datos para mejorar el rendimiento de la aplicación y reducir el consumo de recursos del servidor."
+    ],
+    "respuesta": "Lazy Loading es la carga de recursos en tiempo real de una aplicación web de manera asincrona para mejorar el rendimiento del sitio web.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "sk-24",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "En desarrollo web, ¿qué representa una API y cuál es su propósito principal?",
+    "opciones": [
+      "Un mecanismo de comunicación entre sistemas para compartir datos de manera segura.",
+      "Un lenguaje de programación para crear aplicaciones.",
+      "Una base de datos para almacenar y gestionar datos de manera eficiente y segura.",
+      "Una interfaz para interactuar con servicios externos como APIs.",
+      "Un sistema operativo para ejecutar programas y gestionar recursos."
+    ],
+    "respuesta": [
+      "Un mecanismo de comunicación entre sistemas para compartir datos de manera segura.",
+      "Una interfaz para interactuar con servicios externos como APIs."
+    ],
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "sk-25",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "Al trabajar con una API, ¿por qué es importante manejar correctamente los errores en las respuestas?",
+    "opciones": [
+      "Para evitar fallos inesperados y mejorar la experiencia del usuario de la aplicación.",
+      "Para reducir la cantidad de código y mejorar la eficiencia del código.",
+      "Para evitar validar datos de entrada de la API por parte del cliente de manera innecesaria.",
+      "Para eliminar la necesidad de pruebas automatizadas de la API para garantizar la calidad del código."
+    ],
+    "respuesta": "Para evitar fallos inesperados y mejorar la experiencia del usuario de la aplicación.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "sk-26",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "Al consumir datos desde una API externa, ¿qué prácticas ayudan a evitar errores y mejorar la estabilidad de la aplicación?",
+    "opciones": [
+      "Validar la estructura de los datos antes de utilizarlos en la aplicación para evitar errores de formato de datos no esperados en la API.",
+      "Asumir que la API siempre responde correctamente y ignorar códigos de estado HTTP de error de la API.",
+      "Implementar manejo de errores como try/catch o promesas para manejar errores en la respuesta de la API.",
+      "Ignorar códigos de estado HTTP de error de la API y asumir que la API siempre responde correctamente.",
+      "Definir estados de carga y error en la interfaz para indicar al usuario el estado de la respuesta de la API."
+    ],
+    "respuesta": [
+      "Validar la estructura de los datos antes de utilizarlos en la aplicación para evitar errores de formato de datos no esperados en la API.",
+      "Implementar manejo de errores como try/catch o promesas para manejar errores en la respuesta de la API.",
+      "Definir estados de carga y error en la interfaz para indicar al usuario el estado de la respuesta de la API."
+    ],
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "sk-27",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué práctica ayuda a mantener el código organizado en aplicaciones de mayor tamaño?",
+    "opciones": [
+      "Separar responsabilidades en módulos o componentes de manera clara y coherente.",
+      "Escribir todo en un solo archivo de código sin estructura coherente ni clara.",
+      "Evitar reutilizar código de manera innecesaria en diferentes partes del código.",
+      "No seguir ninguna estructura de organización en el código de la aplicación."
+    ],
+    "respuesta": "Separar responsabilidades en módulos o componentes de manera clara y coherente.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "sk-28",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Por qué es importante validar los datos antes de utilizarlos en una aplicación?",
+    "opciones": [
+      "Para prevenir errores y posibles problemas de seguridad en la aplicación.",
+      "Para aumentar el tamaño del código sin aportar valor adicional al proyecto.",
+      "Para evitar usar APIs de terceros sin validaciones adecuadas de manera innecesaria.",
+      "Para eliminar la necesidad de pruebas automatizadas de la API para garantizar la calidad del código."
+    ],
+    "respuesta": "Para prevenir errores y posibles problemas de seguridad en la aplicación.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "sk-29",
+    "categoria": "Skills",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa la siguiente afirmación:",
+    "modo": "slots",
+    "plantilla": "Una función reutilizable {{slot0}}.",
+    "opcionesSlots": [
+      "evita duplicar lógica en el código de la aplicación sin aumentar su complejidad o reducir su calidad.",
+      "hacer el código más complejo y reducir su calidad al intentar reutilizarlo de manera innecesaria en diferentes partes del código.",
+      "elimina variables innecesarias en el código de la aplicación para mejorar su eficiencia sin aumentar su complejidad.",
+      "evita pruebas automatizadas de la función para garantizar la calidad del código de la aplicación sin aumentar su complejidad."
+    ],
+    "respuestasSlots": [
+      "evita duplicar lógica en el código de la aplicación sin aumentar su complejidad o reducir su calidad."
+    ],
+    "evaluacion": "slots",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "sk-30",
+    "categoria": "Skills",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa la siguiente afirmación: .",
+    "modo": "slots",
+    "plantilla": "En programción el término (bug) se utiliza para describir {{slot0}}.",
+    "opcionesSlots": [
+      "error en el código de un programa que causa un comportamiento inesperado",
+      "mejora de rendimiento del programa debido a la optimización del código",
+      "optimización del sistema operativo para ejecutar programas de manera más eficiente",
+      "documentación técnica de un programa para facilitar su uso y comprensión"
+    ],
+    "respuestasSlots": [
+      "error en el código de un programa que causa un comportamiento inesperado"
+    ],
+    "evaluacion": "slots",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "sk-31",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "Cuando se presenta un bug difícil de reproducir, ¿qué estrategia es más adecuada?",
+    "opciones": [
+      "Intentar reproducirlo de forma controlada antes de modificar el código de la aplicación.",
+      "Cambiar código al azar hasta que funcione correctamente el bug y luego eliminarlo de la aplicación.",
+      "Ignorarlo si no es frecuente y no afecta el funcionamiento de la aplicación principal.",
+      "Eliminar funcionalidades relacionadas con el bug para reducir la complejidad del código."
+    ],
+    "respuesta": "Intentar reproducirlo de forma controlada antes de modificar el código de la aplicación.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "sk-32",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué ventaja tiene dividir una tarea compleja en subtareas más pequeñas y reutilizables?",
+    "opciones": [
+      "Facilita la comprensión, desarrollo y seguimiento del trabajo de los desarrolladores.",
+      "Hace el proceso más lento y complejo para los desarrolladores.",
+      "Reduce la calidad del código de la aplicación.",
+      "Evita la colaboración entre los desarrolladores."
+    ],
+    "respuesta": "Facilita la comprensión, desarrollo y seguimiento del trabajo de los desarrolladores.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "sk-33",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué implica aplicar el principio DRY en programación?",
+    "opciones": [
+      "Evitar duplicación de código mediante reutilización de funciones y variables comunes en diferentes partes del código de la aplicación.",
+      "Escribir código sin comentarios de manera clara y concisa para facilitar su entendimiento de los desarrolladores.",
+      "Eliminar variables innecesarias en el código de la aplicación para mejorar su eficiencia sin aumentar su complejidad.",
+      "Optimizar bases de datos para reducir el consumo de recursos y mejorar la eficiencia del código de la aplicación."
+    ],
+    "respuesta": "Evitar duplicación de código mediante reutilización de funciones y variables comunes en diferentes partes del código de la aplicación.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "sk-34",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué prácticas ayudan a mejorar la seguridad básica de una aplicación web?",
+    "opciones": [
+      "Validar datos en frontend y backend mediante expresiones regulares y validación de formularios en tiempo real.",
+      "Confiar en datos del usuario sin validar los datos ingresados por el usuario mediante expresiones regulares.",
+      "Usar autenticación y autorización para proteger la aplicación de ataques de seguridad.",
+      "Exponer credenciales de acceso a terceros sin validaciones adecuadas de manera innecesaria .",
+      "Sanitizar entradas de datos para evitar ataques de inyección SQL o XSS mediante expresiones regulares."
+    ],
+    "respuesta": [
+      "Validar datos en frontend y backend mediante expresiones regulares y validación de formularios en tiempo real.",
+      "Usar autenticación y autorización para proteger la aplicación de ataques de seguridad.",
+      "Sanitizar entradas de datos para evitar ataques de inyección SQL o XSS mediante expresiones regulares."
+    ],
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "sk-35",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "Al optimizar el rendimiento en una aplicación frontend, ¿qué prácticas son recomendadas?",
+    "opciones": [
+      "Reducir tamaño de recursos para mejorar el rendimiento del sitio web y reducir el consumo de recursos.",
+      "Cargar todo al inicio para mejorar el rendimiento del sitio web y reducir el consumo de recursos.",
+      "Implementar lazy loading para mejorar el rendimiento del sitio web y reducir el consumo de recursos.",
+      "Ignorar dispositivos móviles para mejorar el rendimiento del sitio web y reducir el consumo de recursos.",
+      "Minimizar archivos para mejorar el rendimiento del sitio web y reducir el consumo de recursos."
+    ],
+    "respuesta": [
+      "Reducir tamaño de recursos para mejorar el rendimiento del sitio web y reducir el consumo de recursos.",
+      "Implementar lazy loading para mejorar el rendimiento del sitio web y reducir el consumo de recursos.",
+      "Minimizar archivos para mejorar el rendimiento del sitio web y reducir el consumo de recursos."
+    ],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sk-36",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué caracteriza un entorno ágil en el desarrollo de software y sus principales beneficios?",
+    "opciones": [
+      "Trabajo en iteraciones con entregas frecuentes y adaptación a cambios de manera continua y fluida.",
+      "Trabajo individual sin comunicación entre desarrolladores y clientes de manera continua.",
+      "Desarrollo completo antes de recibir feedback de los clientes y adaptación a cambios de manera fluida.",
+      "Enfoque solo en escribir código sin considerar la experiencia del usuario o la calidad del código."
+    ],
+    "respuesta": "Trabajo en iteraciones con entregas frecuentes y adaptación a cambios de manera continua y fluida.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sk-37",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "Dentro de un entorno ágil de desarrollo, ¿qué comportamientos reflejan una buena adaptación por parte de un desarrollador junior al trabajo en equipo?",
+    "opciones": [
+      "Participar activamente en ceremonias como daily o retrospectivas de scrum.",
+      "Evitar cambios en los requerimientos del proyecto sin comunicarse con el equipo de desarrollo.",
+      "Adaptarse a nuevas prioridades definidas por el equipo sin comunicarse con el equipo de desarrollo.",
+      "Trabajar sin comunicar bloqueos o dificultades al equipo de desarrollo.",
+      "Colaborar con otros roles dentro del equipo sin comunicarse con el equipo de desarrollo."
+    ],
+    "respuesta": [
+      "Participar activamente en ceremonias como daily o retrospectivas de scrum.",
+      "Adaptarse a nuevas prioridades definidas por el equipo sin comunicarse con el equipo de desarrollo.",
+      "Colaborar con otros roles dentro del equipo sin comunicarse con el equipo de desarrollo."
+    ],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sk-38",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "Al desarrollar una nueva funcionalidad, ¿qué prácticas contribuyen a que el código sea más entendible y fácil de mantener por otros miembros del equipo?",
+    "opciones": [
+      "Usar nombres descriptivos en variables, funciones y componentes para facilitar su entendimiento de los desarrolladores.",
+      "Concentrar lógica compleja en una sola función para reducir líneas de código.",
+      "Agregar comentarios cuando la lógica no sea evidente para otros desarrolladores.",
+      "Seguir convenciones y estándares definidos por el equipo de desarrollo.",
+      "Evitar documentar para ahorrar tiempo de desarrollo."
+    ],
+    "respuesta": [
+      "Usar nombres descriptivos en variables, funciones y componentes para facilitar su entendimiento de los desarrolladores.",
+      "Agregar comentarios cuando la lógica no sea evidente para otros desarrolladores.",
+      "Seguir convenciones y estándares definidos por el equipo de desarrollo."
+    ],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+    {
+    "id": "sk-39",
+    "categoria": "Skills",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa .",
+    "modo": "slots",
+    "plantilla": "En programación el control de versiones permite {{slot0}}.",
+    "opcionesSlots": [
+      "gestionar cambios en el código de un programa a lo largo del tiempo y colaborar con otros desarrolladores",
+      "ejecutar programas en diferentes sistemas operativos sin modificaciones en el código",
+      "diseñar interfaces gráficas de usuarios para aplicaciones web",
+      "crear bases de datos relacionales para almacenar información de manera eficiente"
+    ],
+    "respuestasSlots": [
+      "gestionar cambios en el código de un programa a lo largo del tiempo y colaborar con otros desarrolladores"
+    ],
+    "evaluacion": "slots",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sk-40",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "En un entorno colaborativo, ¿qué acciones ayudan a prevenir conflictos al trabajar sobre el mismo código en un repositorio compartido?",
+    "opciones": [
+      "Realizar commits frecuentes y con mensajes descriptivos de las modificaciones realizadas en el código.",
+      "Trabajar directamente sobre la rama principal sin control de versiones de GitHub o GitLab para evitar conflictos con otros desarrolladores.",
+      "Sincronizar cambios regularmente con el repositorio de GitHub o GitLab para evitar conflictos con otros desarrolladores.",
+      "Ignorar los cambios realizados por otros miembros del equipo de desarrollo sin comunicarse con ellos antes de realizar un merge de cambios.",
+      "Revisar el código antes de realizar un merge de cambios para evitar conflictos con otros desarrolladores."
+    ],
+    "respuesta": [
+      "Realizar commits frecuentes y con mensajes descriptivos de las modificaciones realizadas en el código.",
+      "Sincronizar cambios regularmente con el repositorio de GitHub o GitLab para evitar conflictos con otros desarrolladores.",
+      "Revisar el código antes de realizar un merge de cambios para evitar conflictos con otros desarrolladores."
+    ],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sk-41",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "Al implementar una funcionalidad, ¿qué factores debes considerar para garantizar una buena experiencia de usuario (UX)?",
+    "opciones": [
+      "Optimizar tiempos de carga y rendimiento de la interfaz de usuario para mejorar la experiencia del usuario en dispositivos móviles y escritorio.",
+      "Diseñar una interfaz clara e intuitiva para facilitar la navegación y comprensión del usuario de la aplicación.",
+      "Mostrar mensajes de error comprensibles y claros para ayudar al usuario a solucionar problemas de manera eficiente y eficaz en la aplicación.",
+      "Ignorar aspectos de accesibilidad y usabilidad para optimizar el rendimiento de la aplicación sin considerar la experiencia del usuario en dispositivos móviles y escritorio.",
+      "Sobrecargar la interfaz con información innecesaria para mejorar la experiencia del usuario en dispositivos móviles y escritorio."
+    ],
+    "respuesta": [
+      "Optimizar tiempos de carga y rendimiento de la interfaz de usuario para mejorar la experiencia del usuario en dispositivos móviles y escritorio.",
+      "Diseñar una interfaz clara e intuitiva para facilitar la navegación y comprensión del usuario de la aplicación.",
+      "Mostrar mensajes de error comprensibles y claros para ayudar al usuario a solucionar problemas de manera eficiente y eficaz en la aplicación."
+    ],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sk-42",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "Antes de integrar cambios al repositorio principal, ¿qué prácticas ayudan a mejorar la calidad del código?",
+    "opciones": [
+      "Realizar pruebas manuales o automatizadas para asegurarse de que el código funcione correctamente antes de enviarlo al repositorio.",
+      "Subir código sin validarlo antes de enviarlo al repositorio.",
+      "Utilizar linters o formateadores de código para mejorar la calidad del código antes de enviarlo al repositorio.",
+      "Ignorar advertencias del sistema de control de versiones para enviar el código al repositorio.",
+      "Revisar el código antes de enviarlo al repositorio."
+    ],
+    "respuesta": [
+      "Realizar pruebas manuales o automatizadas para asegurarse de que el código funcione correctamente antes de enviarlo al repositorio.",
+      "Utilizar linters o formateadores de código para mejorar la calidad del código antes de enviarlo al repositorio.",
+      "Revisar el código antes de enviarlo al repositorio."
+    ],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sk-43",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "Cuando trabajas bajo presión por tiempos de entrega, ¿qué estrategias te permiten mantener la calidad del trabajo sin comprometer los resultados?",
+    "opciones": [
+      "Priorizar tareas según impacto y urgencia para asegurar el cumplimiento de los requisitos de calidad antes de entregar el código.",
+      "Omitir pruebas para ahorrar tiempo de desarrollo y asegurar el cumplimiento de los requisitos de calidad antes de entregar el código.",
+      "Dividir tareas en partes manejables para asegurar el cumplimiento de los requisitos de calidad antes de entregar el código.",
+      "Trabajar sin planificación para asegurar el cumplimiento de los requisitos de calidad antes de entregar el código.",
+      "Comunicar bloqueos o riesgos al equipo para asegurar el cumplimiento de los requisitos de calidad antes de entregar el código."
+    ],
+    "respuesta": [
+      "Priorizar tareas según impacto y urgencia para asegurar el cumplimiento de los requisitos de calidad antes de entregar el código.",
+      "Dividir tareas en partes manejables para asegurar el cumplimiento de los requisitos de calidad antes de entregar el código.",
+      "Comunicar bloqueos o riesgos al equipo para asegurar el cumplimiento de los requisitos de calidad antes de entregar el código."
+    ],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sk-44",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "Al trabajar con formularios en una aplicación web, ¿qué aspectos son clave para garantizar su correcto funcionamiento y una buena experiencia de usuario?",
+    "opciones": [
+      "Validar los datos antes de enviarlos al servidor para asegurar su integridad y seguridad en la base de datos del sistema de información de la empresa.",
+      "Confiar completamente en los datos ingresados por el usuario sin validación previa de los mismos mediante expresiones regulares.",
+      "Mostrar mensajes claros de validación o error cuando los datos ingresados no son válidos o no cumplen con las reglas de validación establecidas.",
+      "Ignorar la experiencia del usuario y enviar los datos directamente al servidor sin validación previa de los mismos.",
+      "Prevenir envíos incorrectos o incompletos de los datos ingresados por el usuario mediante validación previa de los mismos."
+    ],
+    "respuesta": [
+      "Validar los datos antes de enviarlos al servidor para asegurar su integridad y seguridad en la base de datos del sistema de información de la empresa.",
+      "Mostrar mensajes claros de validación o error cuando los datos ingresados no son válidos o no cumplen con las reglas de validación establecidas.",
+      "Prevenir envíos incorrectos o incompletos de los datos ingresados por el usuario mediante validación previa de los mismos."
+    ],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sk-45",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "Dentro de un equipo técnico, ¿qué comportamientos reflejan una mentalidad de crecimiento en un desarrollador junior?",
+    "opciones": [
+      "Aceptar feedback y aplicarlo para mejorar el código de la empresa.",
+      "Evitar desafíos complejos y mantenerse en la zona de confort de la tarea actual.",
+      "Aprender de errores y experiencias de otros desarrolladores.",
+      "Mantenerse en la zona de confort de la tarea actual.",
+      "Explorar nuevas herramientas o tecnologías para mejorar la eficiencia del trabajo del equipo."
+    ],
+    "respuesta": [
+      "Aceptar feedback y aplicarlo para mejorar el código de la empresa.",
+      "Aprender de errores y experiencias de otros desarrolladores.",
+      "Explorar nuevas herramientas o tecnologías para mejorar la eficiencia del trabajo del equipo."
+    ],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sk-46",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "En proyectos con múltiples módulos o servicios, ¿qué prácticas ayudan a mantener la organización y coherencia del sistema?",
+    "opciones": [
+      "Definir una arquitectura clara desde el inicio y mantenerla en todo el proyecto.",
+      "Mezclar responsabilidades entre módulos de manera desorganizada y dificultar su mantenimiento en el futuro.",
+      "Mantener contratos claros entre servicios para facilitar el intercambio de información entre módulos y servicios del sistema.",
+      "Ignorar documentación del sistema y dejarlo en manos de los desarrolladores de manera desorganizada.",
+      "Seguir convenciones comunes en todo el proyecto para facilitar la comprensión y mantenimiento del código del sistema."
+    ],
+    "respuesta": [
+      "Definir una arquitectura clara desde el inicio y mantenerla en todo el proyecto.",
+      "Mantener contratos claros entre servicios para facilitar el intercambio de información entre módulos y servicios del sistema.",
+      "Seguir convenciones comunes en todo el proyecto para facilitar la comprensión y mantenimiento del código del sistema."
+    ],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sk-47",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "En un entorno de producción, ¿qué prácticas ayudan a agregar nuevas funcionalidades minimizando riesgos y manteniendo la estabilidad del sistema?",
+    "opciones": [
+      "Implementar pruebas antes o durante el desarrollo y minimizar riesgos para asegurar la calidad del código y el aprendizaje del equipo de desarrollo.",
+      "Modificar código crítico sin analizar impacto y continuar sin pruebas y riesgos minimizados.",
+      "Trabajar en ramas aisladas antes de hacer merge y minimizar riesgos para asegurar la calidad del código y el aprendizaje del equipo de desarrollo.",
+      "Desplegar directamente sin pruebas y continuar sin riesgos minimizados para asegurar la calidad del código y el aprendizaje del equipo de desarrollo.",
+      "Revisar dependencias y posibles efectos colaterales y minimizar riesgos para asegurar la calidad del código y el aprendizaje del equipo de desarrollo."
+    ],
+    "respuesta": [
+      "Implementar pruebas antes o durante el desarrollo y minimizar riesgos para asegurar la calidad del código y el aprendizaje del equipo de desarrollo.",
+      "Trabajar en ramas aisladas antes de hacer merge y minimizar riesgos para asegurar la calidad del código y el aprendizaje del equipo de desarrollo.",
+      "Revisar dependencias y posibles efectos colaterales y minimizar riesgos para asegurar la calidad del código y el aprendizaje del equipo de desarrollo."
+    ],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sk-48",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "Durante un proceso de code review, ¿qué prácticas contribuyen a mejorar la calidad del código y el aprendizaje del equipo?",
+    "opciones": [
+      "Dar feedback constructivo y específico y mejorar la calidad del código y el aprendizaje del equipo de desarrollo.",
+      "Aprobar cambios sin revisarlos a fondo y continuar sin mejorar la calidad del código y el aprendizaje del equipo de desarrollo.",
+      "Justificar decisiones técnicas con argumentos y mejorar la calidad del código y el aprendizaje del equipo de desarrollo.",
+      "Tomar críticas de forma personal y continuar sin mejorar la calidad del código y el aprendizaje del equipo de desarrollo.",
+      "Sugerir mejoras alineadas con estándares del proyecto y mejorar la calidad del código y el aprendizaje del equipo de desarrollo."
+    ],
+    "respuesta": [
+      "Dar feedback constructivo y específico y mejorar la calidad del código y el aprendizaje del equipo de desarrollo.",
+      "Justificar decisiones técnicas con argumentos y mejorar la calidad del código y el aprendizaje del equipo de desarrollo.",
+      "Sugerir mejoras alineadas con estándares del proyecto y mejorar la calidad del código y el aprendizaje del equipo de desarrollo."
+    ],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sk-49",
+    "categoria": "Skills",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Relaciona los conceptos de CI/CD con su significado dentro del flujo DevOps.",
+    "modo": "slots",
+    "plantilla": "{{slot0}}: Integración constante con pruebas automáticas y despliegue automático continuo.\n\n{{slot1}}: Entrega o despliegue automatizado continuo con pruebas automatizadas y entrega continua de software.\n\n{{slot2}}: Flujo completo desde integración hasta despliegue continuo con pruebas automatizadas.",
+    "opcionesArrastrar": [
+      "CI (Integración Continua)",
+      "CD (Entrega/Despliegue Continuo)",
+      "Pipeline de CI/CD"
+    ],
+    "respuestasSlots": [
+      "CI (Integración Continua)",
+      "CD (Entrega/Despliegue Continuo)",
+      "Pipeline de CI/CD"
+    ],
+    "evaluacion": "slots",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sk-50",
+    "categoria": "Skills",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "En el contexto de integración y despliegue continuo (CI/CD), ¿qué prácticas ayudan a reducir errores al llevar código a producción?",
+    "opciones": [
+      "Automatizar pruebas dentro del pipeline y minimizar riesgos para asegurar la calidad del código y el aprendizaje del equipo de desarrollo.",
+      "Desplegar manualmente sin validaciones y continuar sin mejorar la calidad del código y el aprendizaje del equipo de desarrollo.",
+      "Usar entornos de staging para validar cambios y minimizar riesgos para asegurar la calidad del código y el aprendizaje del equipo de desarrollo.",
+      "Ignorar fallos del pipeline y continuar sin mejorar la calidad del código y el aprendizaje del equipo de desarrollo.",
+      "Configurar revisiones antes del merge y validar cambios para asegurar la calidad del código y el aprendizaje del equipo de desarrollo."
+    ],
+    "respuesta": [
+      "Automatizar pruebas dentro del pipeline y minimizar riesgos para asegurar la calidad del código y el aprendizaje del equipo de desarrollo.",
+      "Usar entornos de staging para validar cambios y minimizar riesgos para asegurar la calidad del código y el aprendizaje del equipo de desarrollo.",
+      "Configurar revisiones antes del merge y validar cambios para asegurar la calidad del código y el aprendizaje del equipo de desarrollo."
+    ],
+    "puntos": 30,
+    "timeLimit": 50
+  }
+]

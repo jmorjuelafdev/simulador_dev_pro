@@ -1,0 +1,852 @@
+[
+  {
+    "id": "fs-1",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "En el desarrollo web, ¿qué se entiende por frontend y cuál es su función principal dentro de una aplicación?",
+    "opciones": [
+      "La interfaz que interactúa directamente con el usuario y se ejecuta en el navegador.",
+      "La base de datos del sistema y la lógica de negocio.",
+      "El servidor donde corre la aplicación y gestiona las peticiones.",
+      "Una API de comunicación entre el cliente y el servidor."
+    ],
+    "respuesta": "La interfaz que interactúa directamente con el usuario y se ejecuta en el navegador.",
+    "puntos": 15,
+    "timeLimit": 30
+  },
+  {
+    "id": "fs-2",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué es el backend dentro de una aplicación web y cuál es su responsabilidad principal?",
+    "opciones": [
+      "Gestionar la lógica del servidor y el acceso a datos mediante el uso de tecnologías como Node.js, Python, PHP, etc.",
+      "Definir estilos visuales mediante CSS y mejorar la experiencia del usuario.",
+      "Construir la interfaz gráfica mediante HTML y estructurar el contenido.",
+      "Diseñar layouts mediante frameworks como React o Vue para una mejor usabilidad."
+    ],
+    "respuesta": "Gestionar la lógica del servidor y el acceso a datos mediante el uso de tecnologías como Node.js, Python, PHP, etc.",
+    "puntos": 15,
+    "timeLimit": 30
+  },
+  {
+    "id": "fs-3",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Cuál es el rol principal de un desarrollador fullstack dentro de un proyecto de software?",
+    "opciones": [
+      "Trabajar tanto en frontend como en backend, gestionando toda la pila tecnológica del proyecto.",
+      "Solo diseñar interfaces de usuario para mejorar la experiencia del usuario.",
+      "Solo administrar bases de datos para optimizar el rendimiento.",
+      "Solo realizar pruebas de calidad para garantizar la estabilidad del sistema."
+    ],
+    "respuesta": "Trabajar tanto en frontend como en backend, gestionando toda la pila tecnológica del proyecto.",
+    "puntos": 15,
+    "timeLimit": 30
+  },
+  {
+    "id": "fs-4",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿En qué entorno se ejecuta principalmente el código del frontend dentro de una aplicación web?",
+    "opciones": [
+      "En el navegador del usuario para renderizar la interfaz.",
+      "En el servidor para procesar lógica de negocio.",
+      "En la base de datos para almacenar información.",
+      "En una API externa para integrar servicios."
+    ],
+    "respuesta": "En el navegador del usuario para renderizar la interfaz.",
+    "puntos": 15,
+    "timeLimit": 30
+  },
+  {
+    "id": "fs-5",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Dónde se ejecuta el backend y cuál es su rol principal dentro del sistema?",
+    "opciones": [
+      "En el servidor, gestionando la lógica y acceso a datos mediante tecnologías como Node.js, Python, PHP, etc.",
+      "En el navegador, mostrando la interfaz de usuario interactiva mediante JavaScript.",
+      "En HTML, definiendo la estructura de la página.",
+      "En CSS, aplicando estilos visuales a la página."
+    ],
+    "respuesta": "En el servidor, gestionando la lógica y acceso a datos mediante tecnologías como Node.js, Python, PHP, etc.",
+    "puntos": 15,
+    "timeLimit": 30
+  },
+  {
+    "id": "fs-6",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué tecnología se utiliza principalmente para definir la estructura de una página web?",
+    "opciones": [
+      "HTML (HyperText Markup Language)",
+      "CSS (Cascading Style Sheets)",
+      "JavaScript (Programming Language)",
+      "SQL (Structured Query Language)"
+    ],
+    "respuesta": "HTML (HyperText Markup Language)",
+    "puntos": 15,
+    "timeLimit": 30
+  },
+  {
+    "id": "fs-7",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué lenguaje se utiliza para aplicar estilos visuales y diseño a una página web?",
+    "opciones": [
+      "CSS (Cascading Style Sheets)",
+      "HTML (HyperText Markup Language)",
+      "Python (Programming Language)",
+      "Java (Programming Language)"
+    ],
+    "respuesta": "CSS (Cascading Style Sheets)",
+    "puntos": 15,
+    "timeLimit": 30
+  },
+  {
+    "id": "fs-8",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué tecnología permite agregar interactividad y comportamiento dinámico en el frontend?",
+    "opciones": [
+      "JavaScript (Programming Language)",
+      "HTML (HyperText Markup Language)",
+      "CSS (Cascading Style Sheets)",
+      "SQL (Structured Query Language)"
+    ],
+    "respuesta": "JavaScript (Programming Language)",
+    "puntos": 15,
+    "timeLimit": 30
+  },
+  {
+    "id": "fs-9",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "En el desarrollo web, ¿qué se entiende por diseño responsive y cuál es su objetivo principal?",
+    "opciones": [
+      "El diseño responsive adapta la interfaz a diferentes tamaños de pantalla y dispositivos web.",
+      "Guardar datos en una base de datos de forma segura mediante criptografía.",
+      "Crear APIs para comunicación entre aplicaciones y servicios.",
+      "Optimizar consultas SQL para mejorar el rendimiento de la base de datos."
+    ],
+    "respuesta": "El diseño responsive adapta la interfaz a diferentes tamaños de pantalla y dispositivos web.",
+    "puntos": 15,
+    "timeLimit": 30
+  },
+  {
+    "id": "fs-10",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "En el contexto de frameworks modernos, ¿qué es un componente y por qué es importante en el desarrollo frontend?",
+    "opciones": [
+      "Una parte reutilizable de la interfaz que encapsula estructura, estilo y lógica.",
+      "Un servidor donde corre la aplicación web y gestiona la base de datos.",
+      "Una base de datos para almacenar y gestionar datos.",
+      "Un lenguaje de programación para crear interfaces de usuario."
+    ],
+    "respuesta": "Una parte reutilizable de la interfaz que encapsula estructura, estilo y lógica.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "fs-11",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué es una base de datos y cuál es su función dentro de una aplicación?",
+    "opciones": [
+      "Es un sistema para almacenar y gestionar datos de forma estructurada en una aplicación.",
+      "Un lenguaje de programación para crear aplicaciones web.",
+      "Un framework de frontend para construir interfaces de usuario.",
+      "Un servidor web para alojar aplicaciones."
+    ],
+    "respuesta": "Es un sistema para almacenar y gestionar datos de forma estructurada en una aplicación.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "fs-12",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué es JSON y para qué se utiliza comúnmente en aplicaciones web?",
+    "opciones": [
+      "Un formato de datos utilizado para intercambiar información entre sistemas mediante texto legible.",
+      "Un lenguaje de programación utilizado para el desarrollo backend.",
+      "Un servidor web utilizado para alojar aplicaciones.",
+      "Un framework frontend utilizado para el desarrollo de interfaces."
+    ],
+    "respuesta": "Un formato de datos utilizado para intercambiar información entre sistemas mediante texto legible.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "fs-13",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué significa CRUD dentro del desarrollo de aplicaciones?",
+    "opciones": [
+      "Crear, leer, actualizar y eliminar datos mediante operaciones básicas.",
+      "Código rápido de usuario interfaz de usuario.",
+      "Configuración de servidores web y bases de datos.",
+      "Control de diseño de interfaces de usuario."
+    ],
+    "respuesta": "Crear, leer, actualizar y eliminar datos mediante operaciones básicas.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "fs-14",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué es una API y cuál es su función principal en un sistema?",
+    "opciones": [
+      "API (Application Programming Interface) permite la comunicación entre diferentes sistemas o aplicaciones.",
+      "Almacenar datos de forma segura mediante criptografía.",
+      "Diseñar interfaces de usuario para mejorar la experiencia del usuario.",
+      "Ejecutar estilos CSS para mejorar la apariencia de la aplicación."
+    ],
+    "respuesta": "API (Application Programming Interface) permite la comunicación entre diferentes sistemas o aplicaciones.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "fs-15",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué función cumple console.log() durante el desarrollo de una aplicación?",
+    "opciones": [
+      "Mostrar información en la consola para depuración y monitoreo.",
+      "Guardar datos en la base de datos de forma segura.",
+      "Eliminar información del sistema de forma permanente.",
+      "Enviar datos al servidor de forma segura."
+    ],
+    "respuesta": "Mostrar información en la consola para depuración y monitoreo.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "fs-16",
+    "categoria": "Fullstack",
+    "tipo": "codigo",
+    "dificultad": "Basico",
+    "pregunta": "Completa la solicitud HTTP seleccionando el método adecuado para obtener información desde un endpoint.",
+    "modo": "slots",
+    "plantilla": "fetch('/api', { method: '{{slot0}}' })",
+    "opcionesSlots": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ],
+    "respuestasSlots": [
+      "GET"
+    ],
+    "evaluacion": "slots",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "fs-17",
+    "categoria": "Fullstack",
+    "tipo": "codigo",
+    "dificultad": "Basico",
+    "pregunta": "Completa la solicitud HTTP seleccionando el método adecuado para enviar datos al servidor y crear un nuevo recurso.",
+    "modo": "slots",
+    "plantilla": "fetch('/api', { method: '{{slot0}}' })",
+    "opcionesSlots": [
+      "POST",
+      "GET",
+      "PUT"
+    ],
+    "respuestasSlots": [
+      "POST"
+    ],
+    "evaluacion": "slots",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "fs-18",
+    "categoria": "Fullstack",
+    "tipo": "codigo",
+    "dificultad": "Basico",
+    "pregunta": "Ordena correctamente el flujo de una petición web desde el cliente hasta la respuesta final.",
+    "modo": "slots",
+    "plantilla": "{{slot0}}\n{{slot1}}\n{{slot2}}",
+    "opcionesSlots": [
+      "Cliente envía request al servidor",
+      "Servidor procesa la solicitud del cliente",
+      "Cliente recibe la respuesta del servidor"
+    ],
+    "respuestasSlots": [
+      "Cliente envía request al servidor",
+      "Servidor procesa la solicitud del cliente",
+      "Cliente recibe la respuesta del servidor"
+    ],
+    "evaluacion": "slots",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "fs-19",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "En el contexto de las respuestas HTTP, ¿qué indica el código de estado 200 cuando un cliente realiza una petición a un servidor?",
+    "opciones": [
+      "La solicitud fue procesada correctamente y el recurso fue encontrado.",
+      "Ocurrió un error en el servidor al procesar la solicitud .",
+      "El recurso no fue encontrado en el servidor.",
+      "La petición fue redirigida a otra URL."
+    ],
+    "respuesta": "La solicitud fue procesada correctamente y el recurso fue encontrado.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "fs-20",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "Cuando una aplicación web intenta acceder a un recurso que no existe, ¿qué código de estado HTTP se devuelve normalmente y qué significa?",
+    "opciones": [
+      "404, indica que el recurso no fue encontrado en el servidor.",
+      "200, indica éxito en la solicitud.",
+      "500, indica error del servidor al procesar la solicitud."
+    ],
+    "respuesta": "404, indica que el recurso no fue encontrado en el servidor.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "fs-21",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "En una aplicación web, si ocurre un fallo interno en el servidor al procesar una solicitud, ¿qué código de estado HTTP se devuelve comúnmente y qué representa?",
+    "opciones": [
+      "500, indica un error interno del servidor al procesar la solicitud.",
+      "200, indica que todo salió bien con la solicitud.",
+      "404, indica que el recurso no existe en el servidor."
+    ],
+    "respuesta": "500, indica un error interno del servidor al procesar la solicitud.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "fs-22",
+    "categoria": "Fullstack",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa la condición seleccionando el código HTTP correcto para validar una respuesta exitosa del servidor.",
+    "modo": "slots",
+    "plantilla": "if (response.status === {{slot0}})",
+    "opcionesSlots": [
+      "200",
+      "404",
+      "500"
+    ],
+    "respuestasSlots": [
+      "200"
+    ],
+    "evaluacion": "slots",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "fs-23",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "Dentro de una aplicación web, ¿qué se entiende por un request y cuál es su función principal?",
+    "opciones": [
+      "Una petición que el cliente envía al servidor para solicitar información o ejecutar una acción.",
+      "La respuesta generada por el servidor al recibir una petición.",
+      "Una base de datos de datos.",
+      "Un archivo HTML estático."
+    ],
+    "respuesta": "Una petición que el cliente envía al servidor para solicitar información o ejecutar una acción.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "fs-24",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "En el flujo de comunicación cliente-servidor, ¿qué es un response y qué representa dentro de una interacción HTTP?",
+    "opciones": [
+      "La respuesta que el servidor devuelve al cliente con el resultado de la solicitud.",
+      "Una petición enviada por el cliente al servidor.",
+      "Un tipo de base de datos de datos.",
+      "Un script de frontend en JavaScript."
+    ],
+    "respuesta": "La respuesta que el servidor devuelve al cliente con el resultado de la solicitud.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "fs-25",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué función cumple fetch() en JavaScript dentro de una aplicación web?",
+    "opciones": [
+      "Realizar peticiones HTTP a un servidor externo.",
+      "Diseñar interfaces de usuario.",
+      "Crear tablas en la base de datos relacional.",
+      "Aplicar estilos visuales."
+    ],
+    "respuesta": "Realizar peticiones HTTP a un servidor externo.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "fs-26",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "En el contexto de peticiones HTTP, ¿qué indica la propiedad response.ok al trabajar con fetch()?",
+    "opciones": [
+      "Indica si la respuesta fue exitosa (código 2xx) o no.",
+      "Convierte datos a JSON para enviar.",
+      "Envía datos al servidor con fetch().",
+      "Elimina datos del sistema."
+    ],
+    "respuesta": "Indica si la respuesta fue exitosa (código 2xx) o no.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "fs-27",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "En el manejo de datos en aplicaciones web, ¿qué función cumple JSON.parse() cuando se trabaja con información proveniente de una API?",
+    "opciones": [
+      "Convertir un string en formato JSON a un objeto JavaScript.",
+      "Enviar datos al servidor con fetch().",
+      "Eliminar información del sistema de datos."
+    ],
+    "respuesta": "Convertir un string en formato JSON a un objeto JavaScript.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "fs-28",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué función cumple JSON.stringify() cuando se necesita enviar datos desde el frontend hacia una API?",
+    "opciones": [
+      "Convertir un objeto JavaScript en un string JSON.",
+      "Convertir un string en objeto JSON.",
+      "Ejecutar una petición HTTP para obtener datos de una API."
+    ],
+    "respuesta": "Convertir un objeto JavaScript en un string JSON.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "fs-29",
+    "categoria": "Fullstack",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa el encabezado HTTP seleccionando el tipo de contenido correcto para enviar datos en formato JSON.",
+    "modo": "slots",
+    "plantilla": "{ 'Content-Type': '{{slot0}}' }",
+    "opcionesSlots": [
+      "application/json",
+      "text/html"
+    ],
+    "respuestasSlots": [
+      "application/json"
+    ],
+    "evaluacion": "slots",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "fs-30",
+    "categoria": "Fullstack",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa la configuración de una petición HTTP seleccionando el tipo de contenido adecuado para enviar datos en formato JSON.",
+    "modo": "slots",
+    "plantilla": "headers: { 'Content-Type': '{{slot0}}' }",
+    "opcionesSlots": [
+      "application/json",
+      "text/plain"
+    ],
+    "respuestasSlots": [
+      "application/json"
+    ],
+    "evaluacion": "slots",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "fs-31",
+    "categoria": "Fullstack",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa la solicitud HTTP seleccionando el método adecuado para actualizar un recurso existente en el servidor.",
+    "modo": "slots",
+    "plantilla": "fetch('/api', { method: '{{slot0}}' })",
+    "opcionesSlots": [
+      "PUT",
+      "GET",
+      "POST"
+    ],
+    "respuestasSlots": [
+      "PUT"
+    ],
+    "evaluacion": "slots",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "fs-32",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "En el contexto de APIs, ¿qué es una ruta o endpoint y cómo se utiliza dentro de una aplicación web?",
+    "opciones": [
+      "Una URL específica que permite acceder a un recurso o funcionalidad del servidor.",
+      "Una base de datos donde se almacenan los datos del sistema.",
+      "Un servidor físico donde se ejecutan las aplicaciones.",
+      "Un lenguaje de programación utilizado para crear aplicaciones."
+    ],
+    "respuesta": "Una URL específica que permite acceder a un recurso o funcionalidad del servidor.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "fs-33",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "Dentro de una arquitectura web, ¿qué capa se encarga de conectar el frontend con la base de datos y procesar la lógica del sistema?",
+    "opciones": [
+      "Backend",
+      "CSS",
+      "HTML",
+      "JSON"
+    ],
+    "respuesta": "Backend",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "fs-34",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué es Node.js y cuál es su principal utilidad dentro del desarrollo fullstack?",
+    "opciones": [
+      "Node.js es un entorno de ejecución de JavaScript que permite ejecutar JavaScript en el servidor.",
+      "Node.js es un lenguaje de programación independiente que se utiliza para crear aplicaciones web.",
+      "Node.js es un entorno de desarrollo que permite crear aplicaciones web utilizando el lenguaje JavaScript y Una base de datos."
+    ],
+    "respuesta": "Node.js es un entorno de ejecución de JavaScript que permite ejecutar JavaScript en el servidor.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "fs-35",
+    "categoria": "Fullstack",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa la solicitud HTTP seleccionando el método adecuado para eliminar un recurso existente en el servidor.",
+    "modo": "slots",
+    "plantilla": "fetch('/api', { method: '{{slot0}}' })",
+    "opcionesSlots": [
+      "DELETE",
+      "GET",
+      "POST"
+    ],
+    "respuestasSlots": [
+      "DELETE"
+    ],
+    "evaluacion": "slots",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "fs-36",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "En el desarrollo de APIs, ¿qué caracteriza a una API REST y cómo se comunica generalmente con otros sistemas?",
+    "opciones": [
+      "Se basa en HTTP y utiliza métodos como GET, POST, PUT y DELETE para operar recursos.",
+      "Es una base de datos relacional.",
+      "Es un lenguaje de programación específico.",
+      "Es un framework de estilos CSS."
+    ],
+    "respuesta": "Se basa en HTTP y utiliza métodos como GET, POST, PUT y DELETE para operar recursos.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "fs-37",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Cuál es la función principal de una API dentro de una aplicación fullstack?",
+    "opciones": [
+      "Permitir la comunicación entre frontend y backend mediante solicitudes HTTP.",
+      "Diseñar la interfaz de usuario de la aplicación.",
+      "Aplicar estilos visuales en la interfaz de usuario.",
+      "Renderizar HTML en el frontend."
+    ],
+    "respuesta": "Permitir la comunicación entre frontend y backend mediante solicitudes HTTP.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "fs-38",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué caracteriza a una base de datos relacional dentro de un sistema de información?",
+    "opciones": [
+      "Organiza datos en tablas relacionadas entre sí.",
+      "Almacena datos sin estructura específica.",
+      "Solo maneja archivos de texto.",
+      "Solo funciona en frontend sin backend."
+    ],
+    "respuesta": "Organiza datos en tablas relacionadas entre sí.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "fs-39",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué es SQL y cuál es su función principal dentro del manejo de bases de datos?",
+    "opciones": [
+      "Un lenguaje utilizado para consultar y manipular datos en bases de datos relacionales.",
+      "Un lenguaje de estilos que se utiliza para dar formato a las páginas web.",
+      "Un framework frontend que se utiliza para crear interfaces de usuario.",
+      "Una API que se utiliza para acceder a servicios web."
+    ],
+    "respuesta": "Un lenguaje utilizado para consultar y manipular datos en bases de datos relacionales.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "fs-40",
+    "categoria": "Fullstack",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa la consulta SQL seleccionando la palabra clave adecuada para obtener todos los registros de una tabla.",
+    "modo": "slots",
+    "plantilla": "{{slot0}} * FROM users",
+    "opcionesSlots": [
+      "SELECT",
+      "GET",
+      "FETCH"
+    ],
+    "respuestasSlots": [
+      "SELECT"
+    ],
+    "evaluacion": "slots",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "fs-41",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "Dentro de una base de datos, ¿qué operación realiza la instrucción INSERT?",
+    "opciones": [
+      "Agregar nuevos registros a una tabla después de que se han validado.",
+      "Eliminar registros existentes después de que se han seleccionado.",
+      "Consultar información después de que se han filtrado.",
+      "Actualizar datos después de que se han modificado."
+    ],
+    "respuesta": "Agregar nuevos registros a una tabla después de que se han validado.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "fs-42",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué función cumple la instrucción UPDATE en una base de datos relacional?",
+    "opciones": [
+      "Modificar registros existentes después de que se han seleccionado.",
+      "Eliminar datos después de que se han validado.",
+      "Consultar información después de que se han filtrado.",
+      "Insertar nuevos registros después de que se han validado."
+    ],
+    "respuesta": "Modificar registros existentes después de que se han seleccionado.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "fs-43",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "En el contexto de bases de datos, ¿qué acción realiza la instrucción DELETE?",
+    "opciones": [
+      "Eliminar registros de una tabla después de que se han seleccionado.",
+      "Insertar datos después de que se han validado.",
+      "Actualizar registros después de que se han modificado.",
+      "Consultar información después de que se han filtrado."
+    ],
+    "respuesta": "Eliminar registros de una tabla después de que se han seleccionado.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "fs-44",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué es Git y cuál es su utilidad principal dentro del desarrollo de software?",
+    "opciones": [
+      "Un sistema de control de versiones para gestionar cambios en el código después de que se han realizado.",
+      "Una base de datos que almacena información sobre los commits.",
+      "Un servidor web que aloja repositorios Git.",
+      "Un lenguaje de programación que se utiliza para crear aplicaciones web."
+    ],
+    "respuesta": "Un sistema de control de versiones para gestionar cambios en el código después de que se han realizado.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "fs-45",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "En el uso de Git, ¿qué es una rama (branch) y cuál es su utilidad dentro del desarrollo colaborativo?",
+    "opciones": [
+      "Una versión paralela del código que permite trabajar sin afectar la rama principal después de que se han realizado cambios.",
+      "Una base de datos que almacena información sobre los commits.",
+      "Un servidor web que aloja repositorios Git.",
+      "Un tipo de API que permite la comunicación entre diferentes sistemas."
+    ],
+    "respuesta": "Una versión paralela del código que permite trabajar sin afectar la rama principal después de que se han realizado cambios.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "fs-46",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué es un pull request y cuál es su propósito dentro de un flujo de trabajo con control de versiones?",
+    "opciones": [
+      "Una solicitud para revisar y fusionar cambios en una rama principal después de que se han realizado en una rama separada.",
+      "Un comando para eliminar código de forma permanente.",
+      "Una base de datos que almacena información sobre los commits.",
+      "Un servidor que aloja repositorios Git."
+    ],
+    "respuesta": "Una solicitud para revisar y fusionar cambios en una rama principal después de que se han realizado en una rama separada.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "fs-47",
+    "categoria": "Fullstack",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa el comando seleccionando el paso inicial correcto en Git para preparar los archivos antes de guardarlos en el repositorio.",
+    "modo": "slots",
+    "plantilla": "git {{slot0}} .",
+    "opcionesSlots": [
+      "add",
+      "commit",
+      "push"
+    ],
+    "respuestasSlots": [
+      "add"
+    ],
+    "evaluacion": "slots",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "fs-48",
+    "categoria": "Fullstack",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa el comando seleccionando la instrucción adecuada en Git para guardar los cambios con un mensaje descriptivo.",
+    "modo": "slots",
+    "plantilla": "git {{slot0}} -m 'mensaje'",
+    "opcionesSlots": [
+      "commit",
+      "add",
+      "push"
+    ],
+    "respuestasSlots": [
+      "commit"
+    ],
+    "evaluacion": "slots",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "fs-49",
+    "categoria": "Fullstack",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa el comando seleccionando la instrucción adecuada para enviar los cambios al repositorio remoto.",
+    "modo": "slots",
+    "plantilla": "git {{slot0}}",
+    "opcionesSlots": [
+      "push",
+      "add",
+      "commit"
+    ],
+    "respuestasSlots": [
+      "push"
+    ],
+    "evaluacion": "slots",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "fs-50",
+    "categoria": "Fullstack",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Ordena correctamente los pasos básicos para subir cambios a un repositorio remoto utilizando Git.",
+    "modo": "slots",
+    "plantilla": "{{slot0}}\n{{slot1}}\n{{slot2}}",
+    "opcionesSlots": [
+      "git add .",
+      "git commit -m 'mensaje'",
+      "git push"
+    ],
+    "respuestasSlots": [
+      "git add .",
+      "git commit -m 'mensaje'",
+      "git push"
+    ],
+    "evaluacion": "slots",
+    "puntos": 30,
+    "timeLimit": 50
+  }
+]
