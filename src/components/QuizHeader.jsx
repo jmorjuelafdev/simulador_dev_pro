@@ -13,7 +13,7 @@ function QuizHeader({
           <p className="badge" aria-current="step">
             Pregunta {indice + 1} / {total}
           </p>
-          <h2 id="question-title" style={{ margin: "8px 0" }}>
+          <h2 id="question-title" style={{ margin: "8px 0", whiteSpace: "pre-wrap" }}>
             {pregunta.pregunta}
           </h2>
           {pregunta.descripcion && (

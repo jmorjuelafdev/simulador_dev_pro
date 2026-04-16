@@ -143,54 +143,35 @@
     "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "Teniendo en cuenta la prioridad de operadores, ¿cuál es el resultado de la expresión 3 + 2 * 2?",
-    "opciones": [
-      "7",
-      "10",
-      "8"
-    ],
+    "opciones": ["7", "10", "8"],
     "respuesta": "7",
-    "puntos": 20,
-    "timeLimit": 35
+    "puntos": 15,
+    "timeLimit": 30
   },
   {
     "id": "log-9",
-    "categoria": "Logica",
-    "tipo": "multiple",
-    "dificultad": "Intermedio",
-    "pregunta": "Dadas las variables a = 5, b = 10 y c = 15, ¿cuál es el resultado de evaluar la expresión (a + b) * c > 200 considerando el orden correcto de las operaciones?",
-    "opciones": [
-      "true",
-      "false",
-      "200",
-      "225"
-    ],
-    "respuesta": "true",
-    "hints": [
-      "Primero resuelve la suma dentro de los paréntesis.",
-      "Luego realiza la multiplicación.",
-      "Finalmente evalúa la comparación."
-    ],
-    "puntos": 25,
-    "timeLimit": 45
-  },
-  {
-    "id": "log-10",
     "categoria": "Logica",
     "tipo": "codigo",
     "dificultad": "Basico",
     "pregunta": "Completa la siguiente expresión de forma que el valor final de la variable sea igual a 10.",
     "modo": "slots",
     "plantilla": "let x = {{slot0}} + {{slot1}};",
-    "opcionesSlots": [
-      "5",
-      "2",
-      "8",
-      "3"
-    ],
-    "respuestasSlots": [
-      "5",
-      "5"
-    ],
+    "opcionesSlots": ["5", "2", "8", "3"],
+    "respuestasSlots": ["5", "5"],
+    "evaluacion": "slots",
+    "puntos": 15,
+    "timeLimit": 30
+  },
+  {
+    "id": "log-10",
+    "categoria": "Logica",
+    "tipo": "codigo",
+    "dificultad": "Basico",
+    "pregunta": "Completa la siguiente instrucción seleccionando el operador correcto para incrementar en una unidad el valor de la variable.",
+    "modo": "slots",
+    "plantilla": "x {{slot0}};",
+    "opcionesSlots": ["++", "--"],
+    "respuestasSlots": ["++"],
     "evaluacion": "slots",
     "puntos": 15,
     "timeLimit": 35
@@ -200,38 +181,55 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Teniendo en cuenta la prioridad de operadores, ¿cuál es el resultado de la expresión 3 + 2 * 2?",
-    "opciones": [
-      "7",
-      "10",
-      "8"
-    ],
+    "pregunta": "Analiza el siguiente fragmento de código y determina cuál será el valor final de la variable después de aplicar el operador de asignación:\n\nlet x = 5;\nx += 2;",
+    "opciones": ["7", "5", "2"],
     "respuesta": "7",
-    "puntos": 20,
+    "puntos": 15,
     "timeLimit": 35
   },
   {
     "id": "log-12",
+    "categoria": "Logica",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "Observa el siguiente código y determina cuál será el valor final de la variable después de aplicar la operación correspondiente:\n\nlet x = 5;\nx *= 2;",
+    "opciones": ["10", "7", "5"],
+    "respuesta": "10",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "log-13",
+    "categoria": "Logica",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "Analiza la siguiente operación de asignación y determina cuál será el valor final de la variable después de ejecutarse:\n\nlet x = 5;\nx -= 3;",
+    "opciones": ["2", "3", "5"],
+    "respuesta": "2",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "log-14",
+    "categoria": "Logica",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "Analiza el siguiente fragmento de código y determina cuál será el valor final de la variable después de aplicar la operación de división:\n\nlet x = 10;\nx /= 2;",
+    "opciones": ["5", "10", "2"],
+    "respuesta": "5",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "log-15",
     "categoria": "Logica",
     "tipo": "codigo",
     "dificultad": "Basico",
     "pregunta": "Selecciona la opción donde el operador utilizado corresponde correctamente a la comparación descrita en la afirmación.",
     "modo": "slots",
     "plantilla": "{{slot0}} Se evalúa si un valor es mayor que otro.\n{{slot1}} Se evalúa si dos valores son exactamente iguales.\n{{slot2}} Se evalúa si un valor es menor que otro.\n{{slot3}} Se evalúa si dos valores son diferentes.\n{{slot4}} Se asigna un valor a una variable.",
-    "opcionesSlots": [
-      ">",
-      "===",
-      "<",
-      "!=",
-      "="
-    ],
-    "respuestasSlots": [
-      ">",
-      "===",
-      "<",
-      "!=",
-      "="
-    ],
+    "opcionesSlots": [">", "===", "<", "!=", "="],
+    "respuestasSlots": [">", "===", "<", "!=", "="],
     "evaluacion": "slots",
     "hints": [
       "Cada operador debe coincidir correctamente con la descripción.",
@@ -241,35 +239,7 @@
     "timeLimit": 35
   },
   {
-    "id": "log-11",
-    "categoria": "Logica",
-    "tipo": "multiple",
-    "dificultad": "Basico",
-    "pregunta": "Al evaluar la expresión 5 > 3 dentro de una condición lógica, ¿qué resultado se obtiene y qué indica este valor en el contexto del programa?",
-    "opciones": [
-      "true",
-      "false"
-    ],
-    "respuesta": "true",
-    "puntos": 15,
-    "timeLimit": 35
-  },
-  {
-    "id": "log-12",
-    "categoria": "Logica",
-    "tipo": "multiple",
-    "dificultad": "Basico",
-    "pregunta": "Si se analiza la expresión 5 < 3 en una comparación lógica, ¿cuál es el resultado esperado y por qué ocurre ese comportamiento?",
-    "opciones": [
-      "false",
-      "true"
-    ],
-    "respuesta": "false",
-    "puntos": 15,
-    "timeLimit": 35
-  },
-  {
-    "id": "log-13",
+    "id": "log-16",
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Basico",
@@ -285,23 +255,15 @@
     "timeLimit": 35
   },
   {
-    "id": "log-14",
+    "id": "log-17",
     "categoria": "Logica",
     "tipo": "codigo",
     "dificultad": "Basico",
     "pregunta": "Completa la siguiente tabla de verdad correspondiente al operador lógico AND, teniendo en cuenta que solo será verdadero cuando ambas condiciones sean verdaderas.",
     "modo": "slots",
     "plantilla": "A     B     A AND B\ntrue  true  {{slot0}}\ntrue  false {{slot1}}\nfalse true  {{slot2}}\nfalse false {{slot3}}",
-    "opcionesSlots": [
-      "true",
-      "false"
-    ],
-    "respuestasSlots": [
-      "true",
-      "false",
-      "false",
-      "false"
-    ],
+    "opcionesSlots": ["true", "false"],
+    "respuestasSlots": ["true", "false", "false", "false"],
     "evaluacion": "slots",
     "hints": [
       "El operador AND solo es verdadero si ambas condiciones son verdaderas.",
@@ -311,23 +273,15 @@
     "timeLimit": 35
   },
   {
-    "id": "log-15",
+    "id": "log-18",
     "categoria": "Logica",
     "tipo": "codigo",
     "dificultad": "Basico",
     "pregunta": "Completa la siguiente tabla de verdad correspondiente al operador lógico OR, teniendo en cuenta que será verdadero cuando al menos una de las condiciones sea verdadera.",
     "modo": "slots",
     "plantilla": "A     B     A OR B\ntrue  true  {{slot0}}\ntrue  false {{slot1}}\nfalse true  {{slot2}}\nfalse false {{slot3}}",
-    "opcionesSlots": [
-      "true",
-      "false"
-    ],
-    "respuestasSlots": [
-      "true",
-      "true",
-      "true",
-      "false"
-    ],
+    "opcionesSlots": ["true", "false"],
+    "respuestasSlots": ["true", "true", "true", "false"],
     "evaluacion": "slots",
     "hints": [
       "El operador OR es verdadero si al menos una condición es verdadera.",
@@ -337,71 +291,20 @@
     "timeLimit": 35
   },
   {
-    "id": "log-16",
+    "id": "log-19",
     "categoria": "Logica",
     "tipo": "codigo",
-    "dificultad": "Basico",
+    "dificultad": "Intermedio",
     "pregunta": "Completa la siguiente tabla de verdad correspondiente al operador lógico NOT, teniendo en cuenta que este operador invierte el valor lógico de la condición.",
     "modo": "slots",
     "plantilla": "A     NOT A\ntrue  {{slot0}}\nfalse {{slot1}}",
-    "opcionesSlots": [
-      "true",
-      "false"
-    ],
-    "respuestasSlots": [
-      "false",
-      "true"
-    ],
+    "opcionesSlots": ["true", "false"],
+    "respuestasSlots": ["false", "true"],
     "evaluacion": "slots",
     "hints": [
       "El operador NOT invierte el valor lógico.",
       "Si la entrada es verdadera, el resultado será falso, y viceversa."
     ],
-    "puntos": 15,
-    "timeLimit": 35
-  },
-  {
-    "id": "log-17",
-    "categoria": "Logica",
-    "tipo": "multiple",
-    "dificultad": "Basico",
-    "pregunta": "En una expresión lógica dentro de un programa, ¿qué operador se utiliza para evaluar una condición de tipo OR, donde basta con que una de las condiciones sea verdadera?",
-    "opciones": [
-      "||",
-      "&&",
-      "!"
-    ],
-    "respuesta": "||",
-    "puntos": 20,
-    "timeLimit": 40
-  },
-  {
-    "id": "log-18",
-    "categoria": "Logica",
-    "tipo": "multiple",
-    "dificultad": "Basico",
-    "pregunta": "Cuando se requiere validar que dos condiciones sean verdaderas al mismo tiempo dentro de una expresión lógica, ¿qué operador se utiliza para representar un AND?",
-    "opciones": [
-      "&&",
-      "||",
-      "!"
-    ],
-    "respuesta": "&&",
-    "puntos": 20,
-    "timeLimit": 40
-  },
-  {
-    "id": "log-19",
-    "categoria": "Logica",
-    "tipo": "multiple",
-    "dificultad": "Intermedio",
-    "pregunta": "En el contexto de condiciones lógicas, ¿qué operador se utiliza para invertir o negar el valor de una expresión booleana?",
-    "opciones": [
-      "!",
-      "&&",
-      "||"
-    ],
-    "respuesta": "!",
     "puntos": 20,
     "timeLimit": 40
   },
@@ -410,12 +313,9 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Al aplicar el operador de negación a un valor verdadero, como en la expresión !(true), ¿cuál es el resultado final de la evaluación?",
-    "opciones": [
-      "false",
-      "true"
-    ],
-    "respuesta": "false",
+    "pregunta": "Al evaluar la expresión 5 > 3 dentro de una condición lógica, ¿qué resultado se obtiene y qué indica este valor en el contexto del programa?",
+    "opciones": ["true", "false"],
+    "respuesta": "true",
     "puntos": 20,
     "timeLimit": 40
   },
@@ -424,12 +324,9 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Analiza el siguiente fragmento de código y determina cuál será el valor final almacenado en la variable `z` después de evaluar la expresión lógica:\n\nlet x = true;\nlet y = false;\nlet z = x || y;",
-    "opciones": [
-      "true",
-      "false"
-    ],
-    "respuesta": "true",
+    "pregunta": "Si se analiza la expresión 5 < 3 en una comparación lógica, ¿cuál es el resultado esperado y por qué ocurre ese comportamiento?",
+    "opciones": ["false", "true"],
+    "respuesta": "false",
     "puntos": 20,
     "timeLimit": 40
   },
@@ -438,31 +335,20 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Observa el siguiente código y determina cuál es el valor final de la variable `y` después de aplicar el operador lógico NOT sobre la variable inicial:\n\nlet x = false;\nlet y = !x;",
-    "opciones": [
-      "true",
-      "false"
-    ],
-    "respuesta": "true",
+    "pregunta": "En una expresión lógica dentro de un programa, ¿qué operador se utiliza para evaluar una condición de tipo OR, donde basta con que una de las condiciones sea verdadera?",
+    "opciones": ["||", "&&", "!"],
+    "respuesta": "||",
     "puntos": 20,
     "timeLimit": 40
   },
   {
     "id": "log-23",
     "categoria": "Logica",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Completa la siguiente expresión lógica seleccionando el operador adecuado para que el resultado final de la expresión sea verdadero.",
-    "modo": "slots",
-    "plantilla": "let resultado = (5 > 3 {{slot0}} 2 < 1);",
-    "opcionesSlots": [
-      "&&",
-      "||"
-    ],
-    "respuestasSlots": [
-      "||"
-    ],
-    "evaluacion": "slots",
+    "pregunta": "Cuando se requiere validar que dos condiciones sean verdaderas al mismo tiempo dentro de una expresión lógica, ¿qué operador se utiliza para representar un AND?",
+    "opciones": ["&&", "||", "!"],
+    "respuesta": "&&",
     "puntos": 20,
     "timeLimit": 40
   },
@@ -471,12 +357,9 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Considerando la prioridad de los operadores lógicos, ¿cuál es el resultado de la expresión (true || false) && false?",
-    "opciones": [
-      "false",
-      "true"
-    ],
-    "respuesta": "false",
+    "pregunta": "En el contexto de condiciones lógicas, ¿qué operador se utiliza para invertir o negar el valor de una expresión booleana?",
+    "opciones": ["!", "&&", "||"],
+    "respuesta": "!",
     "puntos": 20,
     "timeLimit": 40
   },
@@ -485,13 +368,66 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Intermedio",
+    "pregunta": "Al aplicar el operador de negación a un valor verdadero, como en la expresión !(true), ¿cuál es el resultado final de la evaluación?",
+    "opciones": ["false", "true"],
+    "respuesta": "false",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "log-26",
+    "categoria": "Logica",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "Analiza el siguiente fragmento de código y determina cuál será el valor final almacenado en la variable `z` después de evaluar la expresión lógica:\n\nlet x = true;\nlet y = false;\nlet z = x || y;",
+    "opciones": ["true", "false"],
+    "respuesta": "true",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "log-27",
+    "categoria": "Logica",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "Observa el siguiente código y determina cuál es el valor final de la variable `y` después de aplicar el operador lógico NOT sobre la variable inicial:\n\nlet x = false;\nlet y = !x;",
+    "opciones": ["true", "false"],
+    "respuesta": "true",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "log-28",
+    "categoria": "Logica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa la siguiente expresión lógica seleccionando el operador adecuado para que el resultado final de la expresión sea verdadero.",
+    "modo": "slots",
+    "plantilla": "let resultado = (5 > 3 {{slot0}} 2 < 1);",
+    "opcionesSlots": ["&&", "||"],
+    "respuestasSlots": ["||"],
+    "evaluacion": "slots",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "log-29",
+    "categoria": "Logica",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "Considerando la prioridad de los operadores lógicos, ¿cuál es el resultado de la expresión (true || false) && false?",
+    "opciones": ["false", "true"],
+    "respuesta": "false",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "log-30",
+    "categoria": "Logica",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
     "pregunta": "Dadas las variables a = 5, b = 10 y c = 15, ¿cuál es el resultado de evaluar la expresión (a + b) * c > 200 considerando el orden correcto de las operaciones?",
-    "opciones": [
-      "true",
-      "false",
-      "200",
-      "225"
-    ],
+    "opciones": ["true", "false", "200", "225"],
     "respuesta": "true",
     "hints": [
       "Primero resuelve la suma dentro de los paréntesis.",
@@ -502,7 +438,7 @@
     "timeLimit": 45
   },
   {
-    "id": "log-26",
+    "id": "log-31",
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Intermedio",
@@ -514,11 +450,11 @@
       "Son funciones utilizadas únicamente para imprimir resultados en pantalla."
     ],
     "respuesta": "Son instrucciones que permiten controlar el flujo del programa, como condicionales (if), ciclos (for, while) y estructuras de control de flujo.",
-    "puntos": 20,
-    "timeLimit": 40
+    "puntos": 25,
+    "timeLimit": 45
   },
   {
-    "id": "log-27",
+    "id": "log-32",
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Intermedio",
@@ -530,30 +466,25 @@
       "Ordenar datos dentro de una estructura de datos."
     ],
     "respuesta": "Permitir tomar decisiones basadas en la evaluación de una condición lógica (verdadero o falso) y ejecutar diferentes bloques de código en consecuencia.",
-    "puntos": 20,
-    "timeLimit": 40
+    "puntos": 25,
+    "timeLimit": 45
   },
   {
-    "id": "log-28",
+    "id": "log-33",
     "categoria": "Logica",
     "tipo": "codigo",
     "dificultad": "Intermedio",
     "pregunta": "Completa la siguiente condición lógica seleccionando el operador adecuado para que la expresión evaluada dentro del if sea verdadera.",
     "modo": "slots",
     "plantilla": "if (5 {{slot0}} 3)",
-    "opcionesSlots": [
-      ">",
-      "<"
-    ],
-    "respuestasSlots": [
-      ">"
-    ],
+    "opcionesSlots": [">", "<"],
+    "respuestasSlots": [">"],
     "evaluacion": "slots",
-    "puntos": 20,
-    "timeLimit": 40
+    "puntos": 25,
+    "timeLimit": 45
   },
   {
-    "id": "log-29",
+    "id": "log-34",
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Intermedio",
@@ -565,98 +496,72 @@
       "Se ejecutan ambos bloques (if y else) siempre que la condición del if sea falsa."
     ],
     "respuesta": "Se ejecuta el bloque del else si está definido.",
-    "puntos": 25,
-    "timeLimit": 45
-  },
-  {
-    "id": "log-30",
-    "categoria": "Logica",
-    "tipo": "codigo",
-    "dificultad": "Intermedio",
-    "pregunta": "Completa la siguiente condición para verificar si dos valores son iguales.",
-    "modo": "slots",
-    "plantilla": "if (5 {{slot0}} 5)",
-    "opcionesSlots": [
-      "===",
-      "!=",
-      ">"
-    ],
-    "respuestasSlots": [
-      "==="
-    ],
-    "evaluacion": "slots",
-    "puntos": 25,
-    "timeLimit": 45
-  },
-  {
-    "id": "log-31",
-    "categoria": "Logica",
-    "tipo": "multiple",
-    "dificultad": "Intermedio",
-    "pregunta": "Analiza el siguiente fragmento de código y determina cuál será el valor final de la variable después de evaluar la condición y ejecutar el bloque correspondiente:\n\nlet x = 5;\nif (x > 3) { x = x + 2; }",
-    "opciones": [
-      "7",
-      "5",
-      "3"
-    ],
-    "respuesta": "7",
-    "puntos": 25,
-    "timeLimit": 45
-  },
-  {
-    "id": "log-32",
-    "categoria": "Logica",
-    "tipo": "codigo",
-    "dificultad": "Intermedio",
-    "pregunta": "Completa la siguiente condición lógica seleccionando el operador adecuado para verificar si una variable numérica contiene un valor par dentro de una estructura condicional.",
-    "modo": "slots",
-    "plantilla": "if (num {{slot0}} 2 === 0)",
-    "opcionesSlots": [
-      "%",
-      "*",
-      "+"
-    ],
-    "respuestasSlots": [
-      "%"
-    ],
-    "evaluacion": "slots",
-    "puntos": 25,
-    "timeLimit": 45
-  },
-  {
-    "id": "log-33",
-    "categoria": "Logica",
-    "tipo": "multiple",
-    "dificultad": "Intermedio",
-    "pregunta": "Observa el siguiente código y determina cuál será el valor final de la variable considerando la condición que verifica si el número es par:\n\nlet x = 4;\nif (x % 2 === 0) {\n  x = x * 2;\n}",
-    "opciones": [
-      "8",
-      "4",
-      "2",
-      "6"
-    ],
-    "respuesta": "8",
-    "puntos": 25,
-    "timeLimit": 45
-  },
-  {
-    "id": "log-34",
-    "categoria": "Logica",
-    "tipo": "multiple",
-    "dificultad": "Intermedio",
-    "pregunta": "Analiza el siguiente flujo condicional y determina cuál será el valor final de la variable después de ejecutarse el bloque correspondiente:\n\nlet x = 3;\nif (x > 5) {\n  x = x + 2;\n} else {\n  x = x - 1;\n}",
-    "opciones": [
-      "2",
-      "3",
-      "5",
-      "4"
-    ],
-    "respuesta": "2",
-    "puntos": 25,
-    "timeLimit": 45
+    "puntos": 30,
+    "timeLimit": 50
   },
   {
     "id": "log-35",
+    "categoria": "Logica",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa la siguiente condición para verificar si dos valores son iguales.",
+    "modo": "slots",
+    "plantilla": "if (5 {{slot0}} 5)",
+    "opcionesSlots": ["===", "!=", ">"],
+    "respuestasSlots": ["==="],
+    "evaluacion": "slots",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "log-36",
+    "categoria": "Logica",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "Analiza el siguiente fragmento de código y determina cuál será el valor final de la variable después de evaluar la condición y ejecutar el bloque correspondiente:\n\nlet x = 5;\nif (x > 3) { x = x + 2; }",
+    "opciones": ["7", "5", "3"],
+    "respuesta": "7",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "log-37",
+    "categoria": "Logica",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa la siguiente condición lógica seleccionando el operador adecuado para verificar si una variable numérica contiene un valor par dentro de una estructura condicional.",
+    "modo": "slots",
+    "plantilla": "if (num {{slot0}} 2 === 0)",
+    "opcionesSlots": ["%", "*", "+"],
+    "respuestasSlots": ["%"],
+    "evaluacion": "slots",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "log-38",
+    "categoria": "Logica",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "Observa el siguiente código y determina cuál será el valor final de la variable considerando la condición que verifica si el número es par:\n\nlet x = 4;\nif (x % 2 === 0) {\n  x = x * 2;\n}",
+    "opciones": ["8", "4", "2", "6"],
+    "respuesta": "8",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "log-39",
+    "categoria": "Logica",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "Analiza el siguiente flujo condicional y determina cuál será el valor final de la variable después de ejecutarse el bloque correspondiente:\n\nlet x = 3;\nif (x > 5) {\n  x = x + 2;\n} else {\n  x = x - 1;\n}",
+    "opciones": ["2", "3", "5", "4"],
+    "respuesta": "2",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "log-40",
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Avanzado",
@@ -672,7 +577,7 @@
     "timeLimit": 50
   },
   {
-    "id": "log-36",
+    "id": "log-41",
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Avanzado",
@@ -688,81 +593,57 @@
     "timeLimit": 50
   },
   {
-    "id": "log-37",
+    "id": "log-42",
     "categoria": "Logica",
     "tipo": "codigo",
     "dificultad": "Avanzado",
     "pregunta": "Relaciona cada tipo de bucle con la descripción que mejor representa su comportamiento dentro de un programa.",
     "modo": "slots",
     "plantilla": "{{slot0}}: Se utiliza cuando se conoce previamente cuántas veces se repetirá un bloque de código.\n\n{{slot1}}: Se ejecuta siempre y cuando una condición sea verdadera, evaluándose antes de cada iteración.\n\n{{slot2}}: Garantiza que el bloque de código se ejecute al menos una vez antes de evaluar la condición.\n\n{{slot3}}: Permite controlar la iteración mediante inicialización, condición e incremento en una sola estructura.\n\n{{slot4}}: Evalúa la condición al final de la ejecución del bloque, no al inicio.",
-    "opcionesArrastrar": [
-      "for",
-      "while",
-      "do...while"
-    ],
-    "respuestasSlots": [
-      "for",
-      "while",
-      "do...while",
-      "for",
-      "do...while"
-    ],
+    "opcionesArrastrar": ["for", "while", "do...while"],
+    "respuestasSlots": ["for", "while", "do...while", "for", "do...while"],
     "evaluacion": "slots",
     "puntos": 30,
     "timeLimit": 50
   },
   {
-    "id": "log-38",
+    "id": "log-43",
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "¿Cuántas veces se ejecuta?\n\nfor (let i = 0; i < 3; i++) {}",
-    "opciones": [
-      "3",
-      "2",
-      "4"
-    ],
+    "opciones": ["3", "2", "4"],
     "respuesta": "3",
     "puntos": 30,
     "timeLimit": 50
   },
   {
-    "id": "log-39",
+    "id": "log-44",
     "categoria": "Logica",
     "tipo": "codigo",
     "dificultad": "Avanzado",
-    "pregunta": "Completa límite del bucle",
+    "pregunta": "Completa el código para generar los primeros números de la sucesión de Fibonacci:",
     "modo": "slots",
-    "plantilla": "for (let i = 0; i < {{slot0}}; i++) {}",
-    "opcionesSlots": [
-      "5",
-      "3",
-      "1"
-    ],
-    "respuestasSlots": [
-      "3"
-    ],
+    "plantilla": "a = 0\nb = 1\n\nfor i in range(10):\n    print(a)\n    temp = a\n    a = {{slot0}}\n    b = {{slot1}}",
+    "opcionesSlots": ["b", "temp + b", "a + b", "temp"],
+    "respuestasSlots": ["b", "temp + b"],
     "evaluacion": "slots",
     "puntos": 30,
     "timeLimit": 50
   },
   {
-    "id": "log-40",
+    "id": "log-45",
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué devuelve este código?\n\nlet x = 5;\nwhile (x > 3) {\n  x--;\n}",
-    "opciones": [
-      "3",
-      "5",
-      "4"
-    ],
+    "opciones": ["3", "5", "4"],
     "respuesta": "3",
     "puntos": 30,
     "timeLimit": 50
   },
   {
-    "id": "log-41",
+    "id": "log-46",
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Avanzado",
@@ -778,7 +659,7 @@
     "timeLimit": 50
   },
   {
-    "id": "log-42",
+    "id": "log-47",
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Avanzado",
@@ -794,7 +675,7 @@
     "timeLimit": 50
   },
   {
-    "id": "log-43",
+    "id": "log-48",
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Avanzado",
@@ -806,85 +687,6 @@
       "No imprime nada"
     ],
     "respuesta": "Fin de semana",
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "log-44",
-    "categoria": "Logica",
-    "tipo": "codigo",
-    "dificultad": "Avanzado",
-    "pregunta": "Completa la siguiente instrucción seleccionando el operador correcto para incrementar en una unidad el valor de la variable.",
-    "modo": "slots",
-    "plantilla": "x {{slot0}};",
-    "opcionesSlots": [
-      "++",
-      "--"
-    ],
-    "respuestasSlots": [
-      "++"
-    ],
-    "evaluacion": "slots",
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "log-45",
-    "categoria": "Logica",
-    "tipo": "multiple",
-    "dificultad": "Avanzado",
-    "pregunta": "Analiza el siguiente fragmento de código y determina cuál será el valor final de la variable después de aplicar el operador de asignación:\n\nlet x = 5;\nx += 2;",
-    "opciones": [
-      "7",
-      "5",
-      "2"
-    ],
-    "respuesta": "7",
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "log-46",
-    "categoria": "Logica",
-    "tipo": "multiple",
-    "dificultad": "Avanzado",
-    "pregunta": "Observa el siguiente código y determina cuál será el valor final de la variable después de aplicar la operación correspondiente:\n\nlet x = 5;\nx *= 2;",
-    "opciones": [
-      "10",
-      "7",
-      "5"
-    ],
-    "respuesta": "10",
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "log-47",
-    "categoria": "Logica",
-    "tipo": "multiple",
-    "dificultad": "Avanzado",
-    "pregunta": "Analiza la siguiente operación de asignación y determina cuál será el valor final de la variable después de ejecutarse:\n\nlet x = 5;\nx -= 3;",
-    "opciones": [
-      "2",
-      "3",
-      "5"
-    ],
-    "respuesta": "2",
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "log-48",
-    "categoria": "Logica",
-    "tipo": "multiple",
-    "dificultad": "Avanzado",
-    "pregunta": "Analiza el siguiente fragmento de código y determina cuál será el valor final de la variable después de aplicar la operación de división:\n\nlet x = 10;\nx /= 2;",
-    "opciones": [
-      "5",
-      "10",
-      "2"
-    ],
-    "respuesta": "5",
     "puntos": 30,
     "timeLimit": 50
   },
