@@ -164,22 +164,6 @@
     "categoria": "Fullstack",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué es una base de datos y cuál es su función dentro de una aplicación?",
-    "opciones": [
-      "Es un sistema para almacenar y gestionar datos de forma estructurada en una aplicación.",
-      "Un lenguaje de programación para crear aplicaciones web.",
-      "Un framework de frontend para construir interfaces de usuario.",
-      "Un servidor web para alojar aplicaciones."
-    ],
-    "respuesta": "Es un sistema para almacenar y gestionar datos de forma estructurada en una aplicación.",
-    "puntos": 15,
-    "timeLimit": 35
-  },
-  {
-    "id": "fs-12",
-    "categoria": "Fullstack",
-    "tipo": "multiple",
-    "dificultad": "Basico",
     "pregunta": "¿Qué es JSON y para qué se utiliza comúnmente en aplicaciones web?",
     "opciones": [
       "Un formato de datos utilizado para intercambiar información entre sistemas mediante texto legible.",
@@ -192,7 +176,7 @@
     "timeLimit": 35
   },
   {
-    "id": "fs-13",
+    "id": "fs-12",
     "categoria": "Fullstack",
     "tipo": "multiple",
     "dificultad": "Basico",
@@ -208,7 +192,7 @@
     "timeLimit": 35
   },
   {
-    "id": "fs-14",
+    "id": "fs-13",
     "categoria": "Fullstack",
     "tipo": "multiple",
     "dificultad": "Basico",
@@ -224,7 +208,7 @@
     "timeLimit": 35
   },
   {
-    "id": "fs-15",
+    "id": "fs-14",
     "categoria": "Fullstack",
     "tipo": "multiple",
     "dificultad": "Basico",
@@ -240,48 +224,35 @@
     "timeLimit": 35
   },
   {
-    "id": "fs-16",
+    "id": "fs-15",
     "categoria": "Fullstack",
     "tipo": "codigo",
     "dificultad": "Basico",
     "pregunta": "Completa la solicitud HTTP seleccionando el método adecuado para obtener información desde un endpoint.",
     "modo": "slots",
     "plantilla": "fetch('/api', { method: '{{slot0}}' })",
-    "opcionesSlots": [
-      "GET",
-      "POST",
-      "PUT",
-      "DELETE"
-    ],
-    "respuestasSlots": [
-      "GET"
-    ],
+    "opcionesSlots": ["GET", "POST", "PUT", "DELETE"],
+    "respuestasSlots": ["GET"],
     "evaluacion": "slots",
     "puntos": 15,
     "timeLimit": 35
   },
   {
-    "id": "fs-17",
+    "id": "fs-16",
     "categoria": "Fullstack",
     "tipo": "codigo",
     "dificultad": "Basico",
     "pregunta": "Completa la solicitud HTTP seleccionando el método adecuado para enviar datos al servidor y crear un nuevo recurso.",
     "modo": "slots",
     "plantilla": "fetch('/api', { method: '{{slot0}}' })",
-    "opcionesSlots": [
-      "POST",
-      "GET",
-      "PUT"
-    ],
-    "respuestasSlots": [
-      "POST"
-    ],
+    "opcionesSlots": ["POST", "GET", "PUT"],
+    "respuestasSlots": ["POST"],
     "evaluacion": "slots",
     "puntos": 15,
     "timeLimit": 35
   },
   {
-    "id": "fs-18",
+    "id": "fs-17",
     "categoria": "Fullstack",
     "tipo": "codigo",
     "dificultad": "Basico",
@@ -303,10 +274,10 @@
     "timeLimit": 35
   },
   {
-    "id": "fs-19",
+    "id": "fs-18",
     "categoria": "Fullstack",
     "tipo": "multiple",
-    "dificultad": "Intermedio",
+    "dificultad": "Basico",
     "pregunta": "En el contexto de las respuestas HTTP, ¿qué indica el código de estado 200 cuando un cliente realiza una petición a un servidor?",
     "opciones": [
       "La solicitud fue procesada correctamente y el recurso fue encontrado.",
@@ -315,11 +286,11 @@
       "La petición fue redirigida a otra URL."
     ],
     "respuesta": "La solicitud fue procesada correctamente y el recurso fue encontrado.",
-    "puntos": 20,
-    "timeLimit": 40
+    "puntos": 15,
+    "timeLimit": 35  
   },
   {
-    "id": "fs-20",
+    "id": "fs-19",
     "categoria": "Fullstack",
     "tipo": "multiple",
     "dificultad": "Intermedio",
@@ -334,7 +305,7 @@
     "timeLimit": 40
   },
   {
-    "id": "fs-21",
+    "id": "fs-20",
     "categoria": "Fullstack",
     "tipo": "multiple",
     "dificultad": "Intermedio",
@@ -349,27 +320,21 @@
     "timeLimit": 40
   },
   {
-    "id": "fs-22",
+    "id": "fs-21",
     "categoria": "Fullstack",
     "tipo": "codigo",
     "dificultad": "Intermedio",
     "pregunta": "Completa la condición seleccionando el código HTTP correcto para validar una respuesta exitosa del servidor.",
     "modo": "slots",
     "plantilla": "if (response.status === {{slot0}})",
-    "opcionesSlots": [
-      "200",
-      "404",
-      "500"
-    ],
-    "respuestasSlots": [
-      "200"
-    ],
+    "opcionesSlots": ["200", "404", "500"],
+    "respuestasSlots": ["200"],
     "evaluacion": "slots",
     "puntos": 20,
     "timeLimit": 40
   },
   {
-    "id": "fs-23",
+    "id": "fs-22",
     "categoria": "Fullstack",
     "tipo": "multiple",
     "dificultad": "Intermedio",
@@ -385,7 +350,7 @@
     "timeLimit": 40
   },
   {
-    "id": "fs-24",
+    "id": "fs-23",
     "categoria": "Fullstack",
     "tipo": "multiple",
     "dificultad": "Intermedio",
@@ -401,7 +366,7 @@
     "timeLimit": 40
   },
   {
-    "id": "fs-25",
+    "id": "fs-24",
     "categoria": "Fullstack",
     "tipo": "multiple",
     "dificultad": "Intermedio",
@@ -417,7 +382,7 @@
     "timeLimit": 40
   },
   {
-    "id": "fs-26",
+    "id": "fs-25",
     "categoria": "Fullstack",
     "tipo": "multiple",
     "dificultad": "Intermedio",
@@ -433,7 +398,7 @@
     "timeLimit": 40
   },
   {
-    "id": "fs-27",
+    "id": "fs-26",
     "categoria": "Fullstack",
     "tipo": "multiple",
     "dificultad": "Intermedio",
@@ -448,7 +413,7 @@
     "timeLimit": 40
   },
   {
-    "id": "fs-28",
+    "id": "fs-27",
     "categoria": "Fullstack",
     "tipo": "multiple",
     "dificultad": "Intermedio",
@@ -463,20 +428,29 @@
     "timeLimit": 40
   },
   {
-    "id": "fs-29",
+    "id": "fs-28",
     "categoria": "Fullstack",
     "tipo": "codigo",
     "dificultad": "Intermedio",
     "pregunta": "Completa el encabezado HTTP seleccionando el tipo de contenido correcto para enviar datos en formato JSON.",
     "modo": "slots",
     "plantilla": "{ 'Content-Type': '{{slot0}}' }",
-    "opcionesSlots": [
-      "application/json",
-      "text/html"
-    ],
-    "respuestasSlots": [
-      "application/json"
-    ],
+    "opcionesSlots": ["application/json", "text/html"],
+    "respuestasSlots": ["application/json"],
+    "evaluacion": "slots",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "fs-29",
+    "categoria": "Fullstack",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa la configuración de una petición HTTP seleccionando el tipo de contenido adecuado para enviar datos en formato JSON.",
+    "modo": "slots",
+    "plantilla": "headers: { 'Content-Type': '{{slot0}}' }",
+    "opcionesSlots": ["application/json", "text/plain"],
+    "respuestasSlots": ["application/json"],
     "evaluacion": "slots",
     "puntos": 25,
     "timeLimit": 45
@@ -486,42 +460,17 @@
     "categoria": "Fullstack",
     "tipo": "codigo",
     "dificultad": "Intermedio",
-    "pregunta": "Completa la configuración de una petición HTTP seleccionando el tipo de contenido adecuado para enviar datos en formato JSON.",
+    "pregunta": "Completa la solicitud HTTP seleccionando el método adecuado para actualizar un recurso existente en el servidor.",
     "modo": "slots",
-    "plantilla": "headers: { 'Content-Type': '{{slot0}}' }",
-    "opcionesSlots": [
-      "application/json",
-      "text/plain"
-    ],
-    "respuestasSlots": [
-      "application/json"
-    ],
+    "plantilla": "fetch('/api', { method: '{{slot0}}' })",
+    "opcionesSlots": ["PUT", "GET", "POST"],
+    "respuestasSlots": ["PUT"],
     "evaluacion": "slots",
     "puntos": 25,
     "timeLimit": 45
   },
   {
     "id": "fs-31",
-    "categoria": "Fullstack",
-    "tipo": "codigo",
-    "dificultad": "Intermedio",
-    "pregunta": "Completa la solicitud HTTP seleccionando el método adecuado para actualizar un recurso existente en el servidor.",
-    "modo": "slots",
-    "plantilla": "fetch('/api', { method: '{{slot0}}' })",
-    "opcionesSlots": [
-      "PUT",
-      "GET",
-      "POST"
-    ],
-    "respuestasSlots": [
-      "PUT"
-    ],
-    "evaluacion": "slots",
-    "puntos": 25,
-    "timeLimit": 45
-  },
-  {
-    "id": "fs-32",
     "categoria": "Fullstack",
     "tipo": "multiple",
     "dificultad": "Intermedio",
@@ -537,23 +486,7 @@
     "timeLimit": 45
   },
   {
-    "id": "fs-33",
-    "categoria": "Fullstack",
-    "tipo": "multiple",
-    "dificultad": "Intermedio",
-    "pregunta": "Dentro de una arquitectura web, ¿qué capa se encarga de conectar el frontend con la base de datos y procesar la lógica del sistema?",
-    "opciones": [
-      "Backend",
-      "CSS",
-      "HTML",
-      "JSON"
-    ],
-    "respuesta": "Backend",
-    "puntos": 25,
-    "timeLimit": 45
-  },
-  {
-    "id": "fs-34",
+    "id": "fs-32",
     "categoria": "Fullstack",
     "tipo": "multiple",
     "dificultad": "Intermedio",
@@ -568,30 +501,24 @@
     "timeLimit": 45
   },
   {
-    "id": "fs-35",
+    "id": "fs-33",
     "categoria": "Fullstack",
     "tipo": "codigo",
-    "dificultad": "Avanzado",
+    "dificultad": "Intermedio",
     "pregunta": "Completa la solicitud HTTP seleccionando el método adecuado para eliminar un recurso existente en el servidor.",
     "modo": "slots",
     "plantilla": "fetch('/api', { method: '{{slot0}}' })",
-    "opcionesSlots": [
-      "DELETE",
-      "GET",
-      "POST"
-    ],
-    "respuestasSlots": [
-      "DELETE"
-    ],
+    "opcionesSlots": ["DELETE", "GET", "POST"],
+    "respuestasSlots": ["DELETE"],
     "evaluacion": "slots",
-    "puntos": 30,
-    "timeLimit": 50
+    "puntos": 25,
+    "timeLimit": 45
   },
   {
-    "id": "fs-36",
+    "id": "fs-34",
     "categoria": "Fullstack",
     "tipo": "multiple",
-    "dificultad": "Avanzado",
+    "dificultad": "Intermedio",
     "pregunta": "En el desarrollo de APIs, ¿qué caracteriza a una API REST y cómo se comunica generalmente con otros sistemas?",
     "opciones": [
       "Se basa en HTTP y utiliza métodos como GET, POST, PUT y DELETE para operar recursos.",
@@ -600,11 +527,11 @@
       "Es un framework de estilos CSS."
     ],
     "respuesta": "Se basa en HTTP y utiliza métodos como GET, POST, PUT y DELETE para operar recursos.",
-    "puntos": 30,
-    "timeLimit": 50
+    "puntos": 25,
+    "timeLimit": 45
   },
   {
-    "id": "fs-37",
+    "id": "fs-35",
     "categoria": "Fullstack",
     "tipo": "multiple",
     "dificultad": "Avanzado",
@@ -620,7 +547,23 @@
     "timeLimit": 50
   },
   {
-    "id": "fs-38",
+    "id": "fs-36",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué es una base de datos y cuál es su función dentro de una aplicación?",
+    "opciones": [
+      "Es un sistema para almacenar y gestionar datos de forma estructurada en una aplicación.",
+      "Un lenguaje de programación para crear aplicaciones web.",
+      "Un framework de frontend para construir interfaces de usuario.",
+      "Un servidor web para alojar aplicaciones."
+    ],
+    "respuesta": "Es un sistema para almacenar y gestionar datos de forma estructurada en una aplicación.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "fs-37",
     "categoria": "Fullstack",
     "tipo": "multiple",
     "dificultad": "Avanzado",
@@ -636,7 +579,7 @@
     "timeLimit": 50
   },
   {
-    "id": "fs-39",
+    "id": "fs-38",
     "categoria": "Fullstack",
     "tipo": "multiple",
     "dificultad": "Avanzado",
@@ -652,27 +595,21 @@
     "timeLimit": 50
   },
   {
-    "id": "fs-40",
+    "id": "fs-39",
     "categoria": "Fullstack",
     "tipo": "codigo",
     "dificultad": "Avanzado",
     "pregunta": "Completa la consulta SQL seleccionando la palabra clave adecuada para obtener todos los registros de una tabla.",
     "modo": "slots",
     "plantilla": "{{slot0}} * FROM users",
-    "opcionesSlots": [
-      "SELECT",
-      "GET",
-      "FETCH"
-    ],
-    "respuestasSlots": [
-      "SELECT"
-    ],
+    "opcionesSlots": ["SELECT", "GET", "FETCH"],
+    "respuestasSlots": ["SELECT"],
     "evaluacion": "slots",
     "puntos": 30,
     "timeLimit": 50
   },
   {
-    "id": "fs-41",
+    "id": "fs-40",
     "categoria": "Fullstack",
     "tipo": "multiple",
     "dificultad": "Avanzado",
@@ -688,7 +625,7 @@
     "timeLimit": 50
   },
   {
-    "id": "fs-42",
+    "id": "fs-41",
     "categoria": "Fullstack",
     "tipo": "multiple",
     "dificultad": "Avanzado",
@@ -704,7 +641,7 @@
     "timeLimit": 50
   },
   {
-    "id": "fs-43",
+    "id": "fs-42",
     "categoria": "Fullstack",
     "tipo": "multiple",
     "dificultad": "Avanzado",
@@ -718,6 +655,17 @@
     "respuesta": "Eliminar registros de una tabla después de que se han seleccionado.",
     "puntos": 30,
     "timeLimit": 50
+  },
+  {
+    "id": "fs-43",
+    "categoria": "Fullstack",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "Dentro de una arquitectura web, ¿qué capa se encarga de conectar el frontend con la base de datos y procesar la lógica del sistema?",
+    "opciones": ["Backend", "CSS", "HTML", "JSON"],
+    "respuesta": "Backend",
+    "puntos": 25,
+    "timeLimit": 45
   },
   {
     "id": "fs-44",
@@ -775,14 +723,8 @@
     "pregunta": "Completa el comando seleccionando el paso inicial correcto en Git para preparar los archivos antes de guardarlos en el repositorio.",
     "modo": "slots",
     "plantilla": "git {{slot0}} .",
-    "opcionesSlots": [
-      "add",
-      "commit",
-      "push"
-    ],
-    "respuestasSlots": [
-      "add"
-    ],
+    "opcionesSlots": ["add", "commit", "push"],
+    "respuestasSlots": ["add"],
     "evaluacion": "slots",
     "puntos": 30,
     "timeLimit": 50
@@ -795,14 +737,8 @@
     "pregunta": "Completa el comando seleccionando la instrucción adecuada en Git para guardar los cambios con un mensaje descriptivo.",
     "modo": "slots",
     "plantilla": "git {{slot0}} -m 'mensaje'",
-    "opcionesSlots": [
-      "commit",
-      "add",
-      "push"
-    ],
-    "respuestasSlots": [
-      "commit"
-    ],
+    "opcionesSlots": ["commit", "add", "push"],
+    "respuestasSlots": ["commit"],
     "evaluacion": "slots",
     "puntos": 30,
     "timeLimit": 50
@@ -815,14 +751,8 @@
     "pregunta": "Completa el comando seleccionando la instrucción adecuada para enviar los cambios al repositorio remoto.",
     "modo": "slots",
     "plantilla": "git {{slot0}}",
-    "opcionesSlots": [
-      "push",
-      "add",
-      "commit"
-    ],
-    "respuestasSlots": [
-      "push"
-    ],
+    "opcionesSlots": ["push", "add", "commit"],
+    "respuestasSlots": ["push"],
     "evaluacion": "slots",
     "puntos": 30,
     "timeLimit": 50
@@ -835,16 +765,8 @@
     "pregunta": "Ordena correctamente los pasos básicos para subir cambios a un repositorio remoto utilizando Git.",
     "modo": "slots",
     "plantilla": "{{slot0}}\n{{slot1}}\n{{slot2}}",
-    "opcionesSlots": [
-      "git add .",
-      "git commit -m 'mensaje'",
-      "git push"
-    ],
-    "respuestasSlots": [
-      "git add .",
-      "git commit -m 'mensaje'",
-      "git push"
-    ],
+    "opcionesSlots": ["git add .", "git commit -m 'mensaje'", "git push"],
+    "respuestasSlots": ["git add .", "git commit -m 'mensaje'", "git push"],
     "evaluacion": "slots",
     "puntos": 30,
     "timeLimit": 50

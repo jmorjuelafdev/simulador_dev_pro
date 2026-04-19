@@ -344,7 +344,7 @@
     "pregunta": "Completa el código para imprimir un árbol de navidad con el siguiente resultado:\n\n      *\n     ***\n    *****\n   *******\n  *********\n ***********",
     "modo": "slots",
     "plantilla": "z = 7\nx = 1\nwhile z > 0:\n    print(' ' * {{slot0}} + '*' * {{slot1}} + ' ' * {{slot2}})\n    x += {{slot3}}\n    z -= {{slot4}}",
-    "opcionesSlots": ["z", "x", "2", "1", "z", "x"],
+    "opcionesSlots": ["z", "x", "2", "1"],
     "respuestasSlots": ["z", "x", "z", "2", "1"],
     "evaluacion": "slots",
     "puntos": 20,
@@ -697,11 +697,11 @@
     "dificultad": "Avanzado",
     "pregunta": "Analiza el código y arrastra la opción correcta al espacio:",
     "modo": "slots",
-    "plantilla": "doble = lambda x: x * 2\nprint(doble(4)) → {{slot1}}",
+    "plantilla": "doble = lambda x: x * 2\nprint(doble(4)) → {{slot0}}",
     "opcionesSlots": ["8", "4", "16", "Error"],
     "respuestasSlots": ["8"],
     "puntos": 30,
-    "timeLimit":50
+    "timeLimit": 50
   },
   {
     "id": "py-50",

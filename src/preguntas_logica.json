@@ -531,7 +531,7 @@
     "dificultad": "Avanzado",
     "pregunta": "Completa la siguiente condición lógica seleccionando el operador adecuado para verificar si una variable numérica contiene un valor par dentro de una estructura condicional.",
     "modo": "slots",
-    "plantilla": "if (num {{slot0}} 2 === 0)",
+    "plantilla": "if (num {{slot0}} 2 != 0)",
     "opcionesSlots": ["%", "*", "+"],
     "respuestasSlots": ["%"],
     "evaluacion": "slots",
