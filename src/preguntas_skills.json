@@ -59,12 +59,12 @@
     "dificultad": "Basico",
     "pregunta": "En el desarrollo full stack, ¿cuál es uno de los mayores desafíos que debe afrontar un desarrollador?",
     "opciones": [
-      "Mantenerse actualizado en múltiples tecnologías de frontend, backend, bases de datos y despliegue sin explorar otras posibilidades.",
-      "Trabajar únicamente en el diseño visual sin lógica de programación frontend y backend sin explorar otras posibilidades.",
-      "Aprender solo HTML y CSS sin explorar otras tecnologías de frontend y backend sin explorar otras posibilidades.",
+      "Mantenerse actualizado en múltiples tecnologías de frontend, backend, bases de datos y despliegue.",
+      "Trabajar únicamente en el diseño visual sin lógica de programación frontend y backend.",
+      "Aprender solo HTML y CSS sin explorar otras tecnologías de frontend y backend.",
       "Usar una sola herramienta durante todo el proyecto sin explorar otras posibilidades."
     ],
-    "respuesta": "Mantenerse actualizado en múltiples tecnologías de frontend, backend, bases de datos y despliegue sin explorar otras posibilidades.",
+    "respuesta": "Mantenerse actualizado en múltiples tecnologías de frontend, backend, bases de datos y despliegue.",
     "puntos": 15,
     "timeLimit": 30
   },
@@ -361,9 +361,7 @@
       "Eliminar errores de código para mejorar la calidad del código sin realizar pruebas",
       "Diseñar interfaces gráficas de usuarios para aplicaciones web sin considerar la experiencia del usuario"
     ],
-    "respuestas": [
-      "Publicar una aplicación en un servidor de desarrollo o producción para que esté disponible para los usuarios"
-    ],
+    "respuesta": "Publicar una aplicación en un servidor de desarrollo o producción para que esté disponible para los usuarios",
     "puntos": 20,
     "timeLimit": 40
   },
@@ -632,15 +630,16 @@
     "pregunta": "Dentro de un entorno ágil de desarrollo, ¿qué comportamientos reflejan una buena adaptación por parte de un desarrollador junior al trabajo en equipo?",
     "opciones": [
       "Participar activamente en ceremonias como daily o retrospectivas de scrum.",
-      "Evitar cambios en los requerimientos del proyecto sin comunicarse con el equipo de desarrollo.",
-      "Adaptarse a nuevas prioridades definidas por el equipo sin comunicarse con el equipo de desarrollo.",
-      "Trabajar sin comunicar bloqueos o dificultades al equipo de desarrollo.",
-      "Colaborar con otros roles dentro del equipo sin comunicarse con el equipo de desarrollo."
+      "Comunicar bloqueos o dificultades de forma oportuna al equipo.",
+      "Recibir feedback y aplicar mejoras de manera continua.",
+      "Trabajar de forma aislada sin compartir avances hasta terminar.",
+      "Evitar preguntas para no mostrar desconocimiento.",
+      "Ignorar acuerdos del sprint si considera mejor otra idea."
     ],
     "respuesta": [
       "Participar activamente en ceremonias como daily o retrospectivas de scrum.",
-      "Adaptarse a nuevas prioridades definidas por el equipo sin comunicarse con el equipo de desarrollo.",
-      "Colaborar con otros roles dentro del equipo sin comunicarse con el equipo de desarrollo."
+      "Comunicar bloqueos o dificultades de forma oportuna al equipo.",
+      "Recibir feedback y aplicar mejoras de manera continua."
     ],
     "puntos": 30,
     "timeLimit": 50
@@ -695,7 +694,7 @@
       "Ignorar los cambios realizados por otros miembros del equipo de desarrollo sin comunicarse con ellos antes de realizar un merge de cambios.",
       "Revisar el código antes de realizar un merge de cambios para evitar conflictos con otros desarrolladores."
     ],
-    "respuesta":[
+    "respuesta": [
       "Realizar commits frecuentes y con mensajes descriptivos de las modificaciones realizadas en el código.",
       "Sincronizar cambios regularmente con el repositorio de GitHub o GitLab para evitar conflictos con otros desarrolladores.",
       "Revisar el código antes de realizar un merge de cambios para evitar conflictos con otros desarrolladores."
@@ -737,7 +736,7 @@
       "Ignorar advertencias del sistema de control de versiones para enviar el código al repositorio.",
       "Revisar el código antes de enviarlo al repositorio."
     ],
-    "respuesta":[
+    "respuesta": [
       "Realizar pruebas manuales o automatizadas para asegurarse de que el código funcione correctamente antes de enviarlo al repositorio.",
       "Utilizar linters o formateadores de código para mejorar la calidad del código antes de enviarlo al repositorio.",
       "Revisar el código antes de enviarlo al repositorio."
@@ -758,7 +757,7 @@
       "Trabajar sin planificación para asegurar el cumplimiento de los requisitos de calidad antes de entregar el código.",
       "Comunicar bloqueos o riesgos al equipo para asegurar el cumplimiento de los requisitos de calidad antes de entregar el código."
     ],
-    "respuesta":[
+    "respuesta": [
       "Priorizar tareas según impacto y urgencia para asegurar el cumplimiento de los requisitos de calidad antes de entregar el código.",
       "Dividir tareas en partes manejables para asegurar el cumplimiento de los requisitos de calidad antes de entregar el código.",
       "Comunicar bloqueos o riesgos al equipo para asegurar el cumplimiento de los requisitos de calidad antes de entregar el código."
