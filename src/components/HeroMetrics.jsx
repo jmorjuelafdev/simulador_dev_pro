@@ -1,6 +1,5 @@
 function HeroMetrics({ preguntasDisponibles, categoriasCount, recordsCount, loading }) {
-  const preguntasCap = 250;
-  const preguntasTexto = loading ? "" : Math.min(preguntasDisponibles, preguntasCap);
+  const preguntasTexto = loading ? "" : preguntasDisponibles;
   const categoriasTexto = loading ? "" : categoriasCount;
   const recordsTexto = loading ? "" : recordsCount;
 

@@ -11,16 +11,26 @@ import MetricsCard from "./components/MetricsCard";
 import ProgressOverview from "./components/ProgressOverview";
 import CelebrationOverlay from "./components/CelebrationOverlay";
 import RevisionPanel from "./components/RevisionPanel";
-import { CATEGORY_LIST, loadPreguntasByCategory } from "./preguntas/catalog";
+import { BLOCKS, CATEGORY_LIST, loadPreguntasByCategory } from "./preguntas/catalog";
 
 const STORAGE_KEY = "simulador_dev_pro_records";
-const DEFAULT_CONFIG = { categoria: "Todas", cantidad: 250 };
+const DEFAULT_CONFIG = { categoria: "Todas", cantidad: null };
 const LEADERBOARD_ENDPOINT = "https://jsonplaceholder.typicode.com/users";
+const THEME_STORAGE_KEY = "simulador_theme";
 
 function App() {
   const [offlineMode, setOfflineMode] = useState(false);
   const [finishSound, setFinishSound] = useState(false);
   const [temaResetNonce, setTemaResetNonce] = useState(0);
+  const [theme, setTheme] = useState(() => {
+    if (typeof window === "undefined") return "dark";
+    try {
+      const stored = window.localStorage.getItem(THEME_STORAGE_KEY);
+      return stored === "light" ? "light" : "dark";
+    } catch (error) {
+      return "dark";
+    }
+  });
   const [autoAdvance, setAutoAdvance] = useState(() => {
     if (typeof window === "undefined") return true;
     try {
@@ -59,6 +69,7 @@ function App() {
     categorias,
     dificultades,
     preguntasDisponibles,
+    totalPreguntasDisponibles,
     preguntaActual,
     respuestaActual,
     totalRespondidas,
@@ -119,6 +130,19 @@ function App() {
   useEffect(() => {
     if (typeof window === "undefined") return;
     try {
+      const root = window.document?.documentElement;
+      if (root) {
+        root.classList.toggle("theme-light", theme === "light");
+      }
+      window.localStorage.setItem(THEME_STORAGE_KEY, theme);
+    } catch (error) {
+      console.warn("No se pudo guardar tema", error);
+    }
+  }, [theme]);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    try {
       window.localStorage.setItem(
         "simulador_auto_advance_enabled",
         String(autoAdvance)
@@ -131,25 +155,28 @@ function App() {
   return (
     <div className="app-shell">
       <HeroHeader
-        preguntasDisponibles={preguntasDisponibles.length}
+        preguntasDisponibles={totalPreguntasDisponibles || preguntasDisponibles.length}
         categoriasCount={categorias.length - 1}
         recordsCount={records.length}
         loading={bankLoading}
         offlineMode={offlineMode}
         categoriaActual={config.categoria}
+        theme={theme}
+        onToggleTheme={() => setTheme((prev) => (prev === "light" ? "dark" : "light"))}
       />
 
       {fase === "setup" && (
         <>
           <section className="setup-grid fade-in" style={{ marginBottom: 0 }}>
             <SetupPanel
-              categorias={categorias}
+              bloques={BLOCKS}
               config={config}
               onConfigChange={setConfig}
               onStart={iniciarSimulador}
               alerta={alerta}
               loading={bankLoading}
               error={bankError}
+              totalPreguntasDisponibles={totalPreguntasDisponibles}
               offlineMode={offlineMode}
               onToggleOffline={setOfflineMode}
             finishSound={finishSound}
@@ -166,7 +193,7 @@ function App() {
             <div className="stacked-cards">
               <VacancyContext />
               <MetricsCard
-                preguntasDisponibles={preguntasDisponibles.length}
+                preguntasDisponibles={totalPreguntasDisponibles || preguntasDisponibles.length}
                 categoriasCount={categorias.length - 1}
                 recordsCount={records.length}
                 loading={bankLoading}

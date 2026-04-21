@@ -9,6 +9,7 @@ import { getTopicForQuestion, LEARNING_PATHS } from "../learningPaths";
 import {
   CATEGORY_LIST,
   loadPreguntasByCategory,
+  loadTotalPreguntasCount,
   ORDER_BY_PROGRESION
 } from "../preguntas/catalog";
 
@@ -34,6 +35,7 @@ export function useQuizEngine({
   const CACHE_TTL_MS = CACHE_TTL_DAYS * 24 * 60 * 60 * 1000;
   const PROGRESS_KEY = "simulador_learning_progress";
   const [bancoPreguntas, setBancoPreguntas] = useState([]);
+  const [totalPreguntasDisponibles, setTotalPreguntasDisponibles] = useState(0);
   const [bankLoading, setBankLoading] = useState(false);
   const [bankError, setBankError] = useState("");
   const [detalleLoading, setDetalleLoading] = useState(false);
@@ -405,6 +407,22 @@ export function useQuizEngine({
   ]);
 
   useEffect(() => {
+    let cancelled = false;
+    loadTotalPreguntasCount()
+      .then((total) => {
+        if (cancelled) return;
+        setTotalPreguntasDisponibles(typeof total === "number" ? total : 0);
+      })
+      .catch(() => {
+        if (cancelled) return;
+        setTotalPreguntasDisponibles(0);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  useEffect(() => {
     ensureBanco(config.categoria);
   }, [config.categoria, ensureBanco, forceAllCategories]);
 
@@ -476,7 +494,12 @@ export function useQuizEngine({
       })
       .map(({ pregunta }) => pregunta);
 
-    const objetivo = config.categoria === "Todas" ? 250 : 50;
+    const objetivo =
+      typeof config.cantidad === "number" && Number.isFinite(config.cantidad)
+        ? config.cantidad
+        : config.categoria === "Todas"
+          ? totalPreguntasDisponibles || 250
+          : 50;
     const fuente = config.categoria === "Todas" ? barajar([...ordenadas]) : ordenadas;
     const cantidad = Math.min(objetivo, fuente.length);
     const conjunto = fuente.slice(0, cantidad).map((item) => {
@@ -923,6 +946,7 @@ export function useQuizEngine({
     celebracionActiva,
     categorias,
     preguntasDisponibles,
+    totalPreguntasDisponibles,
     preguntaActual,
     respuestaActual,
     totalRespondidas,

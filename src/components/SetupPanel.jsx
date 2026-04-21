@@ -1,13 +1,19 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import {
+  getBlockForCategory,
+  getCategoriasForBlock,
+  getPreguntasPorSesion
+} from "../preguntas/catalog";
 
 function SetupPanel({
-  categorias,
+  bloques,
   config,
   onConfigChange,
   onStart,
   alerta,
   loading,
   error,
+  totalPreguntasDisponibles,
   offlineMode,
   onToggleOffline,
   finishSound,
@@ -32,7 +38,23 @@ function SetupPanel({
   const usageTimeoutRef = useRef(null);
   const prefTimeoutRef = useRef(null);
   const prefFadeRef = useRef(null);
-  const preguntasPorSesion = config.categoria === "Todas" ? 250 : 50;
+  const bloqueSeleccionado = useMemo(
+    () => getBlockForCategory(config.categoria),
+    [config.categoria]
+  );
+
+  const categoriasDelBloque = useMemo(() => {
+    if (bloqueSeleccionado === "Todas") return [];
+    return getCategoriasForBlock(bloqueSeleccionado);
+  }, [bloqueSeleccionado]);
+
+  const preguntasPorSesion = useMemo(
+    () =>
+      config.categoria === "Todas"
+        ? totalPreguntasDisponibles || getPreguntasPorSesion(config.categoria)
+        : getPreguntasPorSesion(config.categoria),
+    [config.categoria, totalPreguntasDisponibles]
+  );
   const prevConfigRef = useRef({
     categoria: config.categoria,
     cantidad: config.cantidad,
@@ -136,7 +158,46 @@ function SetupPanel({
       </span>
       <h3>Personaliza tu sesión</h3>
       <div className="select-row">
-        <div className="select-field" style={{ flex: "1 1 60%" }}>
+        <div className="select-field">
+          <label htmlFor="bloque">Bloque</label>
+          <small id="bloque-help" className="field-help">
+            Elige un bloque para ver sus categorías.
+          </small>
+          <select
+            id="bloque"
+            value={bloqueSeleccionado}
+            disabled={disabled}
+            aria-describedby="bloque-help"
+            onChange={(event) => {
+              const bloque = event.target.value;
+              onConfigChange((prev) => {
+                if (bloque === "Todas") {
+                  return {
+                    ...prev,
+                    categoria: "Todas",
+                    cantidad: totalPreguntasDisponibles || 250
+                  };
+                }
+                const first = getCategoriasForBlock(bloque)?.[0]?.id;
+                const categoria = first || "Todas";
+                return {
+                  ...prev,
+                  categoria,
+                  cantidad: getPreguntasPorSesion(categoria)
+                };
+              });
+            }}
+          >
+            <option value="Todas">Todas</option>
+            {bloques.map((bloque) => (
+              <option key={bloque.id} value={bloque.id}>
+                {bloque.label}
+              </option>
+            ))}
+          </select>
+        </div>
+
+        <div className="select-field">
           <label htmlFor="categoria">Categoría</label>
           <small id="categoria-help" className="field-help">
             Filtra el banco de preguntas por dominio. La dificultad aumenta progresivamente.
@@ -144,41 +205,39 @@ function SetupPanel({
           <select
             id="categoria"
             value={config.categoria}
-            disabled={disabled}
+            disabled={disabled || bloqueSeleccionado === "Todas"}
             aria-describedby="categoria-help"
-            onChange={(event) =>
-              onConfigChange((prev) => {
-                const categoria = event.target.value;
-                return {
-                  ...prev,
-                  categoria,
-                  cantidad: categoria === "Todas" ? 250 : 50
-                };
-              })
-            }
+            onChange={(event) => {
+              const categoria = event.target.value;
+              onConfigChange((prev) => ({
+                ...prev,
+                categoria,
+                cantidad: getPreguntasPorSesion(categoria)
+              }));
+            }}
           >
-            {categorias.map((cat) => (
-              <option key={cat} value={cat}>
-                {cat}
-              </option>
-            ))}
+            {bloqueSeleccionado === "Todas" ? (
+              <option value="Todas">Todas</option>
+            ) : (
+              categoriasDelBloque.map((cat) => (
+                <option key={cat.id} value={cat.id}>
+                  {cat.label}
+                </option>
+              ))
+            )}
           </select>
         </div>
-        <div style={{ display: "flex", flexDirection: "column", alignItems: "stretch", gap: 8 }}>
-          <button
-            onClick={onStart}
-            disabled={loading}
-            aria-describedby="start-help"
-            style={{ marginTop: "auto" }}
-          >
-            {loading ? "Cargando..." : "Iniciar simulador"}
-          </button>
-          {loading && (
-            <small style={{ color: "var(--color-subtle)" }} role="status" aria-live="polite">
-              Cargando banco…
-            </small>
-          )}
-        </div>
+      </div>
+
+      <div className="select-actions">
+        <button onClick={onStart} disabled={loading} aria-describedby="start-help">
+          {loading ? "Cargando..." : "Iniciar simulador"}
+        </button>
+        {loading && (
+          <small style={{ color: "var(--color-subtle)" }} role="status" aria-live="polite">
+            Cargando banco…
+          </small>
+        )}
       </div>
 
       <div

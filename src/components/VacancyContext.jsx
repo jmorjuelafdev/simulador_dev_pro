@@ -1,37 +1,29 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 function VacancyContext() {
   return (
     <div className="card">
       <h3>Temas clave para tu ruta junior</h3>
       <ul className="record-list">
         <li>
-          <span role="img" aria-label="Lógica básica">
-            🧠
-          </span>{" "}
-          Pensamiento lógico: condicionales, bucles y patrones simples.
+          <FontAwesomeIcon icon="brain" aria-label="Fundamentos" fixedWidth />{" "}
+          Fundamentos: pensamiento lógico y JavaScript básico para dominar condicionales y estructuras.
         </li>
         <li>
-          <span role="img" aria-label="JavaScript">
-            💡
-          </span>{" "}
-          JavaScript esencial: arrays, eventos y peticiones básicas.
+          <FontAwesomeIcon icon="lightbulb" aria-label="Frontend" fixedWidth />{" "}
+          Frontend: HTML, CSS y frameworks (JavaScript 2, Angular, APIs/JSON, Accesibilidad, UX/UI) orientados a experiencias accesibles.
         </li>
         <li>
-          <span role="img" aria-label="Python">
-            🐍
-          </span>{" "}
-          Python práctico: funciones, manejo de listas y errores comunes.
+          <FontAwesomeIcon icon="gears" aria-label="Backend" fixedWidth />{" "}
+          Backend: Python, PHP y Java para servicios robustos con buenas prácticas.
         </li>
         <li>
-          <span role="img" aria-label="Fullstack básico">
-            🧩
-          </span>{" "}
-          Fullstack básico: HTTP, JSON y peticiones simples a APIs.
+          <FontAwesomeIcon icon={"layer-group"} aria-label="Fullstack" fixedWidth />{" "}
+          Fullstack: integración end-to-end y bases de datos con Mysql para proyectos completos.
         </li>
         <li>
-          <span role="img" aria-label="Skills">
-            🤝
-          </span>{" "}
-          Comunicación clara y colaboración en equipos junior-friendly.
+          <FontAwesomeIcon icon="handshake" aria-label="Skills" fixedWidth />{" "}
+          Skills: comunicación clara, colaboración y hábitos de mejora continua (Skills 1 y 2).
         </li>
       </ul>
     </div>

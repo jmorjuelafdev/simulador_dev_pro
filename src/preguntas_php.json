@@ -1,0 +1,870 @@
+[
+  {
+    "id": "php-1",
+    "categoria": "PHP",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué tipo de tecnología es PHP 8 dentro del desarrollo web?",
+    "opciones": [
+      "Lenguaje de programación del lado del servidor",
+      "Sistema operativo para hosting",
+      "Base de datos relacional",
+      "Editor visual de interfaces"
+    ],
+    "respuesta": "Lenguaje de programación del lado del servidor",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "php-2",
+    "categoria": "PHP",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Cómo se escribe normalmente una variable en PHP?",
+    "opciones": [
+      "$nombre",
+      "#nombre",
+      "@nombre",
+      "var.nombre"
+    ],
+    "respuesta": "$nombre",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "php-3",
+    "categoria": "PHP",
+    "tipo": "checkbox",
+    "dificultad": "Basico",
+    "pregunta": "¿Cuáles son tipos de datos comunes en PHP?",
+    "opciones": [
+      "string",
+      "int",
+      "bool",
+      "layout"
+    ],
+    "respuesta": ["string", "int", "bool"],
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "php-4",
+    "categoria": "PHP",
+    "tipo": "codigo",
+    "dificultad": "Basico",
+    "pregunta": "Completa la impresión básica en pantalla.",
+    "modo": "slots",
+    "plantilla": "<?php {{slot1}} 'Hola mundo'; ?>",
+    "opcionesSlots": [
+      "while",
+      "echo",
+      "array",
+      "class"
+    ],
+    "respuestasSlots": ["echo"],
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "php-5",
+    "categoria": "PHP",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué etiquetas delimitan código PHP en un archivo?",
+    "opciones": [
+      "<?php ?>",
+      "<php></php>",
+      "{{php}}",
+      "<script php>"
+    ],
+    "respuesta": "<?php ?>",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "php-6",
+    "categoria": "PHP",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué instrucción se usa frecuentemente para mostrar texto?",
+    "opciones": [
+      "echo",
+      "printcss",
+      "writehtml",
+      "sendtext"
+    ],
+    "respuesta": "echo",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "php-7",
+    "categoria": "PHP",
+    "tipo": "checkbox",
+    "dificultad": "Basico",
+    "pregunta": "¿Cuáles estructuras de control existen en PHP?",
+    "opciones": [
+      "if",
+      "for",
+      "while",
+      "gradient"
+    ],
+    "respuesta": ["if", "for", "while"],
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "php-8",
+    "categoria": "PHP",
+    "tipo": "codigo",
+    "dificultad": "Basico",
+    "pregunta": "Completa la condición básica.",
+    "modo": "slots",
+    "plantilla": "<?php {{slot0}} ($edad >= 18) { echo 'Mayor'; } ?>",
+    "opcionesSlots": [
+      "if",
+      "echo",
+      "new",
+      "try"
+    ],
+    "respuestasSlots": ["if"],
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "php-9",
+    "categoria": "PHP",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué símbolo finaliza normalmente una instrucción en PHP?",
+    "opciones": [
+      ";",
+      ":",
+      ",",
+      "#"
+    ],
+    "respuesta": ";",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "php-10",
+    "categoria": "PHP",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué superglobal suele contener datos enviados por formulario POST?",
+    "opciones": [
+      "$_POST",
+      "$_STYLE",
+      "$_HTML",
+      "$_VIEW"
+    ],
+    "respuesta": "$_POST",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "php-11",
+    "categoria": "PHP",
+    "tipo": "checkbox",
+    "dificultad": "Basico",
+    "pregunta": "¿Cuáles superglobales son comunes en PHP?",
+    "opciones": [
+      "$_GET",
+      "$_POST",
+      "$_SERVER",
+      "$_COLOR"
+    ],
+    "respuesta": ["$_GET", "$_POST", "$_SERVER"],
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "php-12",
+    "categoria": "PHP",
+    "tipo": "codigo",
+    "dificultad": "Basico",
+    "pregunta": "Completa acceso a parámetro GET.",
+    "modo": "slots",
+    "plantilla": "<?php echo {{slot2}}['id']; ?>",
+    "opcionesSlots": [
+      "$_POST",
+      "$_FILES",
+      "$_GET",
+      "$_COOKIE"
+    ],
+    "respuestasSlots": ["$_GET"],
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "php-13",
+    "categoria": "PHP",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué estructura se usa para guardar varios valores en una sola variable?",
+    "opciones": [
+      "array",
+      "route",
+      "style",
+      "socket"
+    ],
+    "respuesta": "array",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "php-14",
+    "categoria": "PHP",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué función cuenta elementos de un arreglo?",
+    "opciones": [
+      "count()",
+      "sizephp()",
+      "items()",
+      "measure()"
+    ],
+    "respuesta": "count()",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "php-15",
+    "categoria": "PHP",
+    "tipo": "checkbox",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué acciones puede realizar PHP en backend?",
+    "opciones": [
+      "Procesar formularios",
+      "Conectarse a bases de datos",
+      "Generar HTML",
+      "Pintar monitor físicamente"
+    ],
+    "respuesta": [
+      "Procesar formularios",
+      "Conectarse a bases de datos",
+      "Generar HTML"
+    ],
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "php-16",
+    "categoria": "PHP",
+    "tipo": "codigo",
+    "dificultad": "Basico",
+    "pregunta": "Completa ciclo básico.",
+    "modo": "slots",
+    "plantilla": "<?php {{slot3}} ($i = 0; $i < 3; $i++) { echo $i; } ?>",
+    "opcionesSlots": [
+      "if",
+      "switch",
+      "echo",
+      "for"
+    ],
+    "respuestasSlots": ["for"],
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "php-17",
+    "categoria": "PHP",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué función convierte texto JSON a estructura usable en PHP?",
+    "opciones": [
+      "json_decode()",
+      "json_style()",
+      "parse_html()",
+      "array_json()"
+    ],
+    "respuesta": "json_decode()",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "php-18",
+    "categoria": "PHP",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué habilidad básica es útil para un junior que usa PHP?",
+    "opciones": [
+      "Entender formularios, variables y lógica del servidor",
+      "Memorizar solo colores CSS",
+      "Evitar validar datos recibidos",
+      "Trabajar sin probar resultados"
+    ],
+    "respuesta": "Entender formularios, variables y lógica del servidor",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "php-19",
+    "categoria": "PHP",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué operador de PHP 8 permite asignar un valor por defecto solo si la variable es null?",
+    "opciones": [
+      "??=",
+      ".=",
+      "=>",
+      "::"
+    ],
+    "respuesta": "??=",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "php-20",
+    "categoria": "PHP",
+    "tipo": "checkbox",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué buenas prácticas ayudan al procesar formularios en PHP?",
+    "opciones": [
+      "Validar datos recibidos",
+      "Sanitizar entradas cuando aplique",
+      "Verificar campos requeridos",
+      "Confiar siempre en el navegador"
+    ],
+    "respuesta": [
+      "Validar datos recibidos",
+      "Sanitizar entradas cuando aplique",
+      "Verificar campos requeridos"
+    ],
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "php-21",
+    "categoria": "PHP",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa valor por defecto cuando nombre es null.",
+    "modo": "slots",
+    "plantilla": "<?php $nombre {{slot1}} 'Invitado'; ?>",
+    "opcionesSlots": [
+      "=",
+      "??=",
+      "+=",
+      "."
+    ],
+    "respuestasSlots": ["??="],
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "php-22",
+    "categoria": "PHP",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué función convierte una estructura PHP en texto JSON?",
+    "opciones": [
+      "json_encode()",
+      "json_decode()",
+      "implode_json()",
+      "render_json()"
+    ],
+    "respuesta": "json_encode()",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "php-23",
+    "categoria": "PHP",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué extensión se usa comúnmente para conexión segura a bases de datos modernas?",
+    "opciones": [
+      "PDO",
+      "HTML5",
+      "RouterX",
+      "CSSDB"
+    ],
+    "respuesta": "PDO",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "php-24",
+    "categoria": "PHP",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa salida JSON para una API simple.",
+    "modo": "slots",
+    "plantilla": "<?php echo {{slot0}}($datos); ?>",
+    "opcionesSlots": [
+      "json_encode",
+      "json_decode",
+      "count",
+      "print_r"
+    ],
+    "respuestasSlots": ["json_encode"],
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "php-25",
+    "categoria": "PHP",
+    "tipo": "checkbox",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué sentencias sirven para manejo de errores o excepciones?",
+    "opciones": [
+      "try",
+      "catch",
+      "finally",
+      "gradient"
+    ],
+    "respuesta": [
+      "try",
+      "catch",
+      "finally"
+    ],
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "php-26",
+    "categoria": "PHP",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué función ayuda a escapar texto para salida HTML y prevenir problemas comunes?",
+    "opciones": [
+      "htmlspecialchars()",
+      "json_decode()",
+      "explode()",
+      "sleep()"
+    ],
+    "respuesta": "htmlspecialchars()",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "php-27",
+    "categoria": "PHP",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa protección básica al imprimir texto.",
+    "modo": "slots",
+    "plantilla": "<?php echo {{slot2}}($comentario); ?>",
+    "opcionesSlots": [
+      "trim",
+      "count",
+      "htmlspecialchars",
+      "rand"
+    ],
+    "respuestasSlots": ["htmlspecialchars"],
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "php-28",
+    "categoria": "PHP",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué palabra clave define una función en PHP?",
+    "opciones": [
+      "function",
+      "method",
+      "def",
+      "func"
+    ],
+    "respuesta": "function",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "php-29",
+    "categoria": "PHP",
+    "tipo": "checkbox",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué operaciones son comunes con arreglos en PHP?",
+    "opciones": [
+      "array_push()",
+      "count()",
+      "foreach",
+      "paint()"
+    ],
+    "respuesta": [
+      "array_push()",
+      "count()",
+      "foreach"
+    ],
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "php-30",
+    "categoria": "PHP",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa recorrido de arreglo.",
+    "modo": "slots",
+    "plantilla": "<?php {{slot3}} ($items as $item) { echo $item; } ?>",
+    "opcionesSlots": [
+      "if",
+      "switch",
+      "class",
+      "foreach"
+    ],
+    "respuestasSlots": ["foreach"],
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "php-31",
+    "categoria": "PHP",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué operador concatena cadenas de texto en PHP?",
+    "opciones": [
+      ".",
+      "+",
+      "&",
+      "::"
+    ],
+    "respuesta": ".",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "php-32",
+    "categoria": "PHP",
+    "tipo": "checkbox",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué acciones suelen hacerse al construir endpoints sencillos en PHP?",
+    "opciones": [
+      "Leer parámetros",
+      "Consultar datos",
+      "Responder JSON",
+      "Diseñar logos"
+    ],
+    "respuesta": [
+      "Leer parámetros",
+      "Consultar datos",
+      "Responder JSON"
+    ],
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "php-33",
+    "categoria": "PHP",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa concatenación de saludo.",
+    "modo": "slots",
+    "plantilla": "<?php echo 'Hola ' {{slot1}} $nombre; ?>",
+    "opcionesSlots": [
+      "+",
+      ".",
+      ",",
+      "=>"
+    ],
+    "respuestasSlots": ["."],
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "php-34",
+    "categoria": "PHP",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué habilidad intermedia valiosa para un junior PHP es especialmente útil?",
+    "opciones": [
+      "Procesar formularios, usar JSON y consultar bases de datos",
+      "Aprender solo etiquetas HTML",
+      "Evitar manejo de errores",
+      "Trabajar sin estructura de código"
+    ],
+    "respuesta": "Procesar formularios, usar JSON y consultar bases de datos",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "php-35",
+    "categoria": "PHP",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué característica introducida en PHP 8 permite usar argumentos nombrados al llamar funciones?",
+    "opciones": [
+      "Named Arguments",
+      "Magic Params",
+      "Strict Echo",
+      "Typed Arrays"
+    ],
+    "respuesta": "Named Arguments",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "php-36",
+    "categoria": "PHP",
+    "tipo": "checkbox",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué buenas prácticas mejoran una API sencilla desarrollada en PHP?",
+    "opciones": [
+      "Responder códigos HTTP correctos",
+      "Validar entradas recibidas",
+      "Manejar errores controladamente",
+      "Mostrar errores internos al usuario final siempre"
+    ],
+    "respuesta": [
+      "Responder códigos HTTP correctos",
+      "Validar entradas recibidas",
+      "Manejar errores controladamente"
+    ],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "php-37",
+    "categoria": "PHP",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa llamada con argumento nombrado.",
+    "modo": "slots",
+    "plantilla": "<?php crearUsuario(nombre: 'Ana', {{slot2}}: 'ana@mail.com'); ?>",
+    "opcionesSlots": [
+      "route",
+      "style",
+      "email",
+      "server"
+    ],
+    "respuestasSlots": ["email"],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "php-38",
+    "categoria": "PHP",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué operador de PHP 8 permite navegar propiedades de forma segura cuando puede existir null?",
+    "opciones": [
+      "?->",
+      "=>",
+      "::",
+      ".."
+    ],
+    "respuesta": "?->",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "php-39",
+    "categoria": "PHP",
+    "tipo": "checkbox",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué acciones ayudan a escribir código mantenible en PHP?",
+    "opciones": [
+      "Usar nombres claros",
+      "Separar responsabilidades",
+      "Reutilizar funciones",
+      "Copiar lógica repetida en muchos archivos"
+    ],
+    "respuesta": [
+      "Usar nombres claros",
+      "Separar responsabilidades",
+      "Reutilizar funciones"
+    ],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "php-40",
+    "categoria": "PHP",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa acceso seguro a propiedad.",
+    "modo": "slots",
+    "plantilla": "<?php echo $usuario{{slot1}}perfil{{slot1}}nombre; ?>",
+    "opcionesSlots": [
+      "->",
+      "?->",
+      "::",
+      "."
+    ],
+    "respuestasSlots": ["?->"],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "php-41",
+    "categoria": "PHP",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué función suele utilizarse para iniciar sesiones en PHP?",
+    "opciones": [
+      "session_start()",
+      "start_user()",
+      "login_begin()",
+      "session_open_now()"
+    ],
+    "respuesta": "session_start()",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "php-42",
+    "categoria": "PHP",
+    "tipo": "checkbox",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué datos pueden manejarse comúnmente con sesiones?",
+    "opciones": [
+      "Usuario autenticado",
+      "Mensajes temporales",
+      "Preferencias simples",
+      "Código fuente del servidor completo"
+    ],
+    "respuesta": [
+      "Usuario autenticado",
+      "Mensajes temporales",
+      "Preferencias simples"
+    ],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "php-43",
+    "categoria": "PHP",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa inicio de sesión PHP.",
+    "modo": "slots",
+    "plantilla": "<?php {{slot0}} ?>",
+    "opcionesSlots": [
+      "session_start();",
+      "session_close();",
+      "echo session;",
+      "new Session();"
+    ],
+    "respuestasSlots": ["session_start();"],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "php-44",
+    "categoria": "PHP",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué clase de PDO ayuda a prevenir inyecciones SQL al consultar datos?",
+    "opciones": [
+      "Prepared Statements",
+      "Inline Queries",
+      "Raw Strings",
+      "Auto Tables"
+    ],
+    "respuesta": "Prepared Statements",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "php-45",
+    "categoria": "PHP",
+    "tipo": "checkbox",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué ventajas aportan consultas preparadas?",
+    "opciones": [
+      "Mayor seguridad",
+      "Separación entre consulta y datos",
+      "Código más claro",
+      "Eliminar necesidad de base de datos"
+    ],
+    "respuesta": [
+      "Mayor seguridad",
+      "Separación entre consulta y datos",
+      "Código más claro"
+    ],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "php-46",
+    "categoria": "PHP",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa consulta preparada con PDO.",
+    "modo": "slots",
+    "plantilla": "<?php $stmt = $pdo->{{slot3}}('SELECT * FROM users'); ?>",
+    "opcionesSlots": [
+      "queryAll",
+      "connect",
+      "json",
+      "prepare"
+    ],
+    "respuestasSlots": ["prepare"],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "php-47",
+    "categoria": "PHP",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué enfoque mejora proyectos PHP pequeños que empiezan a crecer?",
+    "opciones": [
+      "Organizar código por responsabilidades y estructura clara",
+      "Poner toda la lógica en un solo archivo",
+      "Duplicar funciones en cada página",
+      "Evitar reutilización para avanzar más rápido"
+    ],
+    "respuesta": "Organizar código por responsabilidades y estructura clara",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "php-48",
+    "categoria": "PHP",
+    "tipo": "checkbox",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué aspectos conviene revisar antes de desplegar una app PHP?",
+    "opciones": [
+      "Variables de entorno",
+      "Manejo de errores",
+      "Conexión a base de datos",
+      "Color del escritorio del servidor"
+    ],
+    "respuesta": [
+      "Variables de entorno",
+      "Manejo de errores",
+      "Conexión a base de datos"
+    ],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "php-49",
+    "categoria": "PHP",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa respuesta JSON típica.",
+    "modo": "slots",
+    "plantilla": "<?php echo json_encode(['ok' => {{slot2}}]); ?>",
+    "opcionesSlots": [
+      "'css'",
+      "'html'",
+      "true",
+      "$_POST"
+    ],
+    "respuestasSlots": ["true"],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "php-50",
+    "categoria": "PHP",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "Para un perfil junior con PHP 8, ¿qué combinación suele ser más valiosa laboralmente?",
+    "opciones": [
+      "PHP sólido, SQL básico, APIs JSON y buenas prácticas",
+      "Solo memorizar sintaxis sin proyectos",
+      "Evitar bases de datos y formularios",
+      "Trabajar sin validar entradas"
+    ],
+    "respuesta": "PHP sólido, SQL básico, APIs JSON y buenas prácticas",
+    "puntos": 30,
+    "timeLimit": 50
+  }
+]

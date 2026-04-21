@@ -1,0 +1,683 @@
+[
+  {
+    "id": "java-1",
+    "categoria": "Java",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué tipo de tecnología es Java dentro del desarrollo de software?",
+    "opciones": [
+      "Lenguaje de programación orientado a objetos",
+      "Sistema operativo para servidores",
+      "Motor gráfico para videojuegos",
+      "Editor de bases de datos"
+    ],
+    "respuesta": "Lenguaje de programación orientado a objetos",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "java-2",
+    "categoria": "Java",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué método principal se usa comúnmente como punto de entrada en una aplicación Java?",
+    "opciones": ["main", "startApp", "runNow", "beginCode"],
+    "respuesta": "main",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "java-3",
+    "categoria": "Java",
+    "tipo": "checkbox",
+    "dificultad": "Basico",
+    "pregunta": "¿Cuáles son tipos de datos primitivos comunes en Java?",
+    "opciones": ["int", "double", "boolean", "layout"],
+    "respuesta": ["int", "double", "boolean"],
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "java-4",
+    "categoria": "Java",
+    "tipo": "codigo",
+    "dificultad": "Basico",
+    "pregunta": "Completa la impresión en consola.",
+    "modo": "slots",
+    "plantilla": "System.out.{{slot1}}(\"Hola\");",
+    "opcionesSlots": ["write", "println", "render", "echo"],
+    "respuestasSlots": ["println"],
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "java-5",
+    "categoria": "Java",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué palabra clave se usa para declarar una clase?",
+    "opciones": ["class", "object", "struct", "define"],
+    "respuesta": "class",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "java-6",
+    "categoria": "Java",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué símbolo suele finalizar una instrucción en Java?",
+    "opciones": [";", ":", ",", "#"],
+    "respuesta": ";",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "java-7",
+    "categoria": "Java",
+    "tipo": "checkbox",
+    "dificultad": "Basico",
+    "pregunta": "¿Cuáles estructuras de control existen en Java?",
+    "opciones": ["if", "for", "while", "gradient"],
+    "respuesta": ["if", "for", "while"],
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "java-8",
+    "categoria": "Java",
+    "tipo": "codigo",
+    "dificultad": "Basico",
+    "pregunta": "Completa la condición básica.",
+    "modo": "slots",
+    "plantilla": "{{slot0}} (edad >= 18) { System.out.println(\"Mayor\"); }",
+    "opcionesSlots": ["if", "echo", "loop", "main"],
+    "respuestasSlots": ["if"],
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "java-9",
+    "categoria": "Java",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué tipo se usa normalmente para texto?",
+    "opciones": ["String", "Text", "Chars", "Word"],
+    "respuesta": "String",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "java-10",
+    "categoria": "Java",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué palabra clave crea una nueva instancia de clase?",
+    "opciones": ["new", "make", "build", "create"],
+    "respuesta": "new",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "java-11",
+    "categoria": "Java",
+    "tipo": "checkbox",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué modificadores de acceso son comunes en Java?",
+    "opciones": ["public", "private", "protected", "visible"],
+    "respuesta": ["public", "private", "protected"],
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "java-12",
+    "categoria": "Java",
+    "tipo": "codigo",
+    "dificultad": "Basico",
+    "pregunta": "Completa creación de objeto.",
+    "modo": "slots",
+    "plantilla": "Persona p = {{slot2}} Persona();",
+    "opcionesSlots": ["class", "this", "new", "void"],
+    "respuestasSlots": ["new"],
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "java-13",
+    "categoria": "Java",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué palabra clave se usa para declarar un método sin retorno?",
+    "opciones": ["void", "null", "empty", "none"],
+    "respuesta": "void",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "java-14",
+    "categoria": "Java",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué colección permite almacenar varios elementos del mismo tipo?",
+    "opciones": ["Array", "Route", "Canvas", "Style"],
+    "respuesta": "Array",
+    "puntos": 15,
+    "timeLimit": 35 
+  },
+  {
+    "id": "java-15",
+    "categoria": "Java",
+    "tipo": "checkbox",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué tareas puede realizar Java frecuentemente?",
+    "opciones": [
+      "Aplicaciones backend",
+      "Aplicaciones de escritorio",
+      "Procesamiento de datos",
+      "Pintar físicamente la pantalla"
+    ],
+    "respuesta": [
+      "Aplicaciones backend",
+      "Aplicaciones de escritorio",
+      "Procesamiento de datos"
+    ],
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "java-16",
+    "categoria": "Java",
+    "tipo": "codigo",
+    "dificultad": "Basico",
+    "pregunta": "Completa ciclo for básico.",
+    "modo": "slots",
+    "plantilla": "{{slot3}} (int i = 0; i < 3; i++) { }",
+    "opcionesSlots": ["if", "while", "main", "for"],
+    "respuestasSlots": ["for"],
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "java-17",
+    "categoria": "Java",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué herramienta compila normalmente archivos .java?",
+    "opciones": ["javac", "javahtml", "nodejava", "compilex"],
+    "respuesta": "javac",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "java-18",
+    "categoria": "Java",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué base sólida necesita un junior que empieza con Java?",
+    "opciones": [
+      "Variables, clases, métodos y lógica de programación",
+      "Memorizar todo el framework empresarial",
+      "Solo aprender colores de consola",
+      "Evitar practicar ejercicios"
+    ],
+    "respuesta": "Variables, clases, métodos y lógica de programación",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "java-19",
+    "categoria": "Java",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué colección de Java permite almacenar elementos sin tamaño fijo y es muy usada en proyectos?",
+    "opciones": ["ArrayList", "StringBuilder", "Scanner", "Thread"],
+    "respuesta": "ArrayList",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "java-20",
+    "categoria": "Java",
+    "tipo": "checkbox",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué buenas prácticas ayudan al escribir clases mantenibles?",
+    "opciones": [
+      "Nombres claros para variables y métodos",
+      "Métodos pequeños con responsabilidad definida",
+      "Separar lógica por clases",
+      "Poner toda la aplicación en una sola clase"
+    ],
+    "respuesta": [
+      "Nombres claros para variables y métodos",
+      "Métodos pequeños con responsabilidad definida",
+      "Separar lógica por clases"
+    ],
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "java-21",
+    "categoria": "Java",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa creación de lista dinámica.",
+    "modo": "slots",
+    "plantilla": "ArrayList<String> nombres = new {{slot1}}<>();",
+    "opcionesSlots": ["Scanner", "ArrayList", "Thread", "Console"],
+    "respuestasSlots": ["ArrayList"],
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "java-22",
+    "categoria": "Java",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué palabra clave se usa para heredar de otra clase en Java?",
+    "opciones": ["extends", "inherits", "superclass", "implements"],
+    "respuesta": "extends",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "java-23",
+    "categoria": "Java",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué interfaz se usa para leer texto desde teclado con frecuencia en ejemplos básicos?",
+    "opciones": ["Scanner", "Printer", "ReaderUI", "ConsoleBox"],
+    "respuesta": "Scanner",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "java-24",
+    "categoria": "Java",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa herencia básica.",
+    "modo": "slots",
+    "plantilla": "class Perro {{slot0}} Animal { }",
+    "opcionesSlots": ["extends", "import", "new", "return"],
+    "respuestasSlots": ["extends"],
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "java-25",
+    "categoria": "Java",
+    "tipo": "checkbox",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué conceptos pertenecen a programación orientada a objetos en Java?",
+    "opciones": ["Encapsulación", "Herencia", "Polimorfismo", "Gradientes"],
+    "respuesta": ["Encapsulación", "Herencia", "Polimorfismo"],
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "java-26",
+    "categoria": "Java",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué bloque se usa para capturar excepciones?",
+    "opciones": ["catch", "error", "stop", "guard"],
+    "respuesta": "catch",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "java-27",
+    "categoria": "Java",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa manejo básico de errores.",
+    "modo": "slots",
+    "plantilla": "try { int x = 1/0; } {{slot2}} (Exception e) { }",
+    "opcionesSlots": ["if", "throw", "catch", "while"],
+    "respuestasSlots": ["catch"],
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "java-28",
+    "categoria": "Java",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué clase ayuda a construir cadenas cuando hay muchas concatenaciones?",
+    "opciones": ["StringBuilder", "ArrayList", "Scanner", "Integer"],
+    "respuesta": "StringBuilder",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "java-29",
+    "categoria": "Java",
+    "tipo": "checkbox",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué acciones son comunes al trabajar con listas?",
+    "opciones": [
+      "Agregar elementos",
+      "Recorrer elementos",
+      "Consultar tamaño",
+      "Compilar imágenes"
+    ],
+    "respuesta": [
+      "Agregar elementos",
+      "Recorrer elementos",
+      "Consultar tamaño"
+    ],
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "java-30",
+    "categoria": "Java",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa agregar elemento a la lista.",
+    "modo": "slots",
+    "plantilla": "nombres.{{slot3}}(\"Ana\");",
+    "opcionesSlots": ["pushAll", "write", "render", "add"],
+    "respuestasSlots": ["add"],
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "java-31",
+    "categoria": "Java",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué palabra clave obliga a implementar métodos definidos por una interfaz?",
+    "opciones": ["implements", "extends", "package", "instanceof"],
+    "respuesta": "implements",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "java-32",
+    "categoria": "Java",
+    "tipo": "checkbox",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué aspectos conviene revisar antes de entregar código Java?",
+    "opciones": [
+      "Que compile correctamente",
+      "Que tenga nombres claros",
+      "Que cubra el requerimiento",
+      "Que tenga comentarios aleatorios"
+    ],
+    "respuesta": [
+      "Que compile correctamente",
+      "Que tenga nombres claros",
+      "Que cubra el requerimiento"
+    ],
+    "puntos": 25,
+    "timeLimit": 45 
+  },
+  {
+    "id": "java-33",
+    "categoria": "Java",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa implementación de interfaz.",
+    "modo": "slots",
+    "plantilla": "class Auto {{slot1}} Vehiculo { }",
+    "opcionesSlots": ["extends", "implements", "returns", "instanceof"],
+    "respuestasSlots": ["implements"],
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "java-34",
+    "categoria": "Java",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué combinación es valiosa para un junior Java de nivel intermedio?",
+    "opciones": [
+      "POO, colecciones, excepciones y código ordenado",
+      "Solo memorizar sintaxis básica",
+      "Evitar clases y usar todo en main",
+      "No revisar errores en ejecución"
+    ],
+    "respuesta": "POO, colecciones, excepciones y código ordenado",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "java-35",
+    "categoria": "Java",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué principio de diseño busca que una clase tenga una sola responsabilidad principal?",
+    "opciones": [
+      "Single Responsibility Principle",
+      "Open Graphics Principle",
+      "Fast Compile Rule",
+      "Dynamic Package Mode"
+    ],
+    "respuesta": "Single Responsibility Principle",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "java-36",
+    "categoria": "Java",
+    "tipo": "checkbox",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué prácticas mejoran mantenibilidad en proyectos Java?",
+    "opciones": [
+      "Separar capas de lógica",
+      "Usar nombres consistentes",
+      "Reutilizar componentes",
+      "Duplicar código en varios módulos"
+    ],
+    "respuesta": [
+      "Separar capas de lógica",
+      "Usar nombres consistentes",
+      "Reutilizar componentes"
+    ],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "java-37",
+    "categoria": "Java",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa declaración de interfaz.",
+    "modo": "slots",
+    "plantilla": "public {{slot2}} Pagable { void pagar(); }",
+    "opcionesSlots": ["class", "enum", "interface", "recordx"],
+    "respuestasSlots": ["interface"],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "java-38",
+    "categoria": "Java",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué clase de Java se usa frecuentemente para acceso moderno a bases de datos en JDBC?",
+    "opciones": ["Connection", "Gradient", "LayoutManager", "ConsolePaint"],
+    "respuesta": "Connection",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "java-39",
+    "categoria": "Java",
+    "tipo": "checkbox",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué buenas prácticas ayudan al consultar bases de datos desde Java?",
+    "opciones": [
+      "Usar consultas parametrizadas",
+      "Cerrar recursos utilizados",
+      "Manejar excepciones",
+      "Construir SQL con texto inseguro siempre"
+    ],
+    "respuesta": [
+      "Usar consultas parametrizadas",
+      "Cerrar recursos utilizados",
+      "Manejar excepciones"
+    ],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "java-40",
+    "categoria": "Java",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa creación de consulta preparada.",
+    "modo": "slots",
+    "plantilla": "PreparedStatement ps = con.{{slot1}}(\"SELECT * FROM users WHERE id=?\");",
+    "opcionesSlots": [
+      "execute",
+      "prepareStatement",
+      "compileSql",
+      "statementNow"
+    ],
+    "respuestasSlots": ["prepareStatement"],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "java-41",
+    "categoria": "Java",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué palabra clave permite heredar comportamiento desde una clase base?",
+    "opciones": ["extends", "implements", "package", "import"],
+    "respuesta": "extends",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "java-42",
+    "categoria": "Java",
+    "tipo": "checkbox",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué conceptos pertenecen a orientación a objetos avanzada en Java?",
+    "opciones": ["Polimorfismo", "Abstracción", "Encapsulación", "Pixelado"],
+    "respuesta": ["Polimorfismo", "Abstracción", "Encapsulación"],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "java-43",
+    "categoria": "Java",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa herencia avanzada.",
+    "modo": "slots",
+    "plantilla": "class Gerente {{slot0}} Empleado { }",
+    "opcionesSlots": ["extends", "throws", "package", "static"],
+    "respuestasSlots": ["extends"],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "java-44",
+    "categoria": "Java",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué bloque se ejecuta normalmente exista o no excepción?",
+    "opciones": ["finally", "catch", "switch", "loop"],
+    "respuesta": "finally",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "java-45",
+    "categoria": "Java",
+    "tipo": "checkbox",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué aspectos conviene revisar al optimizar código Java?",
+    "opciones": [
+      "Uso innecesario de objetos",
+      "Consultas repetidas costosas",
+      "Bucles ineficientes",
+      "Color del IDE"
+    ],
+    "respuesta": [
+      "Uso innecesario de objetos",
+      "Consultas repetidas costosas",
+      "Bucles ineficientes"
+    ],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "java-46",
+    "categoria": "Java",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa bloque obligatorio posterior.",
+    "modo": "slots",
+    "plantilla": "try { } catch(Exception e) { } {{slot3}} { }",
+    "opcionesSlots": ["throw", "public", "static", "finally"],
+    "respuestasSlots": ["finally"],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "java-47",
+    "categoria": "Java",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué enfoque mejora proyectos Java que crecen con varios módulos?",
+    "opciones": [
+      "Arquitectura organizada por responsabilidades",
+      "Toda la lógica en una sola clase gigante",
+      "Duplicar utilidades en cada paquete",
+      "Evitar documentación mínima"
+    ],
+    "respuesta": "Arquitectura organizada por responsabilidades",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "java-48",
+    "categoria": "Java",
+    "tipo": "checkbox",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué habilidades suelen pedir vacantes junior Java modernas?",
+    "opciones": [
+      "POO sólida",
+      "SQL básico",
+      "Consumo de APIs",
+      "Diseño de chips físicos"
+    ],
+    "respuesta": ["POO sólida", "SQL básico", "Consumo de APIs"],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "java-49",
+    "categoria": "Java",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa conversión a lista dinámica.",
+    "modo": "slots",
+    "plantilla": "List<String> datos = new {{slot2}}<>();",
+    "opcionesSlots": ["Scanner", "Thread", "ArrayList", "Console"],
+    "respuestasSlots": ["ArrayList"],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "java-50",
+    "categoria": "Java",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "Para un perfil junior Java competitivo, ¿qué combinación suele aportar más valor?",
+    "opciones": [
+      "Java sólido, POO, SQL básico, APIs y buenas prácticas",
+      "Solo memorizar sintaxis sin proyectos",
+      "Evitar bases de datos y errores",
+      "Trabajar todo dentro del método main"
+    ],
+    "respuesta": "Java sólido, POO, SQL básico, APIs y buenas prácticas",
+    "puntos": 30,
+    "timeLimit": 50
+  }
+]

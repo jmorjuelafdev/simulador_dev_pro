@@ -1,44 +1,140 @@
-import logicaRaw from "../preguntas_logica.json";
-import javascriptRaw from "../preguntas_javascript.json";
-import pythonRaw from "../preguntas_python.json";
-import fullstackRaw from "../preguntas_fullstack.json";
-import skillsRaw from "../preguntas_skills.json";
+const BANK_FILES = import.meta.glob("../preguntas_*.json");
 
-const TODO_EL_BANCO = [
-  ...logicaRaw,
-  ...javascriptRaw,
-  ...pythonRaw,
-  ...fullstackRaw,
-  ...skillsRaw
+const normalizeCategoryToFileKey = (category) => {
+  if (!category) return "";
+  return String(category)
+    .trim()
+    .replace(/[^a-z0-9]+/gi, "_")
+    .replace(/^_+|_+$/g, "")
+    .toLowerCase();
+};
+
+const loadBankModule = async (fileKey) => {
+  const loader = BANK_FILES[fileKey];
+  if (!loader) return [];
+  const mod = await loader();
+  const data = mod?.default;
+  return Array.isArray(data) ? data : [];
+};
+
+let totalQuestionsPromise;
+let totalQuestionsCount;
+
+export async function loadTotalPreguntasCount() {
+  if (!totalQuestionsPromise) {
+    totalQuestionsPromise = Promise.all(
+      Object.keys(BANK_FILES).map((fileKey) => loadBankModule(fileKey))
+    )
+      .then((banks) => banks.reduce((acc, bank) => acc + (bank?.length || 0), 0))
+      .then((total) => {
+        totalQuestionsCount = typeof total === "number" ? total : 0;
+        return totalQuestionsCount;
+      })
+      .catch(() => {
+        totalQuestionsCount = 0;
+        return 0;
+      });
+  }
+  return totalQuestionsPromise;
+}
+
+export const BLOCKS = [
+  {
+    id: "Fundamentos",
+    label: "Fundamentos",
+    categorias: [
+      { id: "Logica", label: "Lógica", preguntasPorSesion: 50 },
+      { id: "JavaScript", label: "JavaScript", preguntasPorSesion: 50 }
+    ]
+  },
+  {
+    id: "Frontend",
+    label: "Frontend",
+    categorias: [
+      { id: "HTML", label: "HTML", preguntasPorSesion: 50 },
+      { id: "CSS", label: "CSS", preguntasPorSesion: 50 },
+      { id: "JavaScript2", label: "JavaScript 2", preguntasPorSesion: 50 },
+      { id: "Angular", label: "Angular", preguntasPorSesion: 50 },
+      { id: "APIs_JSON", label: "APIs/JSON", preguntasPorSesion: 50 },
+      { id: "Accesibilidad", label: "Accesibilidad", preguntasPorSesion: 50 },
+      { id: "UX_UI", label: "UX/UI", preguntasPorSesion: 50 }
+    ]
+  },
+  {
+    id: "Backend",
+    label: "Backend",
+    categorias: [
+      { id: "Python", label: "Python", preguntasPorSesion: 50 },
+      { id: "PHP", label: "PHP", preguntasPorSesion: 50 },
+      { id: "Java", label: "Java", preguntasPorSesion: 50 }
+    ]
+  },
+  {
+    id: "Fullstack",
+    label: "Fullstack",
+    categorias: [
+      { id: "Fullstack", label: "Fullstack", preguntasPorSesion: 50 },
+      { id: "Mysql", label: "Mysql", preguntasPorSesion: 50 }
+    ]
+  },
+  {
+    id: "Skills",
+    label: "Skills",
+    categorias: [
+      { id: "Skills", label: "Skills", preguntasPorSesion: 50 },
+      { id: "Skills2", label: "Skills 2", preguntasPorSesion: 50 }
+    ]
+  }
 ];
 
 export const ORDER_BY_PROGRESION = [
-  "Logica",
-  "JavaScript",
-  "Python",
-  "Fullstack",
-  "Skills",
+  ...BLOCKS.flatMap((block) => block.categorias.map((cat) => cat.id)),
   "General"
 ];
 
-export const CATEGORY_LIST = Array.from(
-  new Set(TODO_EL_BANCO.map((pregunta) => pregunta.categoria || "General"))
-).sort((a, b) => {
-  const indexA = ORDER_BY_PROGRESION.indexOf(a);
-  const indexB = ORDER_BY_PROGRESION.indexOf(b);
-  if (indexA === -1 && indexB === -1) {
-    return a.localeCompare(b, "es", { sensitivity: "base" });
+export const CATEGORY_LIST = BLOCKS.flatMap((block) => block.categorias.map((cat) => cat.id));
+
+export function getBlockForCategory(category) {
+  if (!category || category === "Todas") return "Todas";
+  const found = BLOCKS.find((block) => block.categorias.some((cat) => cat.id === category));
+  return found?.id || "Todas";
+}
+
+export function getCategoriasForBlock(blockId) {
+  if (!blockId || blockId === "Todas") return [];
+  const found = BLOCKS.find((block) => block.id === blockId);
+  return found?.categorias || [];
+}
+
+export function getPreguntasPorSesion(category) {
+  if (!category || category === "Todas") return totalQuestionsCount || 250;
+  for (const block of BLOCKS) {
+    const found = block.categorias.find((cat) => cat.id === category);
+    if (found) return found.preguntasPorSesion;
   }
-  if (indexA === -1) return 1;
-  if (indexB === -1) return -1;
-  return indexA - indexB;
-});
+  return 50;
+}
 
 export async function loadPreguntasByCategory(category) {
   if (category === "Todas") {
-    return TODO_EL_BANCO.map((pregunta) => ({ ...pregunta }));
+    const banks = await Promise.all(
+      Object.keys(BANK_FILES).map((fileKey) => loadBankModule(fileKey))
+    );
+    return banks.flat().map((pregunta) => ({ ...pregunta }));
   }
-  return TODO_EL_BANCO.filter((pregunta) => pregunta.categoria === category).map(
-    (pregunta) => ({ ...pregunta })
-  );
+
+  const normalized = normalizeCategoryToFileKey(category);
+  const guessedKey = `../preguntas_${normalized}.json`;
+
+  let bank = await loadBankModule(guessedKey);
+  if (!bank.length) {
+    const banks = await Promise.all(
+      Object.keys(BANK_FILES).map((fileKey) => loadBankModule(fileKey))
+    );
+    bank = banks.flat();
+  }
+
+  return bank
+    .filter((pregunta) => pregunta.categoria === category)
+    .map((pregunta) => ({ ...pregunta }));
 }

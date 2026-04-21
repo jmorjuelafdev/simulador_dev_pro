@@ -1,0 +1,808 @@
+[
+  {
+    "id": "skills2-1",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "Si eres desarrollador junior y recibes una tarea nueva que no entiendes completamente, ¿cuál suele ser la mejor primera reacción profesional?",
+    "opciones": [
+      "Revisar requisitos, investigar lo básico y luego preguntar dudas puntuales",
+      "Esperar varios días hasta que alguien note que no avanzaste",
+      "Cambiar la tarea por otra sin avisar al equipo",
+      "Entregar cualquier resultado aunque no cumpla lo solicitado"
+    ],
+    "respuesta": "Revisar requisitos, investigar lo básico y luego preguntar dudas puntuales",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "skills2-2",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué comportamiento demuestra responsabilidad en un entorno de trabajo remoto o híbrido?",
+    "opciones": [
+      "Cumplir horarios, responder mensajes clave y reportar avances",
+      "Conectarse solo cuando haya reuniones obligatorias",
+      "Desaparecer varias horas sin informar al equipo",
+      "Ignorar tareas pequeñas porque no son visibles"
+    ],
+    "respuesta": "Cumplir horarios, responder mensajes clave y reportar avances",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "skills2-3",
+    "categoria": "Skills2",
+    "tipo": "checkbox",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué hábitos suelen ayudar a crecer como desarrollador junior?",
+    "opciones": [
+      "Tomar notas de errores y soluciones aprendidas",
+      "Pedir retroalimentación cuando sea necesario",
+      "Practicar de forma constante fundamentos técnicos",
+      "Evitar aprender nuevas herramientas por comodidad"
+    ],
+    "respuesta": [
+      "Tomar notas de errores y soluciones aprendidas",
+      "Pedir retroalimentación cuando sea necesario",
+      "Practicar de forma constante fundamentos técnicos"
+    ],
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "skills2-4",
+    "categoria": "Skills2",
+    "tipo": "codigo",
+    "dificultad": "Basico",
+    "pregunta": "Completa la frase de seguimiento profesional: 'Ya revisé el bug, {{slot1}} una solución en una hora'.",
+    "modo": "slots",
+    "plantilla": "Ya revisé el bug, {{slot1}} una solución en una hora.",
+    "opcionesSlots": ["olvido", "te comparto", "elimino", "cierro"],
+    "respuestasSlots": ["te comparto"],
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "skills2-5",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "Cuando cometes un error en una entrega, ¿qué actitud suele ser mejor valorada?",
+    "opciones": [
+      "Reconocerlo, corregirlo y explicar cómo evitar repetirlo",
+      "Culpar inmediatamente a otra persona",
+      "Ocultarlo esperando que nadie lo note",
+      "Decir que no era importante aunque sí lo fuera"
+    ],
+    "respuesta": "Reconocerlo, corregirlo y explicar cómo evitar repetirlo",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "skills2-6",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué demuestra una comunicación clara en reuniones breves de seguimiento?",
+    "opciones": [
+      "Explicar qué hiciste, qué harás y si existe algún bloqueo",
+      "Hablar de temas no relacionados durante varios minutos",
+      "Responder siempre con una sola palabra",
+      "Guardar problemas importantes para después"
+    ],
+    "respuesta": "Explicar qué hiciste, qué harás y si existe algún bloqueo",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "skills2-7",
+    "categoria": "Skills2",
+    "tipo": "checkbox",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué acciones favorecen el trabajo en equipo?",
+    "opciones": [
+      "Compartir información útil con compañeros",
+      "Escuchar opiniones técnicas distintas",
+      "Avisar cambios que afecten al proyecto",
+      "Competir ocultando conocimiento"
+    ],
+    "respuesta": [
+      "Compartir información útil con compañeros",
+      "Escuchar opiniones técnicas distintas",
+      "Avisar cambios que afecten al proyecto"
+    ],
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "skills2-8",
+    "categoria": "Skills2",
+    "tipo": "codigo",
+    "dificultad": "Basico",
+    "pregunta": "Completa la frase adecuada: 'No entendí una parte del requerimiento, ¿podrías {{slot2}} ese punto?'.",
+    "modo": "slots",
+    "plantilla": "No entendí una parte del requerimiento, ¿podrías {{slot2}} ese punto?",
+    "opcionesSlots": ["ignorar", "cerrar", "aclarar", "borrar"],
+    "respuestasSlots": ["aclarar"],
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "skills2-9",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "Si una tarea tomará más tiempo del esperado, ¿qué conviene hacer?",
+    "opciones": [
+      "Informarlo con tiempo y proponer nuevo estimado",
+      "Callar hasta la fecha límite",
+      "Marcarla como terminada sin estar lista",
+      "Dejar de responder mensajes"
+    ],
+    "respuesta": "Informarlo con tiempo y proponer nuevo estimado",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "skills2-10",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué refleja buena actitud de aprendizaje en un junior?",
+    "opciones": [
+      "Aceptar feedback y aplicarlo progresivamente",
+      "Molestarse ante cualquier corrección",
+      "Negarse a cambiar hábitos ineficientes",
+      "Pensar que ya no necesita aprender más"
+    ],
+    "respuesta": "Aceptar feedback y aplicarlo progresivamente",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "skills2-11",
+    "categoria": "Skills2",
+    "tipo": "checkbox",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué señales suelen transmitir profesionalismo?",
+    "opciones": [
+      "Puntualidad razonable",
+      "Respeto al comunicar",
+      "Cumplimiento de compromisos",
+      "Responder con groserías bajo presión"
+    ],
+    "respuesta": [
+      "Puntualidad razonable",
+      "Respeto al comunicar",
+      "Cumplimiento de compromisos"
+    ],
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "skills2-12",
+    "categoria": "Skills2",
+    "tipo": "codigo",
+    "dificultad": "Basico",
+    "pregunta": "Completa la frase: 'Terminé la tarea y ya la dejé {{slot0}} para revisión'.",
+    "modo": "slots",
+    "plantilla": "Terminé la tarea y ya la dejé {{slot0}} para revisión.",
+    "opcionesSlots": ["lista", "rota", "cerrada sin probar", "olvidada"],
+    "respuestasSlots": ["lista"],
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "skills2-13",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué es priorizar bien el trabajo?",
+    "opciones": [
+      "Atender primero lo más importante o bloqueante",
+      "Elegir siempre lo más fácil",
+      "Hacer solo tareas favoritas",
+      "Cambiar de tarea cada pocos minutos"
+    ],
+    "respuesta": "Atender primero lo más importante o bloqueante",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "skills2-14",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "Si no estás de acuerdo con una decisión técnica sencilla, ¿qué es mejor?",
+    "opciones": [
+      "Expresar argumentos con respeto y escuchar al equipo",
+      "Discutir de forma personal",
+      "Ignorar la decisión y hacer otra cosa",
+      "Quejarte fuera de la reunión sin proponer nada"
+    ],
+    "respuesta": "Expresar argumentos con respeto y escuchar al equipo",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "skills2-15",
+    "categoria": "Skills2",
+    "tipo": "checkbox",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué acciones ayudan a organizar el día laboral?",
+    "opciones": [
+      "Usar lista de tareas",
+      "Estimar tiempos aproximados",
+      "Revisar pendientes prioritarios",
+      "Trabajar sin revisar objetivos"
+    ],
+    "respuesta": [
+      "Usar lista de tareas",
+      "Estimar tiempos aproximados",
+      "Revisar pendientes prioritarios"
+    ],
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "skills2-16",
+    "categoria": "Skills2",
+    "tipo": "codigo",
+    "dificultad": "Basico",
+    "pregunta": "Completa la frase: 'Encontré un problema adicional y ya lo {{slot3}} al líder'.",
+    "modo": "slots",
+    "plantilla": "Encontré un problema adicional y ya lo {{slot3}} al líder.",
+    "opcionesSlots": ["borro", "escondo", "reinicio", "reporté"],
+    "respuestasSlots": ["reporté"],
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "skills2-17",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué demuestra interés genuino por mejorar?",
+    "opciones": [
+      "Buscar entender por qué se hacen las cosas",
+      "Memorizar sin comprender nada",
+      "Evitar cualquier reto nuevo",
+      "Repetir errores sin revisar causas"
+    ],
+    "respuesta": "Buscar entender por qué se hacen las cosas",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "skills2-18",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "En un perfil junior, ¿qué suele ser más valioso además de lo técnico?",
+    "opciones": [
+      "Actitud de aprendizaje y colaboración constante",
+      "Prometer saber todo desde el primer día",
+      "Trabajar sin comunicarse con nadie",
+      "Rechazar cualquier cambio de proceso"
+    ],
+    "respuesta": "Actitud de aprendizaje y colaboración constante",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "skills2-19",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "Cuando trabajas en equipo y detectas un posible error en el trabajo de un compañero, ¿cuál suele ser la mejor forma de actuar?",
+    "opciones": [
+      "Comentar el posible problema de forma respetuosa y proponer revisarlo juntos",
+      "Ignorarlo completamente para evitar incomodidad",
+      "Señalarlo públicamente de forma directa sin contexto",
+      "Corregirlo sin avisar a nadie"
+    ],
+    "respuesta": "Comentar el posible problema de forma respetuosa y proponer revisarlo juntos",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "skills2-20",
+    "categoria": "Skills2",
+    "tipo": "checkbox",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué comportamientos reflejan una buena gestión del tiempo en un entorno ágil?",
+    "opciones": [
+      "Dividir tareas grandes en partes manejables",
+      "Actualizar el estado del trabajo periódicamente",
+      "Evitar interrupciones innecesarias",
+      "Cambiar de tarea constantemente sin terminar ninguna"
+    ],
+    "respuesta": [
+      "Dividir tareas grandes en partes manejables",
+      "Actualizar el estado del trabajo periódicamente",
+      "Evitar interrupciones innecesarias"
+    ],
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "skills2-21",
+    "categoria": "Skills2",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa la frase de comunicación efectiva: 'Tuve un bloqueo con la API, ya intenté dos soluciones y {{slot2}} ayuda para avanzar más rápido'.",
+    "modo": "slots",
+    "plantilla": "Tuve un bloqueo con la API, ya intenté dos soluciones y {{slot2}} ayuda para avanzar más rápido.",
+    "opcionesSlots": ["evito pedir", "voy a pedir", "ignoro", "cancelo"],
+    "respuestasSlots": ["voy a pedir"],
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "skills2-22",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "Si recibes feedback técnico que no esperabas, ¿qué enfoque demuestra mayor madurez profesional?",
+    "opciones": [
+      "Analizarlo objetivamente y aplicar lo que mejore el resultado",
+      "Rechazarlo automáticamente porque no coincide con tu idea",
+      "Tomarlo como algo personal",
+      "Ignorarlo y continuar igual"
+    ],
+    "respuesta": "Analizarlo objetivamente y aplicar lo que mejore el resultado",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "skills2-23",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué demuestra pensamiento crítico en un desarrollador junior?",
+    "opciones": [
+      "Cuestionar de forma constructiva y entender el porqué de las decisiones",
+      "Aceptar todo sin analizar",
+      "Discutir sin fundamentos técnicos",
+      "Evitar participar en decisiones"
+    ],
+    "respuesta": "Cuestionar de forma constructiva y entender el porqué de las decisiones",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "skills2-24",
+    "categoria": "Skills2",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa la frase: 'Identifiqué una mejora en el flujo, podría {{slot1}} el proceso si lo simplificamos'.",
+    "modo": "slots",
+    "plantilla": "Identifiqué una mejora en el flujo, podría {{slot1}} el proceso si lo simplificamos.",
+    "opcionesSlots": ["complicar", "optimizar", "romper", "duplicar"],
+    "respuestasSlots": ["optimizar"],
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "skills2-25",
+    "categoria": "Skills2",
+    "tipo": "checkbox",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué acciones ayudan a manejar presión o fechas ajustadas?",
+    "opciones": [
+      "Priorizar tareas críticas",
+      "Comunicar riesgos a tiempo",
+      "Dividir el trabajo en pasos claros",
+      "Ocultar retrasos hasta el final"
+    ],
+    "respuesta": [
+      "Priorizar tareas críticas",
+      "Comunicar riesgos a tiempo",
+      "Dividir el trabajo en pasos claros"
+    ],
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "skills2-26",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué significa ser proactivo en un equipo de desarrollo?",
+    "opciones": [
+      "Anticiparse a problemas y proponer soluciones",
+      "Esperar siempre instrucciones detalladas",
+      "Evitar responsabilidades nuevas",
+      "Hacer solo lo mínimo requerido"
+    ],
+    "respuesta": "Anticiparse a problemas y proponer soluciones",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "skills2-27",
+    "categoria": "Skills2",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa la frase: 'Terminé antes de tiempo, así que voy a {{slot0}} otra tarea del backlog'.",
+    "modo": "slots",
+    "plantilla": "Terminé antes de tiempo, así que voy a {{slot0}} otra tarea del backlog.",
+    "opcionesSlots": ["tomar", "ignorar", "eliminar", "bloquear"],
+    "respuestasSlots": ["tomar"],
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "skills2-28",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué actitud favorece el aprendizaje continuo en tecnología?",
+    "opciones": [
+      "Explorar nuevas soluciones y practicar regularmente",
+      "Evitar cambios para mantenerse cómodo",
+      "Depender siempre de otros para resolver dudas",
+      "Repetir siempre el mismo enfoque sin mejorar"
+    ],
+    "respuesta": "Explorar nuevas soluciones y practicar regularmente",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "skills2-29",
+    "categoria": "Skills2",
+    "tipo": "checkbox",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué habilidades blandas son clave en un equipo de desarrollo?",
+    "opciones": [
+      "Comunicación efectiva",
+      "Empatía",
+      "Escucha activa",
+      "Evitar interacción con el equipo"
+    ],
+    "respuesta": ["Comunicación efectiva", "Empatía", "Escucha activa"],
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "skills2-30",
+    "categoria": "Skills2",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa la frase: 'Antes de entregar, voy a {{slot3}} la funcionalidad para evitar errores'.",
+    "modo": "slots",
+    "plantilla": "Antes de entregar, voy a {{slot3}} la funcionalidad para evitar errores.",
+    "opcionesSlots": ["ignorar", "duplicar", "romper", "probar"],
+    "respuestasSlots": ["probar"],
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "skills2-31",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué indica una buena adaptación a cambios en un proyecto?",
+    "opciones": [
+      "Ajustarse rápidamente y reorganizar prioridades",
+      "Resistirse a cualquier cambio",
+      "Ignorar nuevas instrucciones",
+      "Criticar sin proponer soluciones"
+    ],
+    "respuesta": "Ajustarse rápidamente y reorganizar prioridades",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "skills2-32",
+    "categoria": "Skills2",
+    "tipo": "checkbox",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué prácticas mejoran la calidad del trabajo entregado?",
+    "opciones": [
+      "Revisar el código antes de enviar",
+      "Seguir estándares del equipo",
+      "Documentar cambios importantes",
+      "Entregar sin validar"
+    ],
+    "respuesta": [
+      "Revisar el código antes de enviar",
+      "Seguir estándares del equipo",
+      "Documentar cambios importantes"
+    ],
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "skills2-33",
+    "categoria": "Skills2",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa la frase: 'No estoy de acuerdo con esta solución, pero {{slot1}} los argumentos del equipo antes de decidir'.",
+    "modo": "slots",
+    "plantilla": "No estoy de acuerdo con esta solución, pero {{slot1}} los argumentos del equipo antes de decidir.",
+    "opcionesSlots": ["ignoro", "escucho", "rechazo", "elimino"],
+    "respuestasSlots": ["escucho"],
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "skills2-34",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué combinación de habilidades suele diferenciar a un junior que progresa rápido?",
+    "opciones": [
+      "Aprendizaje constante, comunicación clara y responsabilidad",
+      "Solo conocimiento técnico aislado",
+      "Trabajar sin interactuar con el equipo",
+      "Evitar recibir retroalimentación"
+    ],
+    "respuesta": "Aprendizaje constante, comunicación clara y responsabilidad",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "skills2-35",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "En un entorno ágil, si una tarea crítica se bloquea por dependencia externa, ¿qué actuación suele aportar más valor?",
+    "opciones": [
+      "Comunicar el bloqueo pronto, proponer alternativas y reajustar prioridades",
+      "Esperar en silencio hasta que alguien pregunte por el avance",
+      "Cerrar la tarea como completada para no afectar métricas",
+      "Cambiar de proyecto sin informar al equipo"
+    ],
+    "respuesta": "Comunicar el bloqueo pronto, proponer alternativas y reajustar prioridades",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "skills2-36",
+    "categoria": "Skills2",
+    "tipo": "checkbox",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué comportamientos suelen reflejar liderazgo técnico temprano en un perfil junior avanzado?",
+    "opciones": [
+      "Compartir conocimiento útil con el equipo",
+      "Tomar iniciativa responsable en tareas pequeñas",
+      "Ayudar a destrabar problemas comunes",
+      "Imponer decisiones sin escuchar a nadie"
+    ],
+    "respuesta": [
+      "Compartir conocimiento útil con el equipo",
+      "Tomar iniciativa responsable en tareas pequeñas",
+      "Ayudar a destrabar problemas comunes"
+    ],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "skills2-37",
+    "categoria": "Skills2",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa la frase profesional: 'Detecté un riesgo para la entrega y ya preparé una propuesta para {{slot2}} el impacto'.",
+    "modo": "slots",
+    "plantilla": "Detecté un riesgo para la entrega y ya preparé una propuesta para {{slot2}} el impacto.",
+    "opcionesSlots": ["agrandar", "ignorar", "reducir", "duplicar"],
+    "respuestasSlots": ["reducir"],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "skills2-38",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "Cuando existen varias tareas urgentes al mismo tiempo, ¿qué criterio suele ser más profesional?",
+    "opciones": [
+      "Priorizar según impacto, dependencia y objetivos del sprint",
+      "Elegir la más fácil para terminar rápido",
+      "Tomar la que más guste personalmente",
+      "Empezar todas sin cerrar ninguna"
+    ],
+    "respuesta": "Priorizar según impacto, dependencia y objetivos del sprint",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "skills2-39",
+    "categoria": "Skills2",
+    "tipo": "checkbox",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué señales indican buena madurez profesional frente a errores?",
+    "opciones": [
+      "Asumir responsabilidad sin dramatizar",
+      "Investigar causa raíz",
+      "Aplicar mejoras preventivas",
+      "Buscar culpables inmediatamente"
+    ],
+    "respuesta": [
+      "Asumir responsabilidad sin dramatizar",
+      "Investigar causa raíz",
+      "Aplicar mejoras preventivas"
+    ],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "skills2-40",
+    "categoria": "Skills2",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa la frase: 'Ya resolvimos el incidente; ahora documentaremos lo aprendido para {{slot1}} recurrencias'.",
+    "modo": "slots",
+    "plantilla": "Ya resolvimos el incidente; ahora documentaremos lo aprendido para {{slot1}} recurrencias.",
+    "opcionesSlots": ["causar", "evitar", "ocultar", "repetir"],
+    "respuestasSlots": ["evitar"],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "skills2-41",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué demuestra pensamiento orientado al negocio en un desarrollador junior?",
+    "opciones": [
+      "Entender cómo su trabajo impacta usuarios y objetivos del producto",
+      "Pensar solo en código sin contexto",
+      "Ignorar prioridades del cliente interno",
+      "Medir éxito únicamente por líneas escritas"
+    ],
+    "respuesta": "Entender cómo su trabajo impacta usuarios y objetivos del producto",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "skills2-42",
+    "categoria": "Skills2",
+    "tipo": "checkbox",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué acciones fortalecen la confianza del equipo en una persona junior?",
+    "opciones": [
+      "Cumplir compromisos realistas",
+      "Avisar riesgos con tiempo",
+      "Mantener comunicación consistente",
+      "Prometer más de lo posible"
+    ],
+    "respuesta": [
+      "Cumplir compromisos realistas",
+      "Avisar riesgos con tiempo",
+      "Mantener comunicación consistente"
+    ],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "skills2-43",
+    "categoria": "Skills2",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa la frase: 'Antes de comprometer una fecha, necesito {{slot0}} el esfuerzo requerido'.",
+    "modo": "slots",
+    "plantilla": "Antes de comprometer una fecha, necesito {{slot0}} el esfuerzo requerido.",
+    "opcionesSlots": ["estimar", "ignorar", "ocultar", "acelerar"],
+    "respuestasSlots": ["estimar"],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "skills2-44",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "Si recibes comentarios duros pero válidos en una revisión, ¿qué enfoque suele ser mejor?",
+    "opciones": [
+      "Separar el tono del contenido y rescatar mejoras útiles",
+      "Ignorar todo por la forma en que fue dicho",
+      "Responder de manera defensiva inmediatamente",
+      "Abandonar la tarea por frustración"
+    ],
+    "respuesta": "Separar el tono del contenido y rescatar mejoras útiles",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "skills2-45",
+    "categoria": "Skills2",
+    "tipo": "checkbox",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué hábitos suelen acelerar el crecimiento profesional sostenido?",
+    "opciones": [
+      "Buscar feedback frecuente",
+      "Reflexionar sobre errores y aciertos",
+      "Practicar habilidades técnicas y blandas",
+      "Esperar aprender solo por antigüedad"
+    ],
+    "respuesta": [
+      "Buscar feedback frecuente",
+      "Reflexionar sobre errores y aciertos",
+      "Practicar habilidades técnicas y blandas"
+    ],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "skills2-46",
+    "categoria": "Skills2",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa la frase: 'No tengo la respuesta aún, pero ya empecé a {{slot3}} opciones viables'.",
+    "modo": "slots",
+    "plantilla": "No tengo la respuesta aún, pero ya empecé a {{slot3}} opciones viables.",
+    "opcionesSlots": ["descartar todo", "bloquear", "copiar", "evaluar"],
+    "respuestasSlots": ["evaluar"],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "skills2-47",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué rasgo diferencia a alguien confiable bajo presión?",
+    "opciones": [
+      "Mantener calma, comunicar datos y enfocarse en soluciones",
+      "Entrar en pánico y culpar al entorno",
+      "Desaparecer hasta que pase el problema",
+      "Tomar decisiones sin escuchar información"
+    ],
+    "respuesta": "Mantener calma, comunicar datos y enfocarse en soluciones",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "skills2-48",
+    "categoria": "Skills2",
+    "tipo": "checkbox",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué prácticas mejoran colaboración entre áreas técnicas y no técnicas?",
+    "opciones": [
+      "Explicar temas complejos con claridad",
+      "Escuchar necesidades del negocio",
+      "Alinear expectativas y tiempos",
+      "Usar jerga técnica para excluir"
+    ],
+    "respuesta": [
+      "Explicar temas complejos con claridad",
+      "Escuchar necesidades del negocio",
+      "Alinear expectativas y tiempos"
+    ],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "skills2-49",
+    "categoria": "Skills2",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa la frase: 'El objetivo no es trabajar más horas, sino trabajar de forma más {{slot2}}'.",
+    "modo": "slots",
+    "plantilla": "El objetivo no es trabajar más horas, sino trabajar de forma más {{slot2}}.",
+    "opcionesSlots": ["confusa", "lenta", "eficiente", "improvisada"],
+    "respuestasSlots": ["eficiente"],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "skills2-50",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "Para un perfil junior competitivo, ¿qué combinación suele abrir más oportunidades laborales?",
+    "opciones": [
+      "Base técnica sólida, comunicación clara y actitud constante de mejora",
+      "Solo saber herramientas de moda temporalmente",
+      "Trabajar aislado sin colaborar con nadie",
+      "Evitar retos para no equivocarse"
+    ],
+    "respuesta": "Base técnica sólida, comunicación clara y actitud constante de mejora",
+    "puntos": 30,
+    "timeLimit": 50
+  }
+]

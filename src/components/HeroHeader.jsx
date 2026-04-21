@@ -6,7 +6,9 @@ function HeroHeader({
   recordsCount,
   loading,
   offlineMode,
-  categoriaActual
+  categoriaActual,
+  theme,
+  onToggleTheme
 }) {
   const prevDisponiblesRef = useRef(preguntasDisponibles);
   const prevRecordsRef = useRef(recordsCount);
@@ -84,12 +86,29 @@ function HeroHeader({
       )}
       <div className="hero-title">
         <h1>Simulador Junior Dev · Fundamentos Claros</h1>
-        {offlineMode && <span className="badge offline-badge">Offline activo</span>}
+        <div className="hero-actions">
+          {offlineMode && <span className="badge offline-badge">Offline activo</span>}
+          <label className="toggle" htmlFor="theme-toggle">
+            <input
+              id="theme-toggle"
+              type="checkbox"
+              checked={theme === "light"}
+              onChange={() => onToggleTheme?.()}
+              role="switch"
+              aria-checked={theme === "light"}
+              aria-label="Activar tema claro"
+            />
+            <span className="toggle-pill" aria-hidden="true" />
+            <span>{theme === "light" ? "Tema claro" : "Tema oscuro"}</span>
+          </label>
+        </div>
       </div>
       <p style={{ textAlign: "center" }}>
-        Practica entrevistas básicas con lógica, JavaScript, Python, Fullstack y Skills. Todas las
-        preguntas usan opciones en formato de selección única y ejercicios con slots (sin editor de
-        código), con pistas y feedback claro para avanzar paso a paso.
+        Practica entrevistas completas por bloques: Fundamentos (Lógica, JavaScript), Frontend (HTML,
+        CSS, JavaScript 2, Angular, APIs/JSON, Accesibilidad, UX/UI), Backend (Python, PHP, Java),
+        Fullstack (Fullstack, Mysql) y Skills (Skills, Skills 2). Todas las preguntas usan opciones de
+        selección única y ejercicios con slots (sin editor de código), con pistas y feedback claro para
+        avanzar paso a paso.
       </p>
     </section>
   );

@@ -1,0 +1,684 @@
+[
+  {
+    "id": "mysql-1",
+    "categoria": "Mysql",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué es MySQL dentro del desarrollo de software?",
+    "opciones": [
+      "Sistema de gestión de bases de datos relacional",
+      "Lenguaje de estilos para páginas web",
+      "Servidor exclusivo de correo electrónico",
+      "Framework de interfaces móviles"
+    ],
+    "respuesta": "Sistema de gestión de bases de datos relacional",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "mysql-2",
+    "categoria": "Mysql",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué comando SQL se usa para consultar datos almacenados?",
+    "opciones": ["SELECT", "REMOVE", "PAINT", "BUILD"],
+    "respuesta": "SELECT",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "mysql-3",
+    "categoria": "Mysql",
+    "tipo": "checkbox",
+    "dificultad": "Basico",
+    "pregunta": "¿Cuáles objetos son comunes en una base de datos MySQL?",
+    "opciones": ["Tablas", "Columnas", "Registros", "Gradientes"],
+    "respuesta": ["Tablas", "Columnas", "Registros"],
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "mysql-4",
+    "categoria": "Mysql",
+    "tipo": "codigo",
+    "dificultad": "Basico",
+    "pregunta": "Completa la consulta para ver todos los datos.",
+    "modo": "slots",
+    "plantilla": "{{slot1}} * FROM usuarios;",
+    "opcionesSlots": ["DELETE", "SELECT", "UPDATE", "DROP"],
+    "respuestasSlots": ["SELECT"],
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "mysql-5",
+    "categoria": "Mysql",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué comando se usa para insertar nuevos registros?",
+    "opciones": ["INSERT", "SEARCH", "PUSH", "APPENDROW"],
+    "respuesta": "INSERT",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "mysql-6",
+    "categoria": "Mysql",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué comando modifica datos existentes?",
+    "opciones": ["UPDATE", "SELECT", "CREATE", "SHOW"],
+    "respuesta": "UPDATE",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "mysql-7",
+    "categoria": "Mysql",
+    "tipo": "checkbox",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué tipos de datos son comunes en MySQL?",
+    "opciones": ["INT", "VARCHAR", "DATE", "BUTTON"],
+    "respuesta": ["INT", "VARCHAR", "DATE"],
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "mysql-8",
+    "categoria": "Mysql",
+    "tipo": "codigo",
+    "dificultad": "Basico",
+    "pregunta": "Completa creación básica de tabla.",
+    "modo": "slots",
+    "plantilla": "{{slot0}} TABLE usuarios (id INT);",
+    "opcionesSlots": ["CREATE", "SELECT", "ORDER", "JOIN"],
+    "respuestasSlots": ["CREATE"],
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "mysql-9",
+    "categoria": "Mysql",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué cláusula filtra resultados según una condición?",
+    "opciones": ["WHERE", "STYLE", "GROUPED", "TARGET"],
+    "respuesta": "WHERE",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "mysql-10",
+    "categoria": "Mysql",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué comando elimina registros según condición?",
+    "opciones": ["DELETE", "DROP", "SHOW", "PRINT"],
+    "respuesta": "DELETE",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "mysql-11",
+    "categoria": "Mysql",
+    "tipo": "checkbox",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué cláusulas suelen aparecer en consultas SELECT?",
+    "opciones": ["FROM", "WHERE", "ORDER BY", "PALETTE"],
+    "respuesta": ["FROM", "WHERE", "ORDER BY"],
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "mysql-12",
+    "categoria": "Mysql",
+    "tipo": "codigo",
+    "dificultad": "Basico",
+    "pregunta": "Completa filtro por id.",
+    "modo": "slots",
+    "plantilla": "SELECT * FROM usuarios {{slot2}} id = 5;",
+    "opcionesSlots": ["FROM", "JOIN", "WHERE", "LIMIT"],
+    "respuestasSlots": ["WHERE"],
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "mysql-13",
+    "categoria": "Mysql",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué comando muestra bases de datos disponibles en muchos entornos MySQL?",
+    "opciones": ["SHOW DATABASES", "LIST SQL", "PRINT DB", "OPEN TABLES"],
+    "respuesta": "SHOW DATABASES",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "mysql-14",
+    "categoria": "Mysql",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué cláusula ordena resultados?",
+    "opciones": ["ORDER BY", "SORT TABLE", "RANGE", "FILTER BY"],
+    "respuesta": "ORDER BY",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "mysql-15",
+    "categoria": "Mysql",
+    "tipo": "checkbox",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué tareas comunes se realizan con MySQL?",
+    "opciones": [
+      "Guardar información",
+      "Consultar datos",
+      "Actualizar registros",
+      "Diseñar logos"
+    ],
+    "respuesta": [
+      "Guardar información",
+      "Consultar datos",
+      "Actualizar registros"
+    ],
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "mysql-16",
+    "categoria": "Mysql",
+    "tipo": "codigo",
+    "dificultad": "Basico",
+    "pregunta": "Completa límite de resultados.",
+    "modo": "slots",
+    "plantilla": "SELECT * FROM usuarios {{slot3}} 10;",
+    "opcionesSlots": ["TOP", "FIRST", "MAX", "LIMIT"],
+    "respuestasSlots": ["LIMIT"],
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "mysql-17",
+    "categoria": "Mysql",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué columna suele identificar de forma única un registro?",
+    "opciones": [
+      "Clave primaria",
+      "Color principal",
+      "Título visual",
+      "Orden temporal"
+    ],
+    "respuesta": "Clave primaria",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "mysql-18",
+    "categoria": "Mysql",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué base necesita un junior que empieza con MySQL?",
+    "opciones": [
+      "Consultas básicas, tablas y filtros simples",
+      "Solo memorizar comandos sin practicar",
+      "Evitar usar condiciones WHERE",
+      "Trabajar sin entender datos"
+    ],
+    "respuesta": "Consultas básicas, tablas y filtros simples",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "mysql-19",
+    "categoria": "Mysql",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué tipo de JOIN devuelve coincidencias entre ambas tablas relacionadas?",
+    "opciones": ["INNER JOIN", "TOP JOIN", "COLOR JOIN", "STATIC JOIN"],
+    "respuesta": "INNER JOIN",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "mysql-20",
+    "categoria": "Mysql",
+    "tipo": "checkbox",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué buenas prácticas ayudan al diseñar tablas?",
+    "opciones": [
+      "Usar nombres claros",
+      "Definir claves primarias",
+      "Elegir tipos de datos adecuados",
+      "Duplicar columnas sin motivo"
+    ],
+    "respuesta": [
+      "Usar nombres claros",
+      "Definir claves primarias",
+      "Elegir tipos de datos adecuados"
+    ],
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "mysql-21",
+    "categoria": "Mysql",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa unión entre tablas.",
+    "modo": "slots",
+    "plantilla": "SELECT * FROM usuarios {{slot1}} pedidos ON usuarios.id = pedidos.usuario_id;",
+    "opcionesSlots": ["GROUP BY", "INNER JOIN", "LIMIT", "VALUES"],
+    "respuestasSlots": ["INNER JOIN"],
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "mysql-22",
+    "categoria": "Mysql",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué función cuenta filas en una consulta?",
+    "opciones": ["COUNT()", "SUMTEXT()", "ROWS()", "TOTALROW()"],
+    "respuesta": "COUNT()",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "mysql-23",
+    "categoria": "Mysql",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué cláusula agrupa resultados para usar funciones agregadas?",
+    "opciones": ["GROUP BY", "ORDER FAST", "UNION ALL", "TABLE MODE"],
+    "respuesta": "GROUP BY",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "mysql-24",
+    "categoria": "Mysql",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa agrupación por ciudad.",
+    "modo": "slots",
+    "plantilla": "SELECT ciudad, COUNT(*) FROM clientes {{slot0}} ciudad;",
+    "opcionesSlots": ["GROUP BY", "WHERE", "LIMIT", "DELETE"],
+    "respuestasSlots": ["GROUP BY"],
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "mysql-25",
+    "categoria": "Mysql",
+    "tipo": "checkbox",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué funciones agregadas son comunes en MySQL?",
+    "opciones": ["COUNT()", "SUM()", "AVG()", "PAINT()"],
+    "respuesta": ["COUNT()", "SUM()", "AVG()"],
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "mysql-26",
+    "categoria": "Mysql",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué índice suele mejorar búsquedas frecuentes por una columna?",
+    "opciones": ["INDEX", "STYLE", "VIEWPORT", "SCRIPT"],
+    "respuesta": "INDEX",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "mysql-27",
+    "categoria": "Mysql",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa creación de índice.",
+    "modo": "slots",
+    "plantilla": "CREATE {{slot2}} idx_email ON usuarios(email);",
+    "opcionesSlots": ["TABLE", "VIEW", "INDEX", "ROW"],
+    "respuestasSlots": ["INDEX"],
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "mysql-28",
+    "categoria": "Mysql",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué cláusula filtra grupos después de usar GROUP BY?",
+    "opciones": ["HAVING", "WHERE", "ORDER BY", "LIMIT"],
+    "respuesta": "HAVING",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "mysql-29",
+    "categoria": "Mysql",
+    "tipo": "checkbox",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué acciones ayudan al rendimiento de consultas?",
+    "opciones": [
+      "Usar índices adecuados",
+      "Seleccionar solo columnas necesarias",
+      "Filtrar resultados",
+      "Usar SELECT * siempre sin revisar"
+    ],
+    "respuesta": [
+      "Usar índices adecuados",
+      "Seleccionar solo columnas necesarias",
+      "Filtrar resultados"
+    ],
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "mysql-30",
+    "categoria": "Mysql",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa filtro de grupos.",
+    "modo": "slots",
+    "plantilla": "SELECT ciudad, COUNT(*) c FROM clientes GROUP BY ciudad {{slot3}} c > 5;",
+    "opcionesSlots": ["WHERE", "LIMIT", "ORDER BY", "HAVING"],
+    "respuestasSlots": ["HAVING"],
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "mysql-31",
+    "categoria": "Mysql",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué sentencia modifica estructura de una tabla existente?",
+    "opciones": ["ALTER TABLE", "SELECT NOW", "INSERT ROW", "SHOW FIELD"],
+    "respuesta": "ALTER TABLE",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "mysql-32",
+    "categoria": "Mysql",
+    "tipo": "checkbox",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué relaciones entre tablas son comunes en bases relacionales?",
+    "opciones": [
+      "Uno a uno",
+      "Uno a muchos",
+      "Muchos a muchos",
+      "Color a diseño"
+    ],
+    "respuesta": ["Uno a uno", "Uno a muchos", "Muchos a muchos"],
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "mysql-33",
+    "categoria": "Mysql",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa agregar columna nueva.",
+    "modo": "slots",
+    "plantilla": "{{slot1}} usuarios ADD telefono VARCHAR(20);",
+    "opcionesSlots": [
+      "UPDATE TABLE",
+      "ALTER TABLE",
+      "CREATE INDEX",
+      "GROUP TABLE"
+    ],
+    "respuestasSlots": ["ALTER TABLE"],
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "mysql-34",
+    "categoria": "Mysql",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué combinación es valiosa para un junior MySQL intermedio?",
+    "opciones": [
+      "JOINs, funciones agregadas, índices y buen diseño de tablas",
+      "Solo SELECT básico sin relaciones",
+      "Ignorar rendimiento de consultas",
+      "Duplicar datos en todas las tablas"
+    ],
+    "respuesta": "JOINs, funciones agregadas, índices y buen diseño de tablas",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "mysql-35",
+    "categoria": "Mysql",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué transacción garantiza que varias operaciones se confirmen juntas o se deshagan completamente?",
+    "opciones": [
+      "COMMIT / ROLLBACK",
+      "SELECT / LIMIT",
+      "GROUP / HAVING",
+      "SHOW / USE"
+    ],
+    "respuesta": "COMMIT / ROLLBACK",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "mysql-36",
+    "categoria": "Mysql",
+    "tipo": "checkbox",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué principios suelen asociarse a transacciones confiables?",
+    "opciones": ["Atomicidad", "Consistencia", "Durabilidad", "Decoración"],
+    "respuesta": ["Atomicidad", "Consistencia", "Durabilidad"],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "mysql-37",
+    "categoria": "Mysql",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa confirmación de transacción.",
+    "modo": "slots",
+    "plantilla": "{{slot2}};",
+    "opcionesSlots": ["ROLLUP", "SELECT", "COMMIT", "INDEX"],
+    "respuestasSlots": ["COMMIT"],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "mysql-38",
+    "categoria": "Mysql",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué objeto guarda una consulta reutilizable como tabla virtual?",
+    "opciones": ["VIEW", "INDEX", "TRIGGER ONLY", "SESSION"],
+    "respuesta": "VIEW",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "mysql-39",
+    "categoria": "Mysql",
+    "tipo": "checkbox",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué ventajas puede aportar una VIEW?",
+    "opciones": [
+      "Simplificar consultas frecuentes",
+      "Ocultar complejidad",
+      "Reutilizar lógica de lectura",
+      "Eliminar necesidad de tablas reales"
+    ],
+    "respuesta": [
+      "Simplificar consultas frecuentes",
+      "Ocultar complejidad",
+      "Reutilizar lógica de lectura"
+    ],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "mysql-40",
+    "categoria": "Mysql",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa creación de vista.",
+    "modo": "slots",
+    "plantilla": "CREATE {{slot1}} usuarios_activos AS SELECT * FROM usuarios;",
+    "opcionesSlots": ["INDEX", "VIEW", "GROUP", "CACHE"],
+    "respuestasSlots": ["VIEW"],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "mysql-41",
+    "categoria": "Mysql",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué comando permite deshacer cambios no confirmados en una transacción?",
+    "opciones": ["ROLLBACK", "DELETE", "TRUNCATE", "REMOVE"],
+    "respuesta": "ROLLBACK",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "mysql-42",
+    "categoria": "Mysql",
+    "tipo": "checkbox",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué acciones ayudan al rendimiento en bases de datos grandes?",
+    "opciones": [
+      "Índices bien elegidos",
+      "Consultas específicas",
+      "Revisión de planes de ejecución",
+      "Seleccionar todo sin filtros siempre"
+    ],
+    "respuesta": [
+      "Índices bien elegidos",
+      "Consultas específicas",
+      "Revisión de planes de ejecución"
+    ],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "mysql-43",
+    "categoria": "Mysql",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa reversión de cambios.",
+    "modo": "slots",
+    "plantilla": "{{slot0}};",
+    "opcionesSlots": ["ROLLBACK", "HAVING", "COLUMN", "VALUES"],
+    "respuestasSlots": ["ROLLBACK"],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "mysql-44",
+    "categoria": "Mysql",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué sentencia muestra cómo MySQL planea ejecutar una consulta?",
+    "opciones": ["EXPLAIN", "DESIGN", "TRACEHTML", "BUILDPLAN"],
+    "respuesta": "EXPLAIN",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "mysql-45",
+    "categoria": "Mysql",
+    "tipo": "checkbox",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué conviene revisar al optimizar consultas complejas?",
+    "opciones": [
+      "JOINs innecesarios",
+      "Filtros faltantes",
+      "Índices ausentes",
+      "Color del cliente SQL"
+    ],
+    "respuesta": [
+      "JOINs innecesarios",
+      "Filtros faltantes",
+      "Índices ausentes"
+    ],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "mysql-46",
+    "categoria": "Mysql",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa análisis de consulta.",
+    "modo": "slots",
+    "plantilla": "{{slot3}} SELECT * FROM ventas WHERE total > 100;",
+    "opcionesSlots": ["COMMIT", "INDEX", "ROLLBACK", "EXPLAIN"],
+    "respuestasSlots": ["EXPLAIN"],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "mysql-47",
+    "categoria": "Mysql",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué enfoque mejora bases de datos que crecen constantemente?",
+    "opciones": [
+      "Diseño normalizado y consultas eficientes",
+      "Duplicar datos sin control",
+      "Usar una sola tabla para todo",
+      "Evitar índices por completo"
+    ],
+    "respuesta": "Diseño normalizado y consultas eficientes",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "mysql-48",
+    "categoria": "Mysql",
+    "tipo": "checkbox",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué conocimientos suelen pedir vacantes junior con MySQL avanzado básico?",
+    "opciones": [
+      "JOINs complejos",
+      "Subconsultas",
+      "Optimización inicial",
+      "Fabricación de hardware"
+    ],
+    "respuesta": ["JOINs complejos", "Subconsultas", "Optimización inicial"],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "mysql-49",
+    "categoria": "Mysql",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa subconsulta simple.",
+    "modo": "slots",
+    "plantilla": "SELECT * FROM usuarios WHERE id IN ({{slot2}} id_usuario FROM pedidos);",
+    "opcionesSlots": ["UPDATE", "DELETE", "SELECT", "ALTER"],
+    "respuestasSlots": ["SELECT"],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "mysql-50",
+    "categoria": "Mysql",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "Para un perfil junior competitivo con MySQL, ¿qué combinación suele aportar más valor?",
+    "opciones": [
+      "SQL sólido, joins, rendimiento básico y buen diseño de datos",
+      "Solo consultas simples sin relaciones",
+      "Evitar índices y transacciones",
+      "Memorizar comandos sin practicar"
+    ],
+    "respuesta": "SQL sólido, joins, rendimiento básico y buen diseño de datos",
+    "puntos": 30,
+    "timeLimit": 50
+  }
+]
