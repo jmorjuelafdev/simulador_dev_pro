@@ -4,15 +4,15 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "En el contexto de la programación, ¿cómo se define un algoritmo y cuál es su propósito principal al resolver problemas?",
+    "pregunta": "¿Qué número sigue en la secuencia: 2, 4, 6, 8, ?",
     "opciones": [
-      "Una secuencia de pasos ordenados que permite resolver un problema de manera lógica y eficiente.",
-      "Un lenguaje de programación utilizado para crear aplicaciones web.",
-      "Un tipo de error que ocurre en el sistema operativo.",
-      "Un servidor donde se ejecutan programas y gestiona la base de datos."
+      "9",
+      "10",
+      "12",
+      "14"
     ],
-    "respuesta": "Una secuencia de pasos ordenados que permite resolver un problema de manera lógica y eficiente.",
-    "puntos": 15,
+    "respuesta": "10",
+    "puntos": 10,
     "timeLimit": 30
   },
   {
@@ -20,23 +20,20 @@
     "categoria": "Logica",
     "tipo": "codigo",
     "dificultad": "Basico",
-    "pregunta": "Organiza correctamente las etapas que normalmente se siguen al resolver un problema en programación desde su análisis hasta su validación.",
+    "pregunta": "Completa la secuencia ascendente.",
     "modo": "slots",
-    "plantilla": "{{slot0}}\n{{slot1}}\n{{slot2}}\n{{slot3}}",
+    "plantilla": "1, 2, {{slot0}}, 4, 5",
     "opcionesSlots": [
-      "Entender el problema en profundidad de manera clara y detallada.",
-      "Diseñar la solución del problema mediante un plan o pseudocódigo que describa los pasos a seguir.",
-      "Escribir el código que implementa la solución utilizando un lenguaje de programación adecuado.",
-      "Probar el resultado del código para verificar su funcionamiento correcto y realizar ajustes si es necesario."
+      "3",
+      "6",
+      "0",
+      "7"
     ],
     "respuestasSlots": [
-      "Entender el problema en profundidad de manera clara y detallada.",
-      "Diseñar la solución del problema mediante un plan o pseudocódigo que describa los pasos a seguir.",
-      "Escribir el código que implementa la solución utilizando un lenguaje de programación adecuado.",
-      "Probar el resultado del código para verificar su funcionamiento correcto y realizar ajustes si es necesario."
+      "3"
     ],
     "evaluacion": "slots",
-    "puntos": 15,
+    "puntos": 10,
     "timeLimit": 30
   },
   {
@@ -44,19 +41,15 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "En lógica de programación, ¿cuáles son los componentes principales que conforman un algoritmo al momento de resolver un problema?",
+    "pregunta": "Si todos los perros son animales, entonces un perro es:",
     "opciones": [
-      "Entrada, proceso y salida de datos.",
-      "Variable, función y ciclo for de iteración.",
-      "Condición, bucle y operador de comparación.",
-      "Clase, objeto y método de herencia de clases."
+      "Planta",
+      "Animal",
+      "Ave",
+      "Objeto"
     ],
-    "respuesta": "Entrada, proceso y salida de datos.",
-    "hints": [
-      "Piensa en el flujo de datos dentro de un programa.",
-      "Primero se reciben datos, luego se procesan y finalmente se obtiene un resultado."
-    ],
-    "puntos": 15,
+    "respuesta": "Animal",
+    "puntos": 10,
     "timeLimit": 30
   },
   {
@@ -64,41 +57,39 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Para desarrollar software de manera efectiva, ¿cuáles de los siguientes elementos son realmente necesarios al momento de programar?",
+    "pregunta": "Selecciona números pares.",
     "opciones": [
-      "Mentalidad abierta para aprender y adaptarse a nuevos conceptos.",
-      "Intentar varias veces y no rendirse ante los errores.",
-      "Entender el problema y buscar posibles soluciones antes de codificar.",
-      "Memorizar código sin comprender su funcionamiento.",
-      "Evitar documentar para avanzar más rápido.",
-      "Depender completamente de otros para resolver problemas."
+      "2",
+      "5",
+      "8",
+      "11"
     ],
     "respuesta": [
-      "Mentalidad abierta para aprender y adaptarse a nuevos conceptos.",
-      "Intentar varias veces y no rendirse ante los errores.",
-      "Entender el problema y buscar posibles soluciones antes de codificar."
+      "2",
+      "8"
     ],
-    "hints": [
-      "No todo lo técnico es suficiente, también importan habilidades de pensamiento.",
-      "Identifica qué aporta realmente al proceso de desarrollo."
-    ],
-    "puntos": 15,
+    "puntos": 10,
     "timeLimit": 30
   },
   {
     "id": "log-5",
     "categoria": "Logica",
-    "tipo": "multiple",
+    "tipo": "codigo",
     "dificultad": "Basico",
-    "pregunta": "Dentro de un programa, ¿qué representa una variable y por qué es importante su uso en el manejo de datos?",
-    "opciones": [
-      "Un espacio en memoria que permite almacenar y modificar datos durante la ejecución del programa.",
-      "Un valor que nunca cambia durante la ejecución del programa.",
-      "Un lenguaje de programación para crear interfaces de usuario.",
-      "Un servidor donde se guardan archivos y se ejecutan programas."
+    "pregunta": "Completa la secuencia de 5 en 5.",
+    "modo": "slots",
+    "plantilla": "5, 10, {{slot1}}, 20",
+    "opcionesSlots": [
+      "12",
+      "15",
+      "18",
+      "25"
     ],
-    "respuesta": "Un espacio en memoria que permite almacenar y modificar datos durante la ejecución del programa.",
-    "puntos": 15,
+    "respuestasSlots": [
+      "15"
+    ],
+    "evaluacion": "slots",
+    "puntos": 10,
     "timeLimit": 30
   },
   {
@@ -106,35 +97,36 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "En programación, ¿qué es una constante y cuál es su principal característica?",
+    "pregunta": "¿Qué figura tiene 3 lados?",
     "opciones": [
-      "Mantiene un valor fijo que no cambia durante la ejecución del programa.",
-      "Cambia su valor entero durante la ejecución del programa.",
-      "Es una función que retorna un valor.",
-      "Es un arreglo de datos que se utiliza para almacenar información."
+      "Cuadrado",
+      "Triángulo",
+      "Círculo",
+      "Rectángulo"
     ],
-    "respuesta": "Mantiene un valor fijo que no cambia durante la ejecución del programa.",
-    "puntos": 15,
+    "respuesta": "Triángulo",
+    "puntos": 10,
     "timeLimit": 30
   },
   {
     "id": "log-7",
     "categoria": "Logica",
-    "tipo": "multiple",
+    "tipo": "codigo",
     "dificultad": "Basico",
-    "pregunta": "En programación, ¿cuáles son los tipos de datos básicos más comunes que se utilizan para representar información dentro de un programa?",
-    "opciones": [
-      "Enteros, reales, carácter, cadena de caracteres (string) y lógicos (booleanos).",
-      "Clases, objetos, métodos y atributos de herencia.",
-      "Funciones, variables y ciclos for.",
-      "Servidores, bases de datos y APIs de terceros."
+    "pregunta": "Completa la palabra ordenada: C _ S A",
+    "modo": "slots",
+    "plantilla": "C {{slot0}} S A",
+    "opcionesSlots": [
+      "O",
+      "U",
+      "I",
+      "E"
     ],
-    "respuesta": "Enteros, reales, carácter, cadena de caracteres (string) y lógicos (booleanos).",
-    "hints": [
-      "Piensa en los tipos de datos fundamentales que representan números, texto y valores booleanos.",
-      "No confundir con conceptos de programación orientada a objetos."
+    "respuestasSlots": [
+      "O"
     ],
-    "puntos": 15,
+    "evaluacion": "slots",
+    "puntos": 10,
     "timeLimit": 30
   },
   {
@@ -142,48 +134,67 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Teniendo en cuenta la prioridad de operadores, ¿cuál es el resultado de la expresión 3 + 2 * 2?",
-    "opciones": ["7", "10", "8"],
-    "respuesta": "7",
-    "puntos": 15,
+    "pregunta": "Si hoy es lunes, ¿qué día será mañana?",
+    "opciones": [
+      "Domingo",
+      "Martes",
+      "Viernes",
+      "Jueves"
+    ],
+    "respuesta": "Martes",
+    "puntos": 10,
     "timeLimit": 30
   },
   {
     "id": "log-9",
     "categoria": "Logica",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Completa la siguiente expresión de forma que el valor final de la variable sea igual a 10.",
-    "modo": "slots",
-    "plantilla": "let x = {{slot0}} + {{slot1}};",
-    "opcionesSlots": ["5", "2", "8", "3"],
-    "respuestasSlots": ["5", "5"],
-    "evaluacion": "slots",
-    "puntos": 15,
+    "pregunta": "¿Cuál opción es exactamente igual a: ABc129x?",
+    "opciones": [
+      "ABc129X",
+      "ABc192x",
+      "ABc129x",
+      "ABC129x"
+    ],
+    "respuesta": "ABc129x",
+    "puntos": 10,
     "timeLimit": 30
   },
   {
     "id": "log-10",
     "categoria": "Logica",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Completa la siguiente instrucción seleccionando el operador correcto para incrementar en una unidad el valor de la variable.",
-    "modo": "slots",
-    "plantilla": "x {{slot0}};",
-    "opcionesSlots": ["++", "--"],
-    "respuestasSlots": ["++"],
-    "evaluacion": "slots",
+    "pregunta": "¿Qué número falta?: 10, 20, 30, ?, 50",
+    "opciones": [
+      "35",
+      "40",
+      "45",
+      "60"
+    ],
+    "respuesta": "40",
     "puntos": 15,
     "timeLimit": 35
   },
   {
     "id": "log-11",
     "categoria": "Logica",
-    "tipo": "multiple",
+    "tipo": "codigo",
     "dificultad": "Basico",
-    "pregunta": "Analiza el siguiente fragmento de código y determina cuál será el valor final de la variable después de aplicar el operador de asignación:\n\nlet x = 5;\nx += 2;",
-    "opciones": ["7", "5", "2"],
-    "respuesta": "7",
+    "pregunta": "Completa la serie descendente.",
+    "modo": "slots",
+    "plantilla": "9, 8, {{slot0}}, 6, 5",
+    "opcionesSlots": [
+      "7",
+      "4",
+      "3",
+      "2"
+    ],
+    "respuestasSlots": [
+      "7"
+    ],
+    "evaluacion": "slots",
     "puntos": 15,
     "timeLimit": 35
   },
@@ -192,9 +203,14 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Observa el siguiente código y determina cuál será el valor final de la variable después de aplicar la operación correspondiente:\n\nlet x = 5;\nx *= 2;",
-    "opciones": ["10", "7", "5"],
-    "respuesta": "10",
+    "pregunta": "Si una docena son 12 unidades, media docena son:",
+    "opciones": [
+      "3",
+      "4",
+      "6",
+      "8"
+    ],
+    "respuesta": "6",
     "puntos": 15,
     "timeLimit": 35
   },
@@ -203,89 +219,112 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Analiza la siguiente operación de asignación y determina cuál será el valor final de la variable después de ejecutarse:\n\nlet x = 5;\nx -= 3;",
-    "opciones": ["2", "3", "5"],
-    "respuesta": "2",
+    "pregunta": "Selecciona colores primarios tradicionales.",
+    "opciones": [
+      "Rojo",
+      "Azul",
+      "Verde",
+      "Amarillo"
+    ],
+    "respuesta": [
+      "Rojo",
+      "Azul",
+      "Amarillo"
+    ],
     "puntos": 15,
     "timeLimit": 35
   },
   {
     "id": "log-14",
     "categoria": "Logica",
-    "tipo": "multiple",
+    "tipo": "codigo",
     "dificultad": "Basico",
-    "pregunta": "Analiza el siguiente fragmento de código y determina cuál será el valor final de la variable después de aplicar la operación de división:\n\nlet x = 10;\nx /= 2;",
-    "opciones": ["5", "10", "2"],
-    "respuesta": "5",
+    "pregunta": "Completa la serie de 2 en 2.",
+    "modo": "slots",
+    "plantilla": "12, 14, {{slot1}}, 18",
+    "opcionesSlots": [
+      "15",
+      "16",
+      "17",
+      "20"
+    ],
+    "respuestasSlots": [
+      "16"
+    ],
+    "evaluacion": "slots",
     "puntos": 15,
     "timeLimit": 35
   },
   {
     "id": "log-15",
     "categoria": "Logica",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Selecciona la opción donde el operador utilizado corresponde correctamente a la comparación descrita en la afirmación.",
-    "modo": "slots",
-    "plantilla": "{{slot0}} Se evalúa si un valor es mayor que otro.\n{{slot1}} Se evalúa si dos valores son exactamente iguales.\n{{slot2}} Se evalúa si un valor es menor que otro.\n{{slot3}} Se evalúa si dos valores son diferentes.\n{{slot4}} Se asigna un valor a una variable.",
-    "opcionesSlots": [">", "===", "<", "!=", "="],
-    "respuestasSlots": [">", "===", "<", "!=", "="],
-    "evaluacion": "slots",
-    "hints": [
-      "Cada operador debe coincidir correctamente con la descripción.",
-      "Recuerda la diferencia entre comparación (===) y asignación (=)."
+    "pregunta": "¿Cuántas veces aparece la letra M en la serie: M N M A P M T M?",
+    "opciones": [
+      "2",
+      "3",
+      "4",
+      "5"
     ],
+    "respuesta": "4",
     "puntos": 15,
     "timeLimit": 35
   },
   {
     "id": "log-16",
     "categoria": "Logica",
-    "tipo": "multiple",
+    "tipo": "codigo",
     "dificultad": "Basico",
-    "pregunta": "¿Qué es un valor booleano en programación y cuál es su principal utilidad?",
-    "opciones": [
-      "Un valor que puede ser true o false que se utiliza para representar condiciones lógicas.",
-      "Un número entero que se utiliza para realizar operaciones matemáticas.",
-      "Un texto que se utiliza para almacenar información.",
-      "Una lista de datos que se utiliza para almacenar varios valores."
+    "pregunta": "Completa la palabra: P U E R T A",
+    "modo": "slots",
+    "plantilla": "P {{slot4}}{{slot1}} R T A",
+    "opcionesSlots": [
+      "A",
+      "E",
+      "I",
+      "O",
+      "U"
     ],
-    "respuesta": "Un valor que puede ser true o false que se utiliza para representar condiciones lógicas.",
+    "respuestasSlots": [
+      "U",
+      "E"
+    ],
+    "evaluacion": "slots",
     "puntos": 15,
     "timeLimit": 35
   },
   {
     "id": "log-17",
     "categoria": "Logica",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Completa la siguiente tabla de verdad correspondiente al operador lógico AND, teniendo en cuenta que solo será verdadero cuando ambas condiciones sean verdaderas.",
-    "modo": "slots",
-    "plantilla": "A     B     A AND B\ntrue  true  {{slot0}}\ntrue  false {{slot1}}\nfalse true  {{slot2}}\nfalse false {{slot3}}",
-    "opcionesSlots": ["true", "false"],
-    "respuestasSlots": ["true", "false", "false", "false"],
-    "evaluacion": "slots",
-    "hints": [
-      "El operador AND solo es verdadero si ambas condiciones son verdaderas.",
-      "Si al menos una condición es falsa, el resultado será falso."
+    "pregunta": "¿Cuántos lados tiene un cuadrado?",
+    "opciones": [
+      "3",
+      "4",
+      "5",
+      "6"
     ],
+    "respuesta": "4",
     "puntos": 15,
     "timeLimit": 35
   },
   {
     "id": "log-18",
     "categoria": "Logica",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Completa la siguiente tabla de verdad correspondiente al operador lógico OR, teniendo en cuenta que será verdadero cuando al menos una de las condiciones sea verdadera.",
-    "modo": "slots",
-    "plantilla": "A     B     A OR B\ntrue  true  {{slot0}}\ntrue  false {{slot1}}\nfalse true  {{slot2}}\nfalse false {{slot3}}",
-    "opcionesSlots": ["true", "false"],
-    "respuestasSlots": ["true", "true", "true", "false"],
-    "evaluacion": "slots",
-    "hints": [
-      "El operador OR es verdadero si al menos una condición es verdadera.",
-      "Solo es falso cuando ambas condiciones son falsas."
+    "pregunta": "Selecciona las cadenas idénticas a: zxP44q",
+    "opciones": [
+      "zxP44q",
+      "zxp44q",
+      "zxP44q",
+      "zxP4q4"
+    ],
+    "respuesta": [
+      "zxP44q",
+      "zxP44q"
     ],
     "puntos": 15,
     "timeLimit": 35
@@ -293,29 +332,37 @@
   {
     "id": "log-19",
     "categoria": "Logica",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Completa la siguiente tabla de verdad correspondiente al operador lógico NOT, teniendo en cuenta que este operador invierte el valor lógico de la condición.",
-    "modo": "slots",
-    "plantilla": "A     NOT A\ntrue  {{slot0}}\nfalse {{slot1}}",
-    "opcionesSlots": ["true", "false"],
-    "respuestasSlots": ["false", "true"],
-    "evaluacion": "slots",
-    "hints": [
-      "El operador NOT invierte el valor lógico.",
-      "Si la entrada es verdadera, el resultado será falso, y viceversa."
+    "pregunta": "¿Qué número sigue en la secuencia: 3, 6, 12, 24, ?",
+    "opciones": [
+      "36",
+      "42",
+      "48",
+      "96"
     ],
+    "respuesta": "48",
     "puntos": 20,
     "timeLimit": 40
   },
   {
     "id": "log-20",
     "categoria": "Logica",
-    "tipo": "multiple",
+    "tipo": "codigo",
     "dificultad": "Intermedio",
-    "pregunta": "Al evaluar la expresión 5 > 3 dentro de una condición lógica, ¿qué resultado se obtiene y qué indica este valor en el contexto del programa?",
-    "opciones": ["true", "false"],
-    "respuesta": "true",
+    "pregunta": "Completa la secuencia multiplicando por 3.",
+    "modo": "slots",
+    "plantilla": "2, 6, {{slot1}}, 54",
+    "opcionesSlots": [
+      "9",
+      "12",
+      "18",
+      "27"
+    ],
+    "respuestasSlots": [
+      "18"
+    ],
+    "evaluacion": "slots",
     "puntos": 20,
     "timeLimit": 40
   },
@@ -324,9 +371,14 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Si se analiza la expresión 5 < 3 en una comparación lógica, ¿cuál es el resultado esperado y por qué ocurre ese comportamiento?",
-    "opciones": ["false", "true"],
-    "respuesta": "false",
+    "pregunta": "Si todos los desarrolladores programan y Ana es desarrolladora, entonces Ana:",
+    "opciones": [
+      "Diseña",
+      "Programa",
+      "No programa",
+      "Es gerente"
+    ],
+    "respuesta": "Programa",
     "puntos": 20,
     "timeLimit": 40
   },
@@ -335,20 +387,38 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "En una expresión lógica dentro de un programa, ¿qué operador se utiliza para evaluar una condición de tipo OR, donde basta con que una de las condiciones sea verdadera?",
-    "opciones": ["||", "&&", "!"],
-    "respuesta": "||",
+    "pregunta": "Selecciona números primos.",
+    "opciones": [
+      "2",
+      "4",
+      "5",
+      "9"
+    ],
+    "respuesta": [
+      "2",
+      "5"
+    ],
     "puntos": 20,
     "timeLimit": 40
   },
   {
     "id": "log-23",
     "categoria": "Logica",
-    "tipo": "multiple",
+    "tipo": "codigo",
     "dificultad": "Intermedio",
-    "pregunta": "Cuando se requiere validar que dos condiciones sean verdaderas al mismo tiempo dentro de una expresión lógica, ¿qué operador se utiliza para representar un AND?",
-    "opciones": ["&&", "||", "!"],
-    "respuesta": "&&",
+    "pregunta": "Completa la serie alternada: 1, 3, 2, 4, 3, ?",
+    "modo": "slots",
+    "plantilla": "1, 3, 2, 4, 3, {{slot1}}",
+    "opcionesSlots": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "respuestasSlots": [
+      "5"
+    ],
+    "evaluacion": "slots",
     "puntos": 20,
     "timeLimit": 40
   },
@@ -357,20 +427,35 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "En el contexto de condiciones lógicas, ¿qué operador se utiliza para invertir o negar el valor de una expresión booleana?",
-    "opciones": ["!", "&&", "||"],
-    "respuesta": "!",
+    "pregunta": "¿Cuál número es diferente?",
+    "opciones": [
+      "54821",
+      "54821",
+      "54812",
+      "54821"
+    ],
+    "respuesta": "54812",
     "puntos": 20,
     "timeLimit": 40
   },
   {
     "id": "log-25",
     "categoria": "Logica",
-    "tipo": "multiple",
+    "tipo": "codigo",
     "dificultad": "Intermedio",
-    "pregunta": "Al aplicar el operador de negación a un valor verdadero, como en la expresión !(true), ¿cuál es el resultado final de la evaluación?",
-    "opciones": ["false", "true"],
-    "respuesta": "false",
+    "pregunta": "Completa la analogía: Mano es a guante como pie es a ____.",
+    "modo": "slots",
+    "plantilla": "Mano : guante :: Pie : {{slot1}}",
+    "opcionesSlots": [
+      "gorra",
+      "zapato",
+      "camisa",
+      "cinturón"
+    ],
+    "respuestasSlots": [
+      "zapato"
+    ],
+    "evaluacion": "slots",
     "puntos": 20,
     "timeLimit": 40
   },
@@ -379,9 +464,14 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Analiza el siguiente fragmento de código y determina cuál será el valor final almacenado en la variable `z` después de evaluar la expresión lógica:\n\nlet x = true;\nlet y = false;\nlet z = x || y;",
-    "opciones": ["true", "false"],
-    "respuesta": "true",
+    "pregunta": "¿Qué número falta?: 1, 4, 9, 16, ?, 36",
+    "opciones": [
+      "20",
+      "24",
+      "25",
+      "30"
+    ],
+    "respuesta": "25",
     "puntos": 20,
     "timeLimit": 40
   },
@@ -390,34 +480,54 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Observa el siguiente código y determina cuál es el valor final de la variable `y` después de aplicar el operador lógico NOT sobre la variable inicial:\n\nlet x = false;\nlet y = !x;",
-    "opciones": ["true", "false"],
-    "respuesta": "true",
+    "pregunta": "Selecciona secuencias correctamente ordenadas de menor a mayor.",
+    "opciones": [
+      "1,2,3,4",
+      "2,1,3,4",
+      "5,6,7,8",
+      "9,8,7,6"
+    ],
+    "respuesta": [
+      "1,2,3,4",
+      "5,6,7,8"
+    ],
     "puntos": 20,
     "timeLimit": 40
   },
   {
     "id": "log-28",
     "categoria": "Logica",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Completa la siguiente expresión lógica seleccionando el operador adecuado para que el resultado final de la expresión sea verdadero.",
-    "modo": "slots",
-    "plantilla": "let resultado = (5 > 3 {{slot0}} 2 < 1);",
-    "opcionesSlots": ["&&", "||"],
-    "respuestasSlots": ["||"],
-    "evaluacion": "slots",
+    "pregunta": "¿Qué número sigue?: 2, 3, 5, 8, 13, ?",
+    "opciones": [
+      "18",
+      "20",
+      "21",
+      "24"
+    ],
+    "respuesta": "21",
     "puntos": 25,
     "timeLimit": 45
   },
   {
     "id": "log-29",
     "categoria": "Logica",
-    "tipo": "multiple",
+    "tipo": "codigo",
     "dificultad": "Intermedio",
-    "pregunta": "Considerando la prioridad de los operadores lógicos, ¿cuál es el resultado de la expresión (true || false) && false?",
-    "opciones": ["false", "true"],
-    "respuesta": "false",
+    "pregunta": "Completa la secuencia de cuadrados perfectos.",
+    "modo": "slots",
+    "plantilla": "4, 9, 16, {{slot2}}, 36",
+    "opcionesSlots": [
+      "20",
+      "24",
+      "25",
+      "30"
+    ],
+    "respuestasSlots": [
+      "25"
+    ],
+    "evaluacion": "slots",
     "puntos": 25,
     "timeLimit": 45
   },
@@ -426,14 +536,14 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Dadas las variables a = 5, b = 10 y c = 15, ¿cuál es el resultado de evaluar la expresión (a + b) * c > 200 considerando el orden correcto de las operaciones?",
-    "opciones": ["true", "false", "200", "225"],
-    "respuesta": "true",
-    "hints": [
-      "Primero resuelve la suma dentro de los paréntesis.",
-      "Luego realiza la multiplicación.",
-      "Finalmente evalúa la comparación."
+    "pregunta": "¿Cuál palabra está escrita correcmente igual al modelo: Desarrollo?",
+    "opciones": [
+      "Desarollo",
+      "Desarrollo",
+      "Desarrolllo",
+      "Desarrolo"
     ],
+    "respuesta": "Desarrollo",
     "puntos": 25,
     "timeLimit": 45
   },
@@ -442,99 +552,129 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "En programación, ¿qué son las estructuras de control y cuáles son los tipos más comunes que permiten controlar el flujo de ejecución de un programa?",
+    "pregunta": "Selecciona números idénticos al modelo: 73051",
     "opciones": [
-      "Son instrucciones que permiten controlar el flujo del programa, como condicionales (if), ciclos (for, while) y estructuras de control de flujo.",
-      "Son tipos de datos utilizados para almacenar información, como números y cadenas de texto.",
-      "Son herramientas para diseñar interfaces gráficas en una aplicación.",
-      "Son funciones utilizadas únicamente para imprimir resultados en pantalla."
+      "73015",
+      "73051",
+      "73501",
+      "73051"
     ],
-    "respuesta": "Son instrucciones que permiten controlar el flujo del programa, como condicionales (if), ciclos (for, while) y estructuras de control de flujo.",
+    "respuesta": [
+      "73051",
+      "73051"
+    ],
     "puntos": 25,
     "timeLimit": 45
   },
   {
     "id": "log-32",
     "categoria": "Logica",
-    "tipo": "multiple",
+    "tipo": "codigo",
     "dificultad": "Intermedio",
-    "pregunta": "En programación, ¿para qué sirve una estructura condicional como if/else dentro de un algoritmo?",
-    "opciones": [
-      "Permitir tomar decisiones basadas en la evaluación de una condición lógica (verdadero o falso) y ejecutar diferentes bloques de código en consecuencia.",
-      "Repetir un bloque de código múltiples veces dentro del flujo del programa.",
-      "Definir variables dentro del programa mediante una condición lógica.",
-      "Ordenar datos dentro de una estructura de datos."
+    "pregunta": "Completa la palabra invertida de SOL.",
+    "modo": "slots",
+    "plantilla": "SOL -> {{slot0}}",
+    "opcionesSlots": [
+      "LOS",
+      "SLO",
+      "OLS",
+      "LSO"
     ],
-    "respuesta": "Permitir tomar decisiones basadas en la evaluación de una condición lógica (verdadero o falso) y ejecutar diferentes bloques de código en consecuencia.",
+    "respuestasSlots": [
+      "LOS"
+    ],
+    "evaluacion": "slots",
     "puntos": 25,
     "timeLimit": 45
   },
   {
     "id": "log-33",
     "categoria": "Logica",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Completa la siguiente condición lógica seleccionando el operador adecuado para que la expresión evaluada dentro del if sea verdadera.",
-    "modo": "slots",
-    "plantilla": "if (5 {{slot0}} 3)",
-    "opcionesSlots": [">", "<"],
-    "respuestasSlots": [">"],
-    "evaluacion": "slots",
+    "pregunta": "¿Cuál opción completa la analogía: Libro es a leer como música es a ____?",
+    "opciones": [
+      "Cantar",
+      "Escuchar",
+      "Bailar",
+      "Escribir"
+    ],
+    "respuesta": "Escuchar",
     "puntos": 25,
     "timeLimit": 45
   },
   {
     "id": "log-34",
     "categoria": "Logica",
-    "tipo": "multiple",
+    "tipo": "codigo",
     "dificultad": "Intermedio",
-    "pregunta": "En una estructura if/else, ¿qué ocurre si la condición del if es falsa?",
-    "opciones": [
-      "Se ejecuta el bloque del else si está definido.",
-      "El programa termina inmediatamente si la condición del if es falsa y no se ejecuta el bloque del else.",
-      "Se repite el if hasta que sea verdadero la condición del else.",
-      "Se ejecutan ambos bloques (if y else) siempre que la condición del if sea falsa."
+    "pregunta": "Completa exactamente la secuencia: A1B2C3, A1B2__, A1__C3",
+    "modo": "slots",
+    "plantilla": "A1B2C3, A1B2{{slot0}}, A1{{slot1}}C3",
+    "opcionesSlots": [
+      "C3",
+      "B2",
+      "D4",
+      "A1"
     ],
-    "respuesta": "Se ejecuta el bloque del else si está definido.",
-    "puntos": 30,
-    "timeLimit": 50
+    "respuestasSlots": [
+      "C3",
+      "B2"
+    ],
+    "evaluacion": "slots",
+    "puntos": 25,
+    "timeLimit": 45
   },
   {
     "id": "log-35",
     "categoria": "Logica",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "Completa la siguiente condición para verificar si dos valores son iguales.",
-    "modo": "slots",
-    "plantilla": "if (5 {{slot0}} 5)",
-    "opcionesSlots": ["===", "!=", ">"],
-    "respuestasSlots": ["==="],
-    "evaluacion": "slots",
+    "pregunta": "¿Qué número sigue en la secuencia: 1, 2, 4, 7, 11, ?",
+    "opciones": [
+      "14",
+      "15",
+      "16",
+      "17"
+    ],
+    "respuesta": "16",
     "puntos": 30,
     "timeLimit": 50
   },
   {
     "id": "log-36",
     "categoria": "Logica",
-    "tipo": "multiple",
+    "tipo": "codigo",
     "dificultad": "Avanzado",
-    "pregunta": "Analiza el siguiente fragmento de código y determina cuál será el valor final de la variable después de evaluar la condición y ejecutar el bloque correspondiente:\n\nlet x = 5;\nif (x > 3) { x = x + 2; }",
-    "opciones": ["7", "5", "3"],
-    "respuesta": "7",
+    "pregunta": "Completa la secuencia sumando números consecutivos.",
+    "modo": "slots",
+    "plantilla": "3, 5, 8, 12, {{slot2}}",
+    "opcionesSlots": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "respuestasSlots": [
+      "17"
+    ],
+    "evaluacion": "slots",
     "puntos": 30,
     "timeLimit": 50
   },
   {
     "id": "log-37",
     "categoria": "Logica",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "Completa la siguiente condición lógica seleccionando el operador adecuado para verificar si una variable numérica contiene un valor par dentro de una estructura condicional.",
-    "modo": "slots",
-    "plantilla": "if (num {{slot0}} 2 != 0)",
-    "opcionesSlots": ["%", "*", "+"],
-    "respuestasSlots": ["%"],
-    "evaluacion": "slots",
+    "pregunta": "Si algunos gatos son negros y todos los gatos son animales, entonces:",
+    "opciones": [
+      "Todos los animales son gatos",
+      "Algunos animales son negros",
+      "Ningún gato es negro",
+      "Todos los gatos son negros"
+    ],
+    "respuesta": "Algunos animales son negros",
     "puntos": 30,
     "timeLimit": 50
   },
@@ -543,20 +683,39 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "Observa el siguiente código y determina cuál será el valor final de la variable considerando la condición que verifica si el número es par:\n\nlet x = 4;\nif (x % 2 === 0) {\n  x = x * 2;\n}",
-    "opciones": ["8", "4", "2", "6"],
-    "respuesta": "8",
+    "pregunta": "Selecciona números divisibles entre 4.",
+    "opciones": [
+      "8",
+      "10",
+      "12",
+      "16"
+    ],
+    "respuesta": [
+      "8",
+      "12",
+      "16"
+    ],
     "puntos": 30,
     "timeLimit": 50
   },
   {
     "id": "log-39",
     "categoria": "Logica",
-    "tipo": "multiple",
+    "tipo": "codigo",
     "dificultad": "Avanzado",
-    "pregunta": "Analiza el siguiente flujo condicional y determina cuál será el valor final de la variable después de ejecutarse el bloque correspondiente:\n\nlet x = 3;\nif (x > 5) {\n  x = x + 2;\n} else {\n  x = x - 1;\n}",
-    "opciones": ["2", "3", "5", "4"],
-    "respuesta": "2",
+    "pregunta": "Completa la analogía: Día es a noche como blanco es a ____.",
+    "modo": "slots",
+    "plantilla": "Día : noche :: Blanco : {{slot1}}",
+    "opcionesSlots": [
+      "gris",
+      "negro",
+      "rojo",
+      "azul"
+    ],
+    "respuestasSlots": [
+      "negro"
+    ],
+    "evaluacion": "slots",
     "puntos": 30,
     "timeLimit": 50
   },
@@ -565,44 +724,51 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué se entiende por bucle en programación?",
+    "pregunta": "¿Qué número falta?: 2, 6, 12, 20, ?, 42",
     "opciones": [
-      "Una estructura que repite un bloque de código mientras se cumple una condición específica.",
-      "Una estructura que ejecuta un bloque de código una sola vez o hasta que se cumpla una condición específica.",
-      "Una estructura que detiene la ejecución del programa cuando se cumple una condición específica.",
-      "Una estructura que declara variables en un bloque de código."
+      "28",
+      "30",
+      "32",
+      "34"
     ],
-    "respuesta": "Una estructura que repite un bloque de código mientras se cumple una condición específica.",
+    "respuesta": "30",
     "puntos": 30,
     "timeLimit": 50
   },
   {
     "id": "log-41",
     "categoria": "Logica",
-    "tipo": "multiple",
+    "tipo": "codigo",
     "dificultad": "Avanzado",
-    "pregunta": "En programación, ¿qué se entiende por un bucle infinito y por qué puede representar un problema en la ejecución de un programa?",
-    "opciones": [
-      "Un ciclo que no tiene una condición de salida válida o cuya condición nunca se cumple, provocando que el programa no termine.",
-      "Un ciclo que se ejecuta una sola vez y luego se detiene sin ninguna condición de salida.",
-      "Un bloque de código que siempre produce un error de sintaxis cuando se ejecuta.",
-      "Una función que se ejecuta automáticamente al iniciar el programa sin ninguna condición de salida."
+    "pregunta": "Completa la serie alterna: A, C, B, D, C, ?",
+    "modo": "slots",
+    "plantilla": "A, C, B, D, C, {{slot1}}",
+    "opcionesSlots": [
+      "D",
+      "E",
+      "F",
+      "G"
     ],
-    "respuesta": "Un ciclo que no tiene una condición de salida válida o cuya condición nunca se cumple, provocando que el programa no termine.",
+    "respuestasSlots": [
+      "E"
+    ],
+    "evaluacion": "slots",
     "puntos": 30,
     "timeLimit": 50
   },
   {
     "id": "log-42",
     "categoria": "Logica",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "Relaciona cada tipo de bucle con la descripción que mejor representa su comportamiento dentro de un programa.",
-    "modo": "slots",
-    "plantilla": "{{slot0}}: Se utiliza cuando se conoce previamente cuántas veces se repetirá un bloque de código.\n\n{{slot1}}: Se ejecuta siempre y cuando una condición sea verdadera, evaluándose antes de cada iteración.\n\n{{slot2}}: Garantiza que el bloque de código se ejecute al menos una vez antes de evaluar la condición.\n\n{{slot3}}: Permite controlar la iteración mediante inicialización, condición e incremento en una sola estructura.\n\n{{slot4}}: Evalúa la condición al final de la ejecución del bloque, no al inicio.",
-    "opcionesArrastrar": ["for", "while", "do...while"],
-    "respuestasSlots": ["for", "while", "do...while", "for", "do...while"],
-    "evaluacion": "slots",
+    "pregunta": "Tres personas tardan 3 horas en una tarea. Si trabajan al mismo ritmo, 6 personas tardan:",
+    "opciones": [
+      "1.5 horas",
+      "2 horas",
+      "3 horas",
+      "6 horas"
+    ],
+    "respuesta": "1.5 horas",
     "puntos": 30,
     "timeLimit": 50
   },
@@ -611,9 +777,17 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "¿Cuántas veces se ejecuta?\n\nfor (let i = 0; i < 3; i++) {}",
-    "opciones": ["3", "2", "4"],
-    "respuesta": "3",
+    "pregunta": "Selecciona las opciones exactamente iguales a: Rt9Lm22",
+    "opciones": [
+      "Rt9Lm22",
+      "RT9Lm22",
+      "Rt9Lm22",
+      "Rt9lm22"
+    ],
+    "respuesta": [
+      "Rt9Lm22",
+      "Rt9Lm22"
+    ],
     "puntos": 30,
     "timeLimit": 50
   },
@@ -622,11 +796,18 @@
     "categoria": "Logica",
     "tipo": "codigo",
     "dificultad": "Avanzado",
-    "pregunta": "Completa el código para generar los primeros números de la sucesión de Fibonacci:",
+    "pregunta": "Completa la secuencia de potencias de 2.",
     "modo": "slots",
-    "plantilla": "a = 0\nb = 1\n\nfor i in range(10):\n    print(a)\n    temp = a\n    a = {{slot0}}\n    b = {{slot1}}",
-    "opcionesSlots": ["b", "temp + b", "a + b", "temp"],
-    "respuestasSlots": ["b", "temp + b"],
+    "plantilla": "2, 4, 8, 16, {{slot2}}",
+    "opcionesSlots": [
+      "24",
+      "30",
+      "32",
+      "36"
+    ],
+    "respuestasSlots": [
+      "32"
+    ],
     "evaluacion": "slots",
     "puntos": 30,
     "timeLimit": 50
@@ -636,25 +817,35 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué devuelve este código?\n\nlet x = 5;\nwhile (x > 3) {\n  x--;\n}",
-    "opciones": ["3", "5", "4"],
-    "respuesta": "3",
+    "pregunta": "¿Cuál símbolo falta en la serie?: @ # @ # @ ?",
+    "opciones": [
+      "@",
+      "#",
+      "&",
+      "%"
+    ],
+    "respuesta": "#",
     "puntos": 30,
     "timeLimit": 50
   },
   {
     "id": "log-46",
     "categoria": "Logica",
-    "tipo": "multiple",
+    "tipo": "codigo",
     "dificultad": "Avanzado",
-    "pregunta": "Analiza el siguiente fragmento de código y determina cuál será el comportamiento del bucle, teniendo en cuenta el momento en que se evalúa la condición:\n\nlet x = 10;\n\ndo {\n  x++;\n} while (x < 10);",
-    "opciones": [
-      "El bloque se ejecuta una vez y x termina con valor 11 y la condición es falsa.",
-      "El bloque no se ejecuta porque la condición es falsa inmediatamente.",
-      "El bloque se ejecuta varias veces hasta que x sea mayor que 10 y la condición es falsa.",
-      "El bucle genera un error porque la condición es falsa inmediatamente."
+    "pregunta": "Completa la palabra que sigue el patrón: sol, luna, sol, luna, ____.",
+    "modo": "slots",
+    "plantilla": "sol, luna, sol, luna, {{slot1}}",
+    "opcionesSlots": [
+      "estrella",
+      "sol",
+      "marte",
+      "nube"
     ],
-    "respuesta": "El bloque se ejecuta una vez y x termina con valor 11 y la condición es falsa.",
+    "respuestasSlots": [
+      "sol"
+    ],
+    "evaluacion": "slots",
     "puntos": 30,
     "timeLimit": 50
   },
@@ -663,14 +854,14 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "En programación, ¿qué es una estructura switch case y en qué tipo de situaciones se utiliza dentro del flujo de un programa?",
+    "pregunta": "¿Qué número sigue?: 100, 90, 81, 73, ?",
     "opciones": [
-      "Es una estructura de control que permite ejecutar diferentes bloques de código según el valor de una variable, siendo útil cuando hay múltiples condiciones basadas en un mismo valor.",
-      "Es una función que permite repetir un bloque de código varias veces segun el valor de una variable.",
-      "Es un tipo de dato utilizado para almacenar múltiples valores en una sola variable.",
-      "Es una instrucción que se usa únicamente para imprimir resultados en pantalla y no se utiliza dentro del flujo de un programa."
+      "66",
+      "65",
+      "64",
+      "63"
     ],
-    "respuesta": "Es una estructura de control que permite ejecutar diferentes bloques de código según el valor de una variable, siendo útil cuando hay múltiples condiciones basadas en un mismo valor.",
+    "respuesta": "66",
     "puntos": 30,
     "timeLimit": 50
   },
@@ -679,30 +870,38 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "Analiza el siguiente fragmento de código que clasifica un día de la semana y determina cuál será la salida en consola:\n\nlet dia = 'sabado';\n\nswitch (dia) {\n  case 'lunes':\n  case 'martes':\n  case 'miercoles':\n  case 'jueves':\n  case 'viernes':\n    console.log('Día laboral');\n    break;\n  case 'sabado':\n  case 'domingo':\n    console.log('Fin de semana');\n    break;\n  default:\n    console.log('Día no válido');\n}",
+    "pregunta": "Selecciona filas donde todos los caracteres son iguales al modelo: K7K7",
     "opciones": [
-      "Día laboral",
-      "Fin de semana",
-      "Día no válido",
-      "No imprime nada"
+      "K7K7",
+      "K7k7",
+      "K7K7",
+      "KK77"
     ],
-    "respuesta": "Fin de semana",
+    "respuesta": [
+      "K7K7",
+      "K7K7"
+    ],
     "puntos": 30,
     "timeLimit": 50
   },
   {
     "id": "log-49",
     "categoria": "Logica",
-    "tipo": "multiple",
+    "tipo": "codigo",
     "dificultad": "Avanzado",
-    "pregunta": "En programación, ¿qué es la estructura try...catch y cómo funciona cuando ocurre un error durante la ejecución del código?",
-    "opciones": [
-      "Es una estructura que permite intentar ejecutar un bloque de código y, si ocurre un error, capturarlo para evitar que el programa se detenga.",
-      "Es una función que repite código varias veces hasta que no haya errores.",
-      "Es un tipo de variable que almacena errores en memoria.",
-      "Es una instrucción que solo se utiliza para imprimir mensajes en consola."
+    "pregunta": "Completa la secuencia: Z, X, V, T, ____.",
+    "modo": "slots",
+    "plantilla": "Z, X, V, T, {{slot0}}",
+    "opcionesSlots": [
+      "R",
+      "S",
+      "Q",
+      "P"
     ],
-    "respuesta": "Es una estructura que permite intentar ejecutar un bloque de código y, si ocurre un error, capturarlo para evitar que el programa se detenga.",
+    "respuestasSlots": [
+      "R"
+    ],
+    "evaluacion": "slots",
     "puntos": 30,
     "timeLimit": 50
   },
@@ -711,14 +910,14 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "Analiza el siguiente fragmento de código y determina cuál será la salida en consola considerando el manejo de errores:\n\ntry {\n  let resultado = numero + 5;\n  console.log(resultado);\n} catch (error) {\n  console.log(\"Error detectado\");\n}",
+    "pregunta": "¿Cuántas veces aparece el número 7 en la serie: 7 3 7 9 1 7 4 7 2 7?",
     "opciones": [
-      "Error detectado en consola",
-      "5 en consola",
-      "undefined en consola",
-      "El código no imprime nada en consola"
+      "3",
+      "4",
+      "5",
+      "6"
     ],
-    "respuesta": "Error detectado en consola",
+    "respuesta": "5",
     "puntos": 30,
     "timeLimit": 50
   }

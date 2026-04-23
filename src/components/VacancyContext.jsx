@@ -7,11 +7,11 @@ function VacancyContext() {
       <ul className="record-list">
         <li>
           <FontAwesomeIcon icon="brain" aria-label="Fundamentos" fixedWidth />{" "}
-          Fundamentos: pensamiento lógico y JavaScript básico para dominar condicionales y estructuras.
+          Fundamentos: pensamiento lógico (Lógica y Lógica 2) para dominar condicionales y estructuras.
         </li>
         <li>
           <FontAwesomeIcon icon="lightbulb" aria-label="Frontend" fixedWidth />{" "}
-          Frontend: HTML, CSS y frameworks (JavaScript 2, Angular, APIs/JSON, Accesibilidad, UX/UI) orientados a experiencias accesibles.
+          Frontend: JavaScript, HTML, CSS y frameworks (JavaScript 2, Angular, API REST, UX/UI) orientados a experiencias fluidas y consistentes.
         </li>
         <li>
           <FontAwesomeIcon icon="gears" aria-label="Backend" fixedWidth />{" "}
@@ -19,7 +19,7 @@ function VacancyContext() {
         </li>
         <li>
           <FontAwesomeIcon icon={"layer-group"} aria-label="Fullstack" fixedWidth />{" "}
-          Fullstack: integración end-to-end y bases de datos con Mysql para proyectos completos.
+          Fullstack: control de versiones con Git y bases de datos con Mysql para proyectos completos.
         </li>
         <li>
           <FontAwesomeIcon icon="handshake" aria-label="Skills" fixedWidth />{" "}

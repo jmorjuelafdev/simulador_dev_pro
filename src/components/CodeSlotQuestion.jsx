@@ -1,6 +1,32 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { barajar, completarPlantillaCodigo, descomponerPlantillaCodigo } from "../utils/quiz";
 
+const assetImages = import.meta.glob("../assets/img/*", {
+  eager: true,
+  import: "default"
+});
+
+function resolveHtmlAssetUrls(html = "") {
+  if (!html || typeof html !== "string") return "";
+
+  return html.replace(/\s(src)\s*=\s*(["'])([^"']+)(\2)/gi, (match, attr, quote, value) => {
+    if (!value) return match;
+    if (/^(https?:)?\/\//i.test(value) || value.startsWith("data:") || value.startsWith("/")) {
+      return match;
+    }
+
+    const normalized = value.replace(/^\.\//, "");
+    const fileName = normalized.split("/").pop();
+    if (!fileName) return match;
+
+    const entry = Object.entries(assetImages).find(([key]) => key.split("/").pop() === fileName);
+    if (!entry) return match;
+
+    const resolvedUrl = entry[1];
+    return ` ${attr}=${quote}${resolvedUrl}${quote}`;
+  });
+}
+
 function CodeSlotQuestion({ pregunta, respuestaActual, onResponder, disabled }) {
   const {
     plantilla = "",
@@ -16,8 +42,23 @@ function CodeSlotQuestion({ pregunta, respuestaActual, onResponder, disabled }) 
     return [];
   }, [opcionesArrastrar, opcionesSlots]);
 
-  const slotCount = Array.isArray(respuestasSlots) ? respuestasSlots.length : 0;
   const partes = useMemo(() => descomponerPlantillaCodigo(plantilla), [plantilla]);
+
+  const slotIndices = useMemo(
+    () => partes.filter((parte) => parte.tipo === "slot").map((parte) => parte.indice),
+    [partes]
+  );
+
+  const slotCount = useMemo(() => {
+    const indices = partes
+      .filter((parte) => parte.tipo === "slot")
+      .map((parte) => (Number.isFinite(parte.indice) ? parte.indice : -1))
+      .filter((indice) => indice >= 0);
+    if (!indices.length) {
+      return Array.isArray(respuestasSlots) ? respuestasSlots.length : 0;
+    }
+    return Math.max(...indices) + 1;
+  }, [partes, respuestasSlots]);
 
   const createEmptySelection = useCallback(
     () => Array.from({ length: slotCount }, () => ""),
@@ -25,7 +66,7 @@ function CodeSlotQuestion({ pregunta, respuestaActual, onResponder, disabled }) 
   );
   const [seleccion, setSeleccion] = useState(() => createEmptySelection());
   const [bancoOpciones, setBancoOpciones] = useState(() => barajar(rawOptions));
-  const [focusSlot, setFocusSlot] = useState(0);
+  const [focusSlot, setFocusSlot] = useState(() => slotIndices[0] ?? 0);
 
   useEffect(() => {
     const stored = Array.isArray(respuestaActual?.seleccion?.respuestas)
@@ -35,9 +76,9 @@ function CodeSlotQuestion({ pregunta, respuestaActual, onResponder, disabled }) 
     const inicial = base.map((_, idx) => stored[idx] || "");
     setSeleccion(inicial);
     setBancoOpciones(barajar(rawOptions));
-    setFocusSlot(0);
+    setFocusSlot(slotIndices[0] ?? 0);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [pregunta.id, createEmptySelection, rawOptions]);
+  }, [pregunta.id, createEmptySelection, rawOptions, slotIndices]);
 
   useEffect(() => {
     if (!Array.isArray(respuestaActual?.seleccion?.respuestas)) return;
@@ -47,9 +88,11 @@ function CodeSlotQuestion({ pregunta, respuestaActual, onResponder, disabled }) 
   }, [respuestaActual?.seleccion, createEmptySelection]);
 
   useEffect(() => {
-    const siguiente = seleccion.findIndex((valor) => !valor);
-    setFocusSlot(siguiente === -1 ? Math.max(slotCount - 1, 0) : siguiente);
-  }, [seleccion, slotCount]);
+    if (!slotIndices.length) return;
+    const siguiente = slotIndices.find((indice) => !seleccion[indice]);
+    const ultimo = slotIndices[slotIndices.length - 1] ?? 0;
+    setFocusSlot(typeof siguiente === "number" ? siguiente : ultimo);
+  }, [seleccion, slotCount, slotIndices]);
 
   const handleSlotClick = (slotIndex) => {
     if (disabled) return;
@@ -61,13 +104,14 @@ function CodeSlotQuestion({ pregunta, respuestaActual, onResponder, disabled }) 
     setSeleccion((prev) => {
       const next = [...prev];
       let target = focusSlot;
-      if (target < 0 || target >= slotCount || next[target]) {
-        const primeraLibre = next.findIndex((valor) => !valor);
-        target = primeraLibre === -1 ? slotCount - 1 : primeraLibre;
+      if (target < 0 || target >= slotCount || next[target] || !slotIndices.includes(target)) {
+        const primeraLibre = slotIndices.find((indice) => !next[indice]);
+        const ultimo = slotIndices[slotIndices.length - 1] ?? 0;
+        target = typeof primeraLibre === "number" ? primeraLibre : ultimo;
       }
       next[target] = opcion;
-      const siguiente = next.findIndex((valor) => !valor);
-      setFocusSlot(siguiente === -1 ? target : siguiente);
+      const siguiente = slotIndices.find((indice) => !next[indice]);
+      setFocusSlot(typeof siguiente === "number" ? siguiente : target);
       return next;
     });
   };
@@ -87,7 +131,13 @@ function CodeSlotQuestion({ pregunta, respuestaActual, onResponder, disabled }) 
   };
 
   const renderedCodigo = completarPlantillaCodigo(plantilla, seleccion);
-  const completado = seleccion.every((valor) => valor);
+  const renderedHtmlPreview = useMemo(
+    () => resolveHtmlAssetUrls(renderedCodigo),
+    [renderedCodigo]
+  );
+  const completado = slotIndices.length
+    ? slotIndices.every((indice) => Boolean(seleccion[indice]))
+    : seleccion.every((valor) => valor);
 
   return (
     <div className="code-slot-container">
@@ -104,7 +154,7 @@ function CodeSlotQuestion({ pregunta, respuestaActual, onResponder, disabled }) 
           const valor = seleccion[slotIndex] || "__";
           return (
             <button
-              key={`slot-${slotIndex}`}
+              key={`slot-${pregunta.id}-${slotIndex}-${index}`}
               type="button"
               className="slot-button"
               data-filled={Boolean(seleccion[slotIndex])}
@@ -119,13 +169,13 @@ function CodeSlotQuestion({ pregunta, respuestaActual, onResponder, disabled }) 
       </pre>
 
       <div className="slot-options" role="group" aria-label="Opciones de código">
-        {bancoOpciones.map((opcion) => {
+        {bancoOpciones.map((opcion, index) => {
           const selectedCount = seleccion.filter((valor) => valor === opcion).length;
           const maxCount = respuestasSlots.filter((valor) => valor === opcion).length || 1;
           const agotado = selectedCount >= maxCount;
           return (
             <button
-              key={opcion}
+              key={`slot-option-${opcion}-${index}`}
               type="button"
               className="slot-option"
               disabled={disabled || agotado}
@@ -172,6 +222,13 @@ function CodeSlotQuestion({ pregunta, respuestaActual, onResponder, disabled }) 
               <li key={`preview-line-${index}`}>{linea.trim()}</li>
             ))}
         </ul>
+
+        {renderedCodigo.includes("<") && renderedCodigo.includes(">") && (
+          <div
+            className="slot-preview__render"
+            dangerouslySetInnerHTML={{ __html: renderedHtmlPreview }}
+          />
+        )}
       </div>
     </div>
   );

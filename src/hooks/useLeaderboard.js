@@ -18,7 +18,7 @@ export function useLeaderboard(endpoint) {
         const top = datos.slice(0, 6).map((entry, index) => ({
           id: entry.id ?? index,
           nombre: entry.name ?? entry.username ?? `Dev ${index + 1}`,
-          stack: entry.company?.bs || "Fullstack",
+          stack: entry.company?.bs || "Git",
           puntos: 220 - index * 15,
           precision: 85 - index * 5
         }));

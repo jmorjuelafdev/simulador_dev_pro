@@ -1229,6 +1229,24 @@ textarea:focus {
   color: var(--color-text);
 }
 
+.slot-preview img,
+.slot-preview__render img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  max-height: 180px;
+  object-fit: contain;
+}
+
+.slot-preview video,
+.slot-preview__render video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  max-height: 180px;
+  object-fit: contain;
+}
+
 .slot-preview__list {
   margin: 0;
   padding-left: 1.25rem;

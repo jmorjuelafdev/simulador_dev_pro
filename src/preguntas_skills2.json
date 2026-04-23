@@ -1,807 +1,846 @@
 [
   {
-    "id": "skills2-1",
+    "id": "sk2-1",
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Si eres desarrollador junior y recibes una tarea nueva que no entiendes completamente, ¿cuál suele ser la mejor primera reacción profesional?",
+    "pregunta": "¿Cómo consumirías una API desde frontend?",
     "opciones": [
-      "Revisar requisitos, investigar lo básico y luego preguntar dudas puntuales",
-      "Esperar varios días hasta que alguien note que no avanzaste",
-      "Cambiar la tarea por otra sin avisar al equipo",
-      "Entregar cualquier resultado aunque no cumpla lo solicitado"
+      "Usando fetch(), axios o HttpClient para obtener JSON",
+      "Con CSS Grid",
+      "Con Git merge",
+      "Con SQL local"
     ],
-    "respuesta": "Revisar requisitos, investigar lo básico y luego preguntar dudas puntuales",
+    "respuesta": "Usando fetch(), axios o HttpClient para obtener JSON",
+    "feedbackExito": "Usando fetch(), axios o HttpClient para obtener datos JSON desde un endpoint y luego mostrarlos en la interfaz.",
     "puntos": 10,
     "timeLimit": 30
   },
   {
-    "id": "skills2-2",
+    "id": "sk2-2",
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué comportamiento demuestra responsabilidad en un entorno de trabajo remoto o híbrido?",
+    "pregunta": "¿Qué es Responsive Design?",
     "opciones": [
-      "Cumplir horarios, responder mensajes clave y reportar avances",
-      "Conectarse solo cuando haya reuniones obligatorias",
-      "Desaparecer varias horas sin informar al equipo",
-      "Ignorar tareas pequeñas porque no son visibles"
+      "Diseño adaptable a celular, tablet y computador",
+      "Diseño solo para desktop",
+      "Diseño de base de datos",
+      "Diseño sin CSS"
     ],
-    "respuesta": "Cumplir horarios, responder mensajes clave y reportar avances",
+    "respuesta": "Diseño adaptable a celular, tablet y computador",
+    "feedbackExito": "Es una técnica para que la interfaz se adapte correctamente a diferentes tamaños de pantalla.",
     "puntos": 10,
     "timeLimit": 30
   },
   {
-    "id": "skills2-3",
+    "id": "sk2-3",
     "categoria": "Skills2",
-    "tipo": "checkbox",
+    "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué hábitos suelen ayudar a crecer como desarrollador junior?",
+    "pregunta": "¿Qué harías si un formulario no valida?",
     "opciones": [
-      "Tomar notas de errores y soluciones aprendidas",
-      "Pedir retroalimentación cuando sea necesario",
-      "Practicar de forma constante fundamentos técnicos",
-      "Evitar aprender nuevas herramientas por comodidad"
+      "Revisar reglas, campos requeridos, errores y consola",
+      "Borrar el proyecto",
+      "Cambiar de navegador solamente",
+      "Ignorar el error"
     ],
-    "respuesta": [
-      "Tomar notas de errores y soluciones aprendidas",
-      "Pedir retroalimentación cuando sea necesario",
-      "Practicar de forma constante fundamentos técnicos"
-    ],
+    "respuesta": "Revisar reglas, campos requeridos, errores y consola",
+    "feedbackExito": "Revisaría validaciones, campos requeridos, mensajes de error y la consola del navegador.",
     "puntos": 10,
     "timeLimit": 30
   },
   {
-    "id": "skills2-4",
+    "id": "sk2-4",
     "categoria": "Skills2",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Completa la frase de seguimiento profesional: 'Ya revisé el bug, {{slot1}} una solución en una hora'.",
-    "modo": "slots",
-    "plantilla": "Ya revisé el bug, {{slot1}} una solución en una hora.",
-    "opcionesSlots": ["olvido", "te comparto", "elimino", "cierro"],
-    "respuestasSlots": ["te comparto"],
+    "pregunta": "¿Qué es HTML?",
+    "opciones": [
+      "Lenguaje de estructura para páginas web",
+      "Base de datos",
+      "Lenguaje backend",
+      "Framework móvil"
+    ],
+    "respuesta": "Lenguaje de estructura para páginas web",
+    "feedbackExito": "HTML se usa para estructurar el contenido de una página web.",
     "puntos": 10,
     "timeLimit": 30
   },
   {
-    "id": "skills2-5",
+    "id": "sk2-5",
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Cuando cometes un error en una entrega, ¿qué actitud suele ser mejor valorada?",
+    "pregunta": "¿Para qué sirve CSS?",
     "opciones": [
-      "Reconocerlo, corregirlo y explicar cómo evitar repetirlo",
-      "Culpar inmediatamente a otra persona",
-      "Ocultarlo esperando que nadie lo note",
-      "Decir que no era importante aunque sí lo fuera"
+      "Dar estilos y diseño visual",
+      "Crear tablas SQL",
+      "Subir archivos Git",
+      "Consumir APIs"
     ],
-    "respuesta": "Reconocerlo, corregirlo y explicar cómo evitar repetirlo",
+    "respuesta": "Dar estilos y diseño visual",
+    "feedbackExito": "CSS permite aplicar estilos, colores, tamaños, layouts y responsive design.",
     "puntos": 10,
     "timeLimit": 30
   },
   {
-    "id": "skills2-6",
+    "id": "sk2-6",
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué demuestra una comunicación clara en reuniones breves de seguimiento?",
+    "pregunta": "¿Para qué sirve JavaScript en frontend?",
     "opciones": [
-      "Explicar qué hiciste, qué harás y si existe algún bloqueo",
-      "Hablar de temas no relacionados durante varios minutos",
-      "Responder siempre con una sola palabra",
-      "Guardar problemas importantes para después"
+      "Agregar lógica e interactividad",
+      "Solo guardar archivos",
+      "Solo diseñar colores",
+      "Solo instalar programas"
     ],
-    "respuesta": "Explicar qué hiciste, qué harás y si existe algún bloqueo",
+    "respuesta": "Agregar lógica e interactividad",
+    "feedbackExito": "JavaScript se usa para lógica, eventos, validaciones, consumo de APIs y manipulación del DOM.",
     "puntos": 10,
     "timeLimit": 30
   },
   {
-    "id": "skills2-7",
+    "id": "sk2-7",
     "categoria": "Skills2",
-    "tipo": "checkbox",
+    "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué acciones favorecen el trabajo en equipo?",
+    "pregunta": "¿Qué es el DOM?",
     "opciones": [
-      "Compartir información útil con compañeros",
-      "Escuchar opiniones técnicas distintas",
-      "Avisar cambios que afecten al proyecto",
-      "Competir ocultando conocimiento"
+      "Representación de elementos HTML en el navegador",
+      "Una base de datos",
+      "Servidor remoto",
+      "Sistema operativo"
     ],
-    "respuesta": [
-      "Compartir información útil con compañeros",
-      "Escuchar opiniones técnicas distintas",
-      "Avisar cambios que afecten al proyecto"
-    ],
+    "respuesta": "Representación de elementos HTML en el navegador",
+    "feedbackExito": "El DOM representa la estructura HTML para poder manipularla con JavaScript.",
     "puntos": 10,
     "timeLimit": 30
   },
   {
-    "id": "skills2-8",
+    "id": "sk2-8",
     "categoria": "Skills2",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Completa la frase adecuada: 'No entendí una parte del requerimiento, ¿podrías {{slot2}} ese punto?'.",
-    "modo": "slots",
-    "plantilla": "No entendí una parte del requerimiento, ¿podrías {{slot2}} ese punto?",
-    "opcionesSlots": ["ignorar", "cerrar", "aclarar", "borrar"],
-    "respuestasSlots": ["aclarar"],
+    "pregunta": "¿Qué es una API REST?",
+    "opciones": [
+      "Servicio que expone datos mediante HTTP",
+      "Un archivo CSS",
+      "Una rama de Git",
+      "Una librería de diseño"
+    ],
+    "respuesta": "Servicio que expone datos mediante HTTP",
+    "feedbackExito": "Es una interfaz que permite intercambiar datos entre sistemas usando HTTP y JSON.",
     "puntos": 10,
     "timeLimit": 30
   },
   {
-    "id": "skills2-9",
+    "id": "sk2-9",
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Si una tarea tomará más tiempo del esperado, ¿qué conviene hacer?",
-    "opciones": [
-      "Informarlo con tiempo y proponer nuevo estimado",
-      "Callar hasta la fecha límite",
-      "Marcarla como terminada sin estar lista",
-      "Dejar de responder mensajes"
-    ],
-    "respuesta": "Informarlo con tiempo y proponer nuevo estimado",
+    "pregunta": "¿Qué método HTTP usarías para consultar datos?",
+    "opciones": ["GET", "DELETE", "PATCH", "PUT"],
+    "respuesta": "GET",
+    "feedbackExito": "Usaría GET para obtener información desde la API.",
     "puntos": 10,
     "timeLimit": 30
   },
   {
-    "id": "skills2-10",
+    "id": "sk2-10",
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué refleja buena actitud de aprendizaje en un junior?",
+    "pregunta": "¿Qué es Git?",
     "opciones": [
-      "Aceptar feedback y aplicarlo progresivamente",
-      "Molestarse ante cualquier corrección",
-      "Negarse a cambiar hábitos ineficientes",
-      "Pensar que ya no necesita aprender más"
+      "Sistema de control de versiones",
+      "Framework CSS",
+      "Editor de imágenes",
+      "Base de datos"
     ],
-    "respuesta": "Aceptar feedback y aplicarlo progresivamente",
+    "respuesta": "Sistema de control de versiones",
+    "feedbackExito": "Git permite versionar código, colaborar y mantener historial de cambios.",
     "puntos": 15,
     "timeLimit": 35
   },
   {
-    "id": "skills2-11",
+    "id": "sk2-11",
     "categoria": "Skills2",
-    "tipo": "checkbox",
+    "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué señales suelen transmitir profesionalismo?",
+    "pregunta": "¿Qué es un commit?",
     "opciones": [
-      "Puntualidad razonable",
-      "Respeto al comunicar",
-      "Cumplimiento de compromisos",
-      "Responder con groserías bajo presión"
+      "Guardar cambios en el historial Git",
+      "Eliminar repositorio",
+      "Instalar Node",
+      "Subir imágenes"
     ],
-    "respuesta": [
-      "Puntualidad razonable",
-      "Respeto al comunicar",
-      "Cumplimiento de compromisos"
-    ],
+    "respuesta": "Guardar cambios en el historial Git",
+    "feedbackExito": "Es un registro de cambios realizados en el proyecto.",
     "puntos": 15,
     "timeLimit": 35
   },
   {
-    "id": "skills2-12",
+    "id": "sk2-12", 
     "categoria": "Skills2",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Completa la frase: 'Terminé la tarea y ya la dejé {{slot0}} para revisión'.",
-    "modo": "slots",
-    "plantilla": "Terminé la tarea y ya la dejé {{slot0}} para revisión.",
-    "opcionesSlots": ["lista", "rota", "cerrada sin probar", "olvidada"],
-    "respuestasSlots": ["lista"],
+    "pregunta": "¿Qué es Angular?",
+    "opciones": [
+      "Framework frontend basado en componentes",
+      "Base de datos",
+      "Servidor Linux",
+      "Lenguaje SQL"
+    ],
+    "respuesta": "Framework frontend basado en componentes",
+    "feedbackExito": "Angular es un framework frontend para crear aplicaciones web estructuradas.",
     "puntos": 15,
     "timeLimit": 35
   },
   {
-    "id": "skills2-13",
+    "id": "sk2-13",
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué es priorizar bien el trabajo?",
+    "pregunta": "¿Qué es React?",
     "opciones": [
-      "Atender primero lo más importante o bloqueante",
-      "Elegir siempre lo más fácil",
-      "Hacer solo tareas favoritas",
-      "Cambiar de tarea cada pocos minutos"
+      "Librería para interfaces basadas en componentes",
+      "Base de datos",
+      "Servidor FTP",
+      "Editor de texto"
     ],
-    "respuesta": "Atender primero lo más importante o bloqueante",
+    "respuesta": "Librería para interfaces basadas en componentes",
+    "feedbackExito": "React es una librería para construir interfaces dinámicas usando componentes.",
     "puntos": 15,
     "timeLimit": 35
   },
   {
-    "id": "skills2-14",
+    "id": "sk2-14",
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Si no estás de acuerdo con una decisión técnica sencilla, ¿qué es mejor?",
+    "pregunta": "¿Qué harías si una API responde error 500?",
     "opciones": [
-      "Expresar argumentos con respeto y escuchar al equipo",
-      "Discutir de forma personal",
-      "Ignorar la decisión y hacer otra cosa",
-      "Quejarte fuera de la reunión sin proponer nada"
+      "Revisar backend, logs y manejo de errores",
+      "Cambiar color del botón",
+      "Cerrar navegador",
+      "Borrar CSS"
     ],
-    "respuesta": "Expresar argumentos con respeto y escuchar al equipo",
+    "respuesta": "Revisar backend, logs y manejo de errores", 
+    "feedbackExito": "Revisaría logs, endpoint, backend y mostraría mensaje adecuado al usuario.",
     "puntos": 15,
     "timeLimit": 35
   },
   {
-    "id": "skills2-15",
+    "id": "sk2-15",
     "categoria": "Skills2",
-    "tipo": "checkbox",
+    "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué acciones ayudan a organizar el día laboral?",
+    "pregunta": "¿Cómo mejorarías una página lenta?",
     "opciones": [
-      "Usar lista de tareas",
-      "Estimar tiempos aproximados",
-      "Revisar pendientes prioritarios",
-      "Trabajar sin revisar objetivos"
+      "Optimizar imágenes, código y requests",
+      "Agregar más texto",
+      "Duplicar scripts",
+      "Desactivar CSS"
     ],
-    "respuesta": [
-      "Usar lista de tareas",
-      "Estimar tiempos aproximados",
-      "Revisar pendientes prioritarios"
-    ],
+    "respuesta": "Optimizar imágenes, código y requests",
+    "feedbackExito": "Optimizaría imágenes, recursos, código JS/CSS y llamadas a la API.",
     "puntos": 15,
     "timeLimit": 35
   },
   {
-    "id": "skills2-16",
+    "id": "sk2-16",
     "categoria": "Skills2",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Completa la frase: 'Encontré un problema adicional y ya lo {{slot3}} al líder'.",
-    "modo": "slots",
-    "plantilla": "Encontré un problema adicional y ya lo {{slot3}} al líder.",
-    "opcionesSlots": ["borro", "escondo", "reinicio", "reporté"],
-    "respuestasSlots": ["reporté"],
+    "pregunta": "¿Qué harías si una página no carga correctamente en móvil?",
+    "opciones": [
+      "Revisar estilos responsive, media queries y viewport",
+      "Borrar JavaScript",
+      "Cambiar el logo",
+      "Solo probar en desktop"
+    ],
+    "respuesta": "Revisar estilos responsive, media queries y viewport",
+    "feedbackExito": "Revisaría media queries, viewport, tamaños flexibles y pruebas en distintos dispositivos.",
     "puntos": 15,
     "timeLimit": 35
   },
   {
-    "id": "skills2-17",
+    "id": "sk2-17",
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué demuestra interés genuino por mejorar?",
+    "pregunta": "¿Qué es JSON?",
     "opciones": [
-      "Buscar entender por qué se hacen las cosas",
-      "Memorizar sin comprender nada",
-      "Evitar cualquier reto nuevo",
-      "Repetir errores sin revisar causas"
+      "Formato ligero para intercambio de datos",
+      "Lenguaje de estilos",
+      "Sistema operativo",
+      "Comando Git"
     ],
-    "respuesta": "Buscar entender por qué se hacen las cosas",
+    "respuesta": "Formato ligero para intercambio de datos",
+    "feedbackExito": "JSON es un formato común para enviar y recibir datos entre frontend y backend.",
     "puntos": 15,
     "timeLimit": 35
   },
   {
-    "id": "skills2-18",
+    "id": "sk2-18",
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "En un perfil junior, ¿qué suele ser más valioso además de lo técnico?",
+    "pregunta": "¿Qué revisarías si un botón no ejecuta una acción?",
     "opciones": [
-      "Actitud de aprendizaje y colaboración constante",
-      "Prometer saber todo desde el primer día",
-      "Trabajar sin comunicarse con nadie",
-      "Rechazar cualquier cambio de proceso"
+      "Evento click, función asociada y consola",
+      "Cambiar color del botón",
+      "Borrar HTML",
+      "Cerrar navegador"
     ],
-    "respuesta": "Actitud de aprendizaje y colaboración constante",
+    "respuesta": "Evento click, función asociada y consola",
+    "feedbackExito": "Revisaría el evento, la función enlazada y errores en consola.",
     "puntos": 15,
     "timeLimit": 35
   },
   {
-    "id": "skills2-19",
+    "id": "sk2-19",
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Cuando trabajas en equipo y detectas un posible error en el trabajo de un compañero, ¿cuál suele ser la mejor forma de actuar?",
+    "pregunta": "¿Qué es una variable en programación?",
     "opciones": [
-      "Comentar el posible problema de forma respetuosa y proponer revisarlo juntos",
-      "Ignorarlo completamente para evitar incomodidad",
-      "Señalarlo públicamente de forma directa sin contexto",
-      "Corregirlo sin avisar a nadie"
+      "Espacio para guardar datos",
+      "Un servidor",
+      "Un navegador",
+      "Un archivo CSS"
     ],
-    "respuesta": "Comentar el posible problema de forma respetuosa y proponer revisarlo juntos",
+    "respuesta": "Espacio para guardar datos",
+    "feedbackExito": "Una variable almacena información para usarla dentro del programa.",
     "puntos": 20,
     "timeLimit": 40
   },
   {
-    "id": "skills2-20",
-    "categoria": "Skills2",
-    "tipo": "checkbox",
-    "dificultad": "Intermedio",
-    "pregunta": "¿Qué comportamientos reflejan una buena gestión del tiempo en un entorno ágil?",
-    "opciones": [
-      "Dividir tareas grandes en partes manejables",
-      "Actualizar el estado del trabajo periódicamente",
-      "Evitar interrupciones innecesarias",
-      "Cambiar de tarea constantemente sin terminar ninguna"
-    ],
-    "respuesta": [
-      "Dividir tareas grandes en partes manejables",
-      "Actualizar el estado del trabajo periódicamente",
-      "Evitar interrupciones innecesarias"
-    ],
-    "puntos": 20,
-    "timeLimit": 40
-  },
-  {
-    "id": "skills2-21",
-    "categoria": "Skills2",
-    "tipo": "codigo",
-    "dificultad": "Intermedio",
-    "pregunta": "Completa la frase de comunicación efectiva: 'Tuve un bloqueo con la API, ya intenté dos soluciones y {{slot2}} ayuda para avanzar más rápido'.",
-    "modo": "slots",
-    "plantilla": "Tuve un bloqueo con la API, ya intenté dos soluciones y {{slot2}} ayuda para avanzar más rápido.",
-    "opcionesSlots": ["evito pedir", "voy a pedir", "ignoro", "cancelo"],
-    "respuestasSlots": ["voy a pedir"],
-    "puntos": 20,
-    "timeLimit": 40
-  },
-  {
-    "id": "skills2-22",
+    "id": "sk2-20",
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Si recibes feedback técnico que no esperabas, ¿qué enfoque demuestra mayor madurez profesional?",
+    "pregunta": "¿Qué es una función en JavaScript?",
     "opciones": [
-      "Analizarlo objetivamente y aplicar lo que mejore el resultado",
-      "Rechazarlo automáticamente porque no coincide con tu idea",
-      "Tomarlo como algo personal",
-      "Ignorarlo y continuar igual"
+      "Bloque reutilizable de código",
+      "Color visual",
+      "Tabla SQL",
+      "Comando Git"
     ],
-    "respuesta": "Analizarlo objetivamente y aplicar lo que mejore el resultado",
+    "respuesta": "Bloque reutilizable de código",
+    "feedbackExito": "Una función agrupa instrucciones reutilizables que pueden ejecutarse cuando se necesiten.",
     "puntos": 20,
     "timeLimit": 40
   },
   {
-    "id": "skills2-23",
+    "id": "sk2-21",
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué demuestra pensamiento crítico en un desarrollador junior?",
+    "pregunta": "¿Qué harías si un input no guarda el valor escrito?",
     "opciones": [
-      "Cuestionar de forma constructiva y entender el porqué de las decisiones",
-      "Aceptar todo sin analizar",
-      "Discutir sin fundamentos técnicos",
-      "Evitar participar en decisiones"
+      "Revisar binding, name, evento change/input",
+      "Borrar CSS",
+      "Cerrar Git",
+      "Solo recargar"
     ],
-    "respuesta": "Cuestionar de forma constructiva y entender el porqué de las decisiones",
+    "respuesta": "Revisar binding, name, evento change/input",
+    "feedbackExito": "Revisaría el enlace de datos, eventos y que la variable reciba el valor.",
     "puntos": 20,
     "timeLimit": 40
   },
   {
-    "id": "skills2-24",
-    "categoria": "Skills2",
-    "tipo": "codigo",
-    "dificultad": "Intermedio",
-    "pregunta": "Completa la frase: 'Identifiqué una mejora en el flujo, podría {{slot1}} el proceso si lo simplificamos'.",
-    "modo": "slots",
-    "plantilla": "Identifiqué una mejora en el flujo, podría {{slot1}} el proceso si lo simplificamos.",
-    "opcionesSlots": ["complicar", "optimizar", "romper", "duplicar"],
-    "respuestasSlots": ["optimizar"],
-    "puntos": 20,
-    "timeLimit": 40
-  },
-  {
-    "id": "skills2-25",
-    "categoria": "Skills2",
-    "tipo": "checkbox",
-    "dificultad": "Intermedio",
-    "pregunta": "¿Qué acciones ayudan a manejar presión o fechas ajustadas?",
-    "opciones": [
-      "Priorizar tareas críticas",
-      "Comunicar riesgos a tiempo",
-      "Dividir el trabajo en pasos claros",
-      "Ocultar retrasos hasta el final"
-    ],
-    "respuesta": [
-      "Priorizar tareas críticas",
-      "Comunicar riesgos a tiempo",
-      "Dividir el trabajo en pasos claros"
-    ],
-    "puntos": 20,
-    "timeLimit": 40
-  },
-  {
-    "id": "skills2-26",
+    "id": "sk2-22",
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué significa ser proactivo en un equipo de desarrollo?",
+    "pregunta": "¿Qué significa UX?",
     "opciones": [
-      "Anticiparse a problemas y proponer soluciones",
-      "Esperar siempre instrucciones detalladas",
-      "Evitar responsabilidades nuevas",
-      "Hacer solo lo mínimo requerido"
+      "Experiencia de usuario",
+      "Error del sistema",
+      "Servidor remoto",
+      "Lenguaje backend"
     ],
-    "respuesta": "Anticiparse a problemas y proponer soluciones",
+    "respuesta": "Experiencia de usuario",
+    "feedbackExito": "UX se refiere a la experiencia que tiene una persona al usar un producto digital.",
     "puntos": 20,
     "timeLimit": 40
   },
   {
-    "id": "skills2-27",
-    "categoria": "Skills2",
-    "tipo": "codigo",
-    "dificultad": "Intermedio",
-    "pregunta": "Completa la frase: 'Terminé antes de tiempo, así que voy a {{slot0}} otra tarea del backlog'.",
-    "modo": "slots",
-    "plantilla": "Terminé antes de tiempo, así que voy a {{slot0}} otra tarea del backlog.",
-    "opcionesSlots": ["tomar", "ignorar", "eliminar", "bloquear"],
-    "respuestasSlots": ["tomar"],
-    "puntos": 20,
-    "timeLimit": 40
-  },
-  {
-    "id": "skills2-28",
+    "id": "sk2-23",
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué actitud favorece el aprendizaje continuo en tecnología?",
+    "pregunta": "¿Qué significa UI?",
     "opciones": [
-      "Explorar nuevas soluciones y practicar regularmente",
-      "Evitar cambios para mantenerse cómodo",
-      "Depender siempre de otros para resolver dudas",
-      "Repetir siempre el mismo enfoque sin mejorar"
+      "Interfaz de usuario",
+      "Unidad informática",
+      "Update interno",
+      "Usuario invisible"
     ],
-    "respuesta": "Explorar nuevas soluciones y practicar regularmente",
+    "respuesta": "Interfaz de usuario",
+    "feedbackExito": "UI es la parte visual con la que interactúa el usuario.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "sk2-24",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué harías si aparece un error en consola?",
+    "opciones": [
+      "Leer mensaje, ubicar línea y depurar",
+      "Ignorarlo",
+      "Borrar navegador",
+      "Cambiar monitor"
+    ],
+    "respuesta": "Leer mensaje, ubicar línea y depurar",
+    "feedbackExito": "Leería el error, revisaría la línea indicada y corregiría la causa.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "sk2-25",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Para qué sirve localStorage?",
+    "opciones": [
+      "Guardar datos simples en navegador",
+      "Crear base de datos empresarial",
+      "Subir archivos Git",
+      "Compilar Angular"
+    ],
+    "respuesta": "Guardar datos simples en navegador",
+    "feedbackExito": "Permite guardar información sencilla en el navegador del usuario.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "sk2-26",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué harías antes de subir cambios con Git?",
+    "opciones": [
+      "Revisar status, probar y commit claro",
+      "Borrar historial",
+      "Cambiar contraseña",
+      "Cerrar VS Code"
+    ],
+    "respuesta": "Revisar status, probar y commit claro",
+    "feedbackExito": "Revisaría cambios, probaría el código y haría un commit ordenado.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "sk2-27",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué es una rama (branch) en Git?",
+    "opciones": [
+      "Línea paralela de trabajo",
+      "Un error",
+      "Un servidor",
+      "Una carpeta CSS"
+    ],
+    "respuesta": "Línea paralela de trabajo",
+    "feedbackExito": "Una rama permite desarrollar cambios sin afectar la principal.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "sk2-28",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué harías si un endpoint devuelve 404?",
+    "opciones": [
+      "Revisar URL, ruta e id enviado",
+      "Cambiar CSS",
+      "Borrar cookies",
+      "Cerrar terminal"
+    ],
+    "respuesta": "Revisar URL, ruta e id enviado",
+    "feedbackExito": "Revisaría que la URL sea correcta y que el recurso exista.",
     "puntos": 25,
     "timeLimit": 45
   },
   {
-    "id": "skills2-29",
+    "id": "sk2-29",
     "categoria": "Skills2",
-    "tipo": "checkbox",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué habilidades blandas son clave en un equipo de desarrollo?",
+    "pregunta": "¿Qué harías si una lista tarda mucho en cargar?",
     "opciones": [
-      "Comunicación efectiva",
-      "Empatía",
-      "Escucha activa",
-      "Evitar interacción con el equipo"
+      "Loading, paginación y optimización",
+      "Duplicar peticiones",
+      "Ocultar pantalla",
+      "Quitar HTML"
     ],
-    "respuesta": ["Comunicación efectiva", "Empatía", "Escucha activa"],
+    "respuesta": "Loading, paginación y optimización",
+    "feedbackExito": "Mostraría loading y revisaría paginación, caché u optimización de requests.",
+    "puntos": 25,
+    "timeLimit": 45 
+  },
+  {
+    "id": "sk2-30",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué valor aportas como junior frontend?",
+    "opciones": [
+      "Aprendizaje rápido, orden y ganas de aportar",
+      "No trabajar en equipo",
+      "Evitar cambios",
+      "No documentar nada"
+    ],
+    "respuesta": "Aprendizaje rápido, orden y ganas de aportar",
+    "feedbackExito": "Capacidad de aprendizaje, compromiso, trabajo en equipo y mejora continua.",
     "puntos": 25,
     "timeLimit": 45
   },
   {
-    "id": "skills2-30",
+    "id": "sk2-31",
     "categoria": "Skills2",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Completa la frase: 'Antes de entregar, voy a {{slot3}} la funcionalidad para evitar errores'.",
-    "modo": "slots",
-    "plantilla": "Antes de entregar, voy a {{slot3}} la funcionalidad para evitar errores.",
-    "opcionesSlots": ["ignorar", "duplicar", "romper", "probar"],
-    "respuestasSlots": ["probar"],
+    "pregunta": "¿Qué harías si un botón se ve desordenado en móvil?",
+    "opciones": [
+      "Revisar CSS responsive, tamaños y espaciados",
+      "Borrar JavaScript",
+      "Cambiar navegador",
+      "Ignorarlo"
+    ],
+    "respuesta": "Revisar CSS responsive, tamaños y espaciados",
+    "feedbackExito": "Revisaría estilos responsive, tamaños, padding, márgenes y pruebas en móvil.",
     "puntos": 25,
     "timeLimit": 45
   },
   {
-    "id": "skills2-31",
+    "id": "sk2-32",
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué indica una buena adaptación a cambios en un proyecto?",
+    "pregunta": "¿Qué es una clase CSS?",
     "opciones": [
-      "Ajustarse rápidamente y reorganizar prioridades",
-      "Resistirse a cualquier cambio",
-      "Ignorar nuevas instrucciones",
-      "Criticar sin proponer soluciones"
+      "Selector reutilizable para aplicar estilos",
+      "Base de datos",
+      "Comando Git",
+      "Evento JavaScript"
     ],
-    "respuesta": "Ajustarse rápidamente y reorganizar prioridades",
+    "respuesta": "Selector reutilizable para aplicar estilos",
+    "feedbackExito": "Una clase CSS permite aplicar estilos reutilizables a uno o varios elementos.",
     "puntos": 25,
     "timeLimit": 45
   },
   {
-    "id": "skills2-32",
+    "id": "sk2-33",
     "categoria": "Skills2",
-    "tipo": "checkbox",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué prácticas mejoran la calidad del trabajo entregado?",
+    "pregunta": "¿Qué es un id en HTML?",
     "opciones": [
-      "Revisar el código antes de enviar",
-      "Seguir estándares del equipo",
-      "Documentar cambios importantes",
-      "Entregar sin validar"
+      "Identificador único de un elemento",
+      "Tipo de servidor",
+      "Método HTTP",
+      "Archivo Git"
     ],
-    "respuesta": [
-      "Revisar el código antes de enviar",
-      "Seguir estándares del equipo",
-      "Documentar cambios importantes"
-    ],
+    "respuesta": "Identificador único de un elemento",
+    "feedbackExito": "El id identifica de forma única un elemento dentro de la página.",
     "puntos": 25,
     "timeLimit": 45
   },
   {
-    "id": "skills2-33",
+    "id": "sk2-34",
     "categoria": "Skills2",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Completa la frase: 'No estoy de acuerdo con esta solución, pero {{slot1}} los argumentos del equipo antes de decidir'.",
-    "modo": "slots",
-    "plantilla": "No estoy de acuerdo con esta solución, pero {{slot1}} los argumentos del equipo antes de decidir.",
-    "opcionesSlots": ["ignoro", "escucho", "rechazo", "elimino"],
-    "respuestasSlots": ["escucho"],
+    "pregunta": "¿Qué harías si una imagen rompe el diseño?",
+    "opciones": [
+      "Aplicar max-width:100% y revisar contenedor",
+      "Borrar HTML",
+      "Cambiar API",
+      "Cerrar navegador"
+    ],
+    "respuesta": "Aplicar max-width:100% y revisar contenedor",
+    "feedbackExito": "Haría la imagen responsive y revisaría tamaños del contenedor.",
     "puntos": 25,
     "timeLimit": 45
   },
   {
-    "id": "skills2-34",
+    "id": "sk2-35",
     "categoria": "Skills2",
     "tipo": "multiple",
-    "dificultad": "Intermedio",
-    "pregunta": "¿Qué combinación de habilidades suele diferenciar a un junior que progresa rápido?",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué es un array en JavaScript?",
     "opciones": [
-      "Aprendizaje constante, comunicación clara y responsabilidad",
-      "Solo conocimiento técnico aislado",
-      "Trabajar sin interactuar con el equipo",
-      "Evitar recibir retroalimentación"
+      "Lista de elementos",
+      "Error visual",
+      "Servidor",
+      "Color CSS"
     ],
-    "respuesta": "Aprendizaje constante, comunicación clara y responsabilidad",
-    "puntos": 25,
+    "respuesta": "Lista de elementos",
+    "feedbackExito": "Un array almacena varios valores dentro de una misma variable.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sk2-36",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué método usarías para recorrer un array y pintar datos?",
+    "opciones": [
+      "map()",
+      "close()",
+      "deleteAll()",
+      "ftp()"
+    ],
+    "respuesta": "map()",
+    "feedbackExito": "Usaría map() para transformar y renderizar listas en frontend.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sk2-37",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué es un evento click?",
+    "opciones": [
+      "Acción al presionar un elemento",
+      "Error del servidor",
+      "Comando Git",
+      "Tipo de CSS"
+    ],
+    "respuesta": "Acción al presionar un elemento",
+    "feedbackExito": "Es la acción que ocurre cuando el usuario hace clic en un elemento.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sk2-38",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué harías si no llegan datos de una API?",
+    "opciones": [
+      "Revisar endpoint, red, status y consola",
+      "Cambiar colores",
+      "Borrar Git",
+      "Cerrar PC"
+    ],
+    "respuesta": "Revisar endpoint, red, status y consola",
+    "feedbackExito": "Verificaría URL, respuesta HTTP, conexión y errores en consola.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sk2-39",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué es Flexbox?",
+    "opciones": [
+      "Sistema CSS para alinear elementos",
+      "Base de datos",
+      "Comando Git",
+      "Lenguaje backend"
+    ],
+    "respuesta": "Sistema CSS para alinear elementos",  
+    "feedbackExito": "Flexbox ayuda a distribuir y alinear elementos en filas o columnas.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sk2-40",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué es CSS Grid?",
+    "opciones": [
+      "Sistema de layout por filas y columnas",
+      "Un navegador",
+      "Un servidor FTP",
+      "Un método HTTP"
+    ],
+    "respuesta": "Sistema de layout por filas y columnas",  
+    "feedbackExito": "Grid permite crear diseños organizados por filas y columnas.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sk2-41",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué harías si Git marca conflicto?",
+    "opciones": [
+      "Revisar archivos, resolver cambios y commit",
+      "Borrar repositorio",
+      "Cerrar terminal",
+      "Ignorarlo"
+    ],
+    "respuesta": "Revisar archivos, resolver cambios y commit",
+    "feedbackExito": "Revisaría el archivo, resolvería diferencias y luego confirmaría cambios.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sk2-42",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué es npm?",
+    "opciones": [
+      "Administrador de paquetes de Node.js",
+      "Lenguaje visual",
+      "Servidor Git",
+      "Framework CSS"
+    ],
+    "respuesta": "Administrador de paquetes de Node.js",
+    "feedbackExito": "npm se usa para instalar y gestionar dependencias de proyectos JavaScript.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sk2-43",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué harías si una dependencia falla al instalar?",
+    "opciones": [
+      "Revisar versión, logs y package.json",
+      "Borrar monitor",
+      "Cerrar navegador",
+      "Cambiar CSS"
+    ],
+    "respuesta": "Revisar versión, logs y package.json",
+    "feedbackExito": "Revisaría compatibilidad, errores del log y configuración del proyecto.",
+    "puntos": 20,
     "timeLimit": 45
   },
   {
-    "id": "skills2-35",
+    "id": "sk2-44",
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "En un entorno ágil, si una tarea crítica se bloquea por dependencia externa, ¿qué actuación suele aportar más valor?",
+    "pregunta": "¿Qué valor tiene probar antes de entregar cambios?",
     "opciones": [
-      "Comunicar el bloqueo pronto, proponer alternativas y reajustar prioridades",
-      "Esperar en silencio hasta que alguien pregunte por el avance",
-      "Cerrar la tarea como completada para no afectar métricas",
-      "Cambiar de proyecto sin informar al equipo"
+      "Reducir errores y asegurar calidad",
+      "Perder tiempo",
+      "Romper producción",
+      "Evitar commits"
     ],
-    "respuesta": "Comunicar el bloqueo pronto, proponer alternativas y reajustar prioridades",
-    "puntos": 30,
-    "timeLimit": 50
+    "respuesta": "Reducir errores y asegurar calidad",
+    "feedbackExito": "Las pruebas ayudan a detectar errores antes de publicar cambios.",
+    "puntos": 20,
+    "timeLimit": 45
   },
   {
-    "id": "skills2-36",
-    "categoria": "Skills2",
-    "tipo": "checkbox",
-    "dificultad": "Avanzado",
-    "pregunta": "¿Qué comportamientos suelen reflejar liderazgo técnico temprano en un perfil junior avanzado?",
-    "opciones": [
-      "Compartir conocimiento útil con el equipo",
-      "Tomar iniciativa responsable en tareas pequeñas",
-      "Ayudar a destrabar problemas comunes",
-      "Imponer decisiones sin escuchar a nadie"
-    ],
-    "respuesta": [
-      "Compartir conocimiento útil con el equipo",
-      "Tomar iniciativa responsable en tareas pequeñas",
-      "Ayudar a destrabar problemas comunes"
-    ],
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "skills2-37",
-    "categoria": "Skills2",
-    "tipo": "codigo",
-    "dificultad": "Avanzado",
-    "pregunta": "Completa la frase profesional: 'Detecté un riesgo para la entrega y ya preparé una propuesta para {{slot2}} el impacto'.",
-    "modo": "slots",
-    "plantilla": "Detecté un riesgo para la entrega y ya preparé una propuesta para {{slot2}} el impacto.",
-    "opcionesSlots": ["agrandar", "ignorar", "reducir", "duplicar"],
-    "respuestasSlots": ["reducir"],
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "skills2-38",
+    "id": "sk2-45",
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "Cuando existen varias tareas urgentes al mismo tiempo, ¿qué criterio suele ser más profesional?",
+    "pregunta": "¿Cómo te mantendrías aprendiendo como junior?",
     "opciones": [
-      "Priorizar según impacto, dependencia y objetivos del sprint",
-      "Elegir la más fácil para terminar rápido",
-      "Tomar la que más guste personalmente",
-      "Empezar todas sin cerrar ninguna"
+      "Practicar, leer documentación y construir proyectos",
+      "No estudiar más",
+      "Evitar feedback",
+      "Solo memorizar respuestas"
     ],
-    "respuesta": "Priorizar según impacto, dependencia y objetivos del sprint",
-    "puntos": 30,
-    "timeLimit": 50
+    "respuesta": "Practicar, leer documentación y construir proyectos",
+    "feedbackExito": "Practicaría constantemente, revisaría documentación y desarrollaría proyectos reales.",
+    "puntos": 20,
+    "timeLimit": 45
   },
   {
-    "id": "skills2-39",
-    "categoria": "Skills2",
-    "tipo": "checkbox",
-    "dificultad": "Avanzado",
-    "pregunta": "¿Qué señales indican buena madurez profesional frente a errores?",
-    "opciones": [
-      "Asumir responsabilidad sin dramatizar",
-      "Investigar causa raíz",
-      "Aplicar mejoras preventivas",
-      "Buscar culpables inmediatamente"
-    ],
-    "respuesta": [
-      "Asumir responsabilidad sin dramatizar",
-      "Investigar causa raíz",
-      "Aplicar mejoras preventivas"
-    ],
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "skills2-40",
-    "categoria": "Skills2",
-    "tipo": "codigo",
-    "dificultad": "Avanzado",
-    "pregunta": "Completa la frase: 'Ya resolvimos el incidente; ahora documentaremos lo aprendido para {{slot1}} recurrencias'.",
-    "modo": "slots",
-    "plantilla": "Ya resolvimos el incidente; ahora documentaremos lo aprendido para {{slot1}} recurrencias.",
-    "opcionesSlots": ["causar", "evitar", "ocultar", "repetir"],
-    "respuestasSlots": ["evitar"],
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "skills2-41",
+    "id": "sk2-46",
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué demuestra pensamiento orientado al negocio en un desarrollador junior?",
+    "pregunta": "¿Qué harías si una página se ve bien en Chrome pero mal en otro navegador?",
     "opciones": [
-      "Entender cómo su trabajo impacta usuarios y objetivos del producto",
-      "Pensar solo en código sin contexto",
-      "Ignorar prioridades del cliente interno",
-      "Medir éxito únicamente por líneas escritas"
+      "Probar compatibilidad y ajustar CSS/JS",
+      "Ignorar usuarios",
+      "Borrar proyecto",
+      "Cambiar logo"
     ],
-    "respuesta": "Entender cómo su trabajo impacta usuarios y objetivos del producto",
+    "respuesta": "Probar compatibilidad y ajustar CSS/JS",
+    "feedbackExito": "Revisaría compatibilidad entre navegadores y ajustaría estilos o scripts necesarios.",
     "puntos": 30,
     "timeLimit": 50
   },
   {
-    "id": "skills2-42",
-    "categoria": "Skills2",
-    "tipo": "checkbox",
-    "dificultad": "Avanzado",
-    "pregunta": "¿Qué acciones fortalecen la confianza del equipo en una persona junior?",
-    "opciones": [
-      "Cumplir compromisos realistas",
-      "Avisar riesgos con tiempo",
-      "Mantener comunicación consistente",
-      "Prometer más de lo posible"
-    ],
-    "respuesta": [
-      "Cumplir compromisos realistas",
-      "Avisar riesgos con tiempo",
-      "Mantener comunicación consistente"
-    ],
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "skills2-43",
-    "categoria": "Skills2",
-    "tipo": "codigo",
-    "dificultad": "Avanzado",
-    "pregunta": "Completa la frase: 'Antes de comprometer una fecha, necesito {{slot0}} el esfuerzo requerido'.",
-    "modo": "slots",
-    "plantilla": "Antes de comprometer una fecha, necesito {{slot0}} el esfuerzo requerido.",
-    "opcionesSlots": ["estimar", "ignorar", "ocultar", "acelerar"],
-    "respuestasSlots": ["estimar"],
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "skills2-44",
+    "id": "sk2-47",
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "Si recibes comentarios duros pero válidos en una revisión, ¿qué enfoque suele ser mejor?",
+    "pregunta": "¿Qué es accesibilidad web?",
     "opciones": [
-      "Separar el tono del contenido y rescatar mejoras útiles",
-      "Ignorar todo por la forma en que fue dicho",
-      "Responder de manera defensiva inmediatamente",
-      "Abandonar la tarea por frustración"
+      "Diseñar sitios usables para más personas",
+      "Subir archivos al servidor",
+      "Cambiar colores al azar",
+      "Crear bases de datos"
     ],
-    "respuesta": "Separar el tono del contenido y rescatar mejoras útiles",
+    "respuesta": "Diseñar sitios usables para más personas",
+    "feedbackExito": "Es crear interfaces que puedan usar personas con diferentes necesidades y contextos.",
     "puntos": 30,
     "timeLimit": 50
   },
   {
-    "id": "skills2-45",
-    "categoria": "Skills2",
-    "tipo": "checkbox",
-    "dificultad": "Avanzado",
-    "pregunta": "¿Qué hábitos suelen acelerar el crecimiento profesional sostenido?",
-    "opciones": [
-      "Buscar feedback frecuente",
-      "Reflexionar sobre errores y aciertos",
-      "Practicar habilidades técnicas y blandas",
-      "Esperar aprender solo por antigüedad"
-    ],
-    "respuesta": [
-      "Buscar feedback frecuente",
-      "Reflexionar sobre errores y aciertos",
-      "Practicar habilidades técnicas y blandas"
-    ],
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "skills2-46",
-    "categoria": "Skills2",
-    "tipo": "codigo",
-    "dificultad": "Avanzado",
-    "pregunta": "Completa la frase: 'No tengo la respuesta aún, pero ya empecé a {{slot3}} opciones viables'.",
-    "modo": "slots",
-    "plantilla": "No tengo la respuesta aún, pero ya empecé a {{slot3}} opciones viables.",
-    "opcionesSlots": ["descartar todo", "bloquear", "copiar", "evaluar"],
-    "respuestasSlots": ["evaluar"],
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "skills2-47",
+    "id": "sk2-48",
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué rasgo diferencia a alguien confiable bajo presión?",
+    "pregunta": "¿Qué harías si un usuario reporta un bug?",
     "opciones": [
-      "Mantener calma, comunicar datos y enfocarse en soluciones",
-      "Entrar en pánico y culpar al entorno",
-      "Desaparecer hasta que pase el problema",
-      "Tomar decisiones sin escuchar información"
+      "Reproducir problema, analizar causa y corregir",
+      "Ignorarlo",
+      "Borrar mensajes",
+      "Cambiar tipografía"
     ],
-    "respuesta": "Mantener calma, comunicar datos y enfocarse en soluciones",
-    "puntos": 30,
+    "respuesta": "Reproducir problema, analizar causa y corregir",
+    "feedbackExito": "Intentaría reproducir el error, encontrar la causa raíz y aplicar una solución probada.",
+    "puntos": 30,   
     "timeLimit": 50
   },
   {
-    "id": "skills2-48",
-    "categoria": "Skills2",
-    "tipo": "checkbox",
-    "dificultad": "Avanzado",
-    "pregunta": "¿Qué prácticas mejoran colaboración entre áreas técnicas y no técnicas?",
-    "opciones": [
-      "Explicar temas complejos con claridad",
-      "Escuchar necesidades del negocio",
-      "Alinear expectativas y tiempos",
-      "Usar jerga técnica para excluir"
-    ],
-    "respuesta": [
-      "Explicar temas complejos con claridad",
-      "Escuchar necesidades del negocio",
-      "Alinear expectativas y tiempos"
-    ],
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "skills2-49",
-    "categoria": "Skills2",
-    "tipo": "codigo",
-    "dificultad": "Avanzado",
-    "pregunta": "Completa la frase: 'El objetivo no es trabajar más horas, sino trabajar de forma más {{slot2}}'.",
-    "modo": "slots",
-    "plantilla": "El objetivo no es trabajar más horas, sino trabajar de forma más {{slot2}}.",
-    "opcionesSlots": ["confusa", "lenta", "eficiente", "improvisada"],
-    "respuestasSlots": ["eficiente"],
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "skills2-50",
+    "id": "sk2-49",
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "Para un perfil junior competitivo, ¿qué combinación suele abrir más oportunidades laborales?",
+    "pregunta": "¿Qué significa trabajar en equipo en desarrollo frontend?",
     "opciones": [
-      "Base técnica sólida, comunicación clara y actitud constante de mejora",
-      "Solo saber herramientas de moda temporalmente",
-      "Trabajar aislado sin colaborar con nadie",
-      "Evitar retos para no equivocarse"
+      "Comunicar avances, colaborar y recibir feedback",
+      "Trabajar aislado siempre",
+      "No usar Git",
+      "Evitar reuniones"
     ],
-    "respuesta": "Base técnica sólida, comunicación clara y actitud constante de mejora",
+    "respuesta": "Comunicar avances, colaborar y recibir feedback",
+    "feedbackExito": "Implica comunicación clara, colaboración con diseño/backend y apertura al feedback.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sk2-50",
+    "categoria": "Skills2",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Por qué deberíamos contratarte como junior frontend?",
+    "opciones": [
+      "Porque aprendo rápido, soy comprometida y quiero aportar valor",
+      "Porque no me gusta aprender",
+      "Porque no acepto cambios",
+      "Porque no trabajo en equipo"
+    ],
+    "respuesta": "Porque aprendo rápido, soy comprometida y quiero aportar valor",  
+    "feedbackExito": "Porque tengo bases técnicas, actitud de aprendizaje, compromiso y ganas reales de aportar al equipo.",
     "puntos": 30,
     "timeLimit": 50
   }

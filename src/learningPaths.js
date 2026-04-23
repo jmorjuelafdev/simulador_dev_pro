@@ -6,6 +6,11 @@ export const LEARNING_PATHS = {
     { id: "practica", label: "Paso 2 · Retos con condicionales", difficulties: ["intermedio"] },
     { id: "desafio", label: "Paso 3 · Algoritmos prácticos", difficulties: ["avanzado"] }
   ],
+  Logica2: [
+    { id: "fundamentos", label: "Paso 1 · Puzzles y patrones", difficulties: ["basico"] },
+    { id: "practica", label: "Paso 2 · Secuencias complejas", difficulties: ["intermedio"] },
+    { id: "desafio", label: "Paso 3 · Lógica avanzada y deducción", difficulties: ["avanzado"] }
+  ],
   JavaScript: [
     { id: "fundamentos", label: "Paso 1 · Sintaxis y estructuras base", difficulties: ["basico"] },
     { id: "practica", label: "Paso 2 · DOM y eventos", difficulties: ["intermedio"] },
@@ -31,20 +36,15 @@ export const LEARNING_PATHS = {
     { id: "practica", label: "Paso 2 · Servicios y routing", difficulties: ["intermedio"] },
     { id: "desafio", label: "Paso 3 · Formularios reactivos y testing", difficulties: ["avanzado"] }
   ],
-  APIs_JSON: [
+  API_rest: [
     { id: "fundamentos", label: "Paso 1 · HTTP y verbos básicos", difficulties: ["basico"] },
-    { id: "practica", label: "Paso 2 · Consumo de APIs y manejo de errores", difficulties: ["intermedio"] },
+    { id: "practica", label: "Paso 2 · Consumo de APIs REST y manejo de errores", difficulties: ["intermedio"] },
     { id: "desafio", label: "Paso 3 · Integraciones completas", difficulties: ["avanzado"] }
   ],
-  Accesibilidad: [
-    { id: "fundamentos", label: "Paso 1 · Principios de accesibilidad", difficulties: ["basico"] },
-    { id: "practica", label: "Paso 2 · Navegación por teclado y ARIA", difficulties: ["intermedio"] },
-    { id: "desafio", label: "Paso 3 · Auditoría y mejoras continuas", difficulties: ["avanzado"] }
-  ],
-  UX_UI: [
-    { id: "fundamentos", label: "Paso 1 · Jerarquía visual y copy", difficulties: ["basico"] },
-    { id: "practica", label: "Paso 2 · Diseño responsive y feedback", difficulties: ["intermedio"] },
-    { id: "desafio", label: "Paso 3 · Flujos complejos y validación", difficulties: ["avanzado"] }
+  React: [
+    { id: "fundamentos", label: "Paso 1 · Componentes y JSX", difficulties: ["basico"] },
+    { id: "practica", label: "Paso 2 · Estado, props y hooks", difficulties: ["intermedio"] },
+    { id: "desafio", label: "Paso 3 · Integraciones y performance", difficulties: ["avanzado"] }
   ],
   Python: [
     { id: "fundamentos", label: "Paso 1 · Sintaxis y colecciones", difficulties: ["basico"] },
@@ -61,10 +61,10 @@ export const LEARNING_PATHS = {
     { id: "practica", label: "Paso 2 · Colecciones y excepciones", difficulties: ["intermedio"] },
     { id: "desafio", label: "Paso 3 · POO avanzada y JDBC", difficulties: ["avanzado"] }
   ],
-  Fullstack: [
-    { id: "fundamentos", label: "Paso 1 · Integración frontend y lógica", difficulties: ["basico"] },
-    { id: "practica", label: "Paso 2 · APIs y validaciones", difficulties: ["intermedio"] },
-    { id: "desafio", label: "Paso 3 · Deploy y monitoreo", difficulties: ["avanzado"] }
+  Git: [
+    { id: "fundamentos", label: "Paso 1 · Flujo Git básico y commits", difficulties: ["basico"] },
+    { id: "practica", label: "Paso 2 · Ramas, merges y conflictos", difficulties: ["intermedio"] },
+    { id: "desafio", label: "Paso 3 · Colaboración avanzada y buenas prácticas", difficulties: ["avanzado"] }
   ],
   Mysql: [
     { id: "fundamentos", label: "Paso 1 · Consultas básicas", difficulties: ["basico"] },

@@ -4,86 +4,93 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "En el contexto del desarrollo web, ¿Java y JavaScript son el mismo lenguaje o presentan diferencias en su uso y funcionamiento?",
+    "pregunta": "¿Qué palabra clave declara una variable reutilizable con alcance de bloque?",
     "opciones": [
-      "Sí, son el mismo lenguaje",
-      "No, son lenguajes diferentes"
+      "var",
+      "let",
+      "const",
+      "define"
     ],
-    "respuesta": "No, son lenguajes diferentes",
-    "puntos": 15,
+    "respuesta": "let",
+    "puntos": 10,
     "timeLimit": 30
   },
   {
     "id": "js-2",
     "categoria": "JavaScript",
-    "tipo": "multiple",
+    "tipo": "codigo",
     "dificultad": "Basico",
-    "pregunta": "En el desarrollo frontend, ¿dónde se ejecuta principalmente el código JavaScript dentro de una aplicación web?",
-    "opciones": [
-      "En el navegador del usuario para renderizar la interfaz.",
-      "En la base de datos para almacenar información.",
-      "Únicamente en el servidor para procesar lógica de negocio."
+    "pregunta": "Completa la declaración de una constante.",
+    "modo": "slots",
+    "plantilla": "{{slot2}} PI = 3.14;",
+    "opcionesSlots": [
+      "let",
+      "var",
+      "const",
+      "value"
     ],
-    "respuesta": "En el navegador del usuario para renderizar la interfaz.",
-    "puntos": 15,
+    "respuestasSlots": [
+      "const"
+    ],
+    "evaluacion": "slots",
+    "puntos": 10,
     "timeLimit": 30
   },
   {
     "id": "js-3",
     "categoria": "JavaScript",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Completa la estructura HTML seleccionando correctamente la etiqueta necesaria para incluir código JavaScript en una página.",
-    "modo": "slots",
-    "plantilla": "<{{slot0}}>alert('Hi');</{{slot1}}>",
-    "opcionesSlots": [
-      "script",
-      "/script"
+    "pregunta": "¿Qué función imprime mensajes en consola?",
+    "opciones": [
+      "print()",
+      "echo()",
+      "console.log()",
+      "log()"
     ],
-    "respuestasSlots": [
-      "script",
-      "/script"
-    ],
-    "evaluacion": "slots",
-    "puntos": 15,
+    "respuesta": "console.log()",
+    "puntos": 10,
     "timeLimit": 30
   },
   {
     "id": "js-4",
     "categoria": "JavaScript",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Completa la etiqueta para enlazar correctamente un archivo JavaScript externo llamado app.js.",
-    "modo": "slots",
-    "plantilla": "<script {{slot0}}=\"app.{{slot1}}\"></script>",
-    "opcionesSlots": [
-      "src",
-      "href",
-      "js",
-      "html"
+    "pregunta": "Selecciona tipos de datos primitivos en JavaScript.",
+    "opciones": [
+      "string",
+      "number",
+      "boolean",
+      "table"
     ],
-    "respuestasSlots": [
-      "src",
-      "js"
+    "respuesta": [
+      "string",
+      "number",
+      "boolean"
     ],
-    "evaluacion": "slots",
-    "puntos": 15,
+    "puntos": 10,
     "timeLimit": 30
   },
   {
     "id": "js-5",
     "categoria": "JavaScript",
-    "tipo": "multiple",
+    "tipo": "codigo",
     "dificultad": "Basico",
-    "pregunta": "¿Cuál es la forma correcta de declarar e inicializar una variable utilizando la palabra clave let en JavaScript?",
-    "opciones": [
-      "let x = 5;",
-      "x let = 5;",
-      "let = 5 x;",
-      "var x : 5;"
+    "pregunta": "Completa una suma básica.",
+    "modo": "slots",
+    "plantilla": "let total = 5 {{slot0}} 3;",
+    "opcionesSlots": [
+      "+",
+      "-",
+      "*",
+      "="
     ],
-    "respuesta": "let x = 5;",
-    "puntos": 15,
+    "respuestasSlots": [
+      "+"
+    ],
+    "evaluacion": "slots",
+    "puntos": 10,
     "timeLimit": 30
   },
   {
@@ -91,29 +98,36 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Una variable declarada con let en JavaScript, ¿puede cambiar su valor durante la ejecución del programa?",
+    "pregunta": "¿Qué operador compara valor y tipo?",
     "opciones": [
-      "Sí",
-      "No"
+      "==",
+      "=",
+      "===",
+      "!="
     ],
-    "respuesta": "Sí",
-    "puntos": 15,
+    "respuesta": "===",
+    "puntos": 10,
     "timeLimit": 30
   },
   {
     "id": "js-7",
     "categoria": "JavaScript",
-    "tipo": "multiple",
+    "tipo": "codigo",
     "dificultad": "Basico",
-    "pregunta": "¿Qué palabra clave se utiliza en JavaScript para declarar una constante cuyo valor no puede ser reasignado?",
-    "opciones": [
-      "const",
-      "let",
-      "var",
-      "define"
+    "pregunta": "Completa una condición if.",
+    "modo": "slots",
+    "plantilla": "{{slot1}} (edad >= 18) { console.log('Mayor'); }",
+    "opcionesSlots": [
+      "for",
+      "if",
+      "while",
+      "case"
     ],
-    "respuesta": "const",
-    "puntos": 15,
+    "respuestasSlots": [
+      "if"
+    ],
+    "evaluacion": "slots",
+    "puntos": 10,
     "timeLimit": 30
   },
   {
@@ -121,58 +135,50 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "En JavaScript, ¿qué tipo de dato representa un número decimal como 7.5?",
+    "pregunta": "¿Qué estructura repite instrucciones varias veces?",
     "opciones": [
-      "Float",
-      "Integer",
-      "Number",
-      "Decimal"
+      "if",
+      "loop",
+      "return",
+      "break"
     ],
-    "respuesta": "Number",
-    "puntos": 15,
+    "respuesta": "loop",
+    "puntos": 10,
     "timeLimit": 30
   },
   {
     "id": "js-9",
     "categoria": "JavaScript",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Completa los comentarios identificando correctamente el tipo de dato de cada variable en el siguiente código.",
-    "modo": "slots",
-    "plantilla": "let a = 10; // {{slot0}}\nlet b = 'Hola'; // {{slot1}}\nlet c = true; // {{slot2}}",
-    "opcionesSlots": [
-      "Number",
-      "String",
-      "Boolean",
-      "Object"
+    "pregunta": "Selecciona operadores aritméticos válidos.",
+    "opciones": [
+      "+",
+      "-",
+      "*",
+      "&&"
     ],
-    "respuestasSlots": [
-      "Number",
-      "String",
-      "Boolean"
+    "respuesta": [
+      "+",
+      "-",
+      "*"
     ],
-    "evaluacion": "slots",
-    "puntos": 15,
+    "puntos": 10,
     "timeLimit": 30
   },
   {
     "id": "js-10",
     "categoria": "JavaScript",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Completa la expresión seleccionando el operador adecuado para obtener el residuo de una división entre dos números.",
-    "modo": "slots",
-    "plantilla": "let x = 15 {{slot0}} 9;",
-    "opcionesSlots": [
-      "%",
-      "/",
-      "*",
-      "-"
+    "pregunta": "¿Qué método convierte texto a mayúsculas?",
+    "opciones": [
+      "toUpperCase()",
+      "upper()",
+      "capitalize()",
+      "big()"
     ],
-    "respuestasSlots": [
-      "%"
-    ],
-    "evaluacion": "slots",
+    "respuesta": "toUpperCase()",
     "puntos": 15,
     "timeLimit": 35
   },
@@ -181,17 +187,17 @@
     "categoria": "JavaScript",
     "tipo": "codigo",
     "dificultad": "Basico",
-    "pregunta": "Completa la expresión seleccionando el valor correcto para que el resultado final sea 6, considerando la prioridad de operadores.",
+    "pregunta": "Completa acceso al primer elemento del arreglo.",
     "modo": "slots",
-    "plantilla": "const resultado = 2 + 2 * {{slot0}};",
+    "plantilla": "let nums = [10,20,30]; console.log(nums[{{slot0}}]);",
     "opcionesSlots": [
+      "0",
       "1",
       "2",
-      "3",
-      "4"
+      "3"
     ],
     "respuestasSlots": [
-      "2"
+      "0"
     ],
     "evaluacion": "slots",
     "puntos": 15,
@@ -202,14 +208,14 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Analiza el siguiente código y determina cuál será el valor final de la variable después de aplicar el operador de incremento:\n\nlet x = 5;\nx++;",
+    "pregunta": "¿Qué símbolo inicia un comentario de una línea?",
     "opciones": [
-      "5",
-      "6",
-      "10",
-      "55"
+      "/*",
+      "#",
+      "//",
+      "<!--"
     ],
-    "respuesta": "6",
+    "respuesta": "//",
     "puntos": 15,
     "timeLimit": 35
   },
@@ -218,14 +224,17 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Analiza el siguiente código y determina cuál será el valor final de la variable después de aplicar el operador de asignación:\n\nlet x = 5;\nx += 10;",
+    "pregunta": "Selecciona valores booleanos válidos.",
     "opciones": [
-      "10",
-      "15",
-      "5",
-      "50"
+      "true",
+      "false",
+      "null",
+      "yes"
     ],
-    "respuesta": "15",
+    "respuesta": [
+      "true",
+      "false"
+    ],
     "puntos": 15,
     "timeLimit": 35
   },
@@ -234,17 +243,17 @@
     "categoria": "JavaScript",
     "tipo": "codigo",
     "dificultad": "Basico",
-    "pregunta": "Completa el fragmento de código seleccionando el operador correcto que equivale a sumar y asignar un valor.",
+    "pregunta": "Completa un incremento en 1.",
     "modo": "slots",
-    "plantilla": "x = 10;\ny = 5;\nx {{slot0}} y;",
+    "plantilla": "let x = 5; x{{slot0}};",
     "opcionesSlots": [
+      "++",
+      "--",
       "+=",
-      "-=",
-      "*=",
-      "/="
+      "**"
     ],
     "respuestasSlots": [
-      "+="
+      "++"
     ],
     "evaluacion": "slots",
     "puntos": 15,
@@ -253,21 +262,16 @@
   {
     "id": "js-15",
     "categoria": "JavaScript",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Completa el fragmento de código seleccionando el operador correcto que equivale a multiplicar y asignar un valor.",
-    "modo": "slots",
-    "plantilla": "x = 10;\ny = 5;\nx {{slot0}} y;",
-    "opcionesSlots": [
-      "*=",
-      "+=",
-      "-=",
-      "/="
+    "pregunta": "¿Qué palabra clave termina una función devolviendo valor?",
+    "opciones": [
+      "yield",
+      "return",
+      "stop",
+      "break"
     ],
-    "respuestasSlots": [
-      "*="
-    ],
-    "evaluacion": "slots",
+    "respuesta": "return",
     "puntos": 15,
     "timeLimit": 35
   },
@@ -276,82 +280,71 @@
     "categoria": "JavaScript",
     "tipo": "codigo",
     "dificultad": "Basico",
-    "pregunta": "Completa la expresión seleccionando el operador de comparación adecuado para que la condición sea verdadera.",
+    "pregunta": "Completa un bucle for básico.",
     "modo": "slots",
-    "plantilla": "5 {{slot0}} 3",
+    "plantilla": "{{slot1}} (let i=0; i<3; i++) { console.log(i); }",
     "opcionesSlots": [
-      ">",
-      "<",
-      ">=",
-      "<="
+      "if",
+      "for",
+      "while",
+      "loop"
     ],
     "respuestasSlots": [
-      ">"
-    ],
-    "evaluacion": "slots",
-    "puntos": 15,
-    "timeLimit": 30
-  },
-  {
-    "id": "js-17",
-    "categoria": "JavaScript",
-    "tipo": "codigo",
-    "dificultad": "Basico",
-    "pregunta": "Completa la expresión seleccionando el operador adecuado para que la comparación sea verdadera.",
-    "modo": "slots",
-    "plantilla": "3 {{slot0}} 1",
-    "opcionesSlots": [
-      ">",
-      "<",
-      ">=",
-      "<="
-    ],
-    "respuestasSlots": [
-      ">"
-    ],
-    "evaluacion": "slots",
-    "puntos": 15,
-    "timeLimit": 30
-  },
-  {
-    "id": "js-18",
-    "categoria": "JavaScript",
-    "tipo": "codigo",
-    "dificultad": "Basico",
-    "pregunta": "Completa la condición seleccionando el operador de igualdad estricta utilizado en JavaScript.",
-    "modo": "slots",
-    "plantilla": "if (a {{slot0}} b)",
-    "opcionesSlots": [
-      "===",
-      "==",
-      "!=",
-      "!=="
-    ],
-    "respuestasSlots": [
-      "==="
+      "for"
     ],
     "evaluacion": "slots",
     "puntos": 15,
     "timeLimit": 35
   },
   {
+    "id": "js-17",
+    "categoria": "JavaScript",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué método agrega un elemento al final de un arreglo?",
+    "opciones": [
+      "add()",
+      "append()",
+      "push()",
+      "insert()"
+    ],
+    "respuesta": "push()",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "js-18",
+    "categoria": "JavaScript",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "Selecciona estructuras condicionales válidas.",
+    "opciones": [
+      "if",
+      "else",
+      "switch",
+      "repeat"
+    ],
+    "respuesta": [
+      "if",
+      "else",
+      "switch"
+    ],
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
     "id": "js-19",
     "categoria": "JavaScript",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Completa la condición seleccionando el operador adecuado para validar si una variable es mayor que 10.",
-    "modo": "slots",
-    "plantilla": "if (x {{slot0}} 10)",
-    "opcionesSlots": [
-      ">",
-      "<",
-      ">=",
-      "<="
+    "pregunta": "¿Qué método recorre un arreglo y devuelve uno nuevo transformado?",
+    "opciones": [
+      "forEach()",
+      "map()",
+      "find()",
+      "push()"
     ],
-    "respuestasSlots": [
-      ">"
-    ],
-    "evaluacion": "slots",
+    "respuesta": "map()",
     "puntos": 20,
     "timeLimit": 40
   },
@@ -360,17 +353,17 @@
     "categoria": "JavaScript",
     "tipo": "codigo",
     "dificultad": "Intermedio",
-    "pregunta": "Completa la condición seleccionando el operador adecuado para validar igualdad entre dos variables.",
+    "pregunta": "Completa el método para filtrar mayores de edad.",
     "modo": "slots",
-    "plantilla": "if (a {{slot0}} b)",
+    "plantilla": "let r = usuarios.{{slot1}}(u => u.edad >= 18);",
     "opcionesSlots": [
-      "==",
-      "===",
-      "!=",
-      "!=="
+      "map",
+      "filter",
+      "find",
+      "reduce"
     ],
     "respuestasSlots": [
-      "=="
+      "filter"
     ],
     "evaluacion": "slots",
     "puntos": 20,
@@ -381,33 +374,34 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué función cumple el operador lógico ! en JavaScript dentro de una expresión booleana?",
+    "pregunta": "¿Qué método retorna el primer elemento que cumple una condición?",
     "opciones": [
-      "Niega o invierte el valor de una expresión booleana",
-      "Suma valores de dos expresiones",
-      "Multiplica valores de dos expresiones"
+      "find()",
+      "map()",
+      "some()",
+      "join()"
     ],
-    "respuesta": "Niega o invierte el valor de una expresión booleana",
+    "respuesta": "find()",
     "puntos": 20,
     "timeLimit": 40
   },
   {
     "id": "js-22",
     "categoria": "JavaScript",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Completa la expresión seleccionando el operador lógico AND para evaluar múltiples condiciones.",
-    "modo": "slots",
-    "plantilla": "if (x > 0 {{slot0}} x < 10)",
-    "opcionesSlots": [
-      "&&",
-      "||",
-      "!"
+    "pregunta": "Selecciona métodos válidos de arreglos.",
+    "opciones": [
+      "map()",
+      "filter()",
+      "reduce()",
+      "style()"
     ],
-    "respuestasSlots": [
-      "&&"
+    "respuesta": [
+      "map()",
+      "filter()",
+      "reduce()"
     ],
-    "evaluacion": "slots",
     "puntos": 20,
     "timeLimit": 40
   },
@@ -416,16 +410,17 @@
     "categoria": "JavaScript",
     "tipo": "codigo",
     "dificultad": "Intermedio",
-    "pregunta": "Completa la expresión seleccionando el operador lógico OR para evaluar condiciones alternativas.",
+    "pregunta": "Completa una función flecha.",
     "modo": "slots",
-    "plantilla": "if (x < 0 {{slot0}} x > 100)",
+    "plantilla": "const suma = (a,b) {{slot0}} a + b;",
     "opcionesSlots": [
-      "||",
-      "&&",
-      "!"
+      "=>",
+      "->",
+      ":>",
+      "="
     ],
     "respuestasSlots": [
-      "||"
+      "=>"
     ],
     "evaluacion": "slots",
     "puntos": 20,
@@ -434,116 +429,108 @@
   {
     "id": "js-24",
     "categoria": "JavaScript",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Completa la expresión seleccionando el operador ternario adecuado para evaluar una condición.",
-    "modo": "slots",
-    "plantilla": "condicion {{slot0}} 'A' : 'B'",
-    "opcionesSlots": [
-      "?",
-      "&&",
-      "||"
+    "pregunta": "¿Qué palabra clave espera la resolución de una promesa dentro de async?",
+    "opciones": [
+      "wait",
+      "resolve",
+      "await",
+      "then"
     ],
-    "respuestasSlots": [
-      "?"
-    ],
-    "evaluacion": "slots",
+    "respuesta": "await",
     "puntos": 20,
     "timeLimit": 40
   },
   {
     "id": "js-25",
     "categoria": "JavaScript",
-    "tipo": "multiple",
+    "tipo": "codigo",
     "dificultad": "Intermedio",
-    "pregunta": "En JavaScript, ¿qué palabra clave se utiliza para definir una función correctamente?",
-    "opciones": [
-      "function",
-      "def",
-      "func"
+    "pregunta": "Completa una función asíncrona.",
+    "modo": "slots",
+    "plantilla": "{{slot1}} function cargarDatos(){ return []; }",
+    "opcionesSlots": [
+      "await",
+      "async",
+      "promise",
+      "defer"
     ],
-    "respuesta": "function",
+    "respuestasSlots": [
+      "async"
+    ],
+    "evaluacion": "slots",
     "puntos": 20,
     "timeLimit": 40
   },
   {
     "id": "js-26",
     "categoria": "JavaScript",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Completa la función seleccionando la instrucción correcta para devolver un valor.",
-    "modo": "slots",
-    "plantilla": "function test() { {{slot0}} 5; }",
-    "opcionesSlots": [
-      "return",
-      "console.log",
-      "break"
+    "pregunta": "¿Qué operador expande arreglos u objetos?",
+    "opciones": [
+      "...",
+      "::",
+      "??",
+      "&&"
     ],
-    "respuestasSlots": [
-      "return"
-    ],
-    "evaluacion": "slots",
+    "respuesta": "...",
     "puntos": 20,
     "timeLimit": 40
   },
   {
     "id": "js-27",
     "categoria": "JavaScript",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Completa la condición del bucle para que se ejecute exactamente 5 veces.",
-    "modo": "slots",
-    "plantilla": "for (let i = 0; i < {{slot0}}; i++) {}",
-    "opcionesSlots": [
-      "5",
-      "4",
-      "6"
+    "pregunta": "Selecciona palabras reservadas modernas de JavaScript.",
+    "opciones": [
+      "let",
+      "const",
+      "async",
+      "publicvar"
     ],
-    "respuestasSlots": [
-      "5"
+    "respuesta": [
+      "let",
+      "const",
+      "async"
     ],
-    "evaluacion": "slots",
     "puntos": 20,
     "timeLimit": 40
   },
   {
     "id": "js-28",
     "categoria": "JavaScript",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Completa la condición del bucle while que incrementa i hasta 10 (sin incluir 10)",
-    "modo": "slots",
-    "plantilla": "while ({{slot0}}) {}",
-    "opcionesSlots": [
-      "i < 10",
-      "i > 10",
-      "i === 10"
+    "pregunta": "¿Qué método convierte un objeto JavaScript a texto JSON?",
+    "opciones": [
+      "JSON.parse()",
+      "JSON.stringify()",
+      "JSON.object()",
+      "toJSON()"
     ],
-    "respuestasSlots": [
-      "i < 10"
-    ],
-    "evaluacion": "slots",
-    "puntos": 20,
-    "timeLimit": 40
+    "respuesta": "JSON.stringify()",
+    "puntos": 25,
+    "timeLimit": 45
   },
   {
     "id": "js-29",
     "categoria": "JavaScript",
     "tipo": "codigo",
     "dificultad": "Intermedio",
-    "pregunta": "Completa la estructura switch para que evalúe correctamente el valor 2 y evite la ejecución de múltiples casos.",
+    "pregunta": "Completa acceso seguro con optional chaining.",
     "modo": "slots",
-    "plantilla": "switch ({{slot0}}) {\n  case {{slot1}}:\n    console.log('El numero 2 fue elegido');\n    {{slot2}};\n  default:\n    console.log('No se eligió ningún número');\n}",
+    "plantilla": "let ciudad = usuario{{slot0}}direccion?.ciudad;",
     "opcionesSlots": [
-      "2",
-      "1",
-      "break",
-      "continue"
+      "?.",
+      "..",
+      "??",
+      "::"
     ],
     "respuestasSlots": [
-      "2",
-      "2",
-      "break"
+      "?."
     ],
     "evaluacion": "slots",
     "puntos": 25,
@@ -554,13 +541,14 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué función cumple console.log() durante la ejecución de un programa en JavaScript?",
+    "pregunta": "¿Qué operador asigna valor por defecto si es null o undefined?",
     "opciones": [
-      "Mostrar información en la consola del navegador para depuración.",
-      "Guardar datos en la base de datos de forma segura.",
-      "Eliminar datos de la memoria para optimizar el rendimiento."
+      "||",
+      "??",
+      "&&",
+      "=>"
     ],
-    "respuesta": "Mostrar información en la consola del navegador para depuración.",
+    "respuesta": "??",
     "puntos": 25,
     "timeLimit": 45
   },
@@ -569,28 +557,39 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué método se utiliza en JavaScript para mostrar información en la consola del navegador durante la ejecución de un programa?",
+    "pregunta": "Selecciona formas válidas de recorrer arreglos.",
     "opciones": [
-      "console.log()",
-      "print()",
-      "log.console()"
+      "for",
+      "forEach()",
+      "map()",
+      "repeat()"
     ],
-    "respuesta": "console.log()",
+    "respuesta": [
+      "for",
+      "forEach()",
+      "map()"
+    ],
     "puntos": 25,
     "timeLimit": 45
   },
   {
     "id": "js-32",
     "categoria": "JavaScript",
-    "tipo": "multiple",
+    "tipo": "codigo",
     "dificultad": "Intermedio",
-    "pregunta": "En JavaScript, ¿qué es un objeto y cómo se utiliza para organizar información dentro de un programa?",
-    "opciones": [
-      "Una colección de propiedades y valores asociados.",
-      "Una función que ejecuta código específico.",
-      "Un tipo de bucle para repetir instrucciones múltiples veces."
+    "pregunta": "Completa desestructuración de objeto.",
+    "modo": "slots",
+    "plantilla": "const {{slot1}} = usuario;",
+    "opcionesSlots": [
+      "[nombre]",
+      "{nombre}",
+      "(nombre)",
+      "<nombre>"
     ],
-    "respuesta": "Una colección de propiedades y valores asociados.",
+    "respuestasSlots": [
+      "{nombre}"
+    ],
+    "evaluacion": "slots",
     "puntos": 25,
     "timeLimit": 45
   },
@@ -599,13 +598,14 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Analiza el siguiente objeto y determina cuántas propiedades contiene:\n\nconst car = { brand: 'Volvo', model: 'EX90' };",
+    "pregunta": "¿Qué método une elementos de un arreglo en texto?",
     "opciones": [
-      "1",
-      "2",
-      "3"
+      "merge()",
+      "join()",
+      "concat()",
+      "bind()"
     ],
-    "respuesta": "2",
+    "respuesta": "join()",
     "puntos": 25,
     "timeLimit": 45
   },
@@ -614,299 +614,19 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Considerando un objeto que incluye funciones como propiedades, ¿cuántos métodos tendría si solo una de sus propiedades es una función?",
+    "pregunta": "Selecciona APIs web comunes usadas con JavaScript frontend.",
     "opciones": [
-      "0",
-      "1",
-      "2"
+      "fetch()",
+      "localStorage",
+      "document.querySelector()",
+      "compileCSS()"
     ],
-    "respuesta": "1",
+    "respuesta": [
+      "fetch()",
+      "localStorage",
+      "document.querySelector()"
+    ],
     "puntos": 25,
     "timeLimit": 45
-  },
-  {
-    "id": "js-35",
-    "categoria": "JavaScript",
-    "tipo": "codigo",
-    "dificultad": "Avanzado",
-    "pregunta": "Completa la declaración del objeto seleccionando correctamente la propiedad y su valor.",
-    "modo": "slots",
-    "plantilla": "const person = { {{slot0}}: {{slot1}} };",
-    "opcionesSlots": [
-      "age",
-      "25",
-      "name"
-    ],
-    "respuestasSlots": [
-      "age",
-      "25"
-    ],
-    "evaluacion": "slots",
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "js-36",
-    "categoria": "JavaScript",
-    "tipo": "multiple",
-    "dificultad": "Avanzado",
-    "pregunta": "¿Cuál es la forma correcta de acceder a una propiedad de un objeto en JavaScript utilizando notación de punto?",
-    "opciones": [
-      "obj.prop",
-      "obj->prop",
-      "obj[prop()]"
-    ],
-    "respuesta": "obj.prop",
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "js-37",
-    "categoria": "JavaScript",
-    "tipo": "codigo",
-    "dificultad": "Avanzado",
-    "pregunta": "Completa la expresión seleccionando la forma correcta de acceder a la propiedad de un objeto.",
-    "modo": "slots",
-    "plantilla": "alert({{slot0}});",
-    "opcionesSlots": [
-      "person.name",
-      "person",
-      "name"
-    ],
-    "respuestasSlots": [
-      "person.name"
-    ],
-    "evaluacion": "slots",
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "js-38",
-    "categoria": "JavaScript",
-    "tipo": "multiple",
-    "dificultad": "Avanzado",
-    "pregunta": "En el contexto de objetos en JavaScript, ¿qué se entiende por un método?",
-    "opciones": [
-      "Una función definida como propiedad dentro de un objeto con acceso directo.",
-      "Una variable que almacena datos dentro de un objeto.",
-      "Un tipo de dato primitivo que se utiliza para representar funciones."
-    ],
-    "respuesta": "Una función definida como propiedad dentro de un objeto con acceso directo.",
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "js-39",
-    "categoria": "JavaScript",
-    "tipo": "codigo",
-    "dificultad": "Avanzado",
-    "pregunta": "Completa la expresión seleccionando los elementos correctos para invocar un método llamado saludar dentro de un objeto person.",
-    "modo": "slots",
-    "plantilla": "{{slot0}}{{slot1}}{{slot2}}{{slot3}};",
-    "opcionesSlots": [
-      "person",
-      ".",
-      "saludar",
-      "()"
-    ],
-    "respuestasSlots": [
-      "person",
-      ".",
-      "saludar",
-      "()"
-    ],
-    "evaluacion": "slots",
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "js-40",
-    "categoria": "JavaScript",
-    "tipo": "multiple",
-    "dificultad": "Avanzado",
-    "pregunta": "En el contexto del desarrollo web, ¿qué significa la sigla DOM y cuál es su función principal?",
-    "opciones": [
-      "Document Object Model, funciona como una interfaz de programación para documentos HTML y XML y su utilidad principal es la representación del documento HTML como una estructura de objetos manipulables",
-      "Data Object Model, es una API para trabajar con datos estructurados y su utilidad principal es la manipulación de elementos HTML",
-      "Dynamic Object Model, es un modelo para la creación de interfaces dinámicas y su utilidad principal es la manipulación de elementos HTML"
-    ],
-    "respuesta": "Document Object Model, funciona como una interfaz de programación para documentos HTML y XML y su utilidad principal es la representación del documento HTML como una estructura de objetos manipulables",
-    "puntos": 15,
-    "timeLimit": 30
-  },
-  {
-    "id": "js-41",
-    "categoria": "JavaScript",
-    "tipo": "multiple",
-    "dificultad": "Avanzado",
-    "pregunta": "¿Qué método del objeto document se utiliza para seleccionar un elemento del DOM a partir de su atributo id?",
-    "opciones": [
-      "getElementById()",
-      "query()",
-      "selectId()"
-    ],
-    "respuesta": "getElementById()",
-    "puntos": 15,
-    "timeLimit": 30
-  },
-  {
-    "id": "js-42",
-    "categoria": "JavaScript",
-    "tipo": "codigo",
-    "dificultad": "Avanzado",
-    "pregunta": "Completa el código seleccionando las palabras clave correctas para acceder a un elemento del DOM mediante su id.",
-    "modo": "slots",
-    "plantilla": "{{slot0}}.{{slot1}}('demo');",
-    "opcionesSlots": [
-      "document",
-      "getElementById"
-    ],
-    "respuestasSlots": [
-      "document",
-      "getElementById"
-    ],
-    "evaluacion": "slots",
-    "puntos": 25,
-    "timeLimit": 45
-  },
-  {
-    "id": "js-43",
-    "categoria": "JavaScript",
-    "tipo": "multiple",
-    "dificultad": "Avanzado",
-    "pregunta": "¿Qué método permite seleccionar todos los elementos de tipo <p> dentro de un documento HTML utilizando JavaScript?",
-    "opciones": [
-      "document.getElementsByTagName('p')",
-      "document.query('p')",
-      "document.getAll('p')"
-    ],
-    "respuesta": "document.getElementsByTagName('p')",
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "js-44",
-    "categoria": "JavaScript",
-    "tipo": "multiple",
-    "dificultad": "Avanzado",
-    "pregunta": "¿Qué método del objeto document permite seleccionar todos los elementos de una página web por su etiqueta HTML?",
-    "opciones": [
-      "getElementsByTagName",
-      "getElementById",
-      "querySelector"
-    ],
-    "respuesta": "getElementsByTagName",
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "js-45",
-    "categoria": "JavaScript",
-    "tipo": "codigo",
-    "dificultad": "Avanzado",
-    "pregunta": "Completa la instrucción seleccionando la propiedad adecuada para modificar el contenido HTML de un elemento.",
-    "modo": "slots",
-    "plantilla": "element.{{slot0}} = 'Hola';",
-    "opcionesSlots": [
-      "innerHTML",
-      "value"
-    ],
-    "respuestasSlots": [
-      "innerHTML"
-    ],
-    "evaluacion": "slots",
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "js-46",
-    "categoria": "JavaScript",
-    "tipo": "multiple",
-    "dificultad": "Avanzado",
-    "pregunta": "¿Qué propiedad del objeto document permite obtener o modificar el título de la página web?",
-    "opciones": [
-      "document.title",
-      "document.name",
-      "document.id"
-    ],
-    "respuesta": "document.title",
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "js-47",
-    "categoria": "JavaScript",
-    "tipo": "codigo",
-    "dificultad": "Avanzado",
-    "pregunta": "Completa el siguiente fragmento de código seleccionando los elementos necesarios para agregar un evento de tipo click a un elemento.",
-    "modo": "slots",
-    "plantilla": "element.{{slot0}}('{{slot1}}', fn);",
-    "opcionesSlots": [
-      "addEventListener",
-      "click",
-      "hover"
-    ],
-    "respuestasSlots": [
-      "addEventListener",
-      "click"
-    ],
-    "evaluacion": "slots",
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "js-48",
-    "categoria": "JavaScript",
-    "tipo": "codigo",
-    "dificultad": "Avanzado",
-    "pregunta": "Completa el código seleccionando los elementos necesarios para agregar un evento de tipo click a un botón.",
-    "modo": "slots",
-    "plantilla": "btn.{{slot0}}('{{slot1}}', fn);",
-    "opcionesSlots": [
-      "addEventListener",
-      "click"
-    ],
-    "respuestasSlots": [
-      "addEventListener",
-      "click"
-    ],
-    "evaluacion": "slots",
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "js-49",
-    "categoria": "JavaScript",
-    "tipo": "multiple",
-    "dificultad": "Avanzado",
-    "pregunta": "¿Qué evento se dispara en JavaScript cuando el usuario hace clic sobre un elemento en la interfaz?",
-    "opciones": [
-      "click",
-      "hover",
-      "submit"
-    ],
-    "respuesta": "click",
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "js-50",
-    "categoria": "JavaScript",
-    "tipo": "codigo",
-    "dificultad": "Avanzado",
-    "pregunta": "Completa el template string seleccionando la sintaxis correcta para interpolar una variable dentro de una cadena.",
-    "modo": "slots",
-    "plantilla": "`Hola {{slot0}}`",
-    "opcionesSlots": [
-      "${name}",
-      "{name}",
-      "$name"
-    ],
-    "respuestasSlots": [
-      "${name}"
-    ],
-    "evaluacion": "slots",
-    "puntos": 30,
-    "timeLimit": 50
   }
 ]

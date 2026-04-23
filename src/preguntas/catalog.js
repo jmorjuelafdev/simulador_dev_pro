@@ -44,20 +44,20 @@ export const BLOCKS = [
     label: "Fundamentos",
     categorias: [
       { id: "Logica", label: "Lógica", preguntasPorSesion: 50 },
-      { id: "JavaScript", label: "JavaScript", preguntasPorSesion: 50 }
+      { id: "Logica2", label: "Lógica 2", preguntasPorSesion: 50 }
     ]
   },
   {
     id: "Frontend",
     label: "Frontend",
     categorias: [
+      { id: "JavaScript", label: "JavaScript", preguntasPorSesion: 50 },
       { id: "HTML", label: "HTML", preguntasPorSesion: 50 },
       { id: "CSS", label: "CSS", preguntasPorSesion: 50 },
       { id: "JavaScript2", label: "JavaScript 2", preguntasPorSesion: 50 },
       { id: "Angular", label: "Angular", preguntasPorSesion: 50 },
-      { id: "APIs_JSON", label: "APIs/JSON", preguntasPorSesion: 50 },
-      { id: "Accesibilidad", label: "Accesibilidad", preguntasPorSesion: 50 },
-      { id: "UX_UI", label: "UX/UI", preguntasPorSesion: 50 }
+      { id: "API_rest", label: "API REST", preguntasPorSesion: 50 },
+      { id: "React", label: "React", preguntasPorSesion: 50 }
     ]
   },
   {
@@ -73,7 +73,7 @@ export const BLOCKS = [
     id: "Fullstack",
     label: "Fullstack",
     categorias: [
-      { id: "Fullstack", label: "Fullstack", preguntasPorSesion: 50 },
+      { id: "Git", label: "Git", preguntasPorSesion: 50 },
       { id: "Mysql", label: "Mysql", preguntasPorSesion: 50 }
     ]
   },

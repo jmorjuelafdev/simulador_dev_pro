@@ -37,7 +37,12 @@
     "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "En el desarrollo con Python, ¿cuál es la extensión de archivo estándar que se utiliza para guardar scripts o programas escritos en este lenguaje?",
-    "opciones": [".py", ".pyth", ".pyt", ".pt"],
+    "opciones": [
+      ".py",
+      ".pyth",
+      ".pyt",
+      ".pt"
+    ],
     "respuesta": ".py",
     "puntos": 15,
     "timeLimit": 30
@@ -66,8 +71,15 @@
     "pregunta": "Completa la siguiente instrucción seleccionando la función adecuada para mostrar un texto en consola.",
     "modo": "slots",
     "plantilla": "{{slot0}}('Hola Mundo')",
-    "opcionesSlots": ["print", "echo", "console.log", "printf"],
-    "respuestasSlots": ["print"],
+    "opcionesSlots": [
+      "print",
+      "echo",
+      "console.log",
+      "printf"
+    ],
+    "respuestasSlots": [
+      "print"
+    ],
     "evaluacion": "slots",
     "puntos": 15,
     "timeLimit": 30
@@ -78,7 +90,12 @@
     "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "¿Cuál de los siguientes nombres NO es válido para declarar una variable en Python según sus reglas de sintaxis?",
-    "opciones": ["mi_variable", "_variable", "2variable", "variable2"],
+    "opciones": [
+      "mi_variable",
+      "_variable",
+      "2variable",
+      "variable2"
+    ],
     "respuesta": "2variable",
     "puntos": 15,
     "timeLimit": 30
@@ -89,7 +106,12 @@
     "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "¿Cuál es la forma correcta de declarar e inicializar una variable con el valor 5 en Python?",
-    "opciones": ["x = 5", "int x = 5", "var x = 5", "let x = 5"],
+    "opciones": [
+      "x = 5",
+      "int x = 5",
+      "var x = 5",
+      "let x = 5"
+    ],
     "respuesta": "x = 5",
     "puntos": 15,
     "timeLimit": 30
@@ -100,7 +122,12 @@
     "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "En Python, ¿cuál de las siguientes opciones representa correctamente un número decimal?",
-    "opciones": ["2.5", "2,5", "2;5", "2:5"],
+    "opciones": [
+      "2.5",
+      "2,5",
+      "2;5",
+      "2:5"
+    ],
     "respuesta": "2.5",
     "puntos": 15,
     "timeLimit": 30
@@ -127,7 +154,12 @@
     "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "¿Qué función se utiliza en Python para conocer el tipo de dato de una variable durante la ejecución del programa?",
-    "opciones": ["type(x)", "typeof(x)", "getType(x)", "printType(x)"],
+    "opciones": [
+      "type(x)",
+      "typeof(x)",
+      "getType(x)",
+      "printType(x)"
+    ],
     "respuesta": "type(x)",
     "puntos": 15,
     "timeLimit": 35
@@ -156,8 +188,15 @@
     "pregunta": "Analiza el código y arrastra el resultado correcto considerando la entrada del usuario:",
     "modo": "slots",
     "plantilla": "edad = input(\"Ingresa tu edad: \")\nprint(edad + \" años\")\n\nEntrada del usuario: 20\nSalida → {{slot0}}",
-    "opcionesSlots": ["20 años", "20", "Error", "años20"],
-    "respuestasSlots": ["20 años"],
+    "opcionesSlots": [
+      "20 años",
+      "20",
+      "Error",
+      "años20"
+    ],
+    "respuestasSlots": [
+      "20 años"
+    ],
     "evaluacion": "slots",
     "puntos": 15,
     "timeLimit": 35
@@ -168,7 +207,12 @@
     "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "En Python, ¿qué método se utiliza para eliminar los espacios en blanco al inicio y al final de una cadena de texto?",
-    "opciones": ["strip()", "trim()", "remove()", "clean()"],
+    "opciones": [
+      "strip()",
+      "trim()",
+      "remove()",
+      "clean()"
+    ],
     "respuesta": "strip()",
     "puntos": 15,
     "timeLimit": 35
@@ -181,8 +225,15 @@
     "pregunta": "Completa el siguiente fragmento de código seleccionando el método adecuado para eliminar espacios en blanco al inicio y final de la cadena.",
     "modo": "slots",
     "plantilla": "texto = ' Hola '\nresultado = texto.{{slot0}}()\nprint(resultado)",
-    "opcionesSlots": ["strip", "replace", "split", "join"],
-    "respuestasSlots": ["strip"],
+    "opcionesSlots": [
+      "strip",
+      "replace",
+      "split",
+      "join"
+    ],
+    "respuestasSlots": [
+      "strip"
+    ],
     "evaluacion": "slots",
     "puntos": 15,
     "timeLimit": 35
@@ -195,8 +246,15 @@
     "pregunta": "Completa el código seleccionando el método que convierte todos los caracteres de una cadena a mayúsculas.",
     "modo": "slots",
     "plantilla": "texto = 'hola'\ntexto.{{slot0}}()",
-    "opcionesSlots": ["upper", "lower", "title", "capitalize"],
-    "respuestasSlots": ["upper"],
+    "opcionesSlots": [
+      "upper",
+      "lower",
+      "title",
+      "capitalize"
+    ],
+    "respuestasSlots": [
+      "upper"
+    ],
     "evaluacion": "slots",
     "puntos": 15,
     "timeLimit": 35
@@ -209,8 +267,15 @@
     "pregunta": "Completa la expresión seleccionando el método adecuado para reemplazar una palabra dentro de una cadena de texto.",
     "modo": "slots",
     "plantilla": "'Hola Mundo'.{{slot0}}('Mundo','Python')",
-    "opcionesSlots": ["replace", "split", "join", "strip"],
-    "respuestasSlots": ["replace"],
+    "opcionesSlots": [
+      "replace",
+      "split",
+      "join",
+      "strip"
+    ],
+    "respuestasSlots": [
+      "replace"
+    ],
     "evaluacion": "slots",
     "puntos": 15,
     "timeLimit": 35
@@ -221,7 +286,12 @@
     "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "¿Cuál es la forma correcta de escribir una estructura condicional if en Python respetando su sintaxis?",
-    "opciones": ["if x > 5:", "if(x > 5)", "if x > 5 then", "if x > 5 {}"],
+    "opciones": [
+      "if x > 5:",
+      "if(x > 5)",
+      "if x > 5 then",
+      "if x > 5 {}"
+    ],
     "respuesta": "if x > 5:",
     "puntos": 15,
     "timeLimit": 35
@@ -234,8 +304,15 @@
     "pregunta": "Completa la condición seleccionando el operador adecuado para evaluar si una variable es mayor que 5.",
     "modo": "slots",
     "plantilla": "if x {{slot0}} 5:",
-    "opcionesSlots": [">", "<", ">=", "<="],
-    "respuestasSlots": [">"],
+    "opcionesSlots": [
+      ">",
+      "<",
+      ">=",
+      "<="
+    ],
+    "respuestasSlots": [
+      ">"
+    ],
     "evaluacion": "slots",
     "puntos": 15,
     "timeLimit": 35
@@ -248,8 +325,15 @@
     "pregunta": "Completa la estructura del bucle for seleccionando la palabra clave correcta para iterar sobre una lista en Python.",
     "modo": "slots",
     "plantilla": "for x {{slot0}} lista:",
-    "opcionesSlots": ["in", "of", "from", "at"],
-    "respuestasSlots": ["in"],
+    "opcionesSlots": [
+      "in",
+      "of",
+      "from",
+      "at"
+    ],
+    "respuestasSlots": [
+      "in"
+    ],
     "evaluacion": "slots",
     "puntos": 20,
     "timeLimit": 40
@@ -302,7 +386,6 @@
     "puntos": 20,
     "timeLimit": 40
   },
-
   {
     "id": "py-23",
     "categoria": "Python",
@@ -319,7 +402,6 @@
     "puntos": 20,
     "timeLimit": 40
   },
-
   {
     "id": "py-24",
     "categoria": "Python",
@@ -344,8 +426,19 @@
     "pregunta": "Completa el código para imprimir un árbol de navidad con el siguiente resultado:\n\n      *\n     ***\n    *****\n   *******\n  *********\n ***********",
     "modo": "slots",
     "plantilla": "z = 7\nx = 1\nwhile z > 0:\n    print(' ' * {{slot0}} + '*' * {{slot1}} + ' ' * {{slot2}})\n    x += {{slot3}}\n    z -= {{slot4}}",
-    "opcionesSlots": ["z", "x", "2", "1"],
-    "respuestasSlots": ["z", "x", "z", "2", "1"],
+    "opcionesSlots": [
+      "z",
+      "x",
+      "2",
+      "1"
+    ],
+    "respuestasSlots": [
+      "z",
+      "x",
+      "z",
+      "2",
+      "1"
+    ],
     "evaluacion": "slots",
     "puntos": 20,
     "timeLimit": 40
@@ -374,8 +467,19 @@
     "pregunta": "Completa la estructura condicional correcta en Python arrastrando las palabras clave:",
     "modo": "slots",
     "plantilla": "{{slot0}} condicion == 1:\n    print(\"Haz a\")\n{{slot1}} condicion == 2:\n    print(\"Haz b\")\n{{slot2}} condicion == 3:\n    print(\"Haz c\")\n{{slot3}}:\n    print(\"Haz d\")",
-    "opcionesSlots": ["if", "elif", "else", "switch", "case"],
-    "respuestasSlots": ["if", "elif", "elif", "else"],
+    "opcionesSlots": [
+      "if",
+      "elif",
+      "else",
+      "switch",
+      "case"
+    ],
+    "respuestasSlots": [
+      "if",
+      "elif",
+      "elif",
+      "else"
+    ],
     "evaluacion": "slots",
     "puntos": 20,
     "timeLimit": 40
@@ -410,7 +514,9 @@
       "saludar()",
       "Hola('saludar')"
     ],
-    "respuestasSlots": ["saludar('Hola')"],
+    "respuestasSlots": [
+      "saludar('Hola')"
+    ],
     "evaluacion": "slots",
     "puntos": 25,
     "timeLimit": 45
@@ -423,8 +529,15 @@
     "pregunta": "Completa la función seleccionando el parámetro adecuado para imprimir el nombre recibido.",
     "modo": "slots",
     "plantilla": "def mostrar(nombre, edad):\n print({{slot0}})",
-    "opcionesSlots": ["nombre", "edad", "mostrar", "print"],
-    "respuestasSlots": ["nombre"],
+    "opcionesSlots": [
+      "nombre",
+      "edad",
+      "mostrar",
+      "print"
+    ],
+    "respuestasSlots": [
+      "nombre"
+    ],
     "evaluacion": "slots",
     "puntos": 25,
     "timeLimit": 45
@@ -437,8 +550,15 @@
     "pregunta": "Completa la función seleccionando la palabra clave correcta para devolver el resultado de la operación.",
     "modo": "slots",
     "plantilla": "def suma(a, b):\n  {{slot0}} a + b",
-    "opcionesSlots": ["return", "print", "yield", "pass"],
-    "respuestasSlots": ["return"],
+    "opcionesSlots": [
+      "return",
+      "print",
+      "yield",
+      "pass"
+    ],
+    "respuestasSlots": [
+      "return"
+    ],
     "evaluacion": "slots",
     "puntos": 25,
     "timeLimit": 45
@@ -467,8 +587,15 @@
     "pregunta": "Completa la función seleccionando la instrucción correcta para devolver el resultado de la operación.",
     "modo": "slots",
     "plantilla": "def sumar(x):\n {{slot0}} x + 5",
-    "opcionesSlots": ["return", "print", "pass", "yield"],
-    "respuestasSlots": ["return"],
+    "opcionesSlots": [
+      "return",
+      "print",
+      "pass",
+      "yield"
+    ],
+    "respuestasSlots": [
+      "return"
+    ],
     "evaluacion": "slots",
     "puntos": 25,
     "timeLimit": 45
@@ -480,7 +607,7 @@
     "dificultad": "Intermedio",
     "pregunta": "En Python, arrastra cada símbolo con su significado a la estructura de datos correcta según su uso:",
     "modo": "slots",
-    "plantilla": "Listas(list): Colecciones ordenadas y modificables (mutables) que permiten elementos duplicados. = {{slot0}}\nTuplas(tuple): Colecciones ordenadas e inmutables que permiten elementos duplicados(no se pueden cambiar tras su creación). = {{slot1}}\nDiccionarios(dict): Colecciones de pares clave-valor no ordenados (Son mutables y las claves deben ser únicas) = {{slot2}}\nConjuntos(set): Colecciones no ordenadas, mutables y sin duplicados (únicos). = {{slot3}}\n",
+    "plantilla": "Listas(list): Colecciones ordenadas y modificables (mutables) que permiten elementos duplicados. = {{slot0}}\nTuplas(tuple): Colecciones ordenadas e inmutables que permiten elementos duplicados(no se pueden cambiar tras su creación). = {{slot1}}\nDiccionarios(dict): Colecciones de pares clave-valor no ordenados (Son mutables y las claves deben ser únicas) = {{slot2}}\nConjuntos(set): Colecciones no ordenadas, mutables y sin duplicados (únicos). = {{slot3}}",
     "opcionesSlots": [
       "valores = [1,\"dos\",3.0]",
       "valores = (1,2,3)",
@@ -505,8 +632,15 @@
     "pregunta": "Completa la asignación seleccionando la estructura correcta para crear una lista vacía en Python.",
     "modo": "slots",
     "plantilla": "lista = {{slot0}}",
-    "opcionesSlots": ["[]", "()", "{}", "<>"],
-    "respuestasSlots": ["[]"],
+    "opcionesSlots": [
+      "[]",
+      "()",
+      "{}",
+      "<>"
+    ],
+    "respuestasSlots": [
+      "[]"
+    ],
     "evaluacion": "slots",
     "puntos": 30,
     "timeLimit": 50
@@ -535,8 +669,15 @@
     "pregunta": "Arastra el resultado correcto, añadiendo un elemento a la siguiente lista con el método append():",
     "modo": "slots",
     "plantilla": "lista = [1,2,3]\nlista.append(4)\nprint(lista) → {{slot0}}",
-    "opcionesSlots": ["[1,2,3,4]", "[4,1,2,3]", "[1,2,3]", "Error"],
-    "respuestasSlots": ["[1,2,3,4]"],
+    "opcionesSlots": [
+      "[1,2,3,4]",
+      "[4,1,2,3]",
+      "[1,2,3]",
+      "Error"
+    ],
+    "respuestasSlots": [
+      "[1,2,3,4]"
+    ],
     "evaluacion": "slots",
     "puntos": 30,
     "timeLimit": 50
@@ -565,8 +706,15 @@
     "pregunta": "Arastra el resultado correcto, obteniendo la longitud de la siguiente lista con el método len():",
     "modo": "slots",
     "plantilla": "lista = [1,2,3,4]\nprint(len(lista)) → {{slot0}}",
-    "opcionesSlots": ["4", "3", "5", "Error"],
-    "respuestasSlots": ["4"],
+    "opcionesSlots": [
+      "4",
+      "3",
+      "5",
+      "Error"
+    ],
+    "respuestasSlots": [
+      "4"
+    ],
     "evaluacion": "slots",
     "puntos": 30,
     "timeLimit": 50
@@ -579,8 +727,15 @@
     "pregunta": "Completa la expresión seleccionando la función adecuada para calcular la suma de todos los elementos de una lista.",
     "modo": "slots",
     "plantilla": "{{slot0}}(lista)",
-    "opcionesSlots": ["sum", "len", "max", "min"],
-    "respuestasSlots": ["sum"],
+    "opcionesSlots": [
+      "sum",
+      "len",
+      "max",
+      "min"
+    ],
+    "respuestasSlots": [
+      "sum"
+    ],
     "evaluacion": "slots",
     "puntos": 30,
     "timeLimit": 50
@@ -593,8 +748,16 @@
     "pregunta": "Completa la comprensión de lista seleccionando los elementos adecuados para recorrer una lista y filtrar valores mayores a 10.",
     "modo": "slots",
     "plantilla": "[{{slot0}} for {{slot0}} in {{slot1}} if {{slot0}} > 10]",
-    "opcionesSlots": ["x", "lista", "valor", "n"],
-    "respuestasSlots": ["x", "lista"],
+    "opcionesSlots": [
+      "x",
+      "lista",
+      "valor",
+      "n"
+    ],
+    "respuestasSlots": [
+      "x",
+      "lista"
+    ],
     "evaluacion": "slots",
     "puntos": 30,
     "timeLimit": 50
@@ -607,8 +770,16 @@
     "pregunta": "Completa la comprensión de lista seleccionando los elementos adecuados para duplicar cada valor dentro de una lista.",
     "modo": "slots",
     "plantilla": "[{{slot0}} * 2 for {{slot0}} in {{slot1}}]",
-    "opcionesSlots": ["x", "lista", "valor", "n"],
-    "respuestasSlots": ["x", "lista"],
+    "opcionesSlots": [
+      "x",
+      "lista",
+      "valor",
+      "n"
+    ],
+    "respuestasSlots": [
+      "x",
+      "lista"
+    ],
     "evaluacion": "slots",
     "puntos": 30,
     "timeLimit": 50
@@ -619,7 +790,12 @@
     "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "En Python, ¿cuál de las siguientes opciones representa correctamente la sintaxis para definir una tupla con varios elementos?",
-    "opciones": ["(1,2,3)", "[1,2,3]", "{1,2,3}", "{'a':1}"],
+    "opciones": [
+      "(1,2,3)",
+      "[1,2,3]",
+      "{1,2,3}",
+      "{'a':1}"
+    ],
     "respuesta": "(1,2,3)",
     "puntos": 30,
     "timeLimit": 50
@@ -630,7 +806,12 @@
     "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "¿Cuál de las siguientes estructuras corresponde a un conjunto (set) en Python, utilizado para almacenar elementos únicos?",
-    "opciones": ["{1,2,3}", "(1,2,3)", "[1,2,3]", "{'a':1}"],
+    "opciones": [
+      "{1,2,3}",
+      "(1,2,3)",
+      "[1,2,3]",
+      "{'a':1}"
+    ],
     "respuesta": "{1,2,3}",
     "puntos": 30,
     "timeLimit": 50
@@ -641,7 +822,12 @@
     "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "¿Cuál de las siguientes opciones muestra correctamente la sintaxis para definir un diccionario en Python?",
-    "opciones": ["{'nombre':'Juan'}", "[1,2,3]", "(1,2,3)", "{1,2,3}"],
+    "opciones": [
+      "{'nombre':'Juan'}",
+      "[1,2,3]",
+      "(1,2,3)",
+      "{1,2,3}"
+    ],
     "respuesta": "{'nombre':'Juan'}",
     "puntos": 30,
     "timeLimit": 50
@@ -654,8 +840,15 @@
     "pregunta": "Completa la expresión seleccionando la clave correcta para acceder al valor almacenado dentro del diccionario.",
     "modo": "slots",
     "plantilla": "usuario = {'nombre':'Ana'}\nusuario[{{slot0}}]",
-    "opcionesSlots": ["'nombre'", "'edad'", "0", "1"],
-    "respuestasSlots": ["'nombre'"],
+    "opcionesSlots": [
+      "'nombre'",
+      "'edad'",
+      "0",
+      "1"
+    ],
+    "respuestasSlots": [
+      "'nombre'"
+    ],
     "evaluacion": "slots",
     "puntos": 30,
     "timeLimit": 50
@@ -668,8 +861,15 @@
     "pregunta": "Completa la estructura seleccionando la palabra clave correcta para manejar excepciones en Python.",
     "modo": "slots",
     "plantilla": "try:\n pass\n{{slot0}} Exception as e:\n print(e)",
-    "opcionesSlots": ["except", "catch", "error", "finally"],
-    "respuestasSlots": ["except"],
+    "opcionesSlots": [
+      "except",
+      "catch",
+      "error",
+      "finally"
+    ],
+    "respuestasSlots": [
+      "except"
+    ],
     "evaluacion": "slots",
     "puntos": 30,
     "timeLimit": 50
@@ -698,8 +898,15 @@
     "pregunta": "Analiza el código y arrastra la opción correcta al espacio:",
     "modo": "slots",
     "plantilla": "doble = lambda x: x * 2\nprint(doble(4)) → {{slot0}}",
-    "opcionesSlots": ["8", "4", "16", "Error"],
-    "respuestasSlots": ["8"],
+    "opcionesSlots": [
+      "8",
+      "4",
+      "16",
+      "Error"
+    ],
+    "respuestasSlots": [
+      "8"
+    ],
     "puntos": 30,
     "timeLimit": 50
   },
@@ -711,8 +918,15 @@
     "pregunta": "Completa la función seleccionando la instrucción correcta para devolver el valor máximo de una lista.",
     "modo": "slots",
     "plantilla": "def maximo(lista):\n return {{slot0}}",
-    "opcionesSlots": ["max(lista)", "min(lista)", "len(lista)", "sum(lista)"],
-    "respuestasSlots": ["max(lista)"],
+    "opcionesSlots": [
+      "max(lista)",
+      "min(lista)",
+      "len(lista)",
+      "sum(lista)"
+    ],
+    "respuestasSlots": [
+      "max(lista)"
+    ],
     "evaluacion": "slots",
     "puntos": 30,
     "timeLimit": 50

@@ -3,7 +3,7 @@ const path = require("path");
 
 const ROOT = path.join(__dirname, "..", "src");
 const FILES = [
-  "preguntas_fullstack.json",
+  "preguntas_git.json",
   "preguntas_javascript.json",
   "preguntas_logica.json",
   "preguntas_python.json",

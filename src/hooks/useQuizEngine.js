@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
   barajar,
   completarPlantillaCodigo,
+  descomponerPlantillaCodigo,
   construirJustificacion,
   cryptoId
 } from "../utils/quiz";
@@ -618,10 +619,37 @@ export function useQuizEngine({
         ? preguntaActual.respuestasSlots
         : []
       : [];
+
+    const slotTemplateInfo = esSlotCode
+      ? (() => {
+          const partes = descomponerPlantillaCodigo(preguntaActual.plantilla || "");
+          const indices = partes
+            .filter((parte) => parte.tipo === "slot")
+            .map((parte) => parte.indice)
+            .filter((indice) => typeof indice === "number" && indice >= 0);
+          const slotCount = indices.length ? Math.max(...indices) + 1 : 0;
+          return { indices, slotCount };
+        })()
+      : { indices: [], slotCount: 0 };
+
+    const slotIndices = slotTemplateInfo.indices;
+    const slotCount = slotTemplateInfo.slotCount;
+
+    const construirRespuestasPorIndice = () => {
+      if (!esSlotCode) return [];
+      if (!slotIndices.length) return [...respuestasSlots];
+      const base = Array.from({ length: slotCount }, () => "");
+      slotIndices.forEach((slotIndex, idx) => {
+        base[slotIndex] = String(respuestasSlots[idx] ?? "");
+      });
+      return base;
+    };
+
+    const respuestasEsperadasPorIndice = esSlotCode ? construirRespuestasPorIndice() : [];
     const solucionSlot = esSlotCode
       ? completarPlantillaCodigo(
           preguntaActual.plantilla || "",
-          respuestasSlots
+          respuestasEsperadasPorIndice
         )
       : null;
 
@@ -648,12 +676,25 @@ export function useQuizEngine({
       if (esSlotCode) {
         const seleccion = Array.isArray(valor?.respuestas) ? valor.respuestas : [];
         seleccionPayload = { modo: "slots", respuestas: [...seleccion] };
-        if (!seleccion.length || seleccion.length !== respuestasSlots.length) {
-          return false;
-        }
-        return respuestasSlots.every((esperado, index) => {
-          const objetivo = String(esperado ?? "").trim().toLowerCase();
-          const obtenido = String(seleccion[index] ?? "").trim().toLowerCase();
+
+        const indicesEvaluar = slotIndices.length
+          ? slotIndices
+          : respuestasSlots.map((_v, index) => index);
+        if (!indicesEvaluar.length) return false;
+
+        const esperadoSecuencial = respuestasSlots;
+        const obtenerEsperado = (slotIndex, idx) => {
+          if (!slotIndices.length) return esperadoSecuencial[slotIndex];
+          return esperadoSecuencial[idx];
+        };
+
+        return indicesEvaluar.every((slotIndex, idx) => {
+          const objetivo = String(obtenerEsperado(slotIndex, idx) ?? "")
+            .trim()
+            .toLowerCase();
+          const obtenido = String(seleccion[slotIndex] ?? "")
+            .trim()
+            .toLowerCase();
           return objetivo === obtenido;
         });
       }
@@ -722,7 +763,7 @@ export function useQuizEngine({
       ? {
           modo: "slots",
           slotSolution: solucionSlot,
-          respuestasEsperadas: respuestasSlots,
+          respuestasEsperadas: slotIndices.length ? respuestasEsperadasPorIndice : respuestasSlots,
           respuestasUsuario: Array.isArray(seleccionPayload?.respuestas)
             ? seleccionPayload.respuestas
             : []
