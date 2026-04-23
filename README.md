@@ -6,9 +6,9 @@ Aplicación web para practicar entrevistas técnicas con preguntas tipo quiz. Ca
 
 - **Bloques de aprendizaje:**
   - Fundamentos → Lógica y Lógica 2.
-  - Frontend → JavaScript, HTML, CSS, JavaScript 2, Angular, API REST, UX/UI.
+  - Frontend → HTML, CSS, JavaScript, JavaScript 2, Angular, React y API REST.
   - Backend → Python, PHP, Java.
-  - Fullstack → Git y Mysql para proyectos completos.
+  - Fullstack → Git y MySQL para proyectos completos.
   - Skills → Habilidades blandas (Skills y Skills 2).
 - Hasta **50 preguntas por categoría** y opción "Todas" para practicar con el banco completo.
 - Preguntas de selección única y ejercicios con “slots” de código (sin editor libre).

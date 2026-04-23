@@ -628,5 +628,228 @@
     ],
     "puntos": 25,
     "timeLimit": 45
+  },
+  {
+    "id": "js-35",
+    "categoria": "JavaScript",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué palabra clave se usa para manejar errores?",
+    "opciones": ["try", "loop", "switch", "const"],
+    "respuesta": "try",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "js-36",
+    "categoria": "JavaScript",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa la captura de error.",
+    "modo": "slots",
+    "plantilla": "try { } {{slot1}}(error){ }",
+    "opcionesSlots": ["catch", "throw", "await", "break"],
+    "respuestasSlots": ["catch"],
+    "evaluacion": "slots",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "js-37",
+    "categoria": "JavaScript",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué hace finally en try/catch?",
+    "opciones": [
+      "Se ejecuta siempre al final",
+      "Declara variables",
+      "Detiene el navegador",
+      "Crea arrays"
+    ],
+    "respuesta": "Se ejecuta siempre al final",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "js-38",
+    "categoria": "JavaScript",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "Selecciona métodos comunes de arrays.",
+    "opciones": ["map()", "filter()", "reduce()", "paint()"],
+    "respuesta": ["map()", "filter()", "reduce()"],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "js-39",
+    "categoria": "JavaScript",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa transformación de array.",
+    "modo": "slots",
+    "plantilla": "nums.{{slot1}}(n => n * 2)",
+    "opcionesSlots": ["map", "push", "find", "join"],
+    "respuestasSlots": ["map"],
+    "evaluacion": "slots",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "js-40",
+    "categoria": "JavaScript",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué hace filter()?",
+    "opciones": [
+      "Filtra elementos según condición",
+      "Ordena HTML",
+      "Cierra funciones",
+      "Borra variables"
+    ],
+    "respuesta": "Filtra elementos según condición",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "js-41",
+    "categoria": "JavaScript",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa filtrado de mayores de edad.",
+    "modo": "slots",
+    "plantilla": "users.{{slot1}}(u => u.edad >= 18)",
+    "opcionesSlots": ["filter", "map", "slice", "pop"],
+    "respuestasSlots": ["filter"],
+    "evaluacion": "slots",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "js-42",
+    "categoria": "JavaScript",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué método devuelve el primer elemento que cumple condición?",
+    "opciones": ["find()", "push()", "join()", "sort()"],
+    "respuesta": "find()",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "js-43",
+    "categoria": "JavaScript",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "Selecciona formas modernas de asincronía.",
+    "opciones": ["Promise", "async/await", "then()", "color()"],
+    "respuesta": ["Promise", "async/await", "then()"],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "js-44",
+    "categoria": "JavaScript",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa espera de promesa.",
+    "modo": "slots",
+    "plantilla": "const data = {{slot1}} fetch(url);",
+    "opcionesSlots": ["await", "return", "break", "const"],
+    "respuestasSlots": ["await"],
+    "evaluacion": "slots",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "js-45",
+    "categoria": "JavaScript",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué es destructuring?",
+    "opciones": [
+      "Extraer valores de objetos o arrays",
+      "Borrar variables",
+      "Crear estilos",
+      "Compilar código"
+    ],
+    "respuesta": "Extraer valores de objetos o arrays",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "js-46",
+    "categoria": "JavaScript",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa destructuring básico.",
+    "modo": "slots",
+    "plantilla": "const { {{slot1}} } = usuario;",
+    "opcionesSlots": ["nombre", "push", "return", "map"],
+    "respuestasSlots": ["nombre"],
+    "evaluacion": "slots",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "js-47",
+    "categoria": "JavaScript",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué operador copia propiedades de objetos?",
+    "opciones": ["...", "&&", "??", "=>"],
+    "respuesta": "...",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "js-48",
+    "categoria": "JavaScript",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "Selecciona buenas prácticas frontend con JS.",
+    "opciones": [
+      "Manejar errores",
+      "Funciones pequeñas",
+      "Código legible",
+      "Variables aleatorias globales"
+    ],
+    "respuesta": [
+      "Manejar errores",
+      "Funciones pequeñas",
+      "Código legible"
+    ],
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "js-49",
+    "categoria": "JavaScript",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa selección de elemento DOM.",
+    "modo": "slots",
+    "plantilla": "document.{{slot1}}('#app')",
+    "opcionesSlots": ["querySelector", "fetch", "filter", "reduce"],
+    "respuestasSlots": ["querySelector"],
+    "evaluacion": "slots",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "js-50",
+    "categoria": "JavaScript",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué refleja mejor a un junior sólido en JavaScript?",
+    "opciones": [
+      "Entender lógica, DOM, arrays y async básico",
+      "Memorizar todo sin practicar",
+      "Solo saber console.log",
+      "Evitar errores siempre"
+    ],
+    "respuesta": "Entender lógica, DOM, arrays y async básico",
+    "puntos": 30,
+    "timeLimit": 50
   }
 ]

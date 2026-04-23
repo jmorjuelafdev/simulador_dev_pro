@@ -51,13 +51,13 @@ export const BLOCKS = [
     id: "Frontend",
     label: "Frontend",
     categorias: [
-      { id: "JavaScript", label: "JavaScript", preguntasPorSesion: 50 },
       { id: "HTML", label: "HTML", preguntasPorSesion: 50 },
       { id: "CSS", label: "CSS", preguntasPorSesion: 50 },
+      { id: "JavaScript", label: "JavaScript", preguntasPorSesion: 50 },
       { id: "JavaScript2", label: "JavaScript 2", preguntasPorSesion: 50 },
       { id: "Angular", label: "Angular", preguntasPorSesion: 50 },
-      { id: "API_rest", label: "API REST", preguntasPorSesion: 50 },
-      { id: "React", label: "React", preguntasPorSesion: 50 }
+      { id: "React", label: "React", preguntasPorSesion: 50 },
+      { id: "API_rest", label: "API REST", preguntasPorSesion: 50 }
     ]
   },
   {

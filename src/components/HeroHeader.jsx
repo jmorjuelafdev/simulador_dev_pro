@@ -103,10 +103,15 @@ function HeroHeader({
           </label>
         </div>
       </div>
-      <p style={{ textAlign: "center" }}>
+      <p
+        style={{
+          textAlign: "justify",
+          textJustify: "inter-word"
+        }}
+      >
         Practica entrevistas completas por bloques: Fundamentos (Lógica, Lógica 2), Frontend
-        (JavaScript, HTML, CSS, JavaScript 2, Angular, API REST, UX/UI), Backend (Python, PHP, Java),
-        Fullstack (Git, Mysql) y Skills (Skills, Skills 2). Todas las preguntas usan opciones de selección
+        (JavaScript, HTML, CSS, JavaScript 2, Angular, React, API REST), Backend (Python, PHP, Java),
+        Fullstack (Git, MySQL) y Skills (Skills, Skills 2). Todas las preguntas usan opciones de selección
         única y ejercicios con slots (sin editor de código), con pistas y feedback claro para avanzar paso a
         paso.
       </p>

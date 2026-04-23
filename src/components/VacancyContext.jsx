@@ -11,7 +11,7 @@ function VacancyContext() {
         </li>
         <li>
           <FontAwesomeIcon icon="lightbulb" aria-label="Frontend" fixedWidth />{" "}
-          Frontend: JavaScript, HTML, CSS y frameworks (JavaScript 2, Angular, API REST, UX/UI) orientados a experiencias fluidas y consistentes.
+          Frontend: JavaScript, HTML, CSS y frameworks (JavaScript 2, Angular, React) más APIs (API REST) orientados a experiencias fluidas y consistentes.
         </li>
         <li>
           <FontAwesomeIcon icon="gears" aria-label="Backend" fixedWidth />{" "}
@@ -19,7 +19,7 @@ function VacancyContext() {
         </li>
         <li>
           <FontAwesomeIcon icon={"layer-group"} aria-label="Fullstack" fixedWidth />{" "}
-          Fullstack: control de versiones con Git y bases de datos con Mysql para proyectos completos.
+          Fullstack: control de versiones con Git y bases de datos con MySQL para proyectos completos.
         </li>
         <li>
           <FontAwesomeIcon icon="handshake" aria-label="Skills" fixedWidth />{" "}
