@@ -176,9 +176,9 @@
     "dificultad": "Basico",
     "pregunta": "Completa property binding.",
     "modo": "slots",
-    "plantilla": "<img {{slot0}}src{{slot1}}='foto'>",
-    "opcionesSlots": ["[", "]", "(", ")"],
-    "respuestasSlots": ["[", "]"],
+    "plantilla": "<img {{slot0}}src{{slot1}}='src/assets/img/foto.jpg'>",
+    "opcionesSlots": ["[","]","(",")"],
+    "respuestasSlots": ["[","]"],
     "evaluacion": "slots",
     "puntos": 15,
     "timeLimit": 35
@@ -358,7 +358,7 @@
       "CLI para generar código y gestionar proyectos",
       "Solo funciona offline sin conexión a internet"
     ],
-    "respuesta": ["Componentes reutilizables", "Routing integrado para navegación entre páginas", "CLI para generar código y gestionar proyectos"],
+    "respuesta": ["Componentes reutilizables y organizados", "Routing integrado para navegación entre páginas", "CLI para generar código y gestionar proyectos"],
     "puntos": 25,
     "timeLimit": 45
   },
@@ -498,57 +498,57 @@
     "id": "angular-39",
     "categoria": "Angular",
     "tipo": "codigo",
-    "dificultad": "Basico",
+    "dificultad": "Avanzado",
     "pregunta": "Completa importación para formularios.",
     "modo": "slots",
     "plantilla": "import { {{slot0}} } from '@angular/forms';",
     "opcionesSlots": ["FormsModule", "RouterModule", "HttpClient", "NgServe"],
     "respuestasSlots": ["FormsModule"],
     "evaluacion": "slots",
-    "puntos": 15,
-    "timeLimit": 35
+    "puntos": 30,
+    "timeLimit": 50
   },
   {
     "id": "angular-40",
     "categoria": "Angular",
     "tipo": "multiple",
-    "dificultad": "Basico",
+    "dificultad": "Avanzado",
     "pregunta": "¿Qué característica permite dividir la app en piezas reutilizables?",
     "opciones": ["Componentes", "Cookies", "Drivers", "Threads"],
     "respuesta": "Componentes",
-    "puntos": 15,
-    "timeLimit": 35
+    "puntos": 30,
+    "timeLimit": 50
   },
   {
     "id": "angular-41",
     "categoria": "Angular",
     "tipo": "multiple",
-    "dificultad": "Basico",
+    "dificultad": "Avanzado",
     "pregunta": "¿Qué decorador se usa para emitir eventos al componente padre?",
     "opciones": ["@Output", "@Input", "@Injectable", "@Pipe"],
     "respuesta": "@Output",
-    "puntos": 15,
-    "timeLimit": 35
+    "puntos": 30,
+    "timeLimit": 50
   },
   {
     "id": "angular-42",
     "categoria": "Angular",
     "tipo": "codigo",
-    "dificultad": "Basico",
+    "dificultad": "Avanzado",
     "pregunta": "Completa el decorador para enviar eventos.",
     "modo": "slots",
     "plantilla": "{{slot0}}() guardar = new EventEmitter();",
     "opcionesSlots": ["@Output", "@Input", "@Host", "@ViewChild"],
     "respuestasSlots": ["@Output"],
     "evaluacion": "slots",
-    "puntos": 15,
-    "timeLimit": 35
+    "puntos": 30,
+    "timeLimit": 50
   },
   {
     "id": "angular-43",
     "categoria": "Angular",
     "tipo": "multiple",
-    "dificultad": "Basico",
+    "dificultad": "Avanzado",
     "pregunta": "Selecciona módulos comunes en Angular.",
     "opciones": [
       "FormsModule",
@@ -557,89 +557,89 @@
       "WindowsModule"
     ],
     "respuesta": ["FormsModule", "RouterModule", "HttpClientModule"],
-    "puntos": 15,
-    "timeLimit": 35
+    "puntos": 30,
+    "timeLimit": 50
   },
   {
     "id": "angular-44",
     "categoria": "Angular",
     "tipo": "codigo",
-    "dificultad": "Basico",
+    "dificultad": "Avanzado",
     "pregunta": "Completa importación HTTP.",
     "modo": "slots",
     "plantilla": "import { {{slot0}} } from '@angular/common/http';",
     "opcionesSlots": ["HttpClientModule", "FormsModule", "RouterLink", "NgIf"],
     "respuestasSlots": ["HttpClientModule"],
     "evaluacion": "slots",
-    "puntos": 15,
-    "timeLimit": 35
+    "puntos": 30,
+    "timeLimit": 50
   },
   {
     "id": "angular-45",
     "categoria": "Angular",
     "tipo": "multiple",
-    "dificultad": "Basico",
+    "dificultad": "Avanzado",
     "pregunta": "¿Qué clase se usa frecuentemente para emitir eventos personalizados?",
     "opciones": ["EventEmitter", "Router", "HttpClient", "TemplateRef"],
     "respuesta": "EventEmitter",
-    "puntos": 15,
-    "timeLimit": 35
+    "puntos": 30,
+    "timeLimit": 50
   },
   {
     "id": "angular-46",
     "categoria": "Angular",
     "tipo": "multiple",
-    "dificultad": "Basico",
+    "dificultad": "Avanzado",
     "pregunta": "¿Qué decorador permite acceder a un elemento o componente hijo desde la clase?",
     "opciones": ["@ViewChild", "@Input", "@Output", "@Injectable"],
     "respuesta": "@ViewChild",
-    "puntos": 15,
-    "timeLimit": 35
+    "puntos": 30,
+    "timeLimit": 50
   },
   {
     "id": "angular-47",
     "categoria": "Angular",
     "tipo": "codigo",
-    "dificultad": "Basico",
+    "dificultad": "Avanzado",
     "pregunta": "Completa el decorador para referenciar un hijo.",
     "modo": "slots",
     "plantilla": "{{slot0}}('miInput') inputRef: any;",
     "opcionesSlots": ["@ViewChild", "@Input", "@Output", "@HostListener"],
     "respuestasSlots": ["@ViewChild"],
     "evaluacion": "slots",
-    "puntos": 15,
-    "timeLimit": 35
+    "puntos": 30,
+    "timeLimit": 50
   },
   {
     "id": "angular-48",
     "categoria": "Angular",
     "tipo": "multiple",
-    "dificultad": "Basico",
+    "dificultad": "Avanzado",
     "pregunta": "Selecciona ciclos de vida comunes de Angular.",
     "opciones": ["ngOnInit", "ngOnDestroy", "ngOnChanges", "ngPaint"],
     "respuesta": ["ngOnInit", "ngOnDestroy", "ngOnChanges"],
-    "puntos": 15,
-    "timeLimit": 35
+    "puntos": 30,
+    "timeLimit": 50
   },
   {
     "id": "angular-49",
     "categoria": "Angular",
     "tipo": "codigo",
-    "dificultad": "Basico",
+    "dificultad": "Avanzado",
     "pregunta": "Completa el ciclo de vida inicial.",
     "modo": "slots",
     "plantilla": "export class AppComponent { {{slot0}}(){ } }",
     "opcionesSlots": ["ngOnInit", "ngDelete", "ngPaint", "ngReady"],
     "respuestasSlots": ["ngOnInit"],
     "evaluacion": "slots",
-    "puntos": 15,
-    "timeLimit": 35
+    "puntos": 30,
+    "timeLimit": 50
   },
   {
     "id": "angular-50",
     "categoria": "Angular",
     "tipo": "multiple",
-    "dificultad": "Basico",
+    "dificultad": "Avanzado",
     "pregunta": "¿Qué práctica mejora más una app Angular junior?",
     "opciones": [
       "Componentes organizados y reutilizables en módulos",
@@ -648,7 +648,7 @@
       "Duplicar código en varios componentes para evitar compartir lógica"
     ],
     "respuesta":"Componentes organizados y reutilizables en módulos",
-    "puntos": 15,
-    "timeLimit": 35
+    "puntos": 30,
+    "timeLimit": 50
   }
 ]

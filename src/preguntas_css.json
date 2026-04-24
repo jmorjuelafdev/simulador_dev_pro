@@ -2,6 +2,7 @@
   {
     "id": "css-1",
     "categoria": "CSS",
+    "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "¿Qué propiedad cambia el color del texto?",
     "opciones": ["font-color", "text-color", "color", "foreground"],
@@ -26,6 +27,7 @@
   {
     "id": "css-3",
     "categoria": "CSS",
+    "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "¿Qué selector apunta a un elemento por id?",
     "opciones": [".menu", "#menu", "menu", "*menu"],
@@ -36,6 +38,7 @@
   {
     "id": "css-4",
     "categoria": "CSS",
+    "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "Selecciona propiedades válidas de texto.",
     "opciones": ["font-size", "text-align", "color", "src"],
@@ -60,6 +63,7 @@
   {
     "id": "css-6",
     "categoria": "CSS",
+    "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "¿Qué propiedad alinea texto horizontalmente?",
     "opciones": ["text-align", "align-text", "font-align", "justify"],
@@ -84,6 +88,7 @@
   {
     "id": "css-8",
     "categoria": "CSS",
+    "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "¿Qué propiedad agrega espacio interno?",
     "opciones": ["margin", "padding", "gap", "border"],
@@ -94,6 +99,7 @@
   {
     "id": "css-9",
     "categoria": "CSS",
+    "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "Selecciona selectores válidos en CSS.",
     "opciones": ["p", ".box", "#main", "<div>"],
@@ -104,6 +110,7 @@
   {
     "id": "css-10",
     "categoria": "CSS",
+    "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "¿Qué propiedad controla el borde de un elemento?",
     "opciones": ["outline", "border", "frame", "line"],
@@ -128,6 +135,7 @@
   {
     "id": "css-12",
     "categoria": "CSS",
+    "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "¿Qué regla CSS se usa para aplicar estilos según tamaño de pantalla?",
     "opciones": ["@media", "@screen", "@size", "@display"],
@@ -138,6 +146,7 @@
   {
     "id": "css-13",
     "categoria": "CSS",
+    "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "Selecciona propiedades relacionadas con fondo.",
     "opciones": ["background-color", "background-image", "background-size", "font-weight"],
@@ -162,6 +171,7 @@
   {
     "id": "css-15",
     "categoria": "CSS",
+    "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "¿Qué propiedad cambia el tipo de letra?",
     "opciones": ["font-style", "font-family", "text-font", "family"],
@@ -186,6 +196,7 @@
   {
     "id": "css-17",
     "categoria": "CSS",
+    "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "¿Qué propiedad controla la transparencia?",
     "opciones": ["opacity", "alpha", "transparent", "visibility"],
@@ -196,6 +207,7 @@
   {
     "id": "css-18",
     "categoria": "CSS",
+    "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "Selecciona unidades de medida válidas en CSS.",
     "opciones": ["px", "rem", "%", "txt"],
@@ -206,6 +218,7 @@
   {
     "id": "css-19",
     "categoria": "CSS",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué valor de display activa Flexbox?",
     "opciones": ["block", "grid", "flex", "inline"],
@@ -230,6 +243,7 @@
   {
     "id": "css-21",
     "categoria": "CSS",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué propiedad cambia la dirección principal en Flexbox?",
     "opciones": ["flex-order", "justify-items", "flex-direction", "direction-box"],
@@ -240,6 +254,7 @@
   {
     "id": "css-22",
     "categoria": "CSS",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "Selecciona unidades relativas útiles para responsive.",
     "opciones": ["rem", "em", "vw", "abc"],
@@ -264,6 +279,7 @@
   {
     "id": "css-24",
     "categoria": "CSS",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué propiedad evita que una imagen se salga del contenedor?",
     "opciones": ["max-width:100%", "z-index:1", "float:left", "overflow:visible"],
@@ -288,6 +304,7 @@
   {
     "id": "css-26",
     "categoria": "CSS",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué propiedad controla el orden de apilamiento?",
     "opciones": ["layer", "stack", "z-index", "depth"],
@@ -312,6 +329,7 @@
   {
     "id": "css-28",
     "categoria": "CSS",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué valor de display activa CSS Grid?",
     "opciones": ["inline-grid", "grid", "table", "contents"],
@@ -336,6 +354,7 @@
   {
     "id": "css-30",
     "categoria": "CSS",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué pseudoclase se activa al pasar el mouse?",
     "opciones": [":focus", ":hover", ":active", ":checked"],
@@ -346,6 +365,7 @@
   {
     "id": "css-31",
     "categoria": "CSS",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "Selecciona pseudoclases válidas.",
     "opciones": [":hover", ":focus", ":first-child", ":font"],
@@ -381,6 +401,7 @@
   {
     "id": "css-34",
     "categoria": "CSS",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "Selecciona funciones válidas de transform.",
     "opciones": ["scale()", "translate()", "rotate()", "colorize()"],
@@ -391,6 +412,7 @@
   {
     "id": "css-35",
     "categoria": "CSS",
+    "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué propiedad permite definir variables reutilizables en CSS?",
     "opciones": ["@var", "--nombre", "$variable", "const"],
@@ -415,6 +437,7 @@
   {
     "id": "css-37",
     "categoria": "CSS",
+    "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué función se usa para leer una variable CSS?",
     "opciones": ["get()", "use()", "var()", "value()"],
@@ -450,6 +473,7 @@
   {
     "id": "css-40",
     "categoria": "CSS",
+    "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué regla permite aplicar estilos según ancho de pantalla?",
     "opciones": ["@screen", "@media", "@responsive", "@width"],
@@ -474,6 +498,7 @@
   {
     "id": "css-42",
     "categoria": "CSS",
+    "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué propiedad controla cómo se calcula width y padding juntos?",
     "opciones": ["box-model", "box-sizing", "layout-size", "content-boxing"],
@@ -484,6 +509,7 @@
   {
     "id": "css-43",
     "categoria": "CSS",
+    "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "Selecciona valores válidos de box-sizing.",
     "opciones": ["border-box", "content-box", "padding-box", "auto-box"],
@@ -508,6 +534,7 @@
   {
     "id": "css-45",
     "categoria": "CSS",
+    "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué propiedad permite recortar texto largo con puntos suspensivos?",
     "opciones": ["text-crop", "text-overflow", "overflow-text", "ellipsis"],
@@ -529,6 +556,7 @@
   {
     "id": "css-47",
     "categoria": "CSS",
+    "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué pseudoelemento selecciona la primera línea de un texto?",
     "opciones": ["::first-line", "::line-one", "::start-line", ":first-line"],
@@ -539,6 +567,7 @@
   {
     "id": "css-48",
     "categoria": "CSS",
+    "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "Selecciona pseudoelementos válidos.",
     "opciones": ["::before", "::after", "::placeholder", "::focus"],
@@ -563,6 +592,7 @@
   {
     "id": "css-50",
     "categoria": "CSS",
+    "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué propiedad suaviza animaciones entre estados CSS?",
     "opciones": ["transition con duración", "effect con duración", "motion con duración", "animate con duración"],

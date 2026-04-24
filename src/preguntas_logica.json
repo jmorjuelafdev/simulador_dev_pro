@@ -205,12 +205,12 @@
     "dificultad": "Basico",
     "pregunta": "Si una docena son 12 unidades, media docena son:",
     "opciones": [
-      "3",
-      "4",
-      "6",
-      "8"
+      "3 unidades",
+      "4 unidades",
+      "6 unidades",
+      "8 unidades"
     ],
-    "respuesta": "6",
+    "respuesta": "6 unidades",
     "puntos": 15,
     "timeLimit": 35
   },
@@ -276,9 +276,9 @@
     "categoria": "Logica",
     "tipo": "codigo",
     "dificultad": "Basico",
-    "pregunta": "Completa la palabra: P U E R T A",
+    "pregunta": "Completa la palabra: P _ _ R T A",
     "modo": "slots",
-    "plantilla": "P {{slot4}}{{slot1}} R T A",
+    "plantilla": "P {{slot4}} {{slot1}} R T A",
     "opcionesSlots": [
       "A",
       "E",
@@ -536,7 +536,7 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Cuál palabra está escrita correcmente igual al modelo: Desarrollo?",
+    "pregunta": "¿Cuál palabra está escrita correctamente igual al modelo: Desarrollo?",
     "opciones": [
       "Desarollo",
       "Desarrollo",

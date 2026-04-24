@@ -135,6 +135,15 @@ function CodeSlotQuestion({ pregunta, respuestaActual, onResponder, disabled }) 
     () => resolveHtmlAssetUrls(renderedCodigo),
     [renderedCodigo]
   );
+
+  const previewLines = useMemo(
+    () =>
+      renderedCodigo
+        .split(/\n/)
+        .map((linea) => linea.replace(/\s+$/, ""))
+        .filter((linea) => linea.trim().length),
+    [renderedCodigo]
+  );
   const completado = slotIndices.length
     ? slotIndices.every((indice) => Boolean(seleccion[indice]))
     : seleccion.every((valor) => valor);
@@ -215,12 +224,11 @@ function CodeSlotQuestion({ pregunta, respuestaActual, onResponder, disabled }) 
 
       <div className="slot-preview" aria-live="polite">
         <ul className="slot-preview__list">
-          {renderedCodigo
-            .split(/\n+/)
-            .filter((linea) => linea.trim().length)
-            .map((linea, index) => (
-              <li key={`preview-line-${index}`}>{linea.trim()}</li>
-            ))}
+          {previewLines.map((linea, index) => (
+            <li key={`preview-line-${index}`}>
+              <code className="slot-preview__code">{linea}</code>
+            </li>
+          ))}
         </ul>
 
         {renderedCodigo.includes("<") && renderedCodigo.includes(">") && (

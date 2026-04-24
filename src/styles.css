@@ -1260,6 +1260,13 @@ textarea:focus {
   color: inherit;
 }
 
+.slot-preview__code {
+  display: block;
+  font-family: var(--font-mono, "Fira Code", "Source Code Pro", monospace);
+  font-size: 0.95rem;
+  white-space: pre;
+}
+
 @media (max-width: 720px) {
   .code-slot-container {
     padding: 12px;

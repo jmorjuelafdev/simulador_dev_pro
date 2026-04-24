@@ -6,7 +6,7 @@
     "dificultad": "Basico",
     "pregunta": "¿Qué imprime el siguiente código? let x = 5; console.log(x);",
     "opciones": ["0", "5", "x", "undefined"],
-    "respuesta": "0",
+    "respuesta": "5",
     "puntos": 10,
     "timeLimit": 30
   },
@@ -612,7 +612,7 @@
       "Usar solo while para iterar",
       "Evitar funciones y usar solo bucles"
     ],
-    "respuesta": ["Dividir en pasos pequeños para entender mejor el problema"],
+    "respuesta": "Dividir en pasos pequeños para entender mejor el problema",
     "puntos": 30,
     "timeLimit": 50
   }
