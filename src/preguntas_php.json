@@ -4,6 +4,22 @@
     "categoria": "PHP",
     "tipo": "multiple",
     "dificultad": "Basico",
+    "pregunta": "¿Qué significa PHP?",
+    "opciones": [
+      "PHP significa Hypertext Preprocessor (Preprocesador de Hipertexto)",
+      "PHP significa Personal Home Processor (Procesador Personal)",
+      "PHP significa Programmed Hyper Page (Página Hiperprogramada)",
+      "PHP significa Private Hosting Platform (Plataforma de Hosting Privado)"
+    ],
+    "respuesta": "PHP significa Hypertext Preprocessor (Preprocesador de Hipertexto)",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "php-2",
+    "categoria": "PHP",
+    "tipo": "multiple",
+    "dificultad": "Basico",
     "pregunta": "¿Qué tipo de tecnología representa PHP 8 dentro del desarrollo moderno de aplicaciones web?",
     "opciones": [
       "Lenguaje de programación del lado del servidor",
@@ -16,68 +32,37 @@
     "timeLimit": 30
   },
   {
-    "id": "php-2",
-    "categoria": "PHP",
-    "tipo": "multiple",
-    "dificultad": "Basico",
-    "pregunta": "¿Cómo se escribe normalmente una variable válida en el lenguaje PHP?",
-    "opciones": [
-      "$nombre",
-      "#nombre",
-      "@nombre",
-      "var.nombre"
-    ],
-    "respuesta": "$nombre",
-    "puntos": 10,
-    "timeLimit": 30
-  },
-  {
     "id": "php-3",
     "categoria": "PHP",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Cuáles de los siguientes son tipos de datos comunes utilizados en PHP?",
-    "opciones": [
-      "string",
-      "int",
-      "bool",
-      "layout"
-    ],
-    "respuesta": ["string", "int", "bool"],
+    "pregunta": "¿Cómo se escribe normalmente una variable válida en el lenguaje PHP?",
+    "opciones": ["$nombre", "#nombre", "@nombre", "var.nombre"],
+    "respuesta": "$nombre",
     "puntos": 10,
     "timeLimit": 30
   },
   {
     "id": "php-4",
     "categoria": "PHP",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Completa la instrucción básica correcta para imprimir texto en pantalla con PHP.",
-    "modo": "slots",
-    "plantilla": "<?php {{slot0}} 'Hola mundo'; ?>",
-    "opcionesSlots": [
-      "while",
-      "echo",
-      "array",
-      "class"
-    ],
-    "respuestasSlots": ["echo"],
+    "pregunta": "¿Cuáles de los siguientes son tipos de datos comunes utilizados en PHP?",
+    "opciones": ["string", "int", "bool", "layout"],
+    "respuesta": ["string", "int", "bool"],
     "puntos": 10,
     "timeLimit": 30
   },
   {
     "id": "php-5",
     "categoria": "PHP",
-    "tipo": "multiple",
+    "tipo": "codigo",
     "dificultad": "Basico",
-    "pregunta": "¿Qué etiquetas delimitan normalmente un bloque de código PHP dentro de un archivo?",
-    "opciones": [
-      "<?php ?>",
-      "<php></php>",
-      "{{php}}",
-      "<script php>"
-    ],
-    "respuesta": "<?php ?>",
+    "pregunta": "Completa la instrucción básica correcta para imprimir texto en pantalla con PHP.",
+    "modo": "slots",
+    "plantilla": "<?php {{slot0}} 'Hola mundo'; ?>",
+    "opcionesSlots": ["while", "echo", "array", "class"],
+    "respuestasSlots": ["echo"],
     "puntos": 10,
     "timeLimit": 30
   },
@@ -86,14 +71,9 @@
     "categoria": "PHP",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué instrucción se usa con frecuencia para mostrar texto o variables en pantalla?",
-    "opciones": [
-      "echo",
-      "printcss",
-      "writehtml",
-      "sendtext"
-    ],
-    "respuesta": "echo",
+    "pregunta": "¿Qué etiquetas delimitan normalmente un bloque de código PHP dentro de un archivo?",
+    "opciones": ["<?php ?>", "<php></php>", "{{php}}", "<script php>"],
+    "respuesta": "<?php ?>",
     "puntos": 10,
     "timeLimit": 30
   },
@@ -102,48 +82,33 @@
     "categoria": "PHP",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Cuáles de las siguientes estructuras de control existen y son comunes en PHP?",
-    "opciones": [
-      "if",
-      "for",
-      "while",
-      "gradient"
-    ],
-    "respuesta": ["if", "for", "while"],
+    "pregunta": "¿Qué instrucción se usa con frecuencia para mostrar texto o variables en pantalla?",
+    "opciones": ["echo", "printcss", "writehtml", "sendtext"],
+    "respuesta": "echo",
     "puntos": 10,
     "timeLimit": 30
   },
   {
     "id": "php-8",
     "categoria": "PHP",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Completa la palabra reservada correcta para crear una condición básica en PHP.",
-    "modo": "slots",
-    "plantilla": "<?php {{slot0}} ($edad >= 18) { echo 'Mayor'; } ?>",
-    "opcionesSlots": [
-      "if",
-      "echo",
-      "new",
-      "try"
-    ],
-    "respuestasSlots": ["if"],
+    "pregunta": "¿Cuáles de las siguientes estructuras de control existen y son comunes en PHP?",
+    "opciones": ["if", "for", "while", "gradient"],
+    "respuesta": ["if", "for", "while"],
     "puntos": 10,
     "timeLimit": 30
   },
   {
     "id": "php-9",
     "categoria": "PHP",
-    "tipo": "multiple",
+    "tipo": "codigo",
     "dificultad": "Basico",
-    "pregunta": "¿Qué símbolo finaliza normalmente una instrucción escrita en PHP?",
-    "opciones": [
-      ";",
-      ":",
-      ",",
-      "#"
-    ],
-    "respuesta": ";",
+    "pregunta": "Completa la palabra reservada correcta para crear una condición básica en PHP.",
+    "modo": "slots",
+    "plantilla": "<?php {{slot0}} ($edad >= 18) { echo 'Mayor'; } ?>",
+    "opcionesSlots": ["if", "echo", "new", "try"],
+    "respuestasSlots": ["if"],
     "puntos": 10,
     "timeLimit": 30
   },
@@ -152,14 +117,9 @@
     "categoria": "PHP",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué variable superglobal suele contener los datos enviados desde un formulario mediante método POST?",
-    "opciones": [
-      "$_POST",
-      "$_STYLE",
-      "$_HTML",
-      "$_VIEW"
-    ],
-    "respuesta": "$_POST",
+    "pregunta": "¿Qué símbolo finaliza normalmente una instrucción escrita en PHP?",
+    "opciones": [";", ":", ",", "#"],
+    "respuesta": ";",
     "puntos": 15,
     "timeLimit": 35
   },
@@ -168,48 +128,33 @@
     "categoria": "PHP",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Cuáles de las siguientes variables superglobales son comunes y reales en PHP?",
-    "opciones": [
-      "$_GET",
-      "$_POST",
-      "$_SERVER",
-      "$_COLOR"
-    ],
-    "respuesta": ["$_GET", "$_POST", "$_SERVER"],
+    "pregunta": "¿Qué variable superglobal suele contener los datos enviados desde un formulario mediante método POST?",
+    "opciones": ["$_POST", "$_STYLE", "$_HTML", "$_VIEW"],
+    "respuesta": "$_POST",
     "puntos": 15,
     "timeLimit": 35
   },
   {
     "id": "php-12",
     "categoria": "PHP",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Completa la variable superglobal correcta para acceder a un parámetro recibido por GET.",
-    "modo": "slots",
-    "plantilla": "<?php echo {{slot0}}['id']; ?>",
-    "opcionesSlots": [
-      "$_POST",
-      "$_FILES",
-      "$_GET",
-      "$_COOKIE"
-    ],
-    "respuestasSlots": ["$_GET"],
+    "pregunta": "¿Cuáles de las siguientes variables superglobales son comunes y reales en PHP?",
+    "opciones": ["$_GET", "$_POST", "$_SERVER", "$_COLOR"],
+    "respuesta": ["$_GET", "$_POST", "$_SERVER"],
     "puntos": 15,
     "timeLimit": 35
   },
   {
     "id": "php-13",
     "categoria": "PHP",
-    "tipo": "multiple",
+    "tipo": "codigo",
     "dificultad": "Basico",
-    "pregunta": "¿Qué estructura se utiliza para guardar múltiples valores dentro de una sola variable?",
-    "opciones": [
-      "array",
-      "route",
-      "style",
-      "socket"
-    ],
-    "respuesta": "array",
+    "pregunta": "Completa la variable superglobal correcta para acceder a un parámetro recibido por GET.",
+    "modo": "slots",
+    "plantilla": "<?php echo {{slot0}}['id']; ?>",
+    "opcionesSlots": ["$_POST", "$_FILES", "$_GET", "$_COOKIE"],
+    "respuestasSlots": ["$_GET"],
     "puntos": 15,
     "timeLimit": 35
   },
@@ -218,19 +163,25 @@
     "categoria": "PHP",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué función integrada permite contar la cantidad de elementos de un arreglo?",
-    "opciones": [
-      "count()",
-      "sizephp()",
-      "items()",
-      "measure()"
-    ],
-    "respuesta": "count()",
+    "pregunta": "¿Qué estructura se utiliza para guardar múltiples valores dentro de una sola variable?",
+    "opciones": ["array", "route", "style", "socket"],
+    "respuesta": "array",
     "puntos": 15,
     "timeLimit": 35
   },
   {
     "id": "php-15",
+    "categoria": "PHP",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué función integrada permite contar la cantidad de elementos de un arreglo?",
+    "opciones": ["count()", "sizephp()", "items()", "measure()"],
+    "respuesta": "count()",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "php-16",
     "categoria": "PHP",
     "tipo": "multiple",
     "dificultad": "Basico",
@@ -250,25 +201,20 @@
     "timeLimit": 35
   },
   {
-    "id": "php-16",
+    "id": "php-17",
     "categoria": "PHP",
     "tipo": "codigo",
     "dificultad": "Basico",
     "pregunta": "Completa la palabra reservada correcta para crear un ciclo for básico.",
     "modo": "slots",
     "plantilla": "<?php {{slot0}} ($i = 0; $i < 3; $i++) { echo $i; } ?>",
-    "opcionesSlots": [
-      "if",
-      "switch",
-      "echo",
-      "for"
-    ],
+    "opcionesSlots": ["if", "switch", "echo", "for"],
     "respuestasSlots": ["for"],
     "puntos": 15,
     "timeLimit": 35
   },
   {
-    "id": "php-17",
+    "id": "php-18",
     "categoria": "PHP",
     "tipo": "multiple",
     "dificultad": "Basico",
@@ -289,12 +235,7 @@
     "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué operador incorporado en PHP 8 permite asignar un valor por defecto solamente cuando la variable actual es null?",
-    "opciones": [
-      "??=",
-      ".=",
-      "=>",
-      "::"
-    ],
+    "opciones": ["??=", ".=", "=>", "::"],
     "respuesta": "??=",
     "puntos": 20,
     "timeLimit": 40
@@ -327,12 +268,7 @@
     "pregunta": "Completa el operador correcto para asignar el valor 'Invitado' si la variable nombre es null.",
     "modo": "slots",
     "plantilla": "<?php $nombre {{slot0}} 'Invitado'; ?>",
-    "opcionesSlots": [
-      "=",
-      "??=",
-      "+=",
-      "."
-    ],
+    "opcionesSlots": ["=", "??=", "+=", "."],
     "respuestasSlots": ["??="],
     "puntos": 20,
     "timeLimit": 40
@@ -359,12 +295,7 @@
     "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué extensión o interfaz se usa comúnmente para conexiones modernas y seguras a bases de datos?",
-    "opciones": [
-      "PDO",
-      "HTML5",
-      "RouterX",
-      "CSSDB"
-    ],
+    "opciones": ["PDO", "HTML5", "RouterX", "CSSDB"],
     "respuesta": "PDO",
     "puntos": 20,
     "timeLimit": 40
@@ -377,12 +308,7 @@
     "pregunta": "Completa la función correcta para generar una respuesta JSON en una API simple.",
     "modo": "slots",
     "plantilla": "<?php echo {{slot0}}($datos); ?>",
-    "opcionesSlots": [
-      "json_encode",
-      "json_decode",
-      "count",
-      "print_r"
-    ],
+    "opcionesSlots": ["json_encode", "json_decode", "count", "print_r"],
     "respuestasSlots": ["json_encode"],
     "puntos": 20,
     "timeLimit": 40
@@ -393,17 +319,8 @@
     "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué sentencias del lenguaje PHP sirven para manejo estructurado de errores o excepciones?",
-    "opciones": [
-      "try",
-      "catch",
-      "finally",
-      "gradient"
-    ],
-    "respuesta": [
-      "try",
-      "catch",
-      "finally"
-    ],
+    "opciones": ["try", "catch", "finally", "gradient"],
+    "respuesta": ["try", "catch", "finally"],
     "puntos": 20,
     "timeLimit": 40
   },
@@ -413,12 +330,7 @@
     "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué función ayuda a escapar texto antes de mostrarlo en HTML y prevenir problemas comunes?",
-    "opciones": [
-      "htmlspecialchars()",
-      "json_decode()",
-      "explode()",
-      "sleep()"
-    ],
+    "opciones": ["htmlspecialchars()", "json_decode()", "explode()", "sleep()"],
     "respuesta": "htmlspecialchars()",
     "puntos": 20,
     "timeLimit": 40
@@ -431,12 +343,7 @@
     "pregunta": "Completa la función correcta para proteger texto al imprimir comentarios en HTML.",
     "modo": "slots",
     "plantilla": "<?php echo {{slot0}}($comentario); ?>",
-    "opcionesSlots": [
-      "trim",
-      "count",
-      "htmlspecialchars",
-      "rand"
-    ],
+    "opcionesSlots": ["trim", "count", "htmlspecialchars", "rand"],
     "respuestasSlots": ["htmlspecialchars"],
     "puntos": 20,
     "timeLimit": 40
@@ -447,12 +354,7 @@
     "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué palabra clave se utiliza para definir una función personalizada en PHP?",
-    "opciones": [
-      "function",
-      "method",
-      "def",
-      "func"
-    ],
+    "opciones": ["function", "method", "def", "func"],
     "respuesta": "function",
     "puntos": 25,
     "timeLimit": 45
@@ -463,17 +365,8 @@
     "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué operaciones son comunes al trabajar con arreglos dentro de PHP?",
-    "opciones": [
-      "array_push()",
-      "count()",
-      "foreach",
-      "paint()"
-    ],
-    "respuesta": [
-      "array_push()",
-      "count()",
-      "foreach"
-    ],
+    "opciones": ["array_push()", "count()", "foreach", "paint()"],
+    "respuesta": ["array_push()", "count()", "foreach"],
     "puntos": 25,
     "timeLimit": 45
   },
@@ -485,12 +378,7 @@
     "pregunta": "Completa la palabra clave correcta para recorrer todos los elementos de un arreglo.",
     "modo": "slots",
     "plantilla": "<?php {{slot0}} ($items as $item) { echo $item; } ?>",
-    "opcionesSlots": [
-      "if",
-      "switch",
-      "class",
-      "foreach"
-    ],
+    "opcionesSlots": ["if", "switch", "class", "foreach"],
     "respuestasSlots": ["foreach"],
     "puntos": 25,
     "timeLimit": 45
@@ -501,12 +389,7 @@
     "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué operador se utiliza para concatenar cadenas de texto en PHP?",
-    "opciones": [
-      ".",
-      "+",
-      "&",
-      "::"
-    ],
+    "opciones": [".", "+", "&", "::"],
     "respuesta": ".",
     "puntos": 25,
     "timeLimit": 45
@@ -523,11 +406,7 @@
       "Responder JSON",
       "Diseñar logos"
     ],
-    "respuesta": [
-      "Leer parámetros",
-      "Consultar datos",
-      "Responder JSON"
-    ],
+    "respuesta": ["Leer parámetros", "Consultar datos", "Responder JSON"],
     "puntos": 25,
     "timeLimit": 45
   },
@@ -539,12 +418,7 @@
     "pregunta": "Completa el operador correcto para concatenar un saludo con la variable nombre.",
     "modo": "slots",
     "plantilla": "<?php echo 'Hola ' {{slot0}} $nombre; ?>",
-    "opcionesSlots": [
-      "+",
-      ".",
-      ",",
-      "=>"
-    ],
+    "opcionesSlots": ["+", ".", ",", "=>"],
     "respuestasSlots": ["."],
     "puntos": 25,
     "timeLimit": 45
@@ -564,7 +438,7 @@
     "respuesta": "Procesar formularios, usar JSON y consultar bases de datos",
     "puntos": 25,
     "timeLimit": 45
-  }, 
+  },
   {
     "id": "php-35",
     "categoria": "PHP",
@@ -609,12 +483,7 @@
     "pregunta": "Completa la llamada correcta utilizando argumentos nombrados para enviar el correo electrónico.",
     "modo": "slots",
     "plantilla": "<?php crearUsuario(nombre: 'Ana', {{slot0}}: 'ana@mail.com'); ?>",
-    "opcionesSlots": [
-      "route",
-      "style",
-      "email",
-      "server"
-    ],
+    "opcionesSlots": ["route", "style", "email", "server"],
     "respuestasSlots": ["email"],
     "puntos": 30,
     "timeLimit": 50
@@ -625,12 +494,7 @@
     "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué operador de PHP 8 permite navegar propiedades de forma segura cuando un valor puede ser null?",
-    "opciones": [
-      "?->",
-      "=>",
-      "::",
-      ".."
-    ],
+    "opciones": ["?->", "=>", "::", ".."],
     "respuesta": "?->",
     "puntos": 30,
     "timeLimit": 50
@@ -663,12 +527,7 @@
     "pregunta": "Completa el operador correcto para acceder de forma segura a propiedades encadenadas.",
     "modo": "slots",
     "plantilla": "<?php echo $usuario{{slot0}}perfil{{slot0}}nombre; ?>",
-    "opcionesSlots": [
-      "->",
-      "?->",
-      "::",
-      "."
-    ],
+    "opcionesSlots": ["->", "?->", "::", "."],
     "respuestasSlots": ["?->"],
     "puntos": 30,
     "timeLimit": 50
@@ -771,12 +630,7 @@
     "pregunta": "Completa el método correcto para preparar una consulta utilizando PDO.",
     "modo": "slots",
     "plantilla": "<?php $stmt = $pdo->{{slot0}}('SELECT * FROM users'); ?>",
-    "opcionesSlots": [
-      "queryAll",
-      "connect",
-      "json",
-      "prepare"
-    ],
+    "opcionesSlots": ["queryAll", "connect", "json", "prepare"],
     "respuestasSlots": ["prepare"],
     "puntos": 30,
     "timeLimit": 50
@@ -825,12 +679,7 @@
     "pregunta": "Completa el valor correcto dentro de una respuesta JSON típica de éxito.",
     "modo": "slots",
     "plantilla": "<?php echo json_encode(['ok' => {{slot0}}]); ?>",
-    "opcionesSlots": [
-      "'css'",
-      "'html'",
-      "true",
-      "$_POST"
-    ],
+    "opcionesSlots": ["'css'", "'html'", "true", "$_POST"],
     "respuestasSlots": ["true"],
     "puntos": 30,
     "timeLimit": 50

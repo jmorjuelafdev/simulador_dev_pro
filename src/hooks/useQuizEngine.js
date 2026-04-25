@@ -700,9 +700,19 @@ export function useQuizEngine({
       }
       if (preguntaActual.tipo === "multiple") {
         if (Array.isArray(preguntaActual.respuesta)) {
+          const usaIndices =
+            preguntaActual.respuesta.length > 0 &&
+            preguntaActual.respuesta.every((item) => Number.isInteger(item));
+
           if (!Array.isArray(valor) || valor.length !== preguntaActual.respuesta.length) {
             return false;
           }
+
+          if (usaIndices) {
+            const correctas = new Set(preguntaActual.respuesta);
+            return valor.every((item) => Number.isInteger(item) && correctas.has(item));
+          }
+
           const correctas = new Set(
             preguntaActual.respuesta.map((item) => normalizarTexto(item))
           );

@@ -341,8 +341,15 @@ function Quiz({
               aria-label={`Opciones para: ${pregunta.pregunta}`}
             >
               {pregunta.opciones.map((opcion, index) => {
-                const estaSeleccionada = respuestasMultiples.includes(opcion);
-                const esRespuestaCorrecta = pregunta.respuesta.includes(opcion);
+                const usaIndices =
+                  Array.isArray(pregunta.respuesta) &&
+                  pregunta.respuesta.length > 0 &&
+                  pregunta.respuesta.every((item) => Number.isInteger(item));
+                const keyValor = usaIndices ? index : opcion;
+                const estaSeleccionada = respuestasMultiples.includes(keyValor);
+                const esRespuestaCorrecta = usaIndices
+                  ? pregunta.respuesta.includes(index)
+                  : pregunta.respuesta.includes(opcion);
                 const classNames = ["option-button"];
                 if (respondida && esRespuestaCorrecta) classNames.push("correct");
                 if (respondida && estaSeleccionada && !esRespuestaCorrecta)
@@ -357,13 +364,13 @@ function Quiz({
                     <input
                       type="checkbox"
                       name={`pregunta-${pregunta.id ?? indice}`}
-                      value={opcion}
+                      value={String(keyValor)}
                       checked={estaSeleccionada}
                       onChange={() => {
                         setRespuestasMultiples((prev) =>
-                          prev.includes(opcion)
-                            ? prev.filter((item) => item !== opcion)
-                            : [...prev, opcion]
+                          prev.includes(keyValor)
+                            ? prev.filter((item) => item !== keyValor)
+                            : [...prev, keyValor]
                         );
                       }}
                       disabled={respondida}
