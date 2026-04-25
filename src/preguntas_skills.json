@@ -1,929 +1,871 @@
 [
   {
-    "id": "react-1",
-    "categoria": "React",
-    "tipo": "multiple",
+    "id": "sk-1",
+    "categoria": "Skills",
+    "tipo": "multiple_unica",
     "dificultad": "Basico",
-    "pregunta": "¿Qué es React principalmente dentro del desarrollo frontend moderno?",
+    "pregunta": "Si eres desarrollador junior y recibes una tarea nueva que no entiendes completamente, ¿cuál suele ser la mejor primera reacción profesional dentro de un equipo de trabajo?",
     "opciones": [
-      "Librería para construir interfaces de usuario interactivas basadas en componentes reutilizables y declarativos",
-      "Base de datos para almacenar información en aplicaciones web",
-      "Servidor web para ejecutar aplicaciones Node.js",
-      "Sistema operativo para dispositivos móviles"
+      "Revisar primero los requisitos disponibles, investigar lo básico por cuenta propia y luego preguntar dudas puntuales con contexto",
+      "Esperar varios días hasta que alguien note que no has avanzado en la tarea asignada",
+      "Cambiar la tarea por otra diferente sin avisar al líder ni al equipo",
+      "Entregar cualquier resultado aunque no cumpla realmente lo solicitado"
     ],
-    "respuesta": "Librería para construir interfaces de usuario interactivas basadas en componentes reutilizables y declarativos",
+    "respuesta": "Revisar primero los requisitos disponibles, investigar lo básico por cuenta propia y luego preguntar dudas puntuales con contexto",
+    "feedbackExito": "Correcto. Lo ideal es investigar primero y luego consultar dudas concretas.",
     "puntos": 10,
     "timeLimit": 30
   },
   {
-    "id": "react-2",
-    "categoria": "React",
-    "tipo": "multiple",
+    "id": "sk-2",
+    "categoria": "Skills",
+    "tipo": "multiple_unica",
     "dificultad": "Basico",
-    "pregunta": "Selecciona afirmaciones correctas sobre React como biblioteca de interfaces.",
+    "pregunta": "¿Qué comportamiento demuestra responsabilidad profesional en un entorno remoto o híbrido de trabajo?",
     "opciones": [
-      "Se enfoca principalmente en la capa de interfaz de usuario",
-      "Puede complementarse con librerías para routing o estado global",
-      "Usa un enfoque basado en componentes reutilizables",
-      "Incluye base de datos integrada obligatoria"
+      "Cumplir horarios acordados, responder mensajes importantes y reportar avances o bloqueos de forma oportuna",
+      "Conectarse únicamente cuando existan reuniones obligatorias del calendario",
+      "Desaparecer varias horas sin informar disponibilidad al equipo",
+      "Ignorar tareas pequeñas porque no son visibles para otras personas"
+    ],
+    "respuesta": "Cumplir horarios acordados, responder mensajes importantes y reportar avances o bloqueos de forma oportuna",
+    "feedbackExito": "Correcto. La responsabilidad también se refleja en comunicación y seguimiento.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "sk-3",
+    "categoria": "Skills",
+    "tipo": "multiple_multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué hábitos ayudan realmente a crecer como desarrollador junior durante los primeros meses de experiencia?",
+    "opciones": [
+      "Tomar notas de errores encontrados y soluciones aprendidas para consultarlas después",
+      "Pedir retroalimentación cuando sea necesario para mejorar desempeño y criterio",
+      "Practicar fundamentos técnicos con constancia y disciplina semanal",
+      "Evitar aprender herramientas nuevas por comodidad o miedo al cambio"
     ],
     "respuesta": [
-      "Se enfoca principalmente en la capa de interfaz de usuario",
-      "Puede complementarse con librerías para routing o estado global",
-      "Usa un enfoque basado en componentes reutilizables"
+      "Tomar notas de errores encontrados y soluciones aprendidas para consultarlas después",
+      "Pedir retroalimentación cuando sea necesario para mejorar desempeño y criterio",
+      "Practicar fundamentos técnicos con constancia y disciplina semanal"
     ],
+    "feedbackExito": "Correcto. Aprender de errores, practicar y pedir feedback acelera el crecimiento.",
     "puntos": 10,
     "timeLimit": 30
   },
   {
-    "id": "react-3",
-    "categoria": "React",
-    "tipo": "multiple",
+    "id": "sk-4",
+    "categoria": "Skills",
+    "tipo": "codigo_slots",
     "dificultad": "Basico",
-    "pregunta": "¿Qué framework popular está construido sobre React para aplicaciones web modernas?",
-    "opciones": [
-      "Next.js",
-      "Laravel",
-      "Spring Boot",
-      "Django"
-    ],
-    "respuesta": "Next.js",
-    "puntos": 10,
-    "timeLimit": 30
-  },
-  {
-    "id": "react-4",
-    "categoria": "React",
-    "tipo": "multiple",
-    "dificultad": "Basico",
-    "pregunta": "Selecciona conceptos básicos y reales del ecosistema React.",
-    "opciones": [
-      "Componentes reutilizables",
-      "Props para enviar datos",
-      "State para manejar cambios internos",
-      "Tablas SQL obligatorias"
-    ],
-    "respuesta": [
-      "Componentes reutilizables",
-      "Props para enviar datos",
-      "State para manejar cambios internos"
-    ],
-    "puntos": 10,
-    "timeLimit": 30
-  },
-  {
-    "id": "react-5",
-    "categoria": "React",
-    "tipo": "multiple",
-    "dificultad": "Basico",
-    "pregunta": "Selecciona afirmaciones correctas sobre JSX en React.",
-    "opciones": [
-      "Es una extensión de sintaxis de JavaScript similar a HTML",
-      "Permite describir interfaces dentro del código JavaScript",
-      "Luego se transforma a llamadas de JavaScript",
-      "Es un lenguaje de base de datos"
-    ],
-    "respuesta": [
-      "Es una extensión de sintaxis de JavaScript similar a HTML",
-      "Permite describir interfaces dentro del código JavaScript",
-      "Luego se transforma a llamadas de JavaScript"
-    ],
-    "puntos": 10,
-    "timeLimit": 30
-  },
-  {
-    "id": "react-6",
-    "categoria": "React",
-    "tipo": "multiple",
-    "dificultad": "Basico",
-    "pregunta": "¿Qué sintaxis usa React comúnmente para mezclar marcado visual y JavaScript?",
-    "opciones": [
-      "JSX",
-      "SQL",
-      "PHP",
-      "XML puro"
-    ],
-    "respuesta": "JSX",
-    "puntos": 10,
-    "timeLimit": 30
-  },
-  {
-    "id": "react-7",
-    "categoria": "React",
-    "tipo": "multiple",
-    "dificultad": "Basico",
-    "pregunta": "¿Qué unidad reutilizable se crea normalmente en React para dividir la interfaz?",
-    "opciones": [
-      "Componente",
-      "Tabla SQL",
-      "Driver del sistema",
-      "Cookie del navegador"
-    ],
-    "respuesta": "Componente",
-    "puntos": 10,
-    "timeLimit": 30
-  },
-  {
-    "id": "react-8",
-    "categoria": "React",
-    "tipo": "multiple",
-    "dificultad": "Basico",
-    "pregunta": "Selecciona ventajas comunes de trabajar con React.",
-    "opciones": [
-      "Reutilización de componentes",
-      "Interfaces dinámicas",
-      "Código modular",
-      "Solo funciona para backend"
-    ],
-    "respuesta": [
-      "Reutilización de componentes",
-      "Interfaces dinámicas",
-      "Código modular"
-    ],
-    "puntos": 10,
-    "timeLimit": 30
-  },
-  {
-    "id": "react-9",
-    "categoria": "React",
-    "tipo": "multiple",
-    "dificultad": "Basico",
-    "pregunta": "Selecciona pasos comunes al crear y ejecutar un proyecto React moderno con Vite.",
-    "opciones": [
-      "npm create vite@latest nombre-proyecto",
-      "npm install",
-      "npm run dev",
-      "format c:"
-    ],
-    "respuesta": [
-      "npm create vite@latest nombre-proyecto",
-      "npm install",
-      "npm run dev"
-    ],
-    "puntos": 10,
-    "timeLimit": 30
-  },
-  {
-    "id": "react-10",
-    "categoria": "React",
-    "tipo": "multiple",
-    "dificultad": "Basico",
-    "pregunta": "Selecciona elementos comunes dentro de la estructura de un proyecto React.",
-    "opciones": [
-      "src",
-      "public",
-      "package.json",
-      "node_modules"
-    ],
-    "respuesta": [
-      "src",
-      "public",
-      "package.json",
-      "node_modules"
-    ],
-    "puntos": 15,
-    "timeLimit": 35
-  },
-  {
-    "id": "react-11",
-    "categoria": "React",
-    "tipo": "multiple",
-    "dificultad": "Basico",
-    "pregunta": "Selecciona diferencias correctas entre componentes funcionales y componentes de clase.",
-    "opciones": [
-      "Los funcionales usan Hooks como useState",
-      "Los funcionales se escriben como funciones",
-      "Los de clase usan render()",
-      "Los de clase suelen usar this.state"
-    ],
-    "respuesta": [
-      "Los funcionales usan Hooks como useState",
-      "Los funcionales se escriben como funciones",
-      "Los de clase usan render()",
-      "Los de clase suelen usar this.state"
-    ],
-    "puntos": 15,
-    "timeLimit": 35
-  },
-  {
-    "id": "react-12",
-    "categoria": "React",
-    "tipo": "codigo",
-    "dificultad": "Basico",
-    "pregunta": "Completa la inserción correcta de una variable dentro de JSX.",
+    "pregunta": "Completa la frase profesional con la opción más adecuada para comunicar avance y compromiso.",
     "modo": "slots",
-    "plantilla": "<h1>{ {{slot0}} }</h1>",
-    "opcionesSlots": [
-      "titulo",
-      "return",
-      "class",
-      "div"
-    ],
-    "respuestasSlots": [
-      "titulo"
-    ],
-    "evaluacion": "slots",
-    "puntos": 15,
-    "timeLimit": 35
+    "plantilla": "Ya revisé el bug, {{slot1}} una solución en una hora.",
+    "opcionesSlots": ["olvido", "te comparto", "elimino", "cierro"],
+    "respuestasSlots": ["te comparto"],
+    "feedbackExito": "Correcto. Comunicar avances con tiempos estimados transmite confianza.",
+    "puntos": 10,
+    "timeLimit": 30
   },
   {
-    "id": "react-13",
-    "categoria": "React",
-    "tipo": "multiple",
+    "id": "sk-5",
+    "categoria": "Skills",
+    "tipo": "multiple_unica",
     "dificultad": "Basico",
-    "pregunta": "¿En qué se transforma normalmente JSX durante la compilación?",
+    "pregunta": "Cuando cometes un error en una entrega de trabajo, ¿qué actitud suele valorarse más a nivel profesional?",
     "opciones": [
-      "Llamadas como React.createElement(...)",
-      "Consultas SQL",
-      "Archivos PHP",
-      "Clases Java"
+      "Reconocer el error, corregirlo cuanto antes y explicar cómo evitar repetirlo en el futuro",
+      "Culpar inmediatamente a otra persona del equipo sin revisar lo ocurrido",
+      "Ocultarlo esperando que nadie note el impacto generado",
+      "Minimizarlo aunque afecte tiempos, calidad o resultados"
     ],
-    "respuesta": "Llamadas como React.createElement(...)",
+    "respuesta": "Reconocer el error, corregirlo cuanto antes y explicar cómo evitar repetirlo en el futuro",
+    "feedbackExito": "Correcto. La responsabilidad genera confianza profesional.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "sk-6",
+    "categoria": "Skills",
+    "tipo": "multiple_unica",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué demuestra una comunicación clara durante reuniones breves de seguimiento con el equipo?",
+    "opciones": [
+      "Explicar qué hiciste, qué harás después y si existe algún bloqueo relevante",
+      "Hablar de temas no relacionados durante varios minutos",
+      "Responder siempre con una sola palabra sin contexto",
+      "Guardar problemas importantes para comentarlos mucho después"
+    ],
+    "respuesta": "Explicar qué hiciste, qué harás después y si existe algún bloqueo relevante",
+    "feedbackExito": "Correcto. Una actualización breve y clara es muy valiosa.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "sk-7",
+    "categoria": "Skills",
+    "tipo": "multiple_multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué acciones favorecen realmente el trabajo en equipo dentro de un entorno profesional de desarrollo?",
+    "opciones": [
+      "Compartir información útil que pueda ayudar al avance del proyecto o resolver bloqueos",
+      "Escuchar opiniones técnicas distintas con respeto y disposición al diálogo",
+      "Avisar cambios que puedan afectar tiempos, tareas o funcionamiento del sistema",
+      "Competir ocultando conocimiento para destacar individualmente"
+    ],
+    "respuesta": [
+      "Compartir información útil que pueda ayudar al avance del proyecto o resolver bloqueos",
+      "Escuchar opiniones técnicas distintas con respeto y disposición al diálogo",
+      "Avisar cambios que puedan afectar tiempos, tareas o funcionamiento del sistema"
+    ],
+    "feedbackExito": "Correcto. La colaboración mejora resultados del equipo.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "sk-8",
+    "categoria": "Skills",
+    "tipo": "codigo_slots",
+    "dificultad": "Basico",
+    "pregunta": "Completa la frase adecuada utilizando la opción más profesional para solicitar claridad sobre un requerimiento.",
+    "modo": "slots",
+    "plantilla": "No entendí una parte del requerimiento, ¿podrías {{slot1}} ese punto?",
+    "opcionesSlots": ["ignorar", "cerrar", "aclarar", "borrar"],
+    "respuestasSlots": ["aclarar"],
+    "feedbackExito": "Correcto. Pedir claridad evita errores posteriores.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "sk-9",
+    "categoria": "Skills",
+    "tipo": "multiple_unica",
+    "dificultad": "Basico",
+    "pregunta": "Si una tarea tomará más tiempo del esperado inicialmente, ¿qué conviene hacer como buena práctica profesional?",
+    "opciones": [
+      "Informarlo con tiempo al equipo y proponer un nuevo estimado realista de entrega",
+      "Callar hasta la fecha límite esperando terminar a último momento",
+      "Marcar la tarea como terminada aunque no esté lista",
+      "Dejar de responder mensajes relacionados con el proyecto"
+    ],
+    "respuesta": "Informarlo con tiempo al equipo y proponer un nuevo estimado realista de entrega",
+    "feedbackExito": "Correcto. Avisar temprano permite reorganizar prioridades.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "sk-10",
+    "categoria": "Skills",
+    "tipo": "multiple_unica",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué refleja una buena actitud de aprendizaje en una persona junior que está iniciando experiencia profesional?",
+    "opciones": [
+      "Aceptar feedback constructivo y aplicarlo progresivamente para mejorar desempeño",
+      "Molestarse ante cualquier corrección realizada por otras personas",
+      "Negarse a cambiar hábitos aunque no funcionen bien",
+      "Pensar que ya no necesita seguir aprendiendo nuevas cosas"
+    ],
+    "respuesta": "Aceptar feedback constructivo y aplicarlo progresivamente para mejorar desempeño",
+    "feedbackExito": "Correcto. Aprender requiere apertura y mejora continua.",
     "puntos": 15,
     "timeLimit": 35
   },
   {
-    "id": "react-14",
-    "categoria": "React",
-    "tipo": "codigo",
+    "id": "sk-11",
+    "categoria": "Skills",
+    "tipo": "multiple_multiple",
     "dificultad": "Basico",
-    "pregunta": "Completa el componente funcional básico.",
-    "modo": "slots",
-    "plantilla": "function Saludo(){ {{slot0}} <h1>Hola</h1>; }",
-    "opcionesSlots": [
-      "return",
-      "break",
-      "const",
-      "map"
+    "pregunta": "¿Qué señales suelen transmitir profesionalismo dentro de un entorno laboral moderno?",
+    "opciones": [
+      "Puntualidad razonable en reuniones, entregas y compromisos adquiridos",
+      "Respeto al comunicar ideas, diferencias o solicitudes del día a día",
+      "Cumplimiento de compromisos asumidos con el equipo o liderazgo",
+      "Responder con groserías o malos modos bajo presión"
     ],
-    "respuestasSlots": [
-      "return"
+    "respuesta": [
+      "Puntualidad razonable en reuniones, entregas y compromisos adquiridos",
+      "Respeto al comunicar ideas, diferencias o solicitudes del día a día",
+      "Cumplimiento de compromisos asumidos con el equipo o liderazgo"
     ],
-    "evaluacion": "slots",
+    "feedbackExito": "Correcto. Profesionalismo combina conducta y confiabilidad.",
     "puntos": 15,
     "timeLimit": 35
   },
   {
-    "id": "react-15",
-    "categoria": "React",
-    "tipo": "codigo",
+    "id": "sk-12",
+    "categoria": "Skills",
+    "tipo": "codigo_slots",
     "dificultad": "Basico",
-    "pregunta": "Completa el nombre correcto del componente en JSX.",
+    "pregunta": "Completa la frase con la opción más adecuada para comunicar cierre responsable de una tarea.",
     "modo": "slots",
-    "plantilla": "<{{slot0}} />",
-    "opcionesSlots": [
-      "Saludo",
-      "saludo",
-      "body",
-      "main.css"
-    ],
-    "respuestasSlots": [
-      "Saludo"
-    ],
-    "evaluacion": "slots",
+    "plantilla": "Terminé la tarea y ya la dejé {{slot1}} para revisión.",
+    "opcionesSlots": ["lista", "rota", "cerrada sin probar", "olvidada"],
+    "respuestasSlots": ["lista"],
+    "feedbackExito": "Correcto. Dejar algo listo para revisión es buena práctica.",
     "puntos": 15,
     "timeLimit": 35
   },
   {
-    "id": "react-16",
-    "categoria": "React",
-    "tipo": "codigo",
+    "id": "sk-13",
+    "categoria": "Skills",
+    "tipo": "multiple_unica",
     "dificultad": "Basico",
-    "pregunta": "Completa el componente accediendo correctamente a una prop enviada.",
-    "modo": "slots",
-    "plantilla": "function Usuario(props){ return <h1>{props.{{slot0}}}</h1>; }",
-    "opcionesSlots": [
-      "name",
-      "class",
-      "div",
-      "push"
+    "pregunta": "¿Qué significa priorizar correctamente el trabajo cuando existen varias tareas pendientes?",
+    "opciones": [
+      "Atender primero lo más importante, urgente o que esté bloqueando a otras personas",
+      "Elegir siempre lo más fácil sin considerar impacto real",
+      "Hacer únicamente las tareas favoritas del día",
+      "Cambiar de tarea constantemente sin terminar ninguna"
     ],
-    "respuestasSlots": [
-      "name"
-    ],
-    "evaluacion": "slots",
+    "respuesta": "Atender primero lo más importante, urgente o que esté bloqueando a otras personas",
+    "feedbackExito": "Correcto. Priorizar mejora impacto y productividad.",
     "puntos": 15,
     "timeLimit": 35
   },
   {
-    "id": "react-17",
-    "categoria": "React",
-    "tipo": "codigo",
+    "id": "sk-14",
+    "categoria": "Skills",
+    "tipo": "multiple_unica",
     "dificultad": "Basico",
-    "pregunta": "Completa el componente creado con arrow function.",
-    "modo": "slots",
-    "plantilla": "const Card = () => { {{slot0}} <p>Texto</p>; }",
-    "opcionesSlots": [
-      "return",
-      "await",
-      "break",
-      "class"
+    "pregunta": "Si no estás de acuerdo con una decisión técnica sencilla tomada por el equipo, ¿qué suele ser lo mejor?",
+    "opciones": [
+      "Expresar argumentos con respeto, escuchar a otras personas y buscar la mejor solución conjunta",
+      "Discutir de forma personal hasta imponer tu punto de vista",
+      "Ignorar la decisión y trabajar diferente sin avisar",
+      "Quejarte continuamente sin proponer alternativas"
     ],
-    "respuestasSlots": [
-      "return"
-    ],
-    "evaluacion": "slots",
+    "respuesta": "Expresar argumentos con respeto, escuchar a otras personas y buscar la mejor solución conjunta",
+    "feedbackExito": "Correcto. El desacuerdo profesional requiere respeto y argumentos.",
     "puntos": 15,
     "timeLimit": 35
   },
   {
-    "id": "react-18",
-    "categoria": "React",
-    "tipo": "codigo",
+    "id": "sk-15",
+    "categoria": "Skills",
+    "tipo": "multiple_multiple",
     "dificultad": "Basico",
-    "pregunta": "Completa el uso del componente pasando una prop correctamente.",
+    "pregunta": "¿Qué acciones ayudan a organizar mejor el día laboral y mantener enfoque en objetivos?",
+    "opciones": [
+      "Usar una lista de tareas o tablero visual para seguimiento diario",
+      "Estimar tiempos aproximados para planificar el esfuerzo requerido",
+      "Revisar pendientes prioritarios antes de comenzar nuevas actividades",
+      "Trabajar sin revisar objetivos ni prioridades definidas"
+    ],
+    "respuesta": [
+      "Usar una lista de tareas o tablero visual para seguimiento diario",
+      "Estimar tiempos aproximados para planificar el esfuerzo requerido",
+      "Revisar pendientes prioritarios antes de comenzar nuevas actividades"
+    ],
+    "feedbackExito": "Correcto. Organización diaria mejora foco y cumplimiento.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "sk-16",
+    "categoria": "Skills",
+    "tipo": "codigo_slots",
+    "dificultad": "Basico",
+    "pregunta": "Completa la frase con la opción más adecuada para comunicar un riesgo detectado.",
     "modo": "slots",
-    "plantilla": "<Usuario {{slot0}}='Ana' />",
-    "opcionesSlots": [
-      "name",
-      "div",
-      "return",
-      "class"
+    "plantilla": "Encontré un problema adicional y ya lo {{slot1}} al líder.",
+    "opcionesSlots": ["borro", "escondo", "reinicio", "reporté"],
+    "respuestasSlots": ["reporté"],
+    "feedbackExito": "Correcto. Reportar riesgos a tiempo ayuda al equipo.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "sk-17",
+    "categoria": "Skills",
+    "tipo": "multiple_unica",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué demuestra interés genuino por mejorar y crecer profesionalmente dentro de una empresa?",
+    "opciones": [
+      "Buscar entender por qué se hacen las cosas y cómo mejorar procesos o resultados",
+      "Memorizar instrucciones sin comprender realmente su propósito",
+      "Evitar retos nuevos por miedo a equivocarse",
+      "Repetir errores sin revisar causas ni aprendizajes"
     ],
-    "respuestasSlots": [
-      "name"
+    "respuesta": "Buscar entender por qué se hacen las cosas y cómo mejorar procesos o resultados",
+    "feedbackExito": "Correcto. Comprender procesos acelera el crecimiento.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "sk-18",
+    "categoria": "Skills",
+    "tipo": "multiple_unica",
+    "dificultad": "Basico",
+    "pregunta": "En un perfil junior, ¿qué suele ser muy valioso además de las habilidades técnicas iniciales?",
+    "opciones": [
+      "Actitud constante de aprendizaje, colaboración y disposición para adaptarse",
+      "Prometer saber todo desde el primer día sin necesidad de apoyo",
+      "Trabajar sin comunicarse con el resto del equipo",
+      "Rechazar cualquier cambio de proceso o herramienta"
     ],
-    "evaluacion": "slots",
+    "respuesta": "Actitud constante de aprendizaje, colaboración y disposición para adaptarse",
+    "feedbackExito": "Correcto. Las empresas valoran mucho potencial y actitud.",
     "puntos": 15,
     "timeLimit": 35
   },
   {
     "id": "sk-19",
     "categoria": "Skills",
-    "tipo": "multiple",
+    "tipo": "multiple_unica",
     "dificultad": "Intermedio",
-    "pregunta": "Recibes dos tareas urgentes al mismo tiempo de responsables diferentes. ¿Qué acción profesional conviene realizar primero?",
+    "pregunta": "Si recibes varias tareas con la misma prioridad aparente y cuentas con tiempo limitado para ejecutarlas, ¿qué suele ser lo mejor hacer primero?",
     "opciones": [
-      "Alinear prioridades con las personas responsables y explicar la capacidad disponible",
-      "Hacer primero la tarea más fácil sin avisar a nadie",
-      "Ignorar una de las dos solicitudes",
-      "Aceptar ambas tareas y desaparecer del chat"
+      "Alinear prioridades con líder, product owner o equipo antes de avanzar para asegurar foco correcto",
+      "Elegir al azar una tarea y esperar que haya sido la correcta",
+      "Ignorar todas las tareas hasta recibir una nueva orden explícita",
+      "Hacer únicamente la más fácil sin considerar impacto real"
     ],
-    "respuesta": "Alinear prioridades con las personas responsables y explicar la capacidad disponible",
+    "respuesta": "Alinear prioridades con líder, product owner o equipo antes de avanzar para asegurar foco correcto",
+    "feedbackExito": "Correcto. Cuando compiten prioridades, conviene alinear expectativas.",
     "puntos": 20,
     "timeLimit": 40
   },
   {
     "id": "sk-20",
     "categoria": "Skills",
-    "tipo": "multiple",
+    "tipo": "multiple_multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Un compañero pide ayuda mientras estás concentrada en una entrega importante. ¿Qué opción suele ser mejor?",
+    "pregunta": "¿Qué prácticas mejoran la calidad del trabajo antes de entregar una tarea técnica al equipo o cliente?",
     "opciones": [
-      "Responder con contexto y acordar un momento realista para brindar ayuda",
-      "Ignorarlo completamente durante todo el día",
-      "Abandonar tu entrega principal sin avisar",
-      "Decir que no en cualquier caso"
+      "Probar escenarios principales para validar funcionamiento esperado",
+      "Revisar requisitos solicitados para confirmar alcance completo",
+      "Validar posibles errores visibles o casos comunes de falla",
+      "Entregar inmediatamente sin revisar ningún detalle"
     ],
-    "respuesta": "Responder con contexto y acordar un momento realista para brindar ayuda",
+    "respuesta": [
+      "Probar escenarios principales para validar funcionamiento esperado",
+      "Revisar requisitos solicitados para confirmar alcance completo",
+      "Validar posibles errores visibles o casos comunes de falla"
+    ],
+    "feedbackExito": "Correcto. Validar antes de entregar reduce retrabajo.",
     "puntos": 20,
     "timeLimit": 40
   },
   {
     "id": "sk-21",
     "categoria": "Skills",
-    "tipo": "multiple",
+    "tipo": "codigo_slots",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué acciones ayudan cuando existe un bloqueo técnico durante el trabajo?",
-    "opciones": [
-      "Reproducir el problema para entender mejor la causa",
-      "Revisar documentación y recursos disponibles",
-      "Pedir ayuda entregando contexto claro y avances previos",
-      "Esperar sin hacer nada hasta que pase solo"
-    ],
-    "respuesta": [
-      "Reproducir el problema para entender mejor la causa",
-      "Revisar documentación y recursos disponibles",
-      "Pedir ayuda entregando contexto claro y avances previos"
-    ],
+    "pregunta": "Completa la frase profesional con la opción que mejor refleja iniciativa ante un bloqueo técnico.",
+    "modo": "slots",
+    "plantilla": "Detecté un bloqueo técnico y ya estoy {{slot1}} opciones para resolverlo.",
+    "opcionesSlots": ["evitando", "analizando", "cerrando", "olvidando"],
+    "respuestasSlots": ["analizando"],
+    "feedbackExito": "Correcto. Informar problema y mostrar iniciativa genera confianza.",
     "puntos": 20,
     "timeLimit": 40
   },
   {
     "id": "sk-22",
     "categoria": "Skills",
-    "tipo": "codigo",
+    "tipo": "multiple_unica",
     "dificultad": "Intermedio",
-    "pregunta": "Completa la frase profesional con la palabra más adecuada.",
-    "modo": "slots",
-    "plantilla": "Ya identifiqué el bloqueo y {{slot0}} una propuesta de solución.",
-    "opcionesSlots": [
-      "comparto",
-      "oculto",
-      "borro",
-      "reinicio"
+    "pregunta": "Cuando recibes feedback técnico con el que no coincides totalmente, ¿qué conviene hacer de forma profesional?",
+    "opciones": [
+      "Escuchar con atención, pedir contexto adicional y responder con argumentos técnicos respetuosos",
+      "Ignorarlo por completo porque no coincide con tu opinión",
+      "Tomarlo como un ataque personal sin analizar el contenido",
+      "Responder con enojo inmediato para defender tu trabajo"
     ],
-    "respuestasSlots": [
-      "comparto"
-    ],
+    "respuesta": "Escuchar con atención, pedir contexto adicional y responder con argumentos técnicos respetuosos",
+    "feedbackExito": "Correcto. El feedback se maneja con apertura y criterio.",
     "puntos": 20,
     "timeLimit": 40
   },
   {
     "id": "sk-23",
     "categoria": "Skills",
-    "tipo": "multiple",
+    "tipo": "multiple_unica",
     "dificultad": "Intermedio",
-    "pregunta": "Te dan feedback sobre errores repetitivos en tus entregas. ¿Qué respuesta madura conviene más?",
+    "pregunta": "Si una estimación inicial quedó corta y la tarea requiere más tiempo del previsto, ¿qué demuestra madurez profesional?",
     "opciones": [
-      "Agradecer, entender el patrón y ajustar el proceso de trabajo",
-      "Tomarlo personal y discutir de inmediato",
-      "Ignorarlo siempre sin revisarlo",
-      "Decir que no tiene importancia"
+      "Actualizar el estimado cuanto antes y explicar claramente las razones del ajuste",
+      "Ocultarlo hasta el último día esperando terminar a tiempo",
+      "Marcar la tarea como lista aunque siga incompleta",
+      "Culpar a otra persona del equipo por el retraso"
     ],
-    "respuesta": "Agradecer, entender el patrón y ajustar el proceso de trabajo",
+    "respuesta": "Actualizar el estimado cuanto antes y explicar claramente las razones del ajuste",
+    "feedbackExito": "Correcto. Reestimar a tiempo permite planear mejor.",
     "puntos": 20,
     "timeLimit": 40
   },
   {
     "id": "sk-24",
     "categoria": "Skills",
-    "tipo": "multiple",
+    "tipo": "multiple_multiple",
     "dificultad": "Intermedio",
-    "pregunta": "En una reunión larga sin suficiente claridad, ¿qué acción agrega más valor al equipo?",
+    "pregunta": "¿Qué señales muestran verdadero ownership sobre una tarea asignada dentro de un proyecto?",
     "opciones": [
-      "Resumir decisiones tomadas, pendientes y próximos pasos",
-      "Quedarte callada durante toda la reunión",
-      "Irte sin avisar a las demás personas",
-      "Hablar mucho sin foco ni objetivo"
+      "Dar seguimiento constante hasta lograr el cierre esperado",
+      "Avisar riesgos o bloqueos tempranos que puedan afectar tiempos",
+      "Buscar soluciones razonables sin esperar siempre instrucciones",
+      "Desentenderse al primer problema encontrado"
     ],
-    "respuesta": "Resumir decisiones tomadas, pendientes y próximos pasos",
+    "respuesta": [
+      "Dar seguimiento constante hasta lograr el cierre esperado",
+      "Avisar riesgos o bloqueos tempranos que puedan afectar tiempos",
+      "Buscar soluciones razonables sin esperar siempre instrucciones"
+    ],
+    "feedbackExito": "Correcto. Ownership implica hacerse cargo del resultado.",
     "puntos": 20,
     "timeLimit": 40
   },
   {
     "id": "sk-25",
     "categoria": "Skills",
-    "tipo": "multiple",
+    "tipo": "codigo_slots",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué comportamientos mejoran la colaboración remota entre equipos?",
-    "opciones": [
-      "Enviar mensajes claros y fáciles de entender",
-      "Documentar acuerdos y decisiones importantes",
-      "Responder dentro de tiempos razonables",
-      "Desaparecer varias horas sin contexto"
+    "pregunta": "Completa la frase con la opción más adecuada para comunicar que un cambio fue validado correctamente antes de revisión.",
+    "modo": "slots",
+    "plantilla": "Ya validé el cambio en ambiente local y quedó {{slot1}} para revisión.",
+    "opcionesSlots": [
+      "listo",
+      "ignorado",
+      "pendiente sin revisar",
+      "cerrado sin probar"
     ],
-    "respuesta": [
-      "Enviar mensajes claros y fáciles de entender",
-      "Documentar acuerdos y decisiones importantes",
-      "Responder dentro de tiempos razonables"
-    ],
+    "respuestasSlots": ["listo"],
+    "feedbackExito": "Correcto. Validar antes de pedir revisión es buena práctica.",
     "puntos": 20,
     "timeLimit": 40
   },
   {
     "id": "sk-26",
     "categoria": "Skills",
-    "tipo": "codigo",
+    "tipo": "multiple_unica",
     "dificultad": "Intermedio",
-    "pregunta": "Completa la frase con la opción más profesional.",
-    "modo": "slots",
-    "plantilla": "No llegaré al estimado inicial, pero ya {{slot0}} una nueva fecha realista.",
-    "opcionesSlots": [
-      "propuse",
-      "escondí",
-      "cancelé",
-      "olvidé"
+    "pregunta": "Si detectas que otra persona del equipo depende directamente de tu avance para continuar trabajando, ¿qué conviene hacer?",
+    "opciones": [
+      "Comunicar estado actual, posibles bloqueos y tiempos estimados lo antes posible",
+      "Esperar a que la otra persona pregunte varias veces por el avance",
+      "No responder mensajes relacionados con la tarea",
+      "Cambiar de actividad sin avisar a nadie"
     ],
-    "respuestasSlots": [
-      "propuse"
-    ],
+    "respuesta": "Comunicar estado actual, posibles bloqueos y tiempos estimados lo antes posible",
+    "feedbackExito": "Correcto. La coordinación evita bloqueos en cadena.",
     "puntos": 20,
     "timeLimit": 40
   },
   {
     "id": "sk-27",
     "categoria": "Skills",
-    "tipo": "multiple",
+    "tipo": "multiple_unica",
     "dificultad": "Intermedio",
-    "pregunta": "Detectas una mejora pequeña fuera del alcance actual del proyecto. ¿Qué haces normalmente?",
+    "pregunta": "¿Qué actitud suele ayudar más dentro de proyectos cambiantes donde aparecen nuevos requerimientos o prioridades?",
     "opciones": [
-      "La registras y la priorizas con el equipo",
-      "La implementas siempre sin avisar",
-      "La ignoras para siempre",
-      "Cambias todo el proyecto completo"
+      "Adaptabilidad, disposición para aprender y apertura ante cambios razonables",
+      "Resistencia total a cualquier modificación del plan inicial",
+      "Quejarse constantemente cada vez que surge un cambio",
+      "Trabajar sin contexto ni interés por entender objetivos"
     ],
-    "respuesta": "La registras y la priorizas con el equipo",
+    "respuesta": "Adaptabilidad, disposición para aprender y apertura ante cambios razonables",
+    "feedbackExito": "Correcto. Los proyectos cambian y la adaptabilidad suma mucho.",
     "puntos": 20,
     "timeLimit": 40
   },
   {
     "id": "sk-28",
     "categoria": "Skills",
-    "tipo": "multiple",
+    "tipo": "multiple_unica",
     "dificultad": "Intermedio",
-    "pregunta": "Un stakeholder cambia requisitos a mitad del trabajo. ¿Qué conviene hacer primero?",
+    "pregunta": "Si surge un bug urgente en producción mientras trabajas en otra tarea importante, ¿qué suele ser mejor hacer?",
     "opciones": [
-      "Entender el impacto en tiempo, alcance y prioridades actuales",
-      "Aceptar todo sin revisar consecuencias",
-      "Negarte automáticamente al cambio",
-      "Borrar el avance realizado"
+      "Repriorizar junto con el equipo según impacto, urgencia y consecuencias para usuarios",
+      "Ignorarlo porque inicialmente no era tu tarea asignada",
+      "Seguir trabajando igual sin informar lo ocurrido",
+      "Cerrar ambas tareas para evitar presión"
     ],
-    "respuesta": "Entender el impacto en tiempo, alcance y prioridades actuales",
+    "respuesta": "Repriorizar junto con el equipo según impacto, urgencia y consecuencias para usuarios",
+    "feedbackExito": "Correcto. La urgencia se maneja según impacto y coordinación.",
     "puntos": 25,
     "timeLimit": 45
   },
   {
     "id": "sk-29",
     "categoria": "Skills",
-    "tipo": "multiple",
+    "tipo": "multiple_multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué señales suelen demostrar ownership profesional?",
+    "pregunta": "¿Qué acciones fortalecen la confianza del equipo en ti con el paso del tiempo?",
     "opciones": [
-      "Hacer seguimiento hasta cerrar pendientes importantes",
-      "Avisar riesgos de forma temprana",
-      "Buscar soluciones viables y ejecutables",
-      "Esperar siempre que otras personas resuelvan"
+      "Cumplir compromisos asumidos de manera consistente",
+      "Comunicar bloqueos reales con honestidad y oportunidad",
+      "Ser constante en calidad y tiempos de entrega",
+      "Prometer más de lo posible y fallar frecuentemente"
     ],
     "respuesta": [
-      "Hacer seguimiento hasta cerrar pendientes importantes",
-      "Avisar riesgos de forma temprana",
-      "Buscar soluciones viables y ejecutables"
+      "Cumplir compromisos asumidos de manera consistente",
+      "Comunicar bloqueos reales con honestidad y oportunidad",
+      "Ser constante en calidad y tiempos de entrega"
     ],
+    "feedbackExito": "Correcto. La confianza se construye con consistencia.",
     "puntos": 25,
     "timeLimit": 45
   },
   {
     "id": "sk-30",
     "categoria": "Skills",
-    "tipo": "codigo",
+    "tipo": "codigo_slots",
     "dificultad": "Intermedio",
-    "pregunta": "Completa la frase adecuada con la opción correcta.",
+    "pregunta": "Completa la frase con la opción que mejor refleja iniciativa profesional ante la incertidumbre.",
     "modo": "slots",
-    "plantilla": "Antes de escalar el problema, reuní evidencia y {{slot0}} alternativas.",
-    "opcionesSlots": [
-      "rompí",
-      "ignoré",
-      "propuse",
-      "cerré"
-    ],
-    "respuestasSlots": [
-      "propuse"
-    ],
+    "plantilla": "No tengo la respuesta aún, pero ya empecé a {{slot1}} el problema.",
+    "opcionesSlots": ["escalar", "investigar", "ignorar", "cerrar"],
+    "respuestasSlots": ["investigar"],
+    "feedbackExito": "Correcto. La iniciativa importa mucho ante incertidumbre.",
     "puntos": 25,
     "timeLimit": 45
   },
   {
     "id": "sk-31",
     "categoria": "Skills",
-    "tipo": "multiple",
+    "tipo": "multiple_unica",
     "dificultad": "Intermedio",
-    "pregunta": "Si notas que una compañera fue interrumpida varias veces en una reunión, ¿qué conducta suma más?",
+    "pregunta": "¿Qué significa realmente ser proactivo dentro de un entorno técnico profesional?",
     "opciones": [
-      "Ayudar a devolverle espacio de palabra con respeto",
-      "Ignorarlo siempre aunque ocurra seguido",
-      "Reírte de la situación",
-      "Salir de la reunión"
+      "Anticipar problemas, detectar oportunidades y proponer acciones útiles con criterio",
+      "Esperar siempre instrucciones mínimas antes de cualquier movimiento",
+      "Cambiar todo sin consultar impactos ni prioridades",
+      "Trabajar aislado sin compartir información relevante"
     ],
-    "respuesta": "Ayudar a devolverle espacio de palabra con respeto",
+    "respuesta": "Anticipar problemas, detectar oportunidades y proponer acciones útiles con criterio",
+    "feedbackExito": "Correcto. Proactividad combina iniciativa y criterio.",
     "puntos": 25,
     "timeLimit": 45
   },
   {
     "id": "sk-32",
     "categoria": "Skills",
-    "tipo": "multiple",
+    "tipo": "multiple_unica",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué ayuda a tomar mejores decisiones cuando hay poca información disponible?",
+    "pregunta": "Cuando una reunión no requiere realmente tu presencia activa, ¿qué comportamiento suele ser más profesional?",
     "opciones": [
-      "Validar supuestos antes de decidir",
-      "Buscar datos mínimos realmente útiles",
-      "Comunicar incertidumbre de forma transparente",
-      "Inventar certezas sin evidencia"
+      "Confirmar si debes asistir o revisar luego un resumen para optimizar tiempo del equipo",
+      "Entrar a la reunión y no prestar atención durante toda la sesión",
+      "Faltar sin avisar ni revisar acuerdos posteriores",
+      "Interrumpir temas ajenos para llamar la atención"
     ],
-    "respuesta": [
-      "Validar supuestos antes de decidir",
-      "Buscar datos mínimos realmente útiles",
-      "Comunicar incertidumbre de forma transparente"
-    ],
+    "respuesta": "Confirmar si debes asistir o revisar luego un resumen para optimizar tiempo del equipo",
+    "feedbackExito": "Correcto. Cuidar tiempo propio y del equipo también es profesional.",
     "puntos": 25,
     "timeLimit": 45
   },
   {
     "id": "sk-33",
     "categoria": "Skills",
-    "tipo": "codigo",
+    "tipo": "multiple_multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Completa la frase con la respuesta más adecuada.",
-    "modo": "slots",
-    "plantilla": "No tengo toda la información aún, pero {{slot0}} apenas confirme datos.",
-    "opcionesSlots": [
-      "desaparezco",
-      "cierro",
-      "borro",
-      "actualizo"
+    "pregunta": "¿Qué comportamientos muestran pensamiento orientado a mejora continua dentro del trabajo diario?",
+    "opciones": [
+      "Aprender de errores y convertirlos en lecciones útiles",
+      "Medir resultados para saber qué funciona mejor",
+      "Ajustar procesos o hábitos que puedan optimizar rendimiento",
+      "Repetir fallas sin revisar causas ni consecuencias"
     ],
-    "respuestasSlots": [
-      "actualizo"
+    "respuesta": [
+      "Aprender de errores y convertirlos en lecciones útiles",
+      "Medir resultados para saber qué funciona mejor",
+      "Ajustar procesos o hábitos que puedan optimizar rendimiento"
     ],
+    "feedbackExito": "Correcto. Mejorar requiere observar, medir y ajustar.",
     "puntos": 25,
     "timeLimit": 45
   },
   {
     "id": "sk-34",
     "categoria": "Skills",
-    "tipo": "multiple",
+    "tipo": "multiple_unica",
     "dificultad": "Intermedio",
-    "pregunta": "Una decisión del equipo no fue la tuya, pero ya se acordó avanzar. ¿Qué haces?",
+    "pregunta": "En entrevistas para perfiles junior, además de conocimientos técnicos básicos, ¿qué suele pesar bastante en la decisión final?",
     "opciones": [
-      "Apoyar la ejecución y aportar mejoras durante el camino",
-      "Sabotearla en silencio",
-      "Quejarte sin proponer nada",
-      "Ignorar tareas relacionadas"
+      "Comunicación efectiva, actitud positiva y capacidad demostrable de aprender rápido",
+      "Memorizar buzzwords sin entender realmente su significado",
+      "Hablar mal de empleos o experiencias anteriores",
+      "Prometer experiencia falsa para impresionar"
     ],
-    "respuesta": "Apoyar la ejecución y aportar mejoras durante el camino",
+    "respuesta": "Comunicación efectiva, actitud positiva y capacidad demostrable de aprender rápido",
+    "feedbackExito": "Correcto. Potencial y actitud suelen ser decisivos.",
     "puntos": 25,
     "timeLimit": 45
   },
   {
     "id": "sk-35",
     "categoria": "Skills",
-    "tipo": "multiple",
+    "tipo": "multiple_unica",
     "dificultad": "Avanzado",
-    "pregunta": "Descubres un riesgo importante cerca de la fecha de entrega. ¿Qué acción conviene realizar primero?",
+    "pregunta": "Si descubres un error crítico pocos minutos antes de una entrega importante al cliente o al negocio, ¿qué suele ser lo más profesional hacer?",
     "opciones": [
-      "Comunicar impacto, opciones disponibles y recomendación cuanto antes",
-      "Esperar a que alguien más lo note",
-      "Ocultarlo hasta después del release",
-      "Cancelar todo sin contexto"
+      "Informar el impacto real, proponer opciones viables y tomar la decisión junto con el equipo responsable",
+      "Ocultarlo para cumplir la fecha aunque genere problemas posteriores",
+      "Entregar igualmente sin avisar nada sobre el riesgo detectado",
+      "Desaparecer hasta después de realizada la entrega"
     ],
-    "respuesta": "Comunicar impacto, opciones disponibles y recomendación cuanto antes",
+    "respuesta": "Informar el impacto real, proponer opciones viables y tomar la decisión junto con el equipo responsable",
+    "feedbackExito": "Correcto. Transparencia y criterio son claves bajo presión.",
     "puntos": 30,
     "timeLimit": 50
   },
   {
     "id": "sk-36",
     "categoria": "Skills",
-    "tipo": "multiple",
+    "tipo": "multiple_multiple",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué conductas reflejan pensamiento orientado al negocio dentro de un equipo?",
+    "pregunta": "¿Qué comportamientos reflejan liderazgo positivo incluso sin tener un cargo formal dentro del equipo?",
     "opciones": [
-      "Entender impacto en usuarios",
-      "Priorizar valor entregado",
-      "Considerar tiempos y costos",
-      "Trabajar sin contexto siempre"
+      "Ayudar a destrabar problemas que afectan a otras personas o procesos",
+      "Compartir conocimiento útil para elevar el nivel general del equipo",
+      "Tomar iniciativa responsable cuando se detectan oportunidades claras",
+      "Mandar sin escuchar a nadie ni considerar otros puntos de vista"
     ],
     "respuesta": [
-      "Entender impacto en usuarios",
-      "Priorizar valor entregado",
-      "Considerar tiempos y costos"
+      "Ayudar a destrabar problemas que afectan a otras personas o procesos",
+      "Compartir conocimiento útil para elevar el nivel general del equipo",
+      "Tomar iniciativa responsable cuando se detectan oportunidades claras"
     ],
+    "feedbackExito": "Correcto. Liderazgo también se demuestra desde la influencia positiva.",
     "puntos": 30,
     "timeLimit": 50
   },
   {
     "id": "sk-37",
     "categoria": "Skills",
-    "tipo": "codigo",
+    "tipo": "codigo_slots",
     "dificultad": "Avanzado",
-    "pregunta": "Completa la frase ejecutiva con la opción correcta.",
+    "pregunta": "Completa la frase con la opción más adecuada para comunicar iniciativa frente a un riesgo detectado.",
     "modo": "slots",
-    "plantilla": "Tenemos dos caminos viables; mi {{slot0}} es avanzar con la opción B por menor riesgo.",
-    "opcionesSlots": [
-      "enojo",
-      "recomendación",
-      "excusa",
-      "duda"
-    ],
-    "respuestasSlots": [
-      "recomendación"
-    ],
+    "plantilla": "Detecté el riesgo temprano y ya {{slot1}} alternativas viables.",
+    "opcionesSlots": ["propuse", "ignoré", "cerré", "oculté"],
+    "respuestasSlots": ["propuse"],
+    "feedbackExito": "Correcto. Detectar riesgos y proponer soluciones agrega mucho valor.",
     "puntos": 30,
     "timeLimit": 50
   },
   {
     "id": "sk-38",
     "categoria": "Skills",
-    "tipo": "multiple",
+    "tipo": "multiple_unica",
     "dificultad": "Avanzado",
-    "pregunta": "Un incidente está afectando usuarios activos. ¿Qué priorización suele ser mejor?",
+    "pregunta": "Cuando dos líderes solicitan prioridades opuestas al mismo tiempo, ¿qué conviene hacer de forma profesional?",
     "opciones": [
-      "Contener impacto, comunicar estado y resolver la causa",
-      "Seguir tareas normales primero",
-      "Esperar la siguiente reunión semanal",
-      "Discutir culpables antes de actuar"
+      "Buscar alineación de prioridades mostrando contexto, impacto y dependencias antes de avanzar",
+      "Elegir una solicitud en secreto sin informar a nadie",
+      "Prometer ambas cosas aunque sea imposible cumplirlas",
+      "Ignorar a las dos personas hasta que se resuelva solo"
     ],
-    "respuesta": "Contener impacto, comunicar estado y resolver la causa",
+    "respuesta": "Buscar alineación de prioridades mostrando contexto, impacto y dependencias antes de avanzar",
+    "feedbackExito": "Correcto. Resolver conflictos de prioridad requiere alineación.",
     "puntos": 30,
     "timeLimit": 50
   },
   {
     "id": "sk-39",
     "categoria": "Skills",
-    "tipo": "multiple",
+    "tipo": "multiple_unica",
     "dificultad": "Avanzado",
-    "pregunta": "Recibes feedback duro pero válido. ¿Qué respuesta muestra mayor madurez profesional?",
+    "pregunta": "¿Qué demuestra verdadera madurez profesional cuando cometes un error propio que ya es visible para otras personas?",
     "opciones": [
-      "Separar el tono del contenido y rescatar mejoras accionables",
-      "Responder siempre a la defensiva",
-      "Ignorarlo por completo",
-      "Buscar discutir públicamente"
+      "Asumir responsabilidad, corregir cuanto antes y aprender para no repetirlo",
+      "Buscar culpables rápidos para proteger tu imagen",
+      "Negarlo aunque exista evidencia clara del error",
+      "Molestarte con quien lo reportó al equipo"
     ],
-    "respuesta": "Separar el tono del contenido y rescatar mejoras accionables",
+    "respuesta": "Asumir responsabilidad, corregir cuanto antes y aprender para no repetirlo",
+    "feedbackExito": "Correcto. La madurez se nota especialmente ante errores.",
     "puntos": 30,
     "timeLimit": 50
   },
   {
     "id": "sk-40",
     "categoria": "Skills",
-    "tipo": "multiple",
+    "tipo": "multiple_multiple",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué acciones fortalecen liderazgo sin tener un cargo formal?",
+    "pregunta": "¿Qué señales muestran pensamiento estratégico incluso en un perfil junior dentro de una empresa tecnológica?",
     "opciones": [
-      "Dar claridad cuando falta",
-      "Ayudar a destrabar al equipo",
-      "Asumir responsabilidad compartida",
-      "Mandar sin escuchar"
+      "Entender el impacto real del trabajo en negocio o usuarios",
+      "Priorizar correctamente según valor y urgencia",
+      "Pensar en la experiencia del usuario final",
+      "Solo ejecutar tareas sin contexto alguno"
     ],
     "respuesta": [
-      "Dar claridad cuando falta",
-      "Ayudar a destrabar al equipo",
-      "Asumir responsabilidad compartida"
+      "Entender el impacto real del trabajo en negocio o usuarios",
+      "Priorizar correctamente según valor y urgencia",
+      "Pensar en la experiencia del usuario final"
     ],
+    "feedbackExito": "Correcto. Pensar más allá de la tarea suma mucho valor.",
     "puntos": 30,
     "timeLimit": 50
   },
   {
     "id": "sk-41",
     "categoria": "Skills",
-    "tipo": "codigo",
+    "tipo": "codigo_slots",
     "dificultad": "Avanzado",
-    "pregunta": "Completa la frase profesional con la opción adecuada.",
+    "pregunta": "Completa la frase profesional con la opción que refleja desacuerdo constructivo.",
     "modo": "slots",
-    "plantilla": "No solo detecté el problema; también {{slot0}} un plan inicial.",
-    "opcionesSlots": [
-      "propuse",
-      "escondí",
-      "evité",
-      "cerré"
-    ],
-    "respuestasSlots": [
-      "propuse"
-    ],
+    "plantilla": "No comparto esa propuesta, pero puedo {{slot1}} otra opción con argumentos.",
+    "opcionesSlots": ["plantear", "bloquear", "ignorar", "cancelar"],
+    "respuestasSlots": ["plantear"],
+    "feedbackExito": "Correcto. Discrepar con respeto y argumentos es valioso.",
     "puntos": 30,
     "timeLimit": 50
   },
   {
     "id": "sk-42",
     "categoria": "Skills",
-    "tipo": "multiple",
+    "tipo": "multiple_unica",
     "dificultad": "Avanzado",
-    "pregunta": "Hay presión por entregar rápido y la calidad está en riesgo. ¿Qué equilibrio conviene buscar?",
+    "pregunta": "Si una tarea parece pequeña pero puede tener alto impacto en negocio o usuarios, ¿qué conviene hacer?",
     "opciones": [
-      "Ajustar alcance y proteger lo crítico de calidad",
-      "Entregar cualquier cosa",
-      "Detener todo indefinidamente",
-      "Ocultar riesgos"
+      "Validar cuidadosamente antes de ejecutar aunque el cambio parezca simple",
+      "Asumir que no importa por tratarse de algo pequeño",
+      "Hacer cambios sin revisar riesgos ni efectos secundarios",
+      "Delegarla sin explicar contexto ni importancia"
     ],
-    "respuesta": "Ajustar alcance y proteger lo crítico de calidad",
+    "respuesta": "Validar cuidadosamente antes de ejecutar aunque el cambio parezca simple",
+    "feedbackExito": "Correcto. El impacto importa más que el tamaño aparente.",
     "puntos": 30,
     "timeLimit": 50
   },
   {
     "id": "sk-43",
     "categoria": "Skills",
-    "tipo": "multiple",
+    "tipo": "multiple_unica",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué conductas muestran inteligencia emocional en un conflicto laboral?",
+    "pregunta": "¿Qué suele diferenciar a una persona junior con alto potencial de otra con desempeño promedio dentro de un equipo técnico?",
     "opciones": [
-      "Escuchar antes de reaccionar",
-      "Regular tono y forma",
-      "Buscar una solución común",
-      "Responder impulsivamente"
+      "Aprende rápido, comunica con claridad y ejecuta tareas con constancia y responsabilidad",
+      "Habla mucho de tecnología pero entrega pocos resultados concretos",
+      "Evita recibir feedback técnico para no sentirse cuestionada",
+      "Solo trabaja cuando alguien la está supervisando de cerca"
     ],
-    "respuesta": [
-      "Escuchar antes de reaccionar",
-      "Regular tono y forma",
-      "Buscar una solución común"
-    ],
+    "respuesta": "Aprende rápido, comunica con claridad y ejecuta tareas con constancia y responsabilidad",
+    "feedbackExito": "Correcto. Potencial más ejecución consistente destaca bastante.",
     "puntos": 30,
     "timeLimit": 50
   },
   {
     "id": "sk-44",
     "categoria": "Skills",
-    "tipo": "codigo",
+    "tipo": "multiple_multiple",
     "dificultad": "Avanzado",
-    "pregunta": "Completa la frase profesional con la palabra correcta.",
-    "modo": "slots",
-    "plantilla": "No coincido del todo, pero puedo {{slot0}} la decisión del equipo.",
-    "opcionesSlots": [
-      "bloquear",
-      "romper",
-      "respaldar",
-      "ignorar"
+    "pregunta": "¿Qué acciones ayudan de forma directa a prevenir retrabajo y correcciones tardías en proyectos reales?",
+    "opciones": [
+      "Aclarar requisitos desde etapas tempranas antes de desarrollar",
+      "Validar supuestos importantes con las personas involucradas",
+      "Mostrar avances parciales para recibir feedback oportuno",
+      "Esperar hasta el final sin preguntar ni validar nada"
     ],
-    "respuestasSlots": [
-      "respaldar"
+    "respuesta": [
+      "Aclarar requisitos desde etapas tempranas antes de desarrollar",
+      "Validar supuestos importantes con las personas involucradas",
+      "Mostrar avances parciales para recibir feedback oportuno"
     ],
+    "feedbackExito": "Correcto. La validación temprana reduce correcciones tardías.",
     "puntos": 30,
     "timeLimit": 50
   },
   {
     "id": "sk-45",
     "categoria": "Skills",
-    "tipo": "multiple",
+    "tipo": "codigo_slots",
     "dificultad": "Avanzado",
-    "pregunta": "Un proceso manual consume horas cada semana. ¿Qué mentalidad agrega más valor?",
-    "opciones": [
-      "Proponer una simplificación o automatización viable",
-      "Aceptar que siempre será así",
-      "Quejarse sin datos",
-      "Mover el trabajo a otra persona"
-    ],
-    "respuesta": "Proponer una simplificación o automatización viable",
+    "pregunta": "Completa la frase con la opción que refleja aprendizaje compartido después de un cambio exitoso.",
+    "modo": "slots",
+    "plantilla": "El cambio salió bien, ahora voy a {{slot1}} lo aprendido para el equipo.",
+    "opcionesSlots": ["documentar", "borrar", "ocultar", "reiniciar"],
+    "respuestasSlots": ["documentar"],
+    "feedbackExito": "Correcto. Documentar multiplica el aprendizaje colectivo.",
     "puntos": 30,
     "timeLimit": 50
   },
   {
     "id": "sk-46",
     "categoria": "Skills",
-    "tipo": "multiple",
+    "tipo": "multiple_unica",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué señales indican pensamiento estratégico inicial?",
+    "pregunta": "Si no estás de acuerdo con una prioridad ya definida por liderazgo, ¿qué comportamiento suele ser mejor?",
     "opciones": [
-      "Mirar impacto futuro",
-      "Conectar tareas con objetivos",
-      "Detectar dependencias tempranas",
-      "Pensar solo en hoy siempre"
+      "Expresar riesgos y datos con respeto, luego alinearte a la decisión final tomada",
+      "Sabotear la prioridad para demostrar que estabas en lo correcto",
+      "Ignorar la decisión y trabajar en otra cosa distinta",
+      "Quejarte constantemente sin aportar contexto ni soluciones"
     ],
-    "respuesta": [
-      "Mirar impacto futuro",
-      "Conectar tareas con objetivos",
-      "Detectar dependencias tempranas"
-    ],
+    "respuesta": "Expresar riesgos y datos con respeto, luego alinearte a la decisión final tomada",
+    "feedbackExito": "Correcto. Se puede discrepar y luego comprometerse.",
     "puntos": 30,
     "timeLimit": 50
   },
   {
     "id": "sk-47",
     "categoria": "Skills",
-    "tipo": "codigo",
+    "tipo": "multiple_unica",
     "dificultad": "Avanzado",
-    "pregunta": "Completa la frase con la opción más adecuada.",
-    "modo": "slots",
-    "plantilla": "Antes de ejecutar, validé supuestos y {{slot0}} riesgos principales.",
-    "opcionesSlots": [
-      "olvidé",
-      "mezclé",
-      "cerré",
-      "mapeé"
+    "pregunta": "¿Qué indica una orientación a resultados saludable dentro de un entorno profesional exigente?",
+    "opciones": [
+      "Cumplir objetivos cuidando calidad, comunicación y sostenibilidad del trabajo",
+      "Entregar cualquier cosa rápido sin importar consecuencias",
+      "Trabajar sin descanso siempre aunque afecte rendimiento",
+      "Ocultar riesgos para aparentar eficiencia inmediata"
     ],
-    "respuestasSlots": [
-      "mapeé"
-    ],
+    "respuesta": "Cumplir objetivos cuidando calidad, comunicación y sostenibilidad del trabajo",
+    "feedbackExito": "Correcto. Resultado sostenible incluye calidad y coordinación.",
     "puntos": 30,
     "timeLimit": 50
   },
   {
     "id": "sk-48",
     "categoria": "Skills",
-    "tipo": "multiple",
+    "tipo": "multiple_multiple",
     "dificultad": "Avanzado",
-    "pregunta": "Tu líder está ausente y surge una decisión operativa menor pero urgente. ¿Qué conviene hacer?",
+    "pregunta": "¿Qué suele valorar una empresa tecnológica de alto nivel al contratar perfiles junior con potencial?",
     "opciones": [
-      "Tomar una decisión razonable, documentar y comunicar luego",
-      "Paralizar todo hasta que vuelva",
-      "Ignorar el tema",
-      "Decidir sin criterio ni aviso"
+      "Capacidad real de aprendizaje acelerado y mejora continua",
+      "Pensamiento lógico para analizar problemas y decidir mejor",
+      "Colaboración profesional dentro de equipos multidisciplinarios",
+      "Ego inflexible que rechaza opiniones distintas"
     ],
-    "respuesta": "Tomar una decisión razonable, documentar y comunicar luego",
+    "respuesta": [
+      "Capacidad real de aprendizaje acelerado y mejora continua",
+      "Pensamiento lógico para analizar problemas y decidir mejor",
+      "Colaboración profesional dentro de equipos multidisciplinarios"
+    ],
+    "feedbackExito": "Correcto. El potencial y la actitud pesan bastante.",
     "puntos": 30,
     "timeLimit": 50
   },
   {
     "id": "sk-49",
     "categoria": "Skills",
-    "tipo": "multiple",
+    "tipo": "codigo_slots",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué fortalece la confianza profesional dentro de los equipos?",
-    "opciones": [
-      "Cumplir compromisos",
-      "Ser transparente con riesgos",
-      "Responder consistentemente",
-      "Prometer de más siempre"
-    ],
-    "respuesta": [
-      "Cumplir compromisos",
-      "Ser transparente con riesgos",
-      "Responder consistentemente"
-    ],
+    "pregunta": "Completa la frase con la opción que refleja toma de decisiones basada en información.",
+    "modo": "slots",
+    "plantilla": "No tengo certeza aún, pero ya reuní {{slot1}} para decidir mejor.",
+    "opcionesSlots": ["datos", "rumores", "excusas", "atajos"],
+    "respuestasSlots": ["datos"],
+    "feedbackExito": "Correcto. Decidir con información es una gran fortaleza.",
     "puntos": 30,
     "timeLimit": 50
   },
   {
     "id": "sk-50",
     "categoria": "Skills",
-    "tipo": "multiple",
+    "tipo": "multiple_unica",
     "dificultad": "Avanzado",
-    "pregunta": "Si quieres crecer rápido en una empresa tech, además de lo técnico, ¿qué suele marcar mayor diferencia?",
+    "pregunta": "En una entrevista exigente para perfil junior, ¿qué combinación suele destacar más frente a otros candidatos?",
     "opciones": [
-      "Confiabilidad, aprendizaje continuo y buena ejecución sostenida",
-      "Hablar mucho sin resultados",
-      "Evitar responsabilidad",
-      "Trabajar aislado siempre"
+      "Bases sólidas, humildad profesional, aprendizaje rápido y buena comunicación",
+      "Exagerar experiencia inexistente para impresionar al entrevistador",
+      "Responder con arrogancia aunque no se tenga claridad técnica",
+      "Memorizar frases comunes sin criterio propio"
     ],
-    "respuesta": "Confiabilidad, aprendizaje continuo y buena ejecución sostenida",
+    "respuesta": "Bases sólidas, humildad profesional, aprendizaje rápido y buena comunicación",
+    "feedbackExito": "Correcto. Potencial real y actitud consistente suelen destacar.",
     "puntos": 30,
     "timeLimit": 50
   }
