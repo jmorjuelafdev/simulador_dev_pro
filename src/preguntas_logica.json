@@ -4,7 +4,7 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué número sigue en la secuencia: 2, 4, 6, 8, ?",
+    "pregunta": "¿Qué número continúa correctamente la secuencia numérica ascendente: 2, 4, 6, 8, ?",
     "opciones": [
       "9",
       "10",
@@ -20,7 +20,7 @@
     "categoria": "Logica",
     "tipo": "codigo",
     "dificultad": "Basico",
-    "pregunta": "Completa la secuencia ascendente.",
+    "pregunta": "Completa el número faltante dentro de la secuencia ascendente ordenada.",
     "modo": "slots",
     "plantilla": "1, 2, {{slot0}}, 4, 5",
     "opcionesSlots": [
@@ -41,7 +41,7 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Si todos los perros son animales, entonces un perro es:",
+    "pregunta": "Si todos los perros pertenecen al grupo de los animales, entonces un perro es:",
     "opciones": [
       "Planta",
       "Animal",
@@ -57,7 +57,7 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Selecciona números pares.",
+    "pregunta": "Selecciona cuáles de los siguientes números corresponden a valores pares.",
     "opciones": [
       "2",
       "5",
@@ -76,7 +76,7 @@
     "categoria": "Logica",
     "tipo": "codigo",
     "dificultad": "Basico",
-    "pregunta": "Completa la secuencia de 5 en 5.",
+    "pregunta": "Completa el número faltante en la secuencia que avanza de 5 en 5.",
     "modo": "slots",
     "plantilla": "5, 10, {{slot1}}, 20",
     "opcionesSlots": [
@@ -97,7 +97,7 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué figura tiene 3 lados?",
+    "pregunta": "¿Qué figura geométrica básica está formada exactamente por tres lados?",
     "opciones": [
       "Cuadrado",
       "Triángulo",
@@ -113,7 +113,7 @@
     "categoria": "Logica",
     "tipo": "codigo",
     "dificultad": "Basico",
-    "pregunta": "Completa la palabra ordenada: C _ S A",
+    "pregunta": "Completa la vocal faltante para formar correctamente la palabra ordenada.",
     "modo": "slots",
     "plantilla": "C {{slot0}} S A",
     "opcionesSlots": [
@@ -134,7 +134,7 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Si hoy es lunes, ¿qué día será mañana?",
+    "pregunta": "Si hoy corresponde al día lunes, ¿qué día será mañana?",
     "opciones": [
       "Domingo",
       "Martes",
@@ -150,7 +150,7 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Cuál opción es exactamente igual a: ABc129x?",
+    "pregunta": "¿Cuál de las siguientes opciones coincide exactamente con la cadena: ABc129x?",
     "opciones": [
       "ABc129X",
       "ABc192x",
@@ -166,7 +166,7 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué número falta?: 10, 20, 30, ?, 50",
+    "pregunta": "¿Qué número falta en la serie numérica: 10, 20, 30, ?, 50?",
     "opciones": [
       "35",
       "40",
@@ -182,7 +182,7 @@
     "categoria": "Logica",
     "tipo": "codigo",
     "dificultad": "Basico",
-    "pregunta": "Completa la serie descendente.",
+    "pregunta": "Completa el número faltante en la serie descendente ordenada.",
     "modo": "slots",
     "plantilla": "9, 8, {{slot0}}, 6, 5",
     "opcionesSlots": [
@@ -203,7 +203,7 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Si una docena son 12 unidades, media docena son:",
+    "pregunta": "Si una docena equivale a 12 unidades, entonces media docena corresponde a:",
     "opciones": [
       "3 unidades",
       "4 unidades",
@@ -219,7 +219,7 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Selecciona colores primarios tradicionales.",
+    "pregunta": "Selecciona cuáles de los siguientes colores corresponden a los primarios tradicionales.",
     "opciones": [
       "Rojo",
       "Azul",
@@ -239,7 +239,7 @@
     "categoria": "Logica",
     "tipo": "codigo",
     "dificultad": "Basico",
-    "pregunta": "Completa la serie de 2 en 2.",
+    "pregunta": "Completa el número faltante en la serie que aumenta de 2 en 2.",
     "modo": "slots",
     "plantilla": "12, 14, {{slot1}}, 18",
     "opcionesSlots": [
@@ -276,7 +276,7 @@
     "categoria": "Logica",
     "tipo": "codigo",
     "dificultad": "Basico",
-    "pregunta": "Completa la palabra: P _ _ R T A",
+    "pregunta": "Completa las vocales faltantes para formar correctamente una palabra común.",
     "modo": "slots",
     "plantilla": "P {{slot4}} {{slot1}} R T A",
     "opcionesSlots": [
@@ -299,7 +299,7 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Cuántos lados tiene un cuadrado?",
+    "pregunta": "¿Cuántos lados tiene un cuadrado geométrico tradicional?",
     "opciones": [
       "3",
       "4",
@@ -315,7 +315,7 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Selecciona las cadenas idénticas a: zxP44q",
+    "pregunta": "Selecciona cuáles de las siguientes cadenas son idénticas exactamente a: zxP44q",
     "opciones": [
       "zxP44q",
       "zxp44q",
@@ -334,7 +334,7 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué número sigue en la secuencia: 3, 6, 12, 24, ?",
+    "pregunta": "¿Qué número continúa correctamente la secuencia multiplicativa: 3, 6, 12, 24, ?",
     "opciones": [
       "36",
       "42",
@@ -350,7 +350,7 @@
     "categoria": "Logica",
     "tipo": "codigo",
     "dificultad": "Intermedio",
-    "pregunta": "Completa la secuencia multiplicando por 3.",
+    "pregunta": "Completa el número faltante en la secuencia donde cada valor se multiplica por 3.",
     "modo": "slots",
     "plantilla": "2, 6, {{slot1}}, 54",
     "opcionesSlots": [
@@ -387,7 +387,7 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Selecciona números primos.",
+    "pregunta": "Selecciona cuáles de los siguientes números corresponden a números primos.",
     "opciones": [
       "2",
       "4",
@@ -406,7 +406,7 @@
     "categoria": "Logica",
     "tipo": "codigo",
     "dificultad": "Intermedio",
-    "pregunta": "Completa la serie alternada: 1, 3, 2, 4, 3, ?",
+    "pregunta": "Completa el número faltante en la serie alternada mostrada.",
     "modo": "slots",
     "plantilla": "1, 3, 2, 4, 3, {{slot1}}",
     "opcionesSlots": [
@@ -427,7 +427,7 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Cuál número es diferente?",
+    "pregunta": "Observa cuidadosamente las opciones y selecciona el número diferente a los demás.",
     "opciones": [
       "54821",
       "54821",
@@ -443,7 +443,7 @@
     "categoria": "Logica",
     "tipo": "codigo",
     "dificultad": "Intermedio",
-    "pregunta": "Completa la analogía: Mano es a guante como pie es a ____.",
+    "pregunta": "Completa la analogía lógica: Mano es a guante como pie es a ____.",
     "modo": "slots",
     "plantilla": "Mano : guante :: Pie : {{slot1}}",
     "opcionesSlots": [
@@ -464,7 +464,7 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué número falta?: 1, 4, 9, 16, ?, 36",
+    "pregunta": "¿Qué número falta en la serie de cuadrados perfectos: 1, 4, 9, 16, ?, 36?",
     "opciones": [
       "20",
       "24",
@@ -480,7 +480,7 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Selecciona secuencias correctamente ordenadas de menor a mayor.",
+    "pregunta": "Selecciona cuáles secuencias están correctamente ordenadas de menor a mayor.",
     "opciones": [
       "1,2,3,4",
       "2,1,3,4",
@@ -499,7 +499,7 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué número sigue?: 2, 3, 5, 8, 13, ?",
+    "pregunta": "¿Qué número sigue correctamente en la secuencia tipo Fibonacci: 2, 3, 5, 8, 13, ?",
     "opciones": [
       "18",
       "20",
@@ -515,7 +515,7 @@
     "categoria": "Logica",
     "tipo": "codigo",
     "dificultad": "Intermedio",
-    "pregunta": "Completa la secuencia de cuadrados perfectos.",
+    "pregunta": "Completa el número faltante dentro de la secuencia de cuadrados perfectos.",
     "modo": "slots",
     "plantilla": "4, 9, 16, {{slot2}}, 36",
     "opcionesSlots": [
@@ -536,7 +536,7 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Cuál palabra está escrita correctamente igual al modelo: Desarrollo?",
+    "pregunta": "¿Cuál de las siguientes palabras está escrita exactamente igual al modelo: Desarrollo?",
     "opciones": [
       "Desarollo",
       "Desarrollo",
@@ -552,7 +552,7 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Selecciona números idénticos al modelo: 73051",
+    "pregunta": "Selecciona cuáles de los siguientes números son idénticos al modelo: 73051",
     "opciones": [
       "73015",
       "73051",
@@ -571,7 +571,7 @@
     "categoria": "Logica",
     "tipo": "codigo",
     "dificultad": "Intermedio",
-    "pregunta": "Completa la palabra invertida de SOL.",
+    "pregunta": "Completa correctamente la palabra invertida correspondiente al texto SOL.",
     "modo": "slots",
     "plantilla": "SOL -> {{slot0}}",
     "opcionesSlots": [
@@ -592,7 +592,7 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Cuál opción completa la analogía: Libro es a leer como música es a ____?",
+    "pregunta": "¿Cuál opción completa correctamente la analogía: Libro es a leer como música es a ____?",
     "opciones": [
       "Cantar",
       "Escuchar",
@@ -608,7 +608,7 @@
     "categoria": "Logica",
     "tipo": "codigo",
     "dificultad": "Intermedio",
-    "pregunta": "Completa exactamente la secuencia: A1B2C3, A1B2__, A1__C3",
+    "pregunta": "Completa exactamente los fragmentos faltantes de la secuencia alfanumérica mostrada.",
     "modo": "slots",
     "plantilla": "A1B2C3, A1B2{{slot0}}, A1{{slot1}}C3",
     "opcionesSlots": [
@@ -630,7 +630,7 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué número sigue en la secuencia: 1, 2, 4, 7, 11, ?",
+    "pregunta": "¿Qué número continúa correctamente la secuencia: 1, 2, 4, 7, 11, ?",
     "opciones": [
       "14",
       "15",
@@ -646,7 +646,7 @@
     "categoria": "Logica",
     "tipo": "codigo",
     "dificultad": "Avanzado",
-    "pregunta": "Completa la secuencia sumando números consecutivos.",
+    "pregunta": "Completa el número faltante en la secuencia donde se suman números consecutivos.",
     "modo": "slots",
     "plantilla": "3, 5, 8, 12, {{slot2}}",
     "opcionesSlots": [
@@ -667,7 +667,7 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "Si algunos gatos son negros y todos los gatos son animales, entonces:",
+    "pregunta": "Si algunos gatos son negros y todos los gatos pertenecen al grupo de los animales, entonces:",
     "opciones": [
       "Todos los animales son gatos",
       "Algunos animales son negros",
@@ -683,7 +683,7 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "Selecciona números divisibles entre 4.",
+    "pregunta": "Selecciona cuáles de los siguientes números son divisibles exactamente entre 4.",
     "opciones": [
       "8",
       "10",
@@ -703,7 +703,7 @@
     "categoria": "Logica",
     "tipo": "codigo",
     "dificultad": "Avanzado",
-    "pregunta": "Completa la analogía: Día es a noche como blanco es a ____.",
+    "pregunta": "Completa la analogía lógica: Día es a noche como blanco es a ____.",
     "modo": "slots",
     "plantilla": "Día : noche :: Blanco : {{slot1}}",
     "opcionesSlots": [
@@ -724,7 +724,7 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué número falta?: 2, 6, 12, 20, ?, 42",
+    "pregunta": "¿Qué número falta en la secuencia numérica: 2, 6, 12, 20, ?, 42?",
     "opciones": [
       "28",
       "30",
@@ -740,7 +740,7 @@
     "categoria": "Logica",
     "tipo": "codigo",
     "dificultad": "Avanzado",
-    "pregunta": "Completa la serie alterna: A, C, B, D, C, ?",
+    "pregunta": "Completa la letra faltante en la serie alternada mostrada.",
     "modo": "slots",
     "plantilla": "A, C, B, D, C, {{slot1}}",
     "opcionesSlots": [
@@ -761,7 +761,7 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "Tres personas tardan 3 horas en una tarea. Si trabajan al mismo ritmo, 6 personas tardan:",
+    "pregunta": "Tres personas tardan 3 horas en completar una tarea. Si trabajan al mismo ritmo, 6 personas tardan:",
     "opciones": [
       "1.5 horas",
       "2 horas",
@@ -777,7 +777,7 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "Selecciona las opciones exactamente iguales a: Rt9Lm22",
+    "pregunta": "Selecciona cuáles de las siguientes cadenas son exactamente iguales al modelo: Rt9Lm22",
     "opciones": [
       "Rt9Lm22",
       "RT9Lm22",
@@ -796,7 +796,7 @@
     "categoria": "Logica",
     "tipo": "codigo",
     "dificultad": "Avanzado",
-    "pregunta": "Completa la secuencia de potencias de 2.",
+    "pregunta": "Completa el número faltante en la secuencia de potencias de 2.",
     "modo": "slots",
     "plantilla": "2, 4, 8, 16, {{slot2}}",
     "opcionesSlots": [
@@ -817,7 +817,7 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "¿Cuál símbolo falta en la serie?: @ # @ # @ ?",
+    "pregunta": "¿Qué símbolo falta para continuar correctamente la serie repetitiva: @ # @ # @ ?",
     "opciones": [
       "@",
       "#",
@@ -833,7 +833,7 @@
     "categoria": "Logica",
     "tipo": "codigo",
     "dificultad": "Avanzado",
-    "pregunta": "Completa la palabra que sigue el patrón: sol, luna, sol, luna, ____.",
+    "pregunta": "Completa la palabra que sigue el patrón repetitivo mostrado.",
     "modo": "slots",
     "plantilla": "sol, luna, sol, luna, {{slot1}}",
     "opcionesSlots": [
@@ -854,7 +854,7 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué número sigue?: 100, 90, 81, 73, ?",
+    "pregunta": "¿Qué número sigue correctamente en la secuencia descendente: 100, 90, 81, 73, ?",
     "opciones": [
       "66",
       "65",
@@ -870,7 +870,7 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "Selecciona filas donde todos los caracteres son iguales al modelo: K7K7",
+    "pregunta": "Selecciona las cadenas donde todos los caracteres coinciden exactamente con el modelo: K7K7",
     "opciones": [
       "K7K7",
       "K7k7",
@@ -889,7 +889,7 @@
     "categoria": "Logica",
     "tipo": "codigo",
     "dificultad": "Avanzado",
-    "pregunta": "Completa la secuencia: Z, X, V, T, ____.",
+    "pregunta": "Completa la letra faltante en la secuencia descendente de dos en dos.",
     "modo": "slots",
     "plantilla": "Z, X, V, T, {{slot0}}",
     "opcionesSlots": [

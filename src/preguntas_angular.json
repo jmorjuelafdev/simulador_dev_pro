@@ -6,12 +6,12 @@
     "dificultad": "Basico",
     "pregunta": "¿Qué es Angular principalmente?",
     "opciones": [
-      "Framework frontend para aplicaciones web modernas basadas en componentes que utiliza para crear aplicaciones web de una sola página (SPA) rápidas, escalables y complejas",
-      "Base de datos para almacenamiento de datos en la nube para aplicaciones web modernas",
-      "Servidor web para hosting de aplicaciones web modernas basadas en componentes y frameworks",
-      "Sistema operativo para dispositivos móviles basado en componentes y frameworks"
+      "Angular es un framework frontend basado en componentes para crear aplicaciones web modernas, escalables y de una sola página (SPA).",
+      "Angular es una base de datos en la nube para almacenar información empresarial.",
+      "Angular es un servidor web diseñado para alojar páginas y APIs.",
+      "Angular es un sistema operativo para dispositivos móviles."
     ],
-    "respuesta":  "Framework frontend para aplicaciones web modernas basadas en componentes que utiliza para crear aplicaciones web de una sola página (SPA) rápidas, escalables y complejas",
+    "respuesta": "Angular es un framework frontend basado en componentes para crear aplicaciones web modernas, escalables y de una sola página (SPA).",
     "puntos": 10,
     "timeLimit": 30
   },
@@ -35,8 +35,13 @@
     "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "¿Qué lenguaje usa Angular comúnmente?",
-    "opciones": ["TypeScript", "Ruby", "Go", "C"],
-    "respuesta": "TypeScript",
+    "opciones": [
+      "TypeScript, lenguaje principal utilizado para desarrollar aplicaciones Angular.",
+      "Ruby, lenguaje principal obligatorio en Angular.",
+      "Go, lenguaje nativo para plantillas Angular.",
+      "C, lenguaje usado directamente en componentes Angular."
+    ],
+    "respuesta": "TypeScript, lenguaje principal utilizado para desarrollar aplicaciones Angular.",
     "puntos": 10,
     "timeLimit": 30
   },
@@ -72,12 +77,12 @@
     "dificultad": "Basico",
     "pregunta": "¿Qué comando crea un componente con Angular CLI?",
     "opciones": [
-      "ng generate component",
-      "npm start component",
-      "node create",
-      "ng server"
+      "ng generate component, comando usado para crear componentes nuevos.",
+      "npm start component, comando oficial de Angular CLI.",
+      "node create, comando para generar componentes Angular.",
+      "ng server, comando para crear archivos automáticamente."
     ],
-    "respuesta": "ng generate component",
+    "respuesta": "ng generate component, comando usado para crear componentes nuevos.",
     "puntos": 10,
     "timeLimit": 30
   },
@@ -101,8 +106,13 @@
     "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "¿Qué directiva repite elementos en una lista?",
-    "opciones": ["*ngFor", "*ngIf", "*ngClass", "*ngModel"],
-    "respuesta": "*ngFor",
+    "opciones": [
+      "*ngFor, directiva estructural para recorrer colecciones.",
+      "*ngIf, directiva para mostrar u ocultar contenido.",
+      "*ngClass, directiva para clases CSS dinámicas.",
+      "*ngModel, directiva para formularios."
+    ],
+    "respuesta": "*ngFor, directiva estructural para recorrer colecciones.",
     "puntos": 10,
     "timeLimit": 30
   },
@@ -123,8 +133,13 @@
     "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "¿Qué directiva muestra u oculta contenido según condición?",
-    "opciones": ["*ngIf", "*ngFor", "*ngSwitch", "*ngStyle"],
-    "respuesta": "*ngIf",
+    "opciones": [
+      "*ngIf, usada para renderizar según una condición.",
+      "*ngFor, usada para listas dinámicas.",
+      "*ngSwitch, usada para múltiples casos.",
+      "*ngStyle, usada para estilos dinámicos."
+    ],
+    "respuesta": "*ngIf, usada para renderizar según una condición.",
     "puntos": 15,
     "timeLimit": 35
   },
@@ -148,8 +163,13 @@
     "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "¿Qué se usa para navegar entre páginas en Angular?",
-    "opciones": ["Router", "Pipe", "Service Worker", "Compiler"],
-    "respuesta": "Router",
+    "opciones": [
+      "Router, módulo utilizado para gestionar rutas y navegación.",
+      "Pipe, herramienta para transformar datos visualmente.",
+      "Service Worker, herramienta de caché offline.",
+      "Compiler, compilador interno del framework."
+    ],
+    "respuesta": "Router, módulo utilizado para gestionar rutas y navegación.",
     "puntos": 15,
     "timeLimit": 35
   },
@@ -165,7 +185,11 @@
       "Event binding con ()",
       "Firewall binding"
     ],
-    "respuesta": ["Interpolación con {{}}", "Property binding con []", "Event binding con ()"],
+    "respuesta": [
+      "Interpolación con {{}}",
+      "Property binding con []",
+      "Event binding con ()"
+    ],
     "puntos": 15,
     "timeLimit": 35
   },
@@ -177,8 +201,8 @@
     "pregunta": "Completa property binding.",
     "modo": "slots",
     "plantilla": "<img {{slot0}}src{{slot1}}='src/assets/img/foto.jpg'>",
-    "opcionesSlots": ["[","]","(",")"],
-    "respuestasSlots": ["[","]"],
+    "opcionesSlots": ["[", "]", "(", ")"],
+    "respuestasSlots": ["[", "]"],
     "evaluacion": "slots",
     "puntos": 15,
     "timeLimit": 35
@@ -189,8 +213,13 @@
     "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "¿Qué binding escucha clics del usuario?",
-    "opciones": ["(click)", "[click]", "{{click}}", "*click"],
-    "respuesta": "(click)",
+    "opciones": [
+      "(click), sintaxis usada para escuchar eventos de clic.",
+      "[click], sintaxis de propiedad.",
+      "{{click}}, sintaxis de interpolación.",
+      "*click, directiva inexistente."
+    ],
+    "respuesta": "(click), sintaxis usada para escuchar eventos de clic.",
     "puntos": 15,
     "timeLimit": 35
   },
@@ -214,8 +243,13 @@
     "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "¿Qué módulo suele usarse para formularios con ngModel?",
-    "opciones": ["FormsModule", "HttpModule", "StyleModule", "NodeModule"],
-    "respuesta": "FormsModule",
+    "opciones": [
+      "FormsModule, módulo usado para formularios basados en plantillas.",
+      "HttpModule, módulo principal de formularios.",
+      "StyleModule, módulo para estilos visuales.",
+      "NodeModule, módulo interno de Node.js."
+    ],
+    "respuesta": "FormsModule, módulo usado para formularios basados en plantillas.",
     "puntos": 15,
     "timeLimit": 35
   },
@@ -250,8 +284,13 @@
     "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué servicio suele usarse para consumir APIs HTTP en Angular moderno?",
-    "opciones": ["HttpClient", "Router", "PipeService", "DomClient"],
-    "respuesta": "HttpClient",
+    "opciones": [
+      "HttpClient, servicio principal para realizar peticiones HTTP.",
+      "Router, servicio para navegación entre rutas.",
+      "PipeService, servicio oficial para transformar datos.",
+      "DomClient, servicio nativo de Angular para el DOM."
+    ],
+    "respuesta": "HttpClient, servicio principal para realizar peticiones HTTP.",
     "puntos": 20,
     "timeLimit": 40
   },
@@ -261,8 +300,13 @@
     "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué directiva se usa para navegar con enlaces en Angular?",
-    "opciones": ["routerLink", "hrefLink", "ngRoute", "pathGo"],
-    "respuesta": "routerLink",
+    "opciones": [
+      "routerLink, directiva usada para navegación declarativa.",
+      "hrefLink, directiva oficial de Angular para rutas.",
+      "ngRoute, atributo moderno para enlaces.",
+      "pathGo, comando de navegación interna."
+    ],
+    "respuesta": "routerLink, directiva usada para navegación declarativa.",
     "puntos": 20,
     "timeLimit": 40
   },
@@ -311,8 +355,13 @@
     "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué comando inicia el servidor local de desarrollo?",
-    "opciones": ["ng serve", "ng start app", "npm angular", "ng run local"],
-    "respuesta": "ng serve",
+    "opciones": [
+      "ng serve, comando usado para ejecutar la app en desarrollo.",
+      "ng start app, comando oficial para iniciar Angular.",
+      "npm angular, comando estándar del framework.",
+      "ng run local, comando básico para servidor local."
+    ],
+    "respuesta": "ng serve, comando usado para ejecutar la app en desarrollo.",
     "puntos": 20,
     "timeLimit": 40
   },
@@ -323,12 +372,12 @@
     "dificultad": "Intermedio",
     "pregunta": "¿Qué archivo suele contener la lógica principal de un componente?",
     "opciones": [
-      "component.ts",
-      "component.html",
-      "styles.css",
-      "package.json"
+      "component.ts, archivo donde normalmente vive la lógica del componente.",
+      "component.html, archivo exclusivo de lógica TypeScript.",
+      "styles.css, archivo principal de eventos y métodos.",
+      "package.json, archivo donde se programa la interfaz."
     ],
-    "respuesta": "component.ts",
+    "respuesta": "component.ts, archivo donde normalmente vive la lógica del componente.",
     "puntos": 20,
     "timeLimit": 40
   },
@@ -353,12 +402,16 @@
     "dificultad": "Intermedio",
     "pregunta": "Selecciona ventajas comunes de Angular.",
     "opciones": [
-      "Componentes reutilizables y organizados",
-      "Routing integrado para navegación entre páginas",
-      "CLI para generar código y gestionar proyectos",
-      "Solo funciona offline sin conexión a internet"
+      "Componentes reutilizables y organizados.",
+      "Routing integrado para navegación entre páginas.",
+      "CLI para generar código y gestionar proyectos.",
+      "Solo funciona offline sin conexión a internet."
     ],
-    "respuesta": ["Componentes reutilizables y organizados", "Routing integrado para navegación entre páginas", "CLI para generar código y gestionar proyectos"],
+    "respuesta": [
+      "Componentes reutilizables y organizados.",
+      "Routing integrado para navegación entre páginas.",
+      "CLI para generar código y gestionar proyectos."
+    ],
     "puntos": 25,
     "timeLimit": 45
   },
@@ -383,12 +436,12 @@
     "dificultad": "Intermedio",
     "pregunta": "¿Qué módulo se usa normalmente para peticiones HTTP?",
     "opciones": [
-      "HttpClientModule",
-      "RouterModule",
-      "FormsModule",
-      "CoreStyleModule"
+      "HttpClientModule, módulo necesario para servicios HTTP modernos.",
+      "RouterModule, módulo para navegación entre páginas.",
+      "FormsModule, módulo orientado a formularios.",
+      "CoreStyleModule, módulo oficial de estilos."
     ],
-    "respuesta": "HttpClientModule",
+    "respuesta": "HttpClientModule, módulo necesario para servicios HTTP modernos.",
     "puntos": 25,
     "timeLimit": 45
   },
@@ -398,8 +451,13 @@
     "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué se usa para compartir lógica o datos entre componentes?",
-    "opciones": ["Service", "Pipe", "Style", "Router"],
-    "respuesta": "Service",
+    "opciones": [
+      "Service, clase usada para centralizar lógica y compartir datos.",
+      "Pipe, herramienta para navegación entre vistas.",
+      "Style, sistema para compartir componentes.",
+      "Router, servicio principal de estado global."
+    ],
+    "respuesta": "Service, clase usada para centralizar lógica y compartir datos.",
     "puntos": 25,
     "timeLimit": 45
   },
@@ -448,8 +506,13 @@
     "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué herramienta de Angular ayuda a crear proyectos rápidamente?",
-    "opciones": ["Angular CLI ", "Angular Material", "Node Cache", "TypeScript IDE", "JSON Builder"],
-    "respuesta": "Angular CLI",
+    "opciones": [
+      "Angular CLI, herramienta oficial para crear y gestionar proyectos Angular.",
+      "Angular Material, librería principal para generar proyectos automáticamente.",
+      "Node Cache, herramienta usada para scaffolding de Angular.",
+      "TypeScript IDE, herramienta oficial del framework."
+    ],
+    "respuesta": "Angular CLI, herramienta oficial para crear y gestionar proyectos Angular.",
     "puntos": 30,
     "timeLimit": 50
   },
@@ -459,8 +522,13 @@
     "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué decorador define datos de entrada desde el componente padre?",
-    "opciones": ["@Input", "@Output", "@Injectable", "@Pipe"],
-    "respuesta": "@Input",
+    "opciones": [
+      "@Input, decorador usado para recibir datos desde el componente padre.",
+      "@Output, decorador usado para emitir eventos.",
+      "@Injectable, decorador usado para servicios.",
+      "@Pipe, decorador usado para transformaciones."
+    ],
+    "respuesta": "@Input, decorador usado para recibir datos desde el componente padre.",
     "puntos": 30,
     "timeLimit": 50
   },
@@ -485,12 +553,16 @@
     "dificultad": "Avanzado",
     "pregunta": "Selecciona usos comunes de un servicio en Angular.",
     "opciones": [
-      "Consumir APIs para obtener datos desde un backend o servicio externo",
-      "Compartir datos entre componentes que no tienen relación directa de padre a hijo",
-      "Lógica reutilizable que puede ser utilizada por múltiples componentes",
-      "Diseñar hardware para ejecutar Angular en dispositivos físicos"
-     ],
-    "respuesta": ["Consumir APIs para obtener datos desde un backend o servicio externo", "Compartir datos entre componentes que no tienen relación directa de padre a hijo", "Lógica reutilizable que puede ser utilizada por múltiples componentes"],
+      "Consumir APIs para obtener datos desde backend o servicios externos.",
+      "Compartir datos entre componentes sin relación directa padre-hijo.",
+      "Centralizar lógica reutilizable para varios componentes.",
+      "Diseñar hardware para ejecutar Angular."
+    ],
+    "respuesta": [
+      "Consumir APIs para obtener datos desde backend o servicios externos.",
+      "Compartir datos entre componentes sin relación directa padre-hijo.",
+      "Centralizar lógica reutilizable para varios componentes."
+    ],
     "puntos": 30,
     "timeLimit": 50
   },
@@ -514,8 +586,13 @@
     "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué característica permite dividir la app en piezas reutilizables?",
-    "opciones": ["Componentes", "Cookies", "Drivers", "Threads"],
-    "respuesta": "Componentes",
+    "opciones": [
+      "Componentes, estructura base para dividir la interfaz en partes reutilizables.",
+      "Cookies, sistema principal para modularizar aplicaciones.",
+      "Drivers, herramienta para crear vistas Angular.",
+      "Threads, mecanismo de UI del framework."
+    ],
+    "respuesta": "Componentes, estructura base para dividir la interfaz en partes reutilizables.",
     "puntos": 30,
     "timeLimit": 50
   },
@@ -525,8 +602,13 @@
     "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué decorador se usa para emitir eventos al componente padre?",
-    "opciones": ["@Output", "@Input", "@Injectable", "@Pipe"],
-    "respuesta": "@Output",
+    "opciones": [
+      "@Output, decorador usado para emitir eventos personalizados.",
+      "@Input, decorador usado para recibir propiedades.",
+      "@Injectable, decorador de servicios.",
+      "@Pipe, decorador de pipes."
+    ],
+    "respuesta": "@Output, decorador usado para emitir eventos personalizados.",
     "puntos": 30,
     "timeLimit": 50
   },
@@ -580,8 +662,13 @@
     "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué clase se usa frecuentemente para emitir eventos personalizados?",
-    "opciones": ["EventEmitter", "Router", "HttpClient", "TemplateRef"],
-    "respuesta": "EventEmitter",
+    "opciones": [
+      "EventEmitter, clase usada para emitir eventos personalizados.",
+      "Router, clase usada para emitir eventos entre componentes.",
+      "HttpClient, clase usada para eventos del DOM.",
+      "TemplateRef, clase principal para outputs."
+    ],
+    "respuesta": "EventEmitter, clase usada para emitir eventos personalizados.",
     "puntos": 30,
     "timeLimit": 50
   },
@@ -591,8 +678,13 @@
     "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué decorador permite acceder a un elemento o componente hijo desde la clase?",
-    "opciones": ["@ViewChild", "@Input", "@Output", "@Injectable"],
-    "respuesta": "@ViewChild",
+    "opciones": [
+      "@ViewChild, decorador para referenciar elementos o componentes hijos.",
+      "@Input, decorador para recibir datos.",
+      "@Output, decorador para emitir eventos.",
+      "@Injectable, decorador para servicios."
+    ],
+    "respuesta": "@ViewChild, decorador para referenciar elementos o componentes hijos.",
     "puntos": 30,
     "timeLimit": 50
   },
@@ -642,12 +734,12 @@
     "dificultad": "Avanzado",
     "pregunta": "¿Qué práctica mejora más una app Angular junior?",
     "opciones": [
-      "Componentes organizados y reutilizables en módulos",
-      "Todo en un solo archivo sin modularizar el código",
-      "Evitar servicios y colocar toda la lógica en componentes",
-      "Duplicar código en varios componentes para evitar compartir lógica"
+      "Componentes organizados y reutilizables distribuidos en módulos claros.",
+      "Todo en un solo archivo sin modularizar el código.",
+      "Evitar servicios y poner toda la lógica en componentes.",
+      "Duplicar código en varios componentes para no reutilizar."
     ],
-    "respuesta":"Componentes organizados y reutilizables en módulos",
+    "respuesta": "Componentes organizados y reutilizables distribuidos en módulos claros.",
     "puntos": 30,
     "timeLimit": 50
   }

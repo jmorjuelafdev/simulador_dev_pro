@@ -26,7 +26,7 @@ export const LEARNING_PATHS = {
     { id: "practica", label: "Paso 2 · Layout con Flex y Grid", difficulties: ["intermedio"] },
     { id: "desafio", label: "Paso 3 · Animaciones y diseño responsivo", difficulties: ["avanzado"] }
   ],
-  JavaScript2: [
+  Estructura_Datos: [
     { id: "fundamentos", label: "Paso 1 · Arrays y objetos", difficulties: ["basico"] },
     { id: "practica", label: "Paso 2 · Promesas y asincronía", difficulties: ["intermedio"] },
     { id: "desafio", label: "Paso 3 · Patrones de componentes", difficulties: ["avanzado"] }

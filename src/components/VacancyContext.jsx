@@ -11,7 +11,8 @@ function VacancyContext() {
         </li>
         <li>
           <FontAwesomeIcon icon="lightbulb" aria-label="Frontend" fixedWidth />{" "}
-          Frontend: JavaScript, HTML, CSS y frameworks (JavaScript 2, Angular, React) más APIs (API REST) orientados a experiencias fluidas y consistentes.
+          Frontend: JavaScript, HTML, CSS y frameworks (Estructura de Datos, Angular, React) más APIs
+          (API REST) orientados a experiencias fluidas y consistentes.
         </li>
         <li>
           <FontAwesomeIcon icon="gears" aria-label="Backend" fixedWidth />{" "}

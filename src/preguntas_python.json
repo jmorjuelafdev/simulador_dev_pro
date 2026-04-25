@@ -4,7 +4,7 @@
     "categoria": "Python",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué es Python y cuáles son algunas de sus características principales?",
+    "pregunta": "¿Qué es Python y cuáles son algunas de sus características principales dentro del desarrollo de software moderno?",
     "opciones": [
       "Es un lenguaje de programación interpretado, fácil de leer y de alto nivel, utilizado en desarrollo web, análisis de datos y automatización de tareas debido a su sintaxis clara y amplia comunidad de soporte",
       "Es un lenguaje de bajo nivel utilizado principalmente para programar hardware y sistemas operativos debido a su eficiencia y control sobre los recursos del sistema",
@@ -20,12 +20,12 @@
     "categoria": "Python",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué tipos de bases de datos se pueden utilizar con Python?",
+    "pregunta": "¿Qué tipos de bases de datos se pueden utilizar comúnmente al trabajar con Python?",
     "opciones": [
       "Python permite trabajar con diversas bases de datos como MySQL, MongoDB, PostgreSQL, SQLite, MariaDB y Oracle de manera eficiente",
       "Python solo es compatible con bases de datos MySQL y PostgreSQL",
       "Python únicamente funciona con bases de datos NoSQL como MongoDB y Cassandra",
-      "Python no permite trabajar con bases de datos debido a su enfoque en el desarrollo web y análisis de datos"
+      "Python no permite trabajar con bases de datos debido a su enfoque exclusivo en desarrollo web"
     ],
     "respuesta": "Python permite trabajar con diversas bases de datos como MySQL, MongoDB, PostgreSQL, SQLite, MariaDB y Oracle de manera eficiente",
     "puntos": 15,
@@ -36,7 +36,7 @@
     "categoria": "Python",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "En el desarrollo con Python, ¿cuál es la extensión de archivo estándar que se utiliza para guardar scripts o programas escritos en este lenguaje?",
+    "pregunta": "En proyectos desarrollados con Python, ¿cuál es la extensión estándar utilizada para guardar archivos fuente?",
     "opciones": [
       ".py",
       ".pyth",
@@ -52,12 +52,12 @@
     "categoria": "Python",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Cómo se define correctamente un comentario en Python para documentar o explicar una línea de código?",
+    "pregunta": "¿Cómo se define correctamente un comentario de una sola línea en Python?",
     "opciones": [
       "# Esto es un comentario de una línea usado para documentar o explicar una línea de código",
       "// Esto es un comentario de una línea usado para documentar o explicar una línea de código",
       "/* Esto es un comentario de una línea usado para documentar o explicar una línea de código */",
-      "<-- comentario de una línea usado para documentar o explicar una línea de código -->"
+      "<!-- comentario -->"
     ],
     "respuesta": "# Esto es un comentario de una línea usado para documentar o explicar una línea de código",
     "puntos": 15,
@@ -68,7 +68,7 @@
     "categoria": "Python",
     "tipo": "codigo",
     "dificultad": "Basico",
-    "pregunta": "Completa la siguiente instrucción seleccionando la función adecuada para mostrar un texto en consola.",
+    "pregunta": "Completa la siguiente instrucción seleccionando la función adecuada para mostrar un texto en la consola.",
     "modo": "slots",
     "plantilla": "{{slot0}}('Hola Mundo')",
     "opcionesSlots": [
@@ -89,7 +89,7 @@
     "categoria": "Python",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Cuál de los siguientes nombres NO es válido para declarar una variable en Python según sus reglas de sintaxis?",
+    "pregunta": "¿Cuál de los siguientes nombres NO es válido para declarar una variable en Python según las reglas del lenguaje?",
     "opciones": [
       "mi_variable",
       "_variable",
@@ -105,7 +105,7 @@
     "categoria": "Python",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Cuál es la forma correcta de declarar e inicializar una variable con el valor 5 en Python?",
+    "pregunta": "¿Cuál es la forma correcta de declarar e inicializar una variable con el valor numérico 5 en Python?",
     "opciones": [
       "x = 5",
       "int x = 5",
@@ -139,12 +139,12 @@
     "dificultad": "Basico",
     "pregunta": "¿Para qué se utiliza la función bool() en Python?",
     "opciones": [
-      "Para convertir un valor a verdadero (True) o falso (False) ej. x= 0; bool(x) retorna False",
-      "Para realizar operaciones matemáticas con valores booleanos bool(1 + 1) retorna True",
-      "Para crear variables booleanas automáticamente bool(True) retorna True",
-      "Para comparar dos valores bool(5 == 5) retorna True"
+      "Para convertir un valor a verdadero (True) o falso (False), por ejemplo bool(0) retorna False",
+      "Para realizar operaciones matemáticas con booleanos",
+      "Para crear variables automáticamente",
+      "Para comparar dos valores de forma obligatoria"
     ],
-    "respuesta": "Para convertir un valor a verdadero (True) o falso (False) ej. x= 0; bool(x) retorna False",
+    "respuesta": "Para convertir un valor a verdadero (True) o falso (False), por ejemplo bool(0) retorna False",
     "puntos": 15,
     "timeLimit": 30
   },
@@ -153,7 +153,7 @@
     "categoria": "Python",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué función se utiliza en Python para conocer el tipo de dato de una variable durante la ejecución del programa?",
+    "pregunta": "¿Qué función se utiliza en Python para conocer el tipo de dato de una variable durante la ejecución?",
     "opciones": [
       "type(x)",
       "typeof(x)",
@@ -169,14 +169,14 @@
     "categoria": "Python",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Cuál es la función principal de la instrucción input() dentro de un programa en Python?",
+    "pregunta": "¿Cuál es la función principal de input() dentro de un programa en Python?",
     "opciones": [
-      "Capturar datos ingresados por el usuario durante la ejecución del programa y retornarlos como una cadena de texto.",
-      "Mostrar información en pantalla para depuración y continuar la ejecución.",
-      "Crear automáticamente variables de entorno y retornarlas.",
-      "Ejecutar funciones del sistema operativo y retornar resultados."
+      "Capturar datos ingresados por el usuario durante la ejecución del programa y retornarlos como cadena de texto",
+      "Mostrar información en pantalla para depuración",
+      "Crear variables automáticamente",
+      "Ejecutar funciones del sistema operativo"
     ],
-    "respuesta": "Capturar datos ingresados por el usuario durante la ejecución del programa y retornarlos como una cadena de texto.",
+    "respuesta": "Capturar datos ingresados por el usuario durante la ejecución del programa y retornarlos como cadena de texto",
     "puntos": 15,
     "timeLimit": 35
   },
@@ -185,9 +185,9 @@
     "categoria": "Python",
     "tipo": "codigo",
     "dificultad": "Basico",
-    "pregunta": "Analiza el código y arrastra el resultado correcto considerando la entrada del usuario:",
+    "pregunta": "Analiza el código y arrastra el resultado correcto considerando la entrada del usuario.",
     "modo": "slots",
-    "plantilla": "edad = input(\"Ingresa tu edad: \")\nprint(edad + \" años\")\n\nEntrada del usuario: 20\nSalida → {{slot0}}",
+    "plantilla": "edad = input('Ingresa tu edad: ')\nprint(edad + ' años')\n\nEntrada del usuario: 20\nSalida → {{slot0}}",
     "opcionesSlots": [
       "20 años",
       "20",
@@ -206,7 +206,7 @@
     "categoria": "Python",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "En Python, ¿qué método se utiliza para eliminar los espacios en blanco al inicio y al final de una cadena de texto?",
+    "pregunta": "En Python, ¿qué método se utiliza para eliminar espacios en blanco al inicio y final de una cadena?",
     "opciones": [
       "strip()",
       "trim()",
@@ -222,7 +222,7 @@
     "categoria": "Python",
     "tipo": "codigo",
     "dificultad": "Basico",
-    "pregunta": "Completa el siguiente fragmento de código seleccionando el método adecuado para eliminar espacios en blanco al inicio y final de la cadena.",
+    "pregunta": "Completa el fragmento seleccionando el método adecuado para eliminar espacios sobrantes.",
     "modo": "slots",
     "plantilla": "texto = ' Hola '\nresultado = texto.{{slot0}}()\nprint(resultado)",
     "opcionesSlots": [
@@ -264,7 +264,7 @@
     "categoria": "Python",
     "tipo": "codigo",
     "dificultad": "Basico",
-    "pregunta": "Completa la expresión seleccionando el método adecuado para reemplazar una palabra dentro de una cadena de texto.",
+    "pregunta": "Completa la expresión seleccionando el método adecuado para reemplazar una palabra dentro de una cadena.",
     "modo": "slots",
     "plantilla": "'Hola Mundo'.{{slot0}}('Mundo','Python')",
     "opcionesSlots": [
@@ -322,7 +322,7 @@
     "categoria": "Python",
     "tipo": "codigo",
     "dificultad": "Intermedio",
-    "pregunta": "Completa la estructura del bucle for seleccionando la palabra clave correcta para iterar sobre una lista en Python.",
+    "pregunta": "Completa la estructura del bucle for seleccionando la palabra clave correcta para iterar sobre cada elemento de una lista en Python.",
     "modo": "slots",
     "plantilla": "for x {{slot0}} lista:",
     "opcionesSlots": [
@@ -343,7 +343,7 @@
     "categoria": "Python",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Cuál es la sintaxis correcta para iniciar un bucle while en Python respetando la estructura del lenguaje?",
+    "pregunta": "¿Cuál es la sintaxis correcta para iniciar un bucle while en Python respetando la estructura oficial del lenguaje?",
     "opciones": [
       "while x < 5:",
       "while(x < 5)",
@@ -375,7 +375,7 @@
     "categoria": "Python",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué sucederá al ejecutar el siguiente código?\n\nwhile True:\n    print(\"Ejemplo\")",
+    "pregunta": "¿Qué sucederá al ejecutar el siguiente código?\n\nwhile True:\n    print('Ejemplo')",
     "opciones": [
       "El programa entra en un bucle infinito e imprime el mensaje continuamente",
       "Se produce un error de sintaxis",
@@ -391,7 +391,7 @@
     "categoria": "Python",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Cuál es la salida del siguiente código?\n\nx = 5\nwhile x > 0:\n    x -= 1\n    print(x)\nelse:\n    print(\"El bucle ha finalizado\")",
+    "pregunta": "¿Cuál es la salida del siguiente código?\n\nx = 5\nwhile x > 0:\n    x -= 1\n    print(x)\nelse:\n    print('El bucle ha finalizado')",
     "opciones": [
       "4, 3, 2, 1, 0\nEl bucle ha finalizado",
       "5, 4, 3, 2, 1\nEl bucle ha finalizado",
@@ -407,7 +407,7 @@
     "categoria": "Python",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Cuál es la salida del siguiente código?\n\nx = 5\nwhile True:\n    x -= 1\n    print(x)\n    if x == 0:\n        break\nelse:\n    print(\"Fin del bucle\")",
+    "pregunta": "¿Cuál es la salida del siguiente código?\n\nx = 5\nwhile True:\n    x -= 1\n    print(x)\n    if x == 0:\n        break\nelse:\n    print('Fin del bucle')",
     "opciones": [
       "4, 3, 2, 1, 0",
       "4, 3, 2, 1, 0\nFin del bucle",
@@ -423,7 +423,7 @@
     "categoria": "Python",
     "tipo": "codigo",
     "dificultad": "Intermedio",
-    "pregunta": "Completa el código para imprimir un árbol de navidad con el siguiente resultado:\n\n      *\n     ***\n    *****\n   *******\n  *********\n ***********",
+    "pregunta": "Completa el código para imprimir un árbol de navidad con la forma indicada utilizando espacios y asteriscos.",
     "modo": "slots",
     "plantilla": "z = 7\nx = 1\nwhile z > 0:\n    print(' ' * {{slot0}} + '*' * {{slot1}} + ' ' * {{slot2}})\n    x += {{slot3}}\n    z -= {{slot4}}",
     "opcionesSlots": [
@@ -448,12 +448,12 @@
     "categoria": "Python",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "En Python, ¿qué estructura se utiliza como alternativa a un switch?",
+    "pregunta": "En versiones tradicionales de Python, ¿qué estructura se utiliza comúnmente como alternativa a switch/case?",
     "opciones": [
       "if / elif / else",
       "switch / case",
       "for / case",
-      "match / case"
+      "goto / else"
     ],
     "respuesta": "if / elif / else",
     "puntos": 20,
@@ -464,9 +464,9 @@
     "categoria": "Python",
     "tipo": "codigo",
     "dificultad": "Intermedio",
-    "pregunta": "Completa la estructura condicional correcta en Python arrastrando las palabras clave:",
+    "pregunta": "Completa correctamente la estructura condicional seleccionando las palabras clave adecuadas.",
     "modo": "slots",
-    "plantilla": "{{slot0}} condicion == 1:\n    print(\"Haz a\")\n{{slot1}} condicion == 2:\n    print(\"Haz b\")\n{{slot2}} condicion == 3:\n    print(\"Haz c\")\n{{slot3}}:\n    print(\"Haz d\")",
+    "plantilla": "{{slot0}} condicion == 1:\n    print('Haz a')\n{{slot1}} condicion == 2:\n    print('Haz b')\n{{slot2}} condicion == 3:\n    print('Haz c')\n{{slot3}}:\n    print('Haz d')",
     "opcionesSlots": [
       "if",
       "elif",
@@ -505,9 +505,9 @@
     "categoria": "Python",
     "tipo": "codigo",
     "dificultad": "Intermedio",
-    "pregunta": "Dada la siguiente función, ¿cuál de las opciones permite ejecutarla correctamente para imprimir el texto \"Hola\" en consola?",
+    "pregunta": "Dada la siguiente función, ¿cuál opción permite ejecutarla correctamente para imprimir el texto Hola en consola?",
     "modo": "slots",
-    "plantilla": "def saludar(texto):\n print(texto) → {{slot0}}",
+    "plantilla": "def saludar(texto):\n    print(texto)\n\n{{slot0}}",
     "opcionesSlots": [
       "saludar('Hola')",
       "print('Hola')",
@@ -528,7 +528,7 @@
     "dificultad": "Intermedio",
     "pregunta": "Completa la función seleccionando el parámetro adecuado para imprimir el nombre recibido.",
     "modo": "slots",
-    "plantilla": "def mostrar(nombre, edad):\n print({{slot0}})",
+    "plantilla": "def mostrar(nombre, edad):\n    print({{slot0}})",
     "opcionesSlots": [
       "nombre",
       "edad",
@@ -549,7 +549,7 @@
     "dificultad": "Intermedio",
     "pregunta": "Completa la función seleccionando la palabra clave correcta para devolver el resultado de la operación.",
     "modo": "slots",
-    "plantilla": "def suma(a, b):\n  {{slot0}} a + b",
+    "plantilla": "def suma(a, b):\n    {{slot0}} a + b",
     "opcionesSlots": [
       "return",
       "print",
@@ -570,12 +570,12 @@
     "dificultad": "Intermedio",
     "pregunta": "Dentro de una función en Python, ¿cuál es la función principal de la palabra clave return?",
     "opciones": [
-      "Devolver un valor como resultado de la función y terminar su ejecución.",
-      "Imprimir un valor en consola solamente y continuar la ejecución.",
-      "Crear una variable automáticamente para almacenar el resultado y terminar la función.",
-      "Finalizar completamente el programa y devolver un valor."
+      "Devolver un valor como resultado de la función y terminar su ejecución",
+      "Imprimir un valor en consola solamente y continuar la ejecución",
+      "Crear una variable automática para almacenar el resultado",
+      "Finalizar completamente el programa"
     ],
-    "respuesta": "Devolver un valor como resultado de la función y terminar su ejecución.",
+    "respuesta": "Devolver un valor como resultado de la función y terminar su ejecución",
     "puntos": 25,
     "timeLimit": 45
   },
@@ -586,7 +586,7 @@
     "dificultad": "Intermedio",
     "pregunta": "Completa la función seleccionando la instrucción correcta para devolver el resultado de la operación.",
     "modo": "slots",
-    "plantilla": "def sumar(x):\n {{slot0}} x + 5",
+    "plantilla": "def sumar(x):\n    {{slot0}} x + 5",
     "opcionesSlots": [
       "return",
       "print",
@@ -605,20 +605,20 @@
     "categoria": "Python",
     "tipo": "codigo",
     "dificultad": "Intermedio",
-    "pregunta": "En Python, arrastra cada símbolo con su significado a la estructura de datos correcta según su uso:",
+    "pregunta": "Relaciona cada estructura de datos con la sintaxis correcta utilizada en Python.",
     "modo": "slots",
-    "plantilla": "Listas(list): Colecciones ordenadas y modificables (mutables) que permiten elementos duplicados. = {{slot0}}\nTuplas(tuple): Colecciones ordenadas e inmutables que permiten elementos duplicados(no se pueden cambiar tras su creación). = {{slot1}}\nDiccionarios(dict): Colecciones de pares clave-valor no ordenados (Son mutables y las claves deben ser únicas) = {{slot2}}\nConjuntos(set): Colecciones no ordenadas, mutables y sin duplicados (únicos). = {{slot3}}",
+    "plantilla": "Listas (list) = {{slot0}}\nTuplas (tuple) = {{slot1}}\nDiccionarios (dict) = {{slot2}}\nConjuntos (set) = {{slot3}}",
     "opcionesSlots": [
-      "valores = [1,\"dos\",3.0]",
+      "valores = [1,'dos',3.0]",
       "valores = (1,2,3)",
-      "valores = {\"país\": \"España\", \"capital\": \"Madrid\"}",
-      "valores = {1,2,3,3} (resultado: {1,2,3})"
+      "valores = {'pais':'España','capital':'Madrid'}",
+      "valores = {1,2,3,3}"
     ],
     "respuestasSlots": [
-      "valores = [1,\"dos\",3.0]",
+      "valores = [1,'dos',3.0]",
       "valores = (1,2,3)",
-      "valores = {\"país\": \"España\", \"capital\": \"Madrid\"}",
-      "valores = {1,2,3,3} (resultado: {1,2,3})"
+      "valores = {'pais':'España','capital':'Madrid'}",
+      "valores = {1,2,3,3}"
     ],
     "evaluacion": "slots",
     "puntos": 25,
@@ -652,12 +652,12 @@
     "dificultad": "Avanzado",
     "pregunta": "¿Qué función cumple el método append() al trabajar con listas en Python?",
     "opciones": [
-      "Agrega un elemento al final de la lista.",
-      "Elimina el último elemento de la lista.",
-      "Ordena los elementos de la lista.",
-      "Devuelve la cantidad de elementos en la lista."
+      "Agrega un elemento al final de la lista",
+      "Elimina el último elemento de la lista",
+      "Ordena los elementos automáticamente",
+      "Devuelve la cantidad de elementos"
     ],
-    "respuesta": "Agrega un elemento al final de la lista.",
+    "respuesta": "Agrega un elemento al final de la lista",
     "puntos": 30,
     "timeLimit": 50
   },
@@ -666,7 +666,7 @@
     "categoria": "Python",
     "tipo": "codigo",
     "dificultad": "Avanzado",
-    "pregunta": "Arastra el resultado correcto, añadiendo un elemento a la siguiente lista con el método append():",
+    "pregunta": "Analiza el código y selecciona el resultado correcto después de agregar un elemento con append().",
     "modo": "slots",
     "plantilla": "lista = [1,2,3]\nlista.append(4)\nprint(lista) → {{slot0}}",
     "opcionesSlots": [
@@ -687,14 +687,14 @@
     "categoria": "Python",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué función cumple len() al trabajar con listas o colecciones en Python?",
+    "pregunta": "¿Qué función cumple len() al trabajar con listas, cadenas o colecciones en Python?",
     "opciones": [
-      "Devuelve la cantidad de elementos en la colección.",
-      "Devuelve la suma de todos los elementos numéricos en la colección.",
-      "Devuelve una nueva colección con los elementos ordenados.",
-      "Devuelve una copia superficial de la colección."
+      "Devuelve la cantidad de elementos en la colección",
+      "Devuelve la suma total de valores",
+      "Ordena los elementos automáticamente",
+      "Crea una copia de la colección"
     ],
-    "respuesta": "Devuelve la cantidad de elementos en la colección.",
+    "respuesta": "Devuelve la cantidad de elementos en la colección",
     "puntos": 30,
     "timeLimit": 50
   },
@@ -703,7 +703,7 @@
     "categoria": "Python",
     "tipo": "codigo",
     "dificultad": "Avanzado",
-    "pregunta": "Arastra el resultado correcto, obteniendo la longitud de la siguiente lista con el método len():",
+    "pregunta": "Analiza el código y selecciona el resultado correcto al usar len() sobre la lista.",
     "modo": "slots",
     "plantilla": "lista = [1,2,3,4]\nprint(len(lista)) → {{slot0}}",
     "opcionesSlots": [
@@ -724,7 +724,7 @@
     "categoria": "Python",
     "tipo": "codigo",
     "dificultad": "Avanzado",
-    "pregunta": "Completa la expresión seleccionando la función adecuada para calcular la suma de todos los elementos de una lista.",
+    "pregunta": "Completa la expresión seleccionando la función adecuada para calcular la suma total de todos los elementos de una lista numérica.",
     "modo": "slots",
     "plantilla": "{{slot0}}(lista)",
     "opcionesSlots": [
@@ -789,7 +789,7 @@
     "categoria": "Python",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "En Python, ¿cuál de las siguientes opciones representa correctamente la sintaxis para definir una tupla con varios elementos?",
+    "pregunta": "¿Cuál de las siguientes opciones representa correctamente la sintaxis para definir una tupla con varios elementos en Python?",
     "opciones": [
       "(1,2,3)",
       "[1,2,3]",
@@ -805,7 +805,7 @@
     "categoria": "Python",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "¿Cuál de las siguientes estructuras corresponde a un conjunto (set) en Python, utilizado para almacenar elementos únicos?",
+    "pregunta": "¿Cuál de las siguientes estructuras corresponde a un conjunto (set) utilizado para almacenar elementos únicos?",
     "opciones": [
       "{1,2,3}",
       "(1,2,3)",
@@ -860,7 +860,7 @@
     "dificultad": "Avanzado",
     "pregunta": "Completa la estructura seleccionando la palabra clave correcta para manejar excepciones en Python.",
     "modo": "slots",
-    "plantilla": "try:\n pass\n{{slot0}} Exception as e:\n print(e)",
+    "plantilla": "try:\n    pass\n{{slot0}} Exception as e:\n    print(e)",
     "opcionesSlots": [
       "except",
       "catch",
@@ -881,12 +881,12 @@
     "dificultad": "Avanzado",
     "pregunta": "¿Qué es una expresión lambda en Python y cuál es su principal característica?",
     "opciones": [
-      "Es una función anónima que solo puede contener una expresión y retorna su resultado automáticamente",
-      "Es una función que permite múltiples líneas de código como una función normal",
-      "Es una estructura utilizada para definir clases rápidamente",
-      "Es una función que solo se puede usar dentro de bucles"
+      "Es una función anónima que contiene una sola expresión y retorna su resultado automáticamente",
+      "Es una función con múltiples líneas como def",
+      "Es una estructura para definir clases",
+      "Es una función exclusiva de los bucles"
     ],
-    "respuesta": "Es una función anónima que solo puede contener una expresión y retorna su resultado automáticamente",
+    "respuesta": "Es una función anónima que contiene una sola expresión y retorna su resultado automáticamente",
     "puntos": 30,
     "timeLimit": 50
   },
@@ -895,7 +895,7 @@
     "categoria": "Python",
     "tipo": "codigo",
     "dificultad": "Avanzado",
-    "pregunta": "Analiza el código y arrastra la opción correcta al espacio:",
+    "pregunta": "Analiza el código y arrastra la opción correcta al espacio.",
     "modo": "slots",
     "plantilla": "doble = lambda x: x * 2\nprint(doble(4)) → {{slot0}}",
     "opcionesSlots": [
@@ -907,6 +907,7 @@
     "respuestasSlots": [
       "8"
     ],
+    "evaluacion": "slots",
     "puntos": 30,
     "timeLimit": 50
   },
@@ -917,7 +918,7 @@
     "dificultad": "Avanzado",
     "pregunta": "Completa la función seleccionando la instrucción correcta para devolver el valor máximo de una lista.",
     "modo": "slots",
-    "plantilla": "def maximo(lista):\n return {{slot0}}",
+    "plantilla": "def maximo(lista):\n    return {{slot0}}",
     "opcionesSlots": [
       "max(lista)",
       "min(lista)",

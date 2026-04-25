@@ -6,8 +6,10 @@ const FILES = [
   "preguntas_git.json",
   "preguntas_javascript.json",
   "preguntas_logica.json",
+  "preguntas_react.json",
   "preguntas_python.json",
-  "preguntas_skills.json"
+  "preguntas_skills.json",
+  "preguntas_skills2.json"
 ];
 
 const KEY_ORDER = [
@@ -25,7 +27,12 @@ const KEY_ORDER = [
   "respuestas",
   "respuesta",
   "respuestasSlots",
+  "respuestaCorrecta",
   "evaluacion",
+  "feedbackExito",
+  "feedbackError",
+  "justificacion",
+  "descripcion",
   "hints",
   "puntos",
   "timeLimit"
@@ -51,20 +58,30 @@ function cleanValue(value) {
 }
 
 function normalizeQuestion(question) {
+  const working = { ...question };
+
+  if (
+    Object.prototype.hasOwnProperty.call(working, "respuestaCorrecta") &&
+    !Object.prototype.hasOwnProperty.call(working, "respuesta")
+  ) {
+    working.respuesta = working.respuestaCorrecta;
+  }
+
+  delete working.respuestaCorrecta;
+
   const cleanedQuestion = {};
 
   KEY_ORDER.forEach((key) => {
-    if (Object.prototype.hasOwnProperty.call(question, key)) {
-      cleanedQuestion[key] = cleanValue(question[key]);
+    if (Object.prototype.hasOwnProperty.call(working, key)) {
+      cleanedQuestion[key] = cleanValue(working[key]);
+      delete working[key];
     }
   });
 
-  const remainingKeys = Object.keys(question)
-    .filter((key) => !KEY_ORDER.includes(key))
-    .sort((a, b) => a.localeCompare(b));
+  const remainingKeys = Object.keys(working).sort((a, b) => a.localeCompare(b));
 
   remainingKeys.forEach((key) => {
-    cleanedQuestion[key] = cleanValue(question[key]);
+    cleanedQuestion[key] = cleanValue(working[key]);
   });
 
   return cleanedQuestion;

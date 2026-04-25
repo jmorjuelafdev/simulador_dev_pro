@@ -136,13 +136,18 @@ function CodeSlotQuestion({ pregunta, respuestaActual, onResponder, disabled }) 
     [renderedCodigo]
   );
 
+  const previewSource = useMemo(
+    () => renderedCodigo.replace(/\s+\|\s+/g, "\n"),
+    [renderedCodigo]
+  );
+
   const previewLines = useMemo(
     () =>
-      renderedCodigo
+      previewSource
         .split(/\n/)
         .map((linea) => linea.replace(/\s+$/, ""))
         .filter((linea) => linea.trim().length),
-    [renderedCodigo]
+    [previewSource]
   );
   const completado = slotIndices.length
     ? slotIndices.every((indice) => Boolean(seleccion[indice]))

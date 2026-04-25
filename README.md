@@ -1,18 +1,19 @@
 # Simulador Dev Pro
 
-Aplicación web para practicar entrevistas técnicas con preguntas tipo quiz. Cada sesión se arma con preguntas reales del banco y te entrega retroalimentación inmediata.
+Simulador web para practicar entrevistas técnicas con la **Biblioteca 2026**: bancos de preguntas actualizados, rutas de aprendizaje y controles finos para personalizar cada sesión. El sistema arma retos dinámicos por bloque, entrega retroalimentación inmediata y guarda tu progreso directamente en el navegador.
 
 ## 1. ¿Qué incluye?
 
-- **Bloques de aprendizaje:**
+- **Bloques de aprendizaje completos:**
   - Fundamentos → Lógica y Lógica 2.
-  - Frontend → HTML, CSS, JavaScript, JavaScript 2, Angular, React y API REST.
+  - Frontend → HTML, CSS, JavaScript, Estructura de Datos, Angular, React y API REST.
   - Backend → Python, PHP, Java.
   - Fullstack → Git y MySQL para proyectos completos.
   - Skills → Habilidades blandas (Skills y Skills 2).
-- Hasta **50 preguntas por categoría** y opción "Todas" para practicar con el banco completo.
-- Preguntas de selección única y ejercicios con “slots” de código (sin editor libre).
-- Auto‑avance configurable, modo offline y registros guardados en tu navegador.
+- **Catálogo masivo:** hasta **50 preguntas por categoría** y opción "Todas" para practicar con el banco completo.
+- **Ejercicios aplicados:** preguntas de selección única, múltiples respuestas y desafíos de código con “slots” y validaciones remotas.
+- **Modo experto opcional:** auto‑avance configurable, sonido de finalización y carga offline de todos los bancos.
+- **Progreso guiado:** rutas de aprendizaje por categoría, métricas visuales y registros guardados en `localStorage`.
 
 ## 2. Requisitos
 

@@ -85,7 +85,7 @@ function HeroHeader({
         </span>
       )}
       <div className="hero-title">
-        <h1>Simulador Junior Dev · Fundamentos Claros</h1>
+        <h1>Simulador Junior Dev · Biblioteca 2026</h1>
         <div className="hero-actions">
           {offlineMode && <span className="badge offline-badge">Offline activo</span>}
           <label className="toggle" htmlFor="theme-toggle">
@@ -103,18 +103,33 @@ function HeroHeader({
           </label>
         </div>
       </div>
-      <p
-        style={{
-          textAlign: "justify",
-          textJustify: "inter-word"
-        }}
-      >
-        Practica entrevistas completas por bloques: Fundamentos (Lógica, Lógica 2), Frontend
-        (JavaScript, HTML, CSS, JavaScript 2, Angular, React, API REST), Backend (Python, PHP, Java),
-        Fullstack (Git, MySQL) y Skills (Skills, Skills 2). Todas las preguntas usan opciones de selección
-        única y ejercicios con slots (sin editor de código), con pistas y feedback claro para avanzar paso a
-        paso.
+      <p className="hero-subtitle">
+        Practica entrevistas completas con evaluaciones dinámicas, feedback guiado y rutas de
+        aprendizaje que acompañan tu progreso en cada bloque.
       </p>
+      <div className="hero-copy">
+        <p>
+          Actualizamos todos los bancos de preguntas con escenarios modernos: API REST con
+          enunciados extensos, CSS con flexbox, grid y responsive, Angular y React con buenas
+          prácticas de componentes, además de Git, MySQL y Skills profesionales con situaciones
+          reales de colaboración.
+        </p>
+        <ul className="hero-highlights">
+          <li>
+            <strong>Catálogo completo:</strong> Fundamentos, Frontend (HTML, CSS, JavaScript, Estructura de
+            Datos, Angular, React, API REST), Backend (Python, PHP, Java), Fullstack (Git, MySQL) y Skills
+            (niveles 1 y 2).
+          </li>
+          <li>
+            <strong>Ejercicios aplicados:</strong> preguntas múltiples, código con slots y validaciones remotas
+            listas para simular entrevistas técnicas.
+          </li>
+          <li>
+            <strong>Modo experto opcional:</strong> activa aprendizaje offline, sonido al finalizar e
+            autoavance para acelerar tus sesiones.
+          </li>
+        </ul>
+      </div>
     </section>
   );
 }

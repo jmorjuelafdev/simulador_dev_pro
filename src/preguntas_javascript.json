@@ -4,12 +4,12 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué palabra clave declara una variable reutilizable con alcance de bloque?",
+    "pregunta": "¿Qué palabra clave se utiliza para declarar una variable cuyo valor puede cambiar posteriormente durante la ejecución?",
     "opciones": [
-      "var",
-      "let",
       "const",
-      "define"
+      "let",
+      "import",
+      "static"
     ],
     "respuesta": "let",
     "puntos": 10,
@@ -20,13 +20,13 @@
     "categoria": "JavaScript",
     "tipo": "codigo",
     "dificultad": "Basico",
-    "pregunta": "Completa la declaración de una constante.",
+    "pregunta": "Completa la declaración correcta de una constante utilizando sintaxis moderna de JavaScript.",
     "modo": "slots",
-    "plantilla": "{{slot2}} PI = 3.14;",
+    "plantilla": "{{slot0}} PI = 3.14;",
     "opcionesSlots": [
+      "const",
       "let",
       "var",
-      "const",
       "value"
     ],
     "respuestasSlots": [
@@ -41,14 +41,14 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué función imprime mensajes en consola?",
+    "pregunta": "¿Cuál de las siguientes opciones corresponde a un tipo de dato primitivo válido en JavaScript?",
     "opciones": [
-      "print()",
-      "echo()",
-      "console.log()",
-      "log()"
+      "string",
+      "table",
+      "class",
+      "style"
     ],
-    "respuesta": "console.log()",
+    "respuesta": "string",
     "puntos": 10,
     "timeLimit": 30
   },
@@ -57,17 +57,17 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Selecciona tipos de datos primitivos en JavaScript.",
+    "pregunta": "Selecciona cuáles de las siguientes opciones son tipos de datos primitivos comunes en JavaScript.",
     "opciones": [
-      "string",
       "number",
       "boolean",
-      "table"
+      "string",
+      "database"
     ],
     "respuesta": [
-      "string",
       "number",
-      "boolean"
+      "boolean",
+      "string"
     ],
     "puntos": 10,
     "timeLimit": 30
@@ -77,17 +77,17 @@
     "categoria": "JavaScript",
     "tipo": "codigo",
     "dificultad": "Basico",
-    "pregunta": "Completa una suma básica.",
+    "pregunta": "Completa la palabra clave correcta para declarar una función tradicional.",
     "modo": "slots",
-    "plantilla": "let total = 5 {{slot0}} 3;",
+    "plantilla": "{{slot0}} saludar(){ return 'Hola'; }",
     "opcionesSlots": [
-      "+",
-      "-",
-      "*",
-      "="
+      "function",
+      "func",
+      "method",
+      "define"
     ],
     "respuestasSlots": [
-      "+"
+      "function"
     ],
     "evaluacion": "slots",
     "puntos": 10,
@@ -98,7 +98,7 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué operador compara valor y tipo?",
+    "pregunta": "¿Qué operador compara tanto el valor como el tipo de dato sin realizar conversión implícita?",
     "opciones": [
       "==",
       "=",
@@ -114,13 +114,13 @@
     "categoria": "JavaScript",
     "tipo": "codigo",
     "dificultad": "Basico",
-    "pregunta": "Completa una condición if.",
+    "pregunta": "Completa la estructura condicional correcta para evaluar si una persona es mayor de edad.",
     "modo": "slots",
-    "plantilla": "{{slot1}} (edad >= 18) { console.log('Mayor'); }",
+    "plantilla": "{{slot0}} (edad >= 18) { console.log('Mayor'); }",
     "opcionesSlots": [
-      "for",
       "if",
-      "while",
+      "for",
+      "loop",
       "case"
     ],
     "respuestasSlots": [
@@ -135,14 +135,14 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué estructura repite instrucciones varias veces?",
+    "pregunta": "¿Qué símbolo o sintaxis se utiliza para iniciar un comentario de una sola línea en JavaScript?",
     "opciones": [
-      "if",
-      "loop",
-      "return",
-      "break"
+      "/*",
+      "#",
+      "//",
+      "<!--"
     ],
-    "respuesta": "loop",
+    "respuesta": "//",
     "puntos": 10,
     "timeLimit": 30
   },
@@ -151,7 +151,7 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Selecciona operadores aritméticos válidos.",
+    "pregunta": "Selecciona cuáles de los siguientes operadores aritméticos son válidos en JavaScript.",
     "opciones": [
       "+",
       "-",
@@ -171,14 +171,14 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué método convierte texto a mayúsculas?",
+    "pregunta": "¿Qué símbolo o sintaxis se utiliza para definir funciones flecha en JavaScript moderno?",
     "opciones": [
-      "toUpperCase()",
-      "upper()",
-      "capitalize()",
-      "big()"
+      "=>",
+      "->",
+      "::",
+      "=="
     ],
-    "respuesta": "toUpperCase()",
+    "respuesta": "=>",
     "puntos": 15,
     "timeLimit": 35
   },
@@ -187,9 +187,83 @@
     "categoria": "JavaScript",
     "tipo": "codigo",
     "dificultad": "Basico",
-    "pregunta": "Completa acceso al primer elemento del arreglo.",
+    "pregunta": "Completa la sintaxis correcta de una función flecha que retorna la suma de dos valores.",
     "modo": "slots",
-    "plantilla": "let nums = [10,20,30]; console.log(nums[{{slot0}}]);",
+    "plantilla": "const sumar = (a,b) {{slot0}} a + b;",
+    "opcionesSlots": [
+      "=>",
+      "->",
+      "=",
+      ":"
+    ],
+    "respuestasSlots": [
+      "=>"
+    ],
+    "evaluacion": "slots",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "js-12",
+    "categoria": "JavaScript",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué característica moderna permite insertar variables y expresiones dentro de cadenas de texto?",
+    "opciones": [
+      "template literals",
+      "echo",
+      "print",
+      "htmlString"
+    ],
+    "respuesta": "template literals",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "js-13",
+    "categoria": "JavaScript",
+    "tipo": "codigo",
+    "dificultad": "Basico",
+    "pregunta": "Completa correctamente el valor que debe interpolarse dentro del template literal.",
+    "modo": "slots",
+    "plantilla": "const msg = `Hola ${ {{slot0}} }`;",
+    "opcionesSlots": [
+      "nombre",
+      "return",
+      "if",
+      "class"
+    ],
+    "respuestasSlots": [
+      "nombre"
+    ],
+    "evaluacion": "slots",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "js-14",
+    "categoria": "JavaScript",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué símbolo o estructura se utiliza para crear un arreglo vacío en JavaScript?",
+    "opciones": [
+      "[]",
+      "{}",
+      "()",
+      "<>"
+    ],
+    "respuesta": "[]",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "js-15",
+    "categoria": "JavaScript",
+    "tipo": "codigo",
+    "dificultad": "Basico",
+    "pregunta": "Completa el índice correcto para acceder al primer elemento de un arreglo.",
+    "modo": "slots",
+    "plantilla": "let nums=[10,20]; nums[{{slot0}}]",
     "opcionesSlots": [
       "0",
       "1",
@@ -204,111 +278,43 @@
     "timeLimit": 35
   },
   {
-    "id": "js-12",
-    "categoria": "JavaScript",
-    "tipo": "multiple",
-    "dificultad": "Basico",
-    "pregunta": "¿Qué símbolo inicia un comentario de una línea?",
-    "opciones": [
-      "/*",
-      "#",
-      "//",
-      "<!--"
-    ],
-    "respuesta": "//",
-    "puntos": 15,
-    "timeLimit": 35
-  },
-  {
-    "id": "js-13",
-    "categoria": "JavaScript",
-    "tipo": "multiple",
-    "dificultad": "Basico",
-    "pregunta": "Selecciona valores booleanos válidos.",
-    "opciones": [
-      "true",
-      "false",
-      "null",
-      "yes"
-    ],
-    "respuesta": [
-      "true",
-      "false"
-    ],
-    "puntos": 15,
-    "timeLimit": 35
-  },
-  {
-    "id": "js-14",
-    "categoria": "JavaScript",
-    "tipo": "codigo",
-    "dificultad": "Basico",
-    "pregunta": "Completa un incremento en 1.",
-    "modo": "slots",
-    "plantilla": "let x = 5; x{{slot0}};",
-    "opcionesSlots": [
-      "++",
-      "--",
-      "+=",
-      "**"
-    ],
-    "respuestasSlots": [
-      "++"
-    ],
-    "evaluacion": "slots",
-    "puntos": 15,
-    "timeLimit": 35
-  },
-  {
-    "id": "js-15",
-    "categoria": "JavaScript",
-    "tipo": "multiple",
-    "dificultad": "Basico",
-    "pregunta": "¿Qué palabra clave termina una función devolviendo valor?",
-    "opciones": [
-      "yield",
-      "return",
-      "stop",
-      "break"
-    ],
-    "respuesta": "return",
-    "puntos": 15,
-    "timeLimit": 35
-  },
-  {
     "id": "js-16",
     "categoria": "JavaScript",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Completa un bucle for básico.",
-    "modo": "slots",
-    "plantilla": "{{slot1}} (let i=0; i<3; i++) { console.log(i); }",
-    "opcionesSlots": [
-      "if",
-      "for",
-      "while",
-      "loop"
+    "pregunta": "Selecciona cuáles de las siguientes opciones pueden ser propiedades comunes dentro de un objeto JavaScript.",
+    "opciones": [
+      "nombre",
+      "edad",
+      "color",
+      "SELECT *"
     ],
-    "respuestasSlots": [
-      "for"
+    "respuesta": [
+      "nombre",
+      "edad",
+      "color"
     ],
-    "evaluacion": "slots",
     "puntos": 15,
     "timeLimit": 35
   },
   {
     "id": "js-17",
     "categoria": "JavaScript",
-    "tipo": "multiple",
+    "tipo": "codigo",
     "dificultad": "Basico",
-    "pregunta": "¿Qué método agrega un elemento al final de un arreglo?",
-    "opciones": [
-      "add()",
-      "append()",
-      "push()",
-      "insert()"
+    "pregunta": "Completa correctamente el nombre de la propiedad extraída mediante destructuring.",
+    "modo": "slots",
+    "plantilla": "const { {{slot0}} } = usuario;",
+    "opcionesSlots": [
+      "nombre",
+      "map",
+      "return",
+      "class"
     ],
-    "respuesta": "push()",
+    "respuestasSlots": [
+      "nombre"
+    ],
+    "evaluacion": "slots",
     "puntos": 15,
     "timeLimit": 35
   },
@@ -317,17 +323,17 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Selecciona estructuras condicionales válidas.",
+    "pregunta": "Selecciona cuáles de las siguientes opciones corresponden a características modernas introducidas desde ES6+.",
     "opciones": [
-      "if",
-      "else",
-      "switch",
-      "repeat"
+      "let/const",
+      "arrow functions",
+      "template literals",
+      "table loops"
     ],
     "respuesta": [
-      "if",
-      "else",
-      "switch"
+      "let/const",
+      "arrow functions",
+      "template literals"
     ],
     "puntos": 15,
     "timeLimit": 35
@@ -337,7 +343,7 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué método recorre un arreglo y devuelve uno nuevo transformado?",
+    "pregunta": "¿Qué método de arrays crea un nuevo arreglo transformando cada elemento según una función aplicada?",
     "opciones": [
       "forEach()",
       "map()",
@@ -353,14 +359,14 @@
     "categoria": "JavaScript",
     "tipo": "codigo",
     "dificultad": "Intermedio",
-    "pregunta": "Completa el método para filtrar mayores de edad.",
+    "pregunta": "Completa el método correcto para filtrar usuarios que sean mayores de edad.",
     "modo": "slots",
-    "plantilla": "let r = usuarios.{{slot1}}(u => u.edad >= 18);",
+    "plantilla": "usuarios.{{slot0}}(u => u.edad >= 18)",
     "opcionesSlots": [
-      "map",
       "filter",
-      "find",
-      "reduce"
+      "map",
+      "join",
+      "push"
     ],
     "respuestasSlots": [
       "filter"
@@ -374,12 +380,12 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué método retorna el primer elemento que cumple una condición?",
+    "pregunta": "¿Qué método devuelve el primer elemento que cumple una condición específica dentro de un arreglo?",
     "opciones": [
       "find()",
       "map()",
-      "some()",
-      "join()"
+      "reduce()",
+      "slice()"
     ],
     "respuesta": "find()",
     "puntos": 20,
@@ -390,12 +396,12 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Selecciona métodos válidos de arreglos.",
+    "pregunta": "Selecciona cuáles de los siguientes métodos modernos de arrays existen en JavaScript.",
     "opciones": [
       "map()",
       "filter()",
       "reduce()",
-      "style()"
+      "paint()"
     ],
     "respuesta": [
       "map()",
@@ -410,17 +416,17 @@
     "categoria": "JavaScript",
     "tipo": "codigo",
     "dificultad": "Intermedio",
-    "pregunta": "Completa una función flecha.",
+    "pregunta": "Completa el operador spread utilizado para expandir elementos dentro de un arreglo.",
     "modo": "slots",
-    "plantilla": "const suma = (a,b) {{slot0}} a + b;",
+    "plantilla": "const nuevo = [1,2,{{slot0}}nums];",
     "opcionesSlots": [
-      "=>",
-      "->",
-      ":>",
-      "="
+      "...",
+      "&&",
+      "??",
+      "::"
     ],
     "respuestasSlots": [
-      "=>"
+      "..."
     ],
     "evaluacion": "slots",
     "puntos": 20,
@@ -431,14 +437,14 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué palabra clave espera la resolución de una promesa dentro de async?",
+    "pregunta": "¿Qué operador permite asignar un valor por defecto cuando el valor original es null o undefined?",
     "opciones": [
-      "wait",
-      "resolve",
-      "await",
-      "then"
+      "||",
+      "??",
+      "&&",
+      "=>"
     ],
-    "respuesta": "await",
+    "respuesta": "??",
     "puntos": 20,
     "timeLimit": 40
   },
@@ -447,17 +453,17 @@
     "categoria": "JavaScript",
     "tipo": "codigo",
     "dificultad": "Intermedio",
-    "pregunta": "Completa una función asíncrona.",
+    "pregunta": "Completa la sintaxis de optional chaining para acceder de forma segura a propiedades anidadas.",
     "modo": "slots",
-    "plantilla": "{{slot1}} function cargarDatos(){ return []; }",
+    "plantilla": "usuario{{slot0}}direccion?.ciudad",
     "opcionesSlots": [
-      "await",
-      "async",
-      "promise",
-      "defer"
+      "?.",
+      "..",
+      "::",
+      "??"
     ],
     "respuestasSlots": [
-      "async"
+      "?."
     ],
     "evaluacion": "slots",
     "puntos": 20,
@@ -468,34 +474,35 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué operador expande arreglos u objetos?",
+    "pregunta": "¿Qué método convierte un objeto de JavaScript en texto con formato JSON?",
     "opciones": [
-      "...",
-      "::",
-      "??",
-      "&&"
+      "JSON.parse()",
+      "JSON.stringify()",
+      "JSON.object()",
+      "toText()"
     ],
-    "respuesta": "...",
+    "respuesta": "JSON.stringify()",
     "puntos": 20,
     "timeLimit": 40
   },
   {
     "id": "js-27",
     "categoria": "JavaScript",
-    "tipo": "multiple",
+    "tipo": "codigo",
     "dificultad": "Intermedio",
-    "pregunta": "Selecciona palabras reservadas modernas de JavaScript.",
-    "opciones": [
-      "let",
-      "const",
-      "async",
-      "publicvar"
+    "pregunta": "Completa el método correcto para convertir texto JSON en un objeto JavaScript.",
+    "modo": "slots",
+    "plantilla": "const data = JSON.{{slot0}}(texto);",
+    "opcionesSlots": [
+      "parse",
+      "stringify",
+      "convert",
+      "read"
     ],
-    "respuesta": [
-      "let",
-      "const",
-      "async"
+    "respuestasSlots": [
+      "parse"
     ],
+    "evaluacion": "slots",
     "puntos": 20,
     "timeLimit": 40
   },
@@ -504,14 +511,14 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué método convierte un objeto JavaScript a texto JSON?",
+    "pregunta": "¿Qué palabra clave se utiliza para exportar funciones, variables o clases desde un módulo?",
     "opciones": [
-      "JSON.parse()",
-      "JSON.stringify()",
-      "JSON.object()",
-      "toJSON()"
+      "send",
+      "export",
+      "module",
+      "public"
     ],
-    "respuesta": "JSON.stringify()",
+    "respuesta": "export",
     "puntos": 25,
     "timeLimit": 45
   },
@@ -520,17 +527,17 @@
     "categoria": "JavaScript",
     "tipo": "codigo",
     "dificultad": "Intermedio",
-    "pregunta": "Completa acceso seguro con optional chaining.",
+    "pregunta": "Completa la palabra clave correcta para importar un módulo ES6.",
     "modo": "slots",
-    "plantilla": "let ciudad = usuario{{slot0}}direccion?.ciudad;",
+    "plantilla": "{{slot0}} suma from './math.js';",
     "opcionesSlots": [
-      "?.",
-      "..",
-      "??",
-      "::"
+      "import",
+      "export",
+      "require",
+      "from"
     ],
     "respuestasSlots": [
-      "?."
+      "import"
     ],
     "evaluacion": "slots",
     "puntos": 25,
@@ -541,71 +548,76 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué operador asigna valor por defecto si es null o undefined?",
+    "pregunta": "¿Qué palabra clave se utiliza para definir una clase en JavaScript moderno?",
     "opciones": [
-      "||",
-      "??",
-      "&&",
-      "=>"
+      "object",
+      "class",
+      "newClass",
+      "model"
     ],
-    "respuesta": "??",
+    "respuesta": "class",
     "puntos": 25,
     "timeLimit": 45
   },
   {
     "id": "js-31",
     "categoria": "JavaScript",
-    "tipo": "multiple",
-    "dificultad": "Intermedio",
-    "pregunta": "Selecciona formas válidas de recorrer arreglos.",
-    "opciones": [
-      "for",
-      "forEach()",
-      "map()",
-      "repeat()"
-    ],
-    "respuesta": [
-      "for",
-      "forEach()",
-      "map()"
-    ],
-    "puntos": 25,
-    "timeLimit": 45
-  },
-  {
-    "id": "js-32",
-    "categoria": "JavaScript",
     "tipo": "codigo",
     "dificultad": "Intermedio",
-    "pregunta": "Completa desestructuración de objeto.",
+    "pregunta": "Completa la palabra clave necesaria para declarar una clase llamada Persona.",
     "modo": "slots",
-    "plantilla": "const {{slot1}} = usuario;",
+    "plantilla": "{{slot0}} Persona { constructor(nombre){ this.nombre=nombre; } }",
     "opcionesSlots": [
-      "[nombre]",
-      "{nombre}",
-      "(nombre)",
-      "<nombre>"
+      "class",
+      "function",
+      "object",
+      "model"
     ],
     "respuestasSlots": [
-      "{nombre}"
+      "class"
     ],
     "evaluacion": "slots",
     "puntos": 25,
     "timeLimit": 45
   },
   {
-    "id": "js-33",
+    "id": "js-32",
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué método une elementos de un arreglo en texto?",
+    "pregunta": "Selecciona cuáles de las siguientes opciones corresponden a características modernas de JavaScript.",
     "opciones": [
-      "merge()",
-      "join()",
-      "concat()",
-      "bind()"
+      "modules",
+      "destructuring",
+      "spread",
+      "goto"
     ],
-    "respuesta": "join()",
+    "respuesta": [
+      "modules",
+      "destructuring",
+      "spread"
+    ],
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "js-33",
+    "categoria": "JavaScript",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa el valor por defecto correcto para un parámetro opcional en una función.",
+    "modo": "slots",
+    "plantilla": "function saludar(nombre = {{slot0}}){ }",
+    "opcionesSlots": [
+      "'Invitado'",
+      "'0'",
+      "null",
+      "[]"
+    ],
+    "respuestasSlots": [
+      "'Invitado'"
+    ],
+    "evaluacion": "slots",
     "puntos": 25,
     "timeLimit": 45
   },
@@ -614,7 +626,7 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Selecciona APIs web comunes usadas con JavaScript frontend.",
+    "pregunta": "Selecciona cuáles de las siguientes APIs web son comunes al trabajar con JavaScript frontend.",
     "opciones": [
       "fetch()",
       "localStorage",
@@ -634,9 +646,14 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué palabra clave se usa para manejar errores?",
-    "opciones": ["try", "loop", "switch", "const"],
-    "respuesta": "try",
+    "pregunta": "¿Qué objeto global del navegador se utiliza normalmente para seleccionar y manipular elementos del DOM?",
+    "opciones": [
+      "window",
+      "document",
+      "screen",
+      "storage"
+    ],
+    "respuesta": "document",
     "puntos": 30,
     "timeLimit": 50
   },
@@ -645,11 +662,18 @@
     "categoria": "JavaScript",
     "tipo": "codigo",
     "dificultad": "Avanzado",
-    "pregunta": "Completa la captura de error.",
+    "pregunta": "Completa el método correcto para seleccionar un elemento del DOM mediante su id.",
     "modo": "slots",
-    "plantilla": "try { } {{slot1}}(error){ }",
-    "opcionesSlots": ["catch", "throw", "await", "break"],
-    "respuestasSlots": ["catch"],
+    "plantilla": "document.{{slot0}}('app');",
+    "opcionesSlots": [
+      "getElementById",
+      "queryHTML",
+      "findNode",
+      "selectId"
+    ],
+    "respuestasSlots": [
+      "getElementById"
+    ],
     "evaluacion": "slots",
     "puntos": 30,
     "timeLimit": 50
@@ -659,80 +683,109 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué hace finally en try/catch?",
+    "pregunta": "¿Qué método permite seleccionar el primer elemento que coincide con un selector CSS?",
     "opciones": [
-      "Se ejecuta siempre al final",
-      "Declara variables",
-      "Detiene el navegador",
-      "Crea arrays"
+      "querySelector()",
+      "getNode()",
+      "find()",
+      "cssSelect()"
     ],
-    "respuesta": "Se ejecuta siempre al final",
+    "respuesta": "querySelector()",
     "puntos": 30,
     "timeLimit": 50
   },
   {
     "id": "js-38",
     "categoria": "JavaScript",
-    "tipo": "multiple",
+    "tipo": "codigo",
     "dificultad": "Avanzado",
-    "pregunta": "Selecciona métodos comunes de arrays.",
-    "opciones": ["map()", "filter()", "reduce()", "paint()"],
-    "respuesta": ["map()", "filter()", "reduce()"],
+    "pregunta": "Completa el nombre del evento utilizado para detectar clics sobre un botón.",
+    "modo": "slots",
+    "plantilla": "btn.addEventListener('{{slot0}}', ()=> alert('Hola'));",
+    "opcionesSlots": [
+      "click",
+      "submit",
+      "hover",
+      "focusin"
+    ],
+    "respuestasSlots": [
+      "click"
+    ],
+    "evaluacion": "slots",
     "puntos": 30,
     "timeLimit": 50
   },
   {
     "id": "js-39",
     "categoria": "JavaScript",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "Completa transformación de array.",
-    "modo": "slots",
-    "plantilla": "nums.{{slot1}}(n => n * 2)",
-    "opcionesSlots": ["map", "push", "find", "join"],
-    "respuestasSlots": ["map"],
-    "evaluacion": "slots",
+    "pregunta": "¿Qué propiedad se usa comúnmente para cambiar o leer el texto visible de un elemento HTML?",
+    "opciones": [
+      "innerText",
+      "styleText",
+      "appendCSS",
+      "render()"
+    ],
+    "respuesta": "innerText",
     "puntos": 30,
     "timeLimit": 50
   },
   {
     "id": "js-40",
     "categoria": "JavaScript",
-    "tipo": "multiple",
+    "tipo": "codigo",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué hace filter()?",
-    "opciones": [
-      "Filtra elementos según condición",
-      "Ordena HTML",
-      "Cierra funciones",
-      "Borra variables"
+    "pregunta": "Completa la propiedad correcta para modificar el texto de un título en pantalla.",
+    "modo": "slots",
+    "plantilla": "titulo.{{slot0}} = 'Bienvenido';",
+    "opcionesSlots": [
+      "innerText",
+      "querySelector",
+      "click",
+      "valueOf"
     ],
-    "respuesta": "Filtra elementos según condición",
+    "respuestasSlots": [
+      "innerText"
+    ],
+    "evaluacion": "slots",
     "puntos": 30,
     "timeLimit": 50
   },
   {
     "id": "js-41",
     "categoria": "JavaScript",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "Completa filtrado de mayores de edad.",
-    "modo": "slots",
-    "plantilla": "users.{{slot1}}(u => u.edad >= 18)",
-    "opcionesSlots": ["filter", "map", "slice", "pop"],
-    "respuestasSlots": ["filter"],
-    "evaluacion": "slots",
+    "pregunta": "¿Qué API del navegador permite guardar datos simples de forma persistente en el equipo del usuario?",
+    "opciones": [
+      "localStorage",
+      "sessionSQL",
+      "nodeCache",
+      "cookieDB"
+    ],
+    "respuesta": "localStorage",
     "puntos": 30,
     "timeLimit": 50
   },
   {
     "id": "js-42",
     "categoria": "JavaScript",
-    "tipo": "multiple",
+    "tipo": "codigo",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué método devuelve el primer elemento que cumple condición?",
-    "opciones": ["find()", "push()", "join()", "sort()"],
-    "respuesta": "find()",
+    "pregunta": "Completa el método correcto para guardar una clave y valor dentro de localStorage.",
+    "modo": "slots",
+    "plantilla": "localStorage.{{slot0}}('tema','dark');",
+    "opcionesSlots": [
+      "setItem",
+      "getItem",
+      "pushItem",
+      "saveData"
+    ],
+    "respuestasSlots": [
+      "setItem"
+    ],
+    "evaluacion": "slots",
     "puntos": 30,
     "timeLimit": 50
   },
@@ -741,9 +794,14 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "Selecciona formas modernas de asincronía.",
-    "opciones": ["Promise", "async/await", "then()", "color()"],
-    "respuesta": ["Promise", "async/await", "then()"],
+    "pregunta": "¿Qué función moderna se utiliza para realizar peticiones HTTP desde el navegador?",
+    "opciones": [
+      "fetch()",
+      "ajaxNow()",
+      "requestData()",
+      "httpCall()"
+    ],
+    "respuesta": "fetch()",
     "puntos": 30,
     "timeLimit": 50
   },
@@ -752,11 +810,18 @@
     "categoria": "JavaScript",
     "tipo": "codigo",
     "dificultad": "Avanzado",
-    "pregunta": "Completa espera de promesa.",
+    "pregunta": "Completa el método correcto para convertir la respuesta de fetch en formato JSON.",
     "modo": "slots",
-    "plantilla": "const data = {{slot1}} fetch(url);",
-    "opcionesSlots": ["await", "return", "break", "const"],
-    "respuestasSlots": ["await"],
+    "plantilla": "fetch(url).then(r => r.{{slot0}}());",
+    "opcionesSlots": [
+      "json",
+      "textify",
+      "object",
+      "parse"
+    ],
+    "respuestasSlots": [
+      "json"
+    ],
     "evaluacion": "slots",
     "puntos": 30,
     "timeLimit": 50
@@ -766,14 +831,14 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué es destructuring?",
+    "pregunta": "¿Qué palabra clave se utiliza para esperar el resultado de una promesa dentro de una función async?",
     "opciones": [
-      "Extraer valores de objetos o arrays",
-      "Borrar variables",
-      "Crear estilos",
-      "Compilar código"
+      "await",
+      "pause",
+      "resolve",
+      "sync"
     ],
-    "respuesta": "Extraer valores de objetos o arrays",
+    "respuesta": "await",
     "puntos": 30,
     "timeLimit": 50
   },
@@ -782,11 +847,18 @@
     "categoria": "JavaScript",
     "tipo": "codigo",
     "dificultad": "Avanzado",
-    "pregunta": "Completa destructuring básico.",
+    "pregunta": "Completa la palabra clave necesaria para declarar una función asíncrona.",
     "modo": "slots",
-    "plantilla": "const { {{slot1}} } = usuario;",
-    "opcionesSlots": ["nombre", "push", "return", "map"],
-    "respuestasSlots": ["nombre"],
+    "plantilla": "{{slot0}} function cargar(){ const r = await fetch(url); }",
+    "opcionesSlots": [
+      "async",
+      "await",
+      "promise",
+      "defer"
+    ],
+    "respuestasSlots": [
+      "async"
+    ],
     "evaluacion": "slots",
     "puntos": 30,
     "timeLimit": 50
@@ -796,43 +868,55 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué operador copia propiedades de objetos?",
-    "opciones": ["...", "&&", "??", "=>"],
-    "respuesta": "...",
+    "pregunta": "¿Qué estructura de control se utiliza comúnmente para manejar errores en JavaScript?",
+    "opciones": [
+      "try...catch",
+      "if...else",
+      "switch",
+      "loop"
+    ],
+    "respuesta": "try...catch",
     "puntos": 30,
     "timeLimit": 50
   },
   {
     "id": "js-48",
     "categoria": "JavaScript",
-    "tipo": "multiple",
+    "tipo": "codigo",
     "dificultad": "Avanzado",
-    "pregunta": "Selecciona buenas prácticas frontend con JS.",
-    "opciones": [
-      "Manejar errores",
-      "Funciones pequeñas",
-      "Código legible",
-      "Variables aleatorias globales"
+    "pregunta": "Completa la palabra clave correcta para capturar una excepción dentro de try...catch.",
+    "modo": "slots",
+    "plantilla": "try { } {{slot0}}(e){ console.log(e); }",
+    "opcionesSlots": [
+      "catch",
+      "error",
+      "throw",
+      "except"
     ],
-    "respuesta": [
-      "Manejar errores",
-      "Funciones pequeñas",
-      "Código legible"
+    "respuestasSlots": [
+      "catch"
     ],
+    "evaluacion": "slots",
     "puntos": 30,
     "timeLimit": 50
   },
   {
     "id": "js-49",
     "categoria": "JavaScript",
-    "tipo": "codigo",
+    "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "Completa selección de elemento DOM.",
-    "modo": "slots",
-    "plantilla": "document.{{slot1}}('#app')",
-    "opcionesSlots": ["querySelector", "fetch", "filter", "reduce"],
-    "respuestasSlots": ["querySelector"],
-    "evaluacion": "slots",
+    "pregunta": "Selecciona cuáles de las siguientes prácticas son recomendables en desarrollo frontend con JavaScript.",
+    "opciones": [
+      "Código legible",
+      "Manejar errores",
+      "Funciones pequeñas",
+      "Variables globales aleatorias"
+    ],
+    "respuesta": [
+      "Código legible",
+      "Manejar errores",
+      "Funciones pequeñas"
+    ],
     "puntos": 30,
     "timeLimit": 50
   },
@@ -841,14 +925,14 @@
     "categoria": "JavaScript",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué refleja mejor a un junior sólido en JavaScript?",
+    "pregunta": "¿Qué describe mejor a un desarrollador junior sólido en JavaScript moderno?",
     "opciones": [
-      "Entender lógica, DOM, arrays y async básico",
-      "Memorizar todo sin practicar",
-      "Solo saber console.log",
-      "Evitar errores siempre"
+      "Entiende DOM, eventos, async y buenas bases ES6+",
+      "Solo memoriza console.log",
+      "Evita practicar proyectos",
+      "Nunca depura errores"
     ],
-    "respuesta": "Entender lógica, DOM, arrays y async básico",
+    "respuesta": "Entiende DOM, eventos, async y buenas bases ES6+",
     "puntos": 30,
     "timeLimit": 50
   }

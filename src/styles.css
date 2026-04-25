@@ -197,6 +197,82 @@ body {
   font-weight: 400;
 }
 
+.hero-subtitle {
+  font-size: clamp(1.15rem, 2.6vw, 1.4rem);
+  font-weight: 500;
+  color: var(--color-text);
+  text-align: center;
+  line-height: 1.7;
+}
+
+.hero-copy {
+  display: grid;
+  gap: 16px;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.hero-copy > p {
+  font-size: clamp(1.02rem, 2.4vw, 1.15rem);
+  line-height: 1.8;
+}
+
+.hero-highlights {
+  list-style: none;
+  display: grid;
+  gap: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+.hero-highlights li {
+  background: rgba(79, 168, 151, 0.1);
+  border: 1px solid rgba(79, 168, 151, 0.18);
+  border-radius: var(--radius-sm);
+  padding: 16px 18px;
+  color: var(--color-text);
+  display: grid;
+  gap: 6px;
+  position: relative;
+}
+
+.hero-highlights li::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(135deg, rgba(107, 195, 178, 0.08), rgba(79, 168, 151, 0.22));
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+.hero-highlights li > * {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-highlights strong {
+  font-weight: 700;
+  display: block;
+  color: var(--color-text);
+}
+
+.hero-highlights li span,
+.hero-highlights li strong {
+  font-size: clamp(0.96rem, 2.2vw, 1.05rem);
+}
+
+@media (max-width: 768px) {
+  .hero-copy {
+    gap: 12px;
+  }
+
+  .hero-highlights li {
+    padding: 14px 16px;
+  }
+}
+
 .hero-metrics {
   display: flex;
   gap: 24px;

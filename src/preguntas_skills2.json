@@ -4,15 +4,15 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Cómo consumirías una API desde frontend?",
+    "pregunta": "¿Cómo consumirías una API desde el frontend de una aplicación web moderna?",
     "opciones": [
-      "Usando fetch(), axios o HttpClient para obtener JSON",
-      "Con CSS Grid",
-      "Con Git merge",
-      "Con SQL local"
+      "Usando fetch(), axios o HttpClient para solicitar datos JSON y procesar la respuesta",
+      "Con CSS Grid para estilizar la respuesta del servidor",
+      "Usando Git merge para integrar la API",
+      "Con consultas SQL directas en el navegador para obtener los datos"
     ],
-    "respuesta": "Usando fetch(), axios o HttpClient para obtener JSON",
-    "feedbackExito": "Usando fetch(), axios o HttpClient para obtener datos JSON desde un endpoint y luego mostrarlos en la interfaz.",
+    "respuesta": "Usando fetch(), axios o HttpClient para solicitar datos JSON y procesar la respuesta",
+    "feedbackExito": "Desde frontend se consumen APIs usando herramientas HTTP como fetch(), axios o HttpClient para obtener datos y mostrarlos en la interfaz.",
     "puntos": 10,
     "timeLimit": 30
   },
@@ -21,15 +21,15 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué es Responsive Design?",
+    "pregunta": "¿Qué significa trabajar con Responsive Design en desarrollo web?",
     "opciones": [
-      "Diseño adaptable a celular, tablet y computador",
-      "Diseño solo para desktop",
-      "Diseño de base de datos",
-      "Diseño sin CSS"
+      "Diseño adaptable a celular, tablet y computador que se ajusta a distintos tamaños de pantalla",
+      "Diseño exclusivo para escritorio que no se adapta a otros dispositivos",
+      "Diseño de base de datos adaptable a pantallas",
+      "Diseño sin CSS que no cambia según el dispositivo"
     ],
-    "respuesta": "Diseño adaptable a celular, tablet y computador",
-    "feedbackExito": "Es una técnica para que la interfaz se adapte correctamente a diferentes tamaños de pantalla.",
+    "respuesta": "Diseño adaptable a celular, tablet y computador que se ajusta a distintos tamaños de pantalla",
+    "feedbackExito": "Responsive Design permite que una interfaz se adapte correctamente a distintos tamaños de pantalla.",
     "puntos": 10,
     "timeLimit": 30
   },
@@ -38,15 +38,15 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué harías si un formulario no valida?",
+    "pregunta": "¿Qué harías si un formulario no valida correctamente los datos ingresados?",
     "opciones": [
-      "Revisar reglas, campos requeridos, errores y consola",
-      "Borrar el proyecto",
-      "Cambiar de navegador solamente",
-      "Ignorar el error"
+      "Revisar reglas, campos requeridos, mensajes de error y consola para identificar la causa",
+      "Eliminar el formulario y crear otro desde cero",
+      "Cambiar únicamente el navegador sin revisar el código",
+      "Ignorar el problema y continuar desarrollando"
     ],
-    "respuesta": "Revisar reglas, campos requeridos, errores y consola",
-    "feedbackExito": "Revisaría validaciones, campos requeridos, mensajes de error y la consola del navegador.",
+    "respuesta": "Revisar reglas, campos requeridos, mensajes de error y consola para identificar la causa",
+    "feedbackExito": "Lo adecuado es revisar validaciones, campos obligatorios, eventos y errores en consola.",
     "puntos": 10,
     "timeLimit": 30
   },
@@ -55,15 +55,15 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué es HTML?",
+    "pregunta": "¿Qué es HTML dentro del desarrollo web?",
     "opciones": [
-      "Lenguaje de estructura para páginas web",
-      "Base de datos",
-      "Lenguaje backend",
-      "Framework móvil"
+      "Lenguaje de marcado para estructurar páginas web, formularios y contenido en navegadores",
+      "Base de datos relacional para almacenar información",
+      "Lenguaje backend para lógica del servidor",
+      "Framework móvil para aplicaciones nativas"
     ],
-    "respuesta": "Lenguaje de estructura para páginas web",
-    "feedbackExito": "HTML se usa para estructurar el contenido de una página web.",
+    "respuesta": "Lenguaje de marcado para estructurar páginas web, formularios y contenido en navegadores",
+    "feedbackExito": "HTML se utiliza para estructurar contenido como textos, imágenes, formularios y secciones web.",
     "puntos": 10,
     "timeLimit": 30
   },
@@ -72,15 +72,15 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Para qué sirve CSS?",
+    "pregunta": "¿Qué es CSS y para qué sirve principalmente?",
     "opciones": [
-      "Dar estilos y diseño visual",
-      "Crear tablas SQL",
-      "Subir archivos Git",
-      "Consumir APIs"
+      "Significa Cascading Style Sheets y se usa para estilos y diseño visual de la interfaz",
+      "Crear tablas SQL para bases de datos",
+      "Versionar código y controlar cambios",
+      "Consumir APIs desde frontend"
     ],
-    "respuesta": "Dar estilos y diseño visual",
-    "feedbackExito": "CSS permite aplicar estilos, colores, tamaños, layouts y responsive design.",
+    "respuesta": "Significa Cascading Style Sheets y se usa para estilos y diseño visual de la interfaz",
+    "feedbackExito": "CSS permite definir colores, tamaños, layouts, animaciones y diseño responsive.",
     "puntos": 10,
     "timeLimit": 30
   },
@@ -89,15 +89,15 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Para qué sirve JavaScript en frontend?",
+    "pregunta": "¿Qué es JavaScript y cuál es su función principal en frontend?",
     "opciones": [
-      "Agregar lógica e interactividad",
-      "Solo guardar archivos",
-      "Solo diseñar colores",
-      "Solo instalar programas"
+      "Lenguaje que agrega lógica, dinamismo e interactividad como eventos, formularios y cambios visuales",
+      "Herramienta usada solo para guardar archivos en el navegador",
+      "Tecnología exclusiva para cambiar colores y fuentes",
+      "Programa para instalar software en el computador"
     ],
-    "respuesta": "Agregar lógica e interactividad",
-    "feedbackExito": "JavaScript se usa para lógica, eventos, validaciones, consumo de APIs y manipulación del DOM.",
+    "respuesta": "Lenguaje que agrega lógica, dinamismo e interactividad como eventos, formularios y cambios visuales",
+    "feedbackExito": "JavaScript se usa para eventos, validaciones, consumo de APIs y manipulación del DOM.",
     "puntos": 10,
     "timeLimit": 30
   },
@@ -106,15 +106,15 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué es el DOM?",
+    "pregunta": "¿Qué es el DOM en el navegador?",
     "opciones": [
-      "Representación de elementos HTML en el navegador",
-      "Una base de datos",
-      "Servidor remoto",
-      "Sistema operativo"
+      "Document Object Model: estructura del HTML que puede leerse y modificarse con JavaScript",
+      "Base de datos para guardar usuarios web",
+      "Servidor remoto que entrega archivos",
+      "Sistema operativo para páginas web"
     ],
-    "respuesta": "Representación de elementos HTML en el navegador",
-    "feedbackExito": "El DOM representa la estructura HTML para poder manipularla con JavaScript.",
+    "respuesta": "Document Object Model: estructura del HTML que puede leerse y modificarse con JavaScript",
+    "feedbackExito": "El DOM permite acceder y modificar elementos HTML mediante JavaScript.",
     "puntos": 10,
     "timeLimit": 30
   },
@@ -123,15 +123,15 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué es una API REST?",
+    "pregunta": "¿Qué es una API REST dentro del desarrollo de software?",
     "opciones": [
-      "Servicio que expone datos mediante HTTP",
-      "Un archivo CSS",
-      "Una rama de Git",
-      "Una librería de diseño"
+      "Servicio que expone datos y funcionalidades mediante HTTP para comunicar aplicaciones",
+      "Archivo CSS para estilos visuales",
+      "Rama de Git temporal",
+      "Librería exclusiva para botones"
     ],
-    "respuesta": "Servicio que expone datos mediante HTTP",
-    "feedbackExito": "Es una interfaz que permite intercambiar datos entre sistemas usando HTTP y JSON.",
+    "respuesta": "Servicio que expone datos y funcionalidades mediante HTTP para comunicar aplicaciones",
+    "feedbackExito": "Una API REST permite intercambiar información entre sistemas usando HTTP y normalmente JSON.",
     "puntos": 10,
     "timeLimit": 30
   },
@@ -140,10 +140,15 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué método HTTP usarías para consultar datos?",
-    "opciones": ["GET", "DELETE", "PATCH", "PUT"],
-    "respuesta": "GET",
-    "feedbackExito": "Usaría GET para obtener información desde la API.",
+    "pregunta": "¿Qué método HTTP usarías normalmente para consultar información sin modificar datos?",
+    "opciones": [
+      "GET, porque solicita y obtiene datos desde una API o servidor",
+      "DELETE, porque elimina recursos existentes",
+      "PATCH, porque actualiza parcialmente un recurso",
+      "PUT, porque reemplaza completamente un recurso"
+    ],
+    "respuesta": "GET, porque solicita y obtiene datos desde una API o servidor",
+    "feedbackExito": "GET se utiliza para obtener datos desde una API o recurso remoto.",
     "puntos": 10,
     "timeLimit": 30
   },
@@ -152,15 +157,15 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué es Git?",
+    "pregunta": "¿Qué es Git dentro del trabajo de desarrollo?",
     "opciones": [
-      "Sistema de control de versiones",
-      "Framework CSS",
-      "Editor de imágenes",
-      "Base de datos"
+      "Sistema de control de versiones para guardar historial y colaborar en proyectos",
+      "Framework CSS para diseño visual",
+      "Editor profesional de imágenes",
+      "Base de datos empresarial"
     ],
-    "respuesta": "Sistema de control de versiones",
-    "feedbackExito": "Git permite versionar código, colaborar y mantener historial de cambios.",
+    "respuesta": "Sistema de control de versiones para guardar historial y colaborar en proyectos",
+    "feedbackExito": "Git permite llevar historial de cambios y colaborar en proyectos.",
     "puntos": 15,
     "timeLimit": 35
   },
@@ -169,32 +174,32 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué es un commit?",
+    "pregunta": "¿Qué es un commit dentro de Git?",
     "opciones": [
-      "Guardar cambios en el historial Git",
-      "Eliminar repositorio",
-      "Instalar Node",
-      "Subir imágenes"
+      "Registro confirmado de cambios acompañado normalmente de un mensaje descriptivo",
+      "Acción para borrar un proyecto completo",
+      "Herramienta para instalar Node.js",
+      "Función para subir imágenes al servidor"
     ],
-    "respuesta": "Guardar cambios en el historial Git",
-    "feedbackExito": "Es un registro de cambios realizados en el proyecto.",
+    "respuesta": "Registro confirmado de cambios acompañado normalmente de un mensaje descriptivo",
+    "feedbackExito": "Un commit guarda cambios con mensaje descriptivo dentro del historial.",
     "puntos": 15,
     "timeLimit": 35
   },
   {
-    "id": "sk2-12", 
+    "id": "sk2-12",
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué es Angular?",
+    "pregunta": "¿Qué es Angular dentro del ecosistema frontend?",
     "opciones": [
-      "Framework frontend basado en componentes",
-      "Base de datos",
-      "Servidor Linux",
-      "Lenguaje SQL"
+      "Framework frontend basado en componentes para crear aplicaciones web estructuradas",
+      "Base de datos para información empresarial",
+      "Servidor Linux para hosting",
+      "Lenguaje SQL para consultas"
     ],
-    "respuesta": "Framework frontend basado en componentes",
-    "feedbackExito": "Angular es un framework frontend para crear aplicaciones web estructuradas.",
+    "respuesta": "Framework frontend basado en componentes para crear aplicaciones web estructuradas",
+    "feedbackExito": "Angular permite crear aplicaciones web estructuradas con TypeScript.",
     "puntos": 15,
     "timeLimit": 35
   },
@@ -203,15 +208,15 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué es React?",
+    "pregunta": "¿Qué es React dentro del desarrollo frontend?",
     "opciones": [
-      "Librería para interfaces basadas en componentes",
-      "Base de datos",
-      "Servidor FTP",
-      "Editor de texto"
+      "Librería para construir interfaces dinámicas con componentes reutilizables",
+      "Base de datos para usuarios en la nube",
+      "Servidor FTP para archivos",
+      "Editor de texto exclusivo para frontend"
     ],
-    "respuesta": "Librería para interfaces basadas en componentes",
-    "feedbackExito": "React es una librería para construir interfaces dinámicas usando componentes.",
+    "respuesta": "Librería para construir interfaces dinámicas con componentes reutilizables",
+    "feedbackExito": "React se usa para crear interfaces dinámicas reutilizando componentes.",
     "puntos": 15,
     "timeLimit": 35
   },
@@ -220,15 +225,15 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué harías si una API responde error 500?",
+    "pregunta": "¿Qué harías si una API responde con error 500?",
     "opciones": [
-      "Revisar backend, logs y manejo de errores",
-      "Cambiar color del botón",
-      "Cerrar navegador",
-      "Borrar CSS"
+      "Revisar backend, logs del servidor, configuración y manejo de errores",
+      "Cambiar el color del botón principal",
+      "Cerrar el navegador y esperar",
+      "Eliminar archivos CSS"
     ],
-    "respuesta": "Revisar backend, logs y manejo de errores", 
-    "feedbackExito": "Revisaría logs, endpoint, backend y mostraría mensaje adecuado al usuario.",
+    "respuesta": "Revisar backend, logs del servidor, configuración y manejo de errores",
+    "feedbackExito": "El error 500 suele indicar un problema del servidor o lógica backend.",
     "puntos": 15,
     "timeLimit": 35
   },
@@ -237,15 +242,15 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Cómo mejorarías una página lenta?",
+    "pregunta": "¿Cómo mejorarías una página web lenta?",
     "opciones": [
-      "Optimizar imágenes, código y requests",
-      "Agregar más texto",
-      "Duplicar scripts",
-      "Desactivar CSS"
+      "Optimizar imágenes, código, caché y solicitudes HTTP para mejorar rendimiento",
+      "Agregar más contenido pesado en todas las secciones",
+      "Duplicar scripts y librerías",
+      "Desactivar completamente el CSS"
     ],
-    "respuesta": "Optimizar imágenes, código y requests",
-    "feedbackExito": "Optimizaría imágenes, recursos, código JS/CSS y llamadas a la API.",
+    "respuesta": "Optimizar imágenes, código, caché y solicitudes HTTP para mejorar rendimiento",
+    "feedbackExito": "Conviene optimizar recursos, reducir peso y mejorar rendimiento de peticiones.",
     "puntos": 15,
     "timeLimit": 35
   },
@@ -254,15 +259,15 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué harías si una página no carga correctamente en móvil?",
+    "pregunta": "¿Qué harías si una página no carga bien en móvil?",
     "opciones": [
-      "Revisar estilos responsive, media queries y viewport",
-      "Borrar JavaScript",
-      "Cambiar el logo",
-      "Solo probar en desktop"
+      "Revisar media queries, viewport y estilos responsive para adaptarla",
+      "Borrar todo el JavaScript",
+      "Cambiar únicamente el logo",
+      "Probar solo en desktop"
     ],
-    "respuesta": "Revisar estilos responsive, media queries y viewport",
-    "feedbackExito": "Revisaría media queries, viewport, tamaños flexibles y pruebas en distintos dispositivos.",
+    "respuesta": "Revisar media queries, viewport y estilos responsive para adaptarla",
+    "feedbackExito": "Es importante revisar diseño adaptable y pruebas en distintos dispositivos.",
     "puntos": 15,
     "timeLimit": 35
   },
@@ -271,15 +276,15 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué es JSON?",
+    "pregunta": "¿Qué es JSON y para qué se usa normalmente?",
     "opciones": [
-      "Formato ligero para intercambio de datos",
-      "Lenguaje de estilos",
-      "Sistema operativo",
-      "Comando Git"
+      "Formato ligero y estructurado para intercambio de datos entre aplicaciones",
+      "Lenguaje de estilos visuales",
+      "Sistema operativo para servidores",
+      "Comando de Git para fusionar ramas"
     ],
-    "respuesta": "Formato ligero para intercambio de datos",
-    "feedbackExito": "JSON es un formato común para enviar y recibir datos entre frontend y backend.",
+    "respuesta": "Formato ligero y estructurado para intercambio de datos entre aplicaciones",
+    "feedbackExito": "JSON se usa ampliamente para enviar y recibir información entre frontend y backend.",
     "puntos": 15,
     "timeLimit": 35
   },
@@ -288,15 +293,15 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "¿Qué revisarías si un botón no ejecuta una acción?",
+    "pregunta": "¿Qué revisarías si un botón no ejecuta una acción esperada?",
     "opciones": [
-      "Evento click, función asociada y consola",
-      "Cambiar color del botón",
-      "Borrar HTML",
-      "Cerrar navegador"
+      "Evento click, función asociada, errores en consola y conexión del script",
+      "Cambiar el color del botón",
+      "Eliminar todo el HTML",
+      "Cerrar el navegador sin analizar"
     ],
-    "respuesta": "Evento click, función asociada y consola",
-    "feedbackExito": "Revisaría el evento, la función enlazada y errores en consola.",
+    "respuesta": "Evento click, función asociada, errores en consola y conexión del script",
+    "feedbackExito": "Lo primero es validar eventos, funciones enlazadas y errores en consola.",
     "puntos": 15,
     "timeLimit": 35
   },
@@ -305,15 +310,15 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué es una variable en programación?",
+    "pregunta": "¿Qué es una variable en programación y cuál es su función principal dentro del desarrollo de software?",
     "opciones": [
-      "Espacio para guardar datos",
-      "Un servidor",
-      "Un navegador",
-      "Un archivo CSS"
+      "Una variable es un espacio reservado en memoria que permite almacenar datos, consultarlos y modificarlos durante la ejecución de un programa según las necesidades de la lógica implementada.",
+      "Una variable es un servidor especializado en responder solicitudes HTTP desde internet y entregar páginas web dinámicas.",
+      "Una variable es una herramienta gráfica utilizada exclusivamente para diseñar interfaces visuales en aplicaciones móviles.",
+      "Una variable es un archivo automático del sistema operativo encargado de guardar configuraciones internas del navegador."
     ],
-    "respuesta": "Espacio para guardar datos",
-    "feedbackExito": "Una variable almacena información para usarla dentro del programa.",
+    "respuesta": "Una variable es un espacio reservado en memoria que permite almacenar datos, consultarlos y modificarlos durante la ejecución de un programa según las necesidades de la lógica implementada.",
+    "feedbackExito": "Correcto. Las variables permiten guardar información temporal o persistente para reutilizarla dentro del programa.",
     "puntos": 20,
     "timeLimit": 40
   },
@@ -322,15 +327,15 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué es una función en JavaScript?",
+    "pregunta": "¿Qué es una función en JavaScript y por qué resulta importante al momento de programar?",
     "opciones": [
-      "Bloque reutilizable de código",
-      "Color visual",
-      "Tabla SQL",
-      "Comando Git"
+      "Una función es un bloque reutilizable de código que agrupa instrucciones para ejecutar tareas específicas cuando se invoca desde otra parte del programa.",
+      "Una función es una propiedad visual utilizada únicamente para cambiar colores y tamaños dentro de una hoja de estilos CSS.",
+      "Una función es una tabla relacional creada en SQL para almacenar registros de usuarios en bases de datos.",
+      "Una función es un comando de Git diseñado exclusivamente para enviar cambios al repositorio remoto."
     ],
-    "respuesta": "Bloque reutilizable de código",
-    "feedbackExito": "Una función agrupa instrucciones reutilizables que pueden ejecutarse cuando se necesiten.",
+    "respuesta": "Una función es un bloque reutilizable de código que agrupa instrucciones para ejecutar tareas específicas cuando se invoca desde otra parte del programa.",
+    "feedbackExito": "Correcto. Las funciones ayudan a organizar, reutilizar y mantener mejor el código.",
     "puntos": 20,
     "timeLimit": 40
   },
@@ -339,15 +344,15 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué harías si un input no guarda el valor escrito?",
+    "pregunta": "Si un campo input no guarda correctamente el valor digitado por el usuario, ¿qué revisarías primero?",
     "opciones": [
-      "Revisar binding, name, evento change/input",
-      "Borrar CSS",
-      "Cerrar Git",
-      "Solo recargar"
+      "Revisaría el binding del input, los eventos input o change, el nombre de la variable asociada y la actualización correcta del estado o modelo.",
+      "Eliminaría todos los archivos CSS del proyecto aunque no tengan relación con la captura de datos.",
+      "Cerraría Git y volvería a abrir el repositorio esperando que el problema se solucione automáticamente.",
+      "Solo recargaría la página varias veces sin analizar la causa real del error."
     ],
-    "respuesta": "Revisar binding, name, evento change/input",
-    "feedbackExito": "Revisaría el enlace de datos, eventos y que la variable reciba el valor.",
+    "respuesta": "Revisaría el binding del input, los eventos input o change, el nombre de la variable asociada y la actualización correcta del estado o modelo.",
+    "feedbackExito": "Correcto. Lo ideal es validar captura del evento y sincronización del dato.",
     "puntos": 20,
     "timeLimit": 40
   },
@@ -356,15 +361,15 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué significa UX?",
+    "pregunta": "¿Qué significa UX dentro del desarrollo de productos digitales y qué aspecto evalúa principalmente?",
     "opciones": [
-      "Experiencia de usuario",
-      "Error del sistema",
-      "Servidor remoto",
-      "Lenguaje backend"
+      "UX significa experiencia de usuario y se enfoca en cómo una persona percibe, entiende y utiliza un producto digital durante su interacción.",
+      "UX significa error crítico del sistema generado por fallas internas de servidores empresariales.",
+      "UX significa unidad externa dedicada al procesamiento de bases de datos complejas.",
+      "UX significa lenguaje backend moderno creado para desarrollar APIs empresariales."
     ],
-    "respuesta": "Experiencia de usuario",
-    "feedbackExito": "UX se refiere a la experiencia que tiene una persona al usar un producto digital.",
+    "respuesta": "UX significa experiencia de usuario y se enfoca en cómo una persona percibe, entiende y utiliza un producto digital durante su interacción.",
+    "feedbackExito": "Correcto. UX busca productos útiles, claros, cómodos y eficientes.",
     "puntos": 20,
     "timeLimit": 40
   },
@@ -373,15 +378,15 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué significa UI?",
+    "pregunta": "¿Qué significa UI y cuál es su relación con una aplicación o página web?",
     "opciones": [
-      "Interfaz de usuario",
-      "Unidad informática",
-      "Update interno",
-      "Usuario invisible"
+      "UI significa interfaz de usuario y corresponde a los elementos visuales con los que la persona interactúa, como botones, formularios, menús y pantallas.",
+      "UI significa unidad informática encargada exclusivamente del soporte técnico presencial.",
+      "UI significa update interno que se instala automáticamente cada vez que se reinicia el sistema.",
+      "UI significa usuario invisible que administra procesos ocultos dentro de la plataforma."
     ],
-    "respuesta": "Interfaz de usuario",
-    "feedbackExito": "UI es la parte visual con la que interactúa el usuario.",
+    "respuesta": "UI significa interfaz de usuario y corresponde a los elementos visuales con los que la persona interactúa, como botones, formularios, menús y pantallas.",
+    "feedbackExito": "Correcto. UI se centra en la parte visual e interactiva del producto.",
     "puntos": 20,
     "timeLimit": 40
   },
@@ -390,15 +395,15 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué harías si aparece un error en consola?",
+    "pregunta": "Si aparece un error en la consola del navegador mientras desarrollas, ¿cuál sería la mejor forma de actuar?",
     "opciones": [
-      "Leer mensaje, ubicar línea y depurar",
-      "Ignorarlo",
-      "Borrar navegador",
-      "Cambiar monitor"
+      "Leería el mensaje, revisaría la línea señalada, analizaría la causa probable y depuraría paso a paso hasta resolver el problema.",
+      "Lo ignoraría completamente esperando que desaparezca solo después de actualizar la página.",
+      "Borraría el navegador e instalaría otro aunque el problema sea del código.",
+      "Cambiaría de monitor pensando que el error corresponde a un problema visual."
     ],
-    "respuesta": "Leer mensaje, ubicar línea y depurar",
-    "feedbackExito": "Leería el error, revisaría la línea indicada y corregiría la causa.",
+    "respuesta": "Leería el mensaje, revisaría la línea señalada, analizaría la causa probable y depuraría paso a paso hasta resolver el problema.",
+    "feedbackExito": "Correcto. La consola entrega pistas valiosas para solucionar errores.",
     "puntos": 20,
     "timeLimit": 40
   },
@@ -407,15 +412,15 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Para qué sirve localStorage?",
+    "pregunta": "¿Para qué sirve localStorage dentro del navegador web?",
     "opciones": [
-      "Guardar datos simples en navegador",
-      "Crear base de datos empresarial",
-      "Subir archivos Git",
-      "Compilar Angular"
+      "Sirve para guardar datos simples en el navegador del usuario y mantenerlos disponibles incluso después de cerrar o recargar la página.",
+      "Sirve para crear bases de datos empresariales distribuidas de alto rendimiento.",
+      "Sirve para subir automáticamente proyectos completos a GitHub sin usar Git.",
+      "Sirve para compilar aplicaciones Angular directamente desde la pestaña del navegador."
     ],
-    "respuesta": "Guardar datos simples en navegador",
-    "feedbackExito": "Permite guardar información sencilla en el navegador del usuario.",
+    "respuesta": "Sirve para guardar datos simples en el navegador del usuario y mantenerlos disponibles incluso después de cerrar o recargar la página.",
+    "feedbackExito": "Correcto. localStorage permite persistir información sencilla del lado cliente.",
     "puntos": 20,
     "timeLimit": 40
   },
@@ -424,15 +429,15 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué harías antes de subir cambios con Git?",
+    "pregunta": "¿Qué acciones realizarías antes de subir cambios a un repositorio con Git para asegurar una entrega ordenada y confiable?",
     "opciones": [
-      "Revisar status, probar y commit claro",
-      "Borrar historial",
-      "Cambiar contraseña",
-      "Cerrar VS Code"
+      "Revisaría git status, validaría los archivos modificados, probaría los cambios realizados y crearía un commit claro antes de publicar.",
+      "Borraría el historial completo del repositorio para empezar desde cero antes de subir cambios.",
+      "Cambiaría la contraseña del sistema aunque no tenga relación con el flujo de trabajo.",
+      "Cerraría VS Code sin verificar archivos modificados ni ejecutar pruebas."
     ],
-    "respuesta": "Revisar status, probar y commit claro",
-    "feedbackExito": "Revisaría cambios, probaría el código y haría un commit ordenado.",
+    "respuesta": "Revisaría git status, validaría los archivos modificados, probaría los cambios realizados y crearía un commit claro antes de publicar.",
+    "feedbackExito": "Correcto. Siempre conviene revisar el estado del proyecto y probar antes de publicar.",
     "puntos": 20,
     "timeLimit": 40
   },
@@ -441,15 +446,15 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué es una rama (branch) en Git?",
+    "pregunta": "¿Qué es una rama (branch) en Git y cuál es su utilidad principal dentro del desarrollo colaborativo?",
     "opciones": [
-      "Línea paralela de trabajo",
-      "Un error",
-      "Un servidor",
-      "Una carpeta CSS"
+      "Una rama es una línea paralela de trabajo dentro del repositorio que permite desarrollar cambios sin afectar directamente la rama principal.",
+      "Una rama es un error crítico generado automáticamente al ejecutar comandos Git en consola.",
+      "Una rama es un servidor remoto dedicado únicamente a almacenar proyectos privados.",
+      "Una rama es una carpeta CSS donde se guardan estilos visuales del sitio web."
     ],
-    "respuesta": "Línea paralela de trabajo",
-    "feedbackExito": "Una rama permite desarrollar cambios sin afectar la principal.",
+    "respuesta": "Una rama es una línea paralela de trabajo dentro del repositorio que permite desarrollar cambios sin afectar directamente la rama principal.",
+    "feedbackExito": "Correcto. Las ramas permiten trabajar nuevas funciones o correcciones de forma segura.",
     "puntos": 20,
     "timeLimit": 40
   },
@@ -458,15 +463,15 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué harías si un endpoint devuelve 404?",
+    "pregunta": "Si un endpoint devuelve error 404 durante una integración, ¿qué revisarías primero para encontrar la causa?",
     "opciones": [
-      "Revisar URL, ruta e id enviado",
-      "Cambiar CSS",
-      "Borrar cookies",
-      "Cerrar terminal"
+      "Revisaría la URL solicitada, la ruta configurada, parámetros enviados e identificador solicitado para validar que el recurso exista.",
+      "Cambiaría estilos CSS de la interfaz aunque no tengan relación con el endpoint.",
+      "Borraría cookies del navegador sin analizar el origen real del error.",
+      "Cerraría la terminal esperando que el problema desaparezca automáticamente."
     ],
-    "respuesta": "Revisar URL, ruta e id enviado",
-    "feedbackExito": "Revisaría que la URL sea correcta y que el recurso exista.",
+    "respuesta": "Revisaría la URL solicitada, la ruta configurada, parámetros enviados e identificador solicitado para validar que el recurso exista.",
+    "feedbackExito": "Correcto. El error 404 normalmente indica ruta incorrecta o recurso inexistente.",
     "puntos": 25,
     "timeLimit": 45
   },
@@ -475,100 +480,32 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué harías si una lista tarda mucho en cargar?",
+    "pregunta": "Si una lista de datos tarda demasiado en cargar dentro de una aplicación web, ¿qué solución sería la más adecuada?",
     "opciones": [
-      "Loading, paginación y optimización",
-      "Duplicar peticiones",
-      "Ocultar pantalla",
-      "Quitar HTML"
+      "Implementaría loading visual, paginación, lazy load y optimización de peticiones para mejorar rendimiento y experiencia.",
+      "Duplicaría las peticiones al servidor para intentar acelerar la respuesta.",
+      "Ocultaría toda la pantalla hasta que termine de cargar sin informar al usuario.",
+      "Eliminaría completamente el HTML de la lista mostrada."
     ],
-    "respuesta": "Loading, paginación y optimización",
-    "feedbackExito": "Mostraría loading y revisaría paginación, caché u optimización de requests.",
+    "respuesta": "Implementaría loading visual, paginación, lazy load y optimización de peticiones para mejorar rendimiento y experiencia.",
+    "feedbackExito": "Correcto. Una buena experiencia incluye feedback visual y optimización técnica.",
     "puntos": 25,
-    "timeLimit": 45 
+    "timeLimit": 45
   },
   {
     "id": "sk2-30",
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué valor aportas como junior frontend?",
+    "pregunta": "¿Qué valor podrías aportar como desarrollador junior frontend dentro de un equipo de trabajo?",
     "opciones": [
-      "Aprendizaje rápido, orden y ganas de aportar",
-      "No trabajar en equipo",
-      "Evitar cambios",
-      "No documentar nada"
+      "Aprendizaje rápido, organización, disposición para mejorar continuamente y actitud colaborativa con el equipo.",
+      "No trabajar en equipo y depender siempre de otras personas para resolver tareas.",
+      "Evitar cambios y rechazar nuevas herramientas o procesos del proyecto.",
+      "No documentar avances ni comunicar el estado del trabajo asignado."
     ],
-    "respuesta": "Aprendizaje rápido, orden y ganas de aportar",
-    "feedbackExito": "Capacidad de aprendizaje, compromiso, trabajo en equipo y mejora continua.",
-    "puntos": 25,
-    "timeLimit": 45
-  },
-  {
-    "id": "sk2-31",
-    "categoria": "Skills2",
-    "tipo": "multiple",
-    "dificultad": "Intermedio",
-    "pregunta": "¿Qué harías si un botón se ve desordenado en móvil?",
-    "opciones": [
-      "Revisar CSS responsive, tamaños y espaciados",
-      "Borrar JavaScript",
-      "Cambiar navegador",
-      "Ignorarlo"
-    ],
-    "respuesta": "Revisar CSS responsive, tamaños y espaciados",
-    "feedbackExito": "Revisaría estilos responsive, tamaños, padding, márgenes y pruebas en móvil.",
-    "puntos": 25,
-    "timeLimit": 45
-  },
-  {
-    "id": "sk2-32",
-    "categoria": "Skills2",
-    "tipo": "multiple",
-    "dificultad": "Intermedio",
-    "pregunta": "¿Qué es una clase CSS?",
-    "opciones": [
-      "Selector reutilizable para aplicar estilos",
-      "Base de datos",
-      "Comando Git",
-      "Evento JavaScript"
-    ],
-    "respuesta": "Selector reutilizable para aplicar estilos",
-    "feedbackExito": "Una clase CSS permite aplicar estilos reutilizables a uno o varios elementos.",
-    "puntos": 25,
-    "timeLimit": 45
-  },
-  {
-    "id": "sk2-33",
-    "categoria": "Skills2",
-    "tipo": "multiple",
-    "dificultad": "Intermedio",
-    "pregunta": "¿Qué es un id en HTML?",
-    "opciones": [
-      "Identificador único de un elemento",
-      "Tipo de servidor",
-      "Método HTTP",
-      "Archivo Git"
-    ],
-    "respuesta": "Identificador único de un elemento",
-    "feedbackExito": "El id identifica de forma única un elemento dentro de la página.",
-    "puntos": 25,
-    "timeLimit": 45
-  },
-  {
-    "id": "sk2-34",
-    "categoria": "Skills2",
-    "tipo": "multiple",
-    "dificultad": "Intermedio",
-    "pregunta": "¿Qué harías si una imagen rompe el diseño?",
-    "opciones": [
-      "Aplicar max-width:100% y revisar contenedor",
-      "Borrar HTML",
-      "Cambiar API",
-      "Cerrar navegador"
-    ],
-    "respuesta": "Aplicar max-width:100% y revisar contenedor",
-    "feedbackExito": "Haría la imagen responsive y revisaría tamaños del contenedor.",
+    "respuesta": "Aprendizaje rápido, organización, disposición para mejorar continuamente y actitud colaborativa con el equipo.",
+    "feedbackExito": "Correcto. Las empresas valoran actitud, aprendizaje y trabajo colaborativo.",
     "puntos": 25,
     "timeLimit": 45
   },
@@ -577,15 +514,15 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué es un array en JavaScript?",
+    "pregunta": "¿Qué es un array en JavaScript y por qué resulta útil dentro del desarrollo de aplicaciones web modernas?",
     "opciones": [
-      "Lista de elementos",
-      "Error visual",
-      "Servidor",
-      "Color CSS"
+      "Un array es una estructura de datos que permite almacenar múltiples valores organizados en una lista, facilitando su recorrido, búsqueda y manipulación mediante distintos métodos.",
+      "Un array es un error visual generado por el navegador cuando existen conflictos de estilos CSS en pantalla.",
+      "Un array es un servidor web especializado en alojar aplicaciones empresariales de alto tráfico.",
+      "Un array es un color avanzado utilizado dentro de hojas de estilo para interfaces modernas."
     ],
-    "respuesta": "Lista de elementos",
-    "feedbackExito": "Un array almacena varios valores dentro de una misma variable.",
+    "respuesta": "Un array es una estructura de datos que permite almacenar múltiples valores organizados en una lista, facilitando su recorrido, búsqueda y manipulación mediante distintos métodos.",
+    "feedbackExito": "Correcto. Los arrays permiten trabajar colecciones de datos de forma eficiente.",
     "puntos": 30,
     "timeLimit": 50
   },
@@ -594,15 +531,15 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué método usarías para recorrer un array y pintar datos?",
+    "pregunta": "¿Qué método usarías para recorrer un array y renderizar elementos dinámicos en pantalla dentro de una interfaz frontend?",
     "opciones": [
-      "map()",
-      "close()",
-      "deleteAll()",
-      "ftp()"
+      "map(), porque permite recorrer cada elemento del array, transformarlo y generar nuevas estructuras como listas visuales dinámicas.",
+      "close(), porque se utiliza para cerrar ventanas emergentes y recorrer información automáticamente.",
+      "deleteAll(), porque elimina todos los elementos del array antes de renderizar componentes.",
+      "ftp(), porque sirve para renderizar tarjetas visuales conectadas al servidor."
     ],
-    "respuesta": "map()",
-    "feedbackExito": "Usaría map() para transformar y renderizar listas en frontend.",
+    "respuesta": "map(), porque permite recorrer cada elemento del array, transformarlo y generar nuevas estructuras como listas visuales dinámicas.",
+    "feedbackExito": "Correcto. map() es ampliamente usado para pintar listas en frontend.",
     "puntos": 30,
     "timeLimit": 50
   },
@@ -611,15 +548,15 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué es un evento click?",
+    "pregunta": "¿Qué es un evento click dentro de JavaScript y cómo se utiliza normalmente?",
     "opciones": [
-      "Acción al presionar un elemento",
-      "Error del servidor",
-      "Comando Git",
-      "Tipo de CSS"
+      "Es una interacción que se dispara cuando la persona usuaria hace clic sobre un elemento y permite ejecutar una acción programada.",
+      "Es un error crítico producido por el servidor backend cuando no responde una petición.",
+      "Es un comando de Git utilizado para confirmar cambios en una rama remota.",
+      "Es una propiedad especial de CSS que activa animaciones automáticamente."
     ],
-    "respuesta": "Acción al presionar un elemento",
-    "feedbackExito": "Es la acción que ocurre cuando el usuario hace clic en un elemento.",
+    "respuesta": "Es una interacción que se dispara cuando la persona usuaria hace clic sobre un elemento y permite ejecutar una acción programada.",
+    "feedbackExito": "Correcto. Los eventos permiten responder a acciones del usuario.",
     "puntos": 30,
     "timeLimit": 50
   },
@@ -628,15 +565,15 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué harías si no llegan datos de una API?",
+    "pregunta": "Si una aplicación no recibe datos desde una API externa, ¿cuál sería la mejor estrategia inicial de diagnóstico?",
     "opciones": [
-      "Revisar endpoint, red, status y consola",
-      "Cambiar colores",
-      "Borrar Git",
-      "Cerrar PC"
+      "Revisaría la URL del endpoint, conexión de red, códigos de respuesta HTTP, parámetros enviados y errores mostrados en consola.",
+      "Cambiaría colores de la interfaz para intentar mejorar la comunicación con el servidor.",
+      "Borraría Git del proyecto aunque no tenga relación con las peticiones HTTP.",
+      "Apagaría el equipo inmediatamente sin investigar el origen del problema."
     ],
-    "respuesta": "Revisar endpoint, red, status y consola",
-    "feedbackExito": "Verificaría URL, respuesta HTTP, conexión y errores en consola.",
+    "respuesta": "Revisaría la URL del endpoint, conexión de red, códigos de respuesta HTTP, parámetros enviados y errores mostrados en consola.",
+    "feedbackExito": "Correcto. Se debe validar tanto cliente como servidor.",
     "puntos": 30,
     "timeLimit": 50
   },
@@ -645,202 +582,15 @@
     "categoria": "Skills2",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué es Flexbox?",
+    "pregunta": "¿Qué es Flexbox en CSS y para qué suele utilizarse en diseño web responsivo?",
     "opciones": [
-      "Sistema CSS para alinear elementos",
-      "Base de datos",
-      "Comando Git",
-      "Lenguaje backend"
+      "Flexbox es un sistema de diseño en CSS que facilita distribuir, ordenar y alinear elementos en filas o columnas de forma flexible.",
+      "Flexbox es una base de datos especializada en almacenar estructuras visuales para sitios web.",
+      "Flexbox es un comando Git utilizado para fusionar ramas automáticamente.",
+      "Flexbox es un lenguaje backend orientado exclusivamente al desarrollo de APIs."
     ],
-    "respuesta": "Sistema CSS para alinear elementos",  
-    "feedbackExito": "Flexbox ayuda a distribuir y alinear elementos en filas o columnas.",
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "sk2-40",
-    "categoria": "Skills2",
-    "tipo": "multiple",
-    "dificultad": "Avanzado",
-    "pregunta": "¿Qué es CSS Grid?",
-    "opciones": [
-      "Sistema de layout por filas y columnas",
-      "Un navegador",
-      "Un servidor FTP",
-      "Un método HTTP"
-    ],
-    "respuesta": "Sistema de layout por filas y columnas",  
-    "feedbackExito": "Grid permite crear diseños organizados por filas y columnas.",
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "sk2-41",
-    "categoria": "Skills2",
-    "tipo": "multiple",
-    "dificultad": "Avanzado",
-    "pregunta": "¿Qué harías si Git marca conflicto?",
-    "opciones": [
-      "Revisar archivos, resolver cambios y commit",
-      "Borrar repositorio",
-      "Cerrar terminal",
-      "Ignorarlo"
-    ],
-    "respuesta": "Revisar archivos, resolver cambios y commit",
-    "feedbackExito": "Revisaría el archivo, resolvería diferencias y luego confirmaría cambios.",
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "sk2-42",
-    "categoria": "Skills2",
-    "tipo": "multiple",
-    "dificultad": "Avanzado",
-    "pregunta": "¿Qué es npm?",
-    "opciones": [
-      "Administrador de paquetes de Node.js",
-      "Lenguaje visual",
-      "Servidor Git",
-      "Framework CSS"
-    ],
-    "respuesta": "Administrador de paquetes de Node.js",
-    "feedbackExito": "npm se usa para instalar y gestionar dependencias de proyectos JavaScript.",
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "sk2-43",
-    "categoria": "Skills2",
-    "tipo": "multiple",
-    "dificultad": "Avanzado",
-    "pregunta": "¿Qué harías si una dependencia falla al instalar?",
-    "opciones": [
-      "Revisar versión, logs y package.json",
-      "Borrar monitor",
-      "Cerrar navegador",
-      "Cambiar CSS"
-    ],
-    "respuesta": "Revisar versión, logs y package.json",
-    "feedbackExito": "Revisaría compatibilidad, errores del log y configuración del proyecto.",
-    "puntos": 20,
-    "timeLimit": 45
-  },
-  {
-    "id": "sk2-44",
-    "categoria": "Skills2",
-    "tipo": "multiple",
-    "dificultad": "Avanzado",
-    "pregunta": "¿Qué valor tiene probar antes de entregar cambios?",
-    "opciones": [
-      "Reducir errores y asegurar calidad",
-      "Perder tiempo",
-      "Romper producción",
-      "Evitar commits"
-    ],
-    "respuesta": "Reducir errores y asegurar calidad",
-    "feedbackExito": "Las pruebas ayudan a detectar errores antes de publicar cambios.",
-    "puntos": 20,
-    "timeLimit": 45
-  },
-  {
-    "id": "sk2-45",
-    "categoria": "Skills2",
-    "tipo": "multiple",
-    "dificultad": "Avanzado",
-    "pregunta": "¿Cómo te mantendrías aprendiendo como junior?",
-    "opciones": [
-      "Practicar, leer documentación y construir proyectos",
-      "No estudiar más",
-      "Evitar feedback",
-      "Solo memorizar respuestas"
-    ],
-    "respuesta": "Practicar, leer documentación y construir proyectos",
-    "feedbackExito": "Practicaría constantemente, revisaría documentación y desarrollaría proyectos reales.",
-    "puntos": 20,
-    "timeLimit": 45
-  },
-  {
-    "id": "sk2-46",
-    "categoria": "Skills2",
-    "tipo": "multiple",
-    "dificultad": "Avanzado",
-    "pregunta": "¿Qué harías si una página se ve bien en Chrome pero mal en otro navegador?",
-    "opciones": [
-      "Probar compatibilidad y ajustar CSS/JS",
-      "Ignorar usuarios",
-      "Borrar proyecto",
-      "Cambiar logo"
-    ],
-    "respuesta": "Probar compatibilidad y ajustar CSS/JS",
-    "feedbackExito": "Revisaría compatibilidad entre navegadores y ajustaría estilos o scripts necesarios.",
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "sk2-47",
-    "categoria": "Skills2",
-    "tipo": "multiple",
-    "dificultad": "Avanzado",
-    "pregunta": "¿Qué es accesibilidad web?",
-    "opciones": [
-      "Diseñar sitios usables para más personas",
-      "Subir archivos al servidor",
-      "Cambiar colores al azar",
-      "Crear bases de datos"
-    ],
-    "respuesta": "Diseñar sitios usables para más personas",
-    "feedbackExito": "Es crear interfaces que puedan usar personas con diferentes necesidades y contextos.",
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "sk2-48",
-    "categoria": "Skills2",
-    "tipo": "multiple",
-    "dificultad": "Avanzado",
-    "pregunta": "¿Qué harías si un usuario reporta un bug?",
-    "opciones": [
-      "Reproducir problema, analizar causa y corregir",
-      "Ignorarlo",
-      "Borrar mensajes",
-      "Cambiar tipografía"
-    ],
-    "respuesta": "Reproducir problema, analizar causa y corregir",
-    "feedbackExito": "Intentaría reproducir el error, encontrar la causa raíz y aplicar una solución probada.",
-    "puntos": 30,   
-    "timeLimit": 50
-  },
-  {
-    "id": "sk2-49",
-    "categoria": "Skills2",
-    "tipo": "multiple",
-    "dificultad": "Avanzado",
-    "pregunta": "¿Qué significa trabajar en equipo en desarrollo frontend?",
-    "opciones": [
-      "Comunicar avances, colaborar y recibir feedback",
-      "Trabajar aislado siempre",
-      "No usar Git",
-      "Evitar reuniones"
-    ],
-    "respuesta": "Comunicar avances, colaborar y recibir feedback",
-    "feedbackExito": "Implica comunicación clara, colaboración con diseño/backend y apertura al feedback.",
-    "puntos": 30,
-    "timeLimit": 50
-  },
-  {
-    "id": "sk2-50",
-    "categoria": "Skills2",
-    "tipo": "multiple",
-    "dificultad": "Avanzado",
-    "pregunta": "¿Por qué deberíamos contratarte como junior frontend?",
-    "opciones": [
-      "Porque aprendo rápido, soy comprometida y quiero aportar valor",
-      "Porque no me gusta aprender",
-      "Porque no acepto cambios",
-      "Porque no trabajo en equipo"
-    ],
-    "respuesta": "Porque aprendo rápido, soy comprometida y quiero aportar valor",  
-    "feedbackExito": "Porque tengo bases técnicas, actitud de aprendizaje, compromiso y ganas reales de aportar al equipo.",
+    "respuesta": "Flexbox es un sistema de diseño en CSS que facilita distribuir, ordenar y alinear elementos en filas o columnas de forma flexible.",
+    "feedbackExito": "Correcto. Flexbox simplifica alineación y distribución de elementos.",
     "puntos": 30,
     "timeLimit": 50
   }
