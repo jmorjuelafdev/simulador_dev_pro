@@ -315,17 +315,14 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Basico",
-    "pregunta": "Selecciona cuáles de las siguientes cadenas son idénticas exactamente a: zxP44q",
+    "pregunta": "Encuentre el sexto término de la sucesión 3, -6, 12, -24,..., ?",
     "opciones": [
-      "zxP44q",
-      "zxp44q",
-      "zxP44q",
-      "zxP4q4"
+      "-48",
+      "48",
+      "-36",
+      "36"
     ],
-    "respuesta": [
-      0,
-      2
-    ],
+    "respuesta": "-48",
     "puntos": 15,
     "timeLimit": 35
   },
@@ -552,17 +549,14 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Selecciona cuáles de los siguientes números son idénticos al modelo: 73051",
+    "pregunta": "Si un edificio tiene ángulos internos de 90°, ¿cuántos lados tiene?",
     "opciones": [
-      "73015",
-      "73051",
-      "73501",
-      "73051"
+       "4",
+       "5",
+       "6",
+       "7"
     ],
-    "respuesta": [
-      1,
-      3
-    ],
+    "respuesta": "4",
     "puntos": 25,
     "timeLimit": 45
   },
@@ -777,17 +771,14 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "Selecciona cuáles de las siguientes cadenas son exactamente iguales al modelo: Rt9Lm22",
+    "pregunta": "Una máquina llena 150 botellas en 20 minutos. A esta misma razón, ¿cuántos minutos tardará el llenado de 60 botellas?",
     "opciones": [
-      "Rt9Lm22",
-      "RT9Lm22",
-      "Rt9Lm22",
-      "Rt9lm22"
+      "8 minutos",
+      "4 minutos",
+      "6 minutos",
+      "10 minutos"
     ],
-    "respuesta": [
-      0,
-      2
-    ],
+    "respuesta": "8 minutos",
     "puntos": 30,
     "timeLimit": 50
   },
@@ -870,17 +861,14 @@
     "categoria": "Logica",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "Selecciona las cadenas donde todos los caracteres coinciden exactamente con el modelo: K7K7",
+    "pregunta": "¿Cuál de los elementos no sigue la regla de sucesión en la siguiente serie? 13M, 14P, 15Ñ, 16X",
     "opciones": [
-      "K7K7",
-      "K7k7",
-      "K7K7",
-      "KK77"
+      "13M",
+      "14P",
+      "15Ñ",
+      "16X"
     ],
-    "respuesta": [
-      0,
-      2
-    ],
+    "respuesta": "16X",
     "puntos": 30,
     "timeLimit": 50
   },
