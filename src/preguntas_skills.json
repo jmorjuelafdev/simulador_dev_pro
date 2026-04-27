@@ -2,7 +2,7 @@
   {
     "id": "sk-1",
     "categoria": "Skills",
-    "tipo": "multiple_unica",
+    "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "Si eres desarrollador junior y recibes una tarea nueva que no entiendes completamente, ¿cuál suele ser la mejor primera reacción profesional dentro de un equipo de trabajo?",
     "opciones": [
@@ -19,7 +19,7 @@
   {
     "id": "sk-2",
     "categoria": "Skills",
-    "tipo": "multiple_unica",
+    "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "¿Qué comportamiento demuestra responsabilidad profesional en un entorno remoto o híbrido de trabajo?",
     "opciones": [
@@ -36,7 +36,7 @@
   {
     "id": "sk-3",
     "categoria": "Skills",
-    "tipo": "multiple_multiple",
+    "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "¿Qué hábitos ayudan realmente a crecer como desarrollador junior durante los primeros meses de experiencia?",
     "opciones": [
@@ -57,7 +57,7 @@
   {
     "id": "sk-4",
     "categoria": "Skills",
-    "tipo": "codigo_slots",
+    "tipo": "codigo",
     "dificultad": "Basico",
     "pregunta": "Completa la frase profesional con la opción más adecuada para comunicar avance y compromiso.",
     "modo": "slots",
@@ -71,7 +71,7 @@
   {
     "id": "sk-5",
     "categoria": "Skills",
-    "tipo": "multiple_unica",
+    "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "Cuando cometes un error en una entrega de trabajo, ¿qué actitud suele valorarse más a nivel profesional?",
     "opciones": [
@@ -88,7 +88,7 @@
   {
     "id": "sk-6",
     "categoria": "Skills",
-    "tipo": "multiple_unica",
+    "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "¿Qué demuestra una comunicación clara durante reuniones breves de seguimiento con el equipo?",
     "opciones": [
@@ -105,7 +105,7 @@
   {
     "id": "sk-7",
     "categoria": "Skills",
-    "tipo": "multiple_multiple",
+    "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "¿Qué acciones favorecen realmente el trabajo en equipo dentro de un entorno profesional de desarrollo?",
     "opciones": [
@@ -126,7 +126,7 @@
   {
     "id": "sk-8",
     "categoria": "Skills",
-    "tipo": "codigo_slots",
+    "tipo": "codigo",
     "dificultad": "Basico",
     "pregunta": "Completa la frase adecuada utilizando la opción más profesional para solicitar claridad sobre un requerimiento.",
     "modo": "slots",
@@ -140,7 +140,7 @@
   {
     "id": "sk-9",
     "categoria": "Skills",
-    "tipo": "multiple_unica",
+    "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "Si una tarea tomará más tiempo del esperado inicialmente, ¿qué conviene hacer como buena práctica profesional?",
     "opciones": [
@@ -157,7 +157,7 @@
   {
     "id": "sk-10",
     "categoria": "Skills",
-    "tipo": "multiple_unica",
+    "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "¿Qué refleja una buena actitud de aprendizaje en una persona junior que está iniciando experiencia profesional?",
     "opciones": [
@@ -174,7 +174,7 @@
   {
     "id": "sk-11",
     "categoria": "Skills",
-    "tipo": "multiple_multiple",
+    "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "¿Qué señales suelen transmitir profesionalismo dentro de un entorno laboral moderno?",
     "opciones": [
@@ -195,7 +195,7 @@
   {
     "id": "sk-12",
     "categoria": "Skills",
-    "tipo": "codigo_slots",
+    "tipo": "codigo",
     "dificultad": "Basico",
     "pregunta": "Completa la frase con la opción más adecuada para comunicar cierre responsable de una tarea.",
     "modo": "slots",
@@ -209,7 +209,7 @@
   {
     "id": "sk-13",
     "categoria": "Skills",
-    "tipo": "multiple_unica",
+    "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "¿Qué significa priorizar correctamente el trabajo cuando existen varias tareas pendientes?",
     "opciones": [
@@ -226,7 +226,7 @@
   {
     "id": "sk-14",
     "categoria": "Skills",
-    "tipo": "multiple_unica",
+    "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "Si no estás de acuerdo con una decisión técnica sencilla tomada por el equipo, ¿qué suele ser lo mejor?",
     "opciones": [
@@ -243,7 +243,7 @@
   {
     "id": "sk-15",
     "categoria": "Skills",
-    "tipo": "multiple_multiple",
+    "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "¿Qué acciones ayudan a organizar mejor el día laboral y mantener enfoque en objetivos?",
     "opciones": [
@@ -264,7 +264,7 @@
   {
     "id": "sk-16",
     "categoria": "Skills",
-    "tipo": "codigo_slots",
+    "tipo": "codigo",
     "dificultad": "Basico",
     "pregunta": "Completa la frase con la opción más adecuada para comunicar un riesgo detectado.",
     "modo": "slots",
@@ -278,7 +278,7 @@
   {
     "id": "sk-17",
     "categoria": "Skills",
-    "tipo": "multiple_unica",
+    "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "¿Qué demuestra interés genuino por mejorar y crecer profesionalmente dentro de una empresa?",
     "opciones": [
@@ -295,7 +295,7 @@
   {
     "id": "sk-18",
     "categoria": "Skills",
-    "tipo": "multiple_unica",
+    "tipo": "multiple",
     "dificultad": "Basico",
     "pregunta": "En un perfil junior, ¿qué suele ser muy valioso además de las habilidades técnicas iniciales?",
     "opciones": [
@@ -312,7 +312,7 @@
   {
     "id": "sk-19",
     "categoria": "Skills",
-    "tipo": "multiple_unica",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "Si recibes varias tareas con la misma prioridad aparente y cuentas con tiempo limitado para ejecutarlas, ¿qué suele ser lo mejor hacer primero?",
     "opciones": [
@@ -329,7 +329,7 @@
   {
     "id": "sk-20",
     "categoria": "Skills",
-    "tipo": "multiple_multiple",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué prácticas mejoran la calidad del trabajo antes de entregar una tarea técnica al equipo o cliente?",
     "opciones": [
@@ -350,7 +350,7 @@
   {
     "id": "sk-21",
     "categoria": "Skills",
-    "tipo": "codigo_slots",
+    "tipo": "codigo",
     "dificultad": "Intermedio",
     "pregunta": "Completa la frase profesional con la opción que mejor refleja iniciativa ante un bloqueo técnico.",
     "modo": "slots",
@@ -364,7 +364,7 @@
   {
     "id": "sk-22",
     "categoria": "Skills",
-    "tipo": "multiple_unica",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "Cuando recibes feedback técnico con el que no coincides totalmente, ¿qué conviene hacer de forma profesional?",
     "opciones": [
@@ -381,7 +381,7 @@
   {
     "id": "sk-23",
     "categoria": "Skills",
-    "tipo": "multiple_unica",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "Si una estimación inicial quedó corta y la tarea requiere más tiempo del previsto, ¿qué demuestra madurez profesional?",
     "opciones": [
@@ -398,7 +398,7 @@
   {
     "id": "sk-24",
     "categoria": "Skills",
-    "tipo": "multiple_multiple",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué señales muestran verdadero ownership sobre una tarea asignada dentro de un proyecto?",
     "opciones": [
@@ -419,7 +419,7 @@
   {
     "id": "sk-25",
     "categoria": "Skills",
-    "tipo": "codigo_slots",
+    "tipo": "codigo",
     "dificultad": "Intermedio",
     "pregunta": "Completa la frase con la opción más adecuada para comunicar que un cambio fue validado correctamente antes de revisión.",
     "modo": "slots",
@@ -438,7 +438,7 @@
   {
     "id": "sk-26",
     "categoria": "Skills",
-    "tipo": "multiple_unica",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "Si detectas que otra persona del equipo depende directamente de tu avance para continuar trabajando, ¿qué conviene hacer?",
     "opciones": [
@@ -455,7 +455,7 @@
   {
     "id": "sk-27",
     "categoria": "Skills",
-    "tipo": "multiple_unica",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué actitud suele ayudar más dentro de proyectos cambiantes donde aparecen nuevos requerimientos o prioridades?",
     "opciones": [
@@ -472,7 +472,7 @@
   {
     "id": "sk-28",
     "categoria": "Skills",
-    "tipo": "multiple_unica",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "Si surge un bug urgente en producción mientras trabajas en otra tarea importante, ¿qué suele ser mejor hacer?",
     "opciones": [
@@ -489,7 +489,7 @@
   {
     "id": "sk-29",
     "categoria": "Skills",
-    "tipo": "multiple_multiple",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué acciones fortalecen la confianza del equipo en ti con el paso del tiempo?",
     "opciones": [
@@ -510,7 +510,7 @@
   {
     "id": "sk-30",
     "categoria": "Skills",
-    "tipo": "codigo_slots",
+    "tipo": "codigo",
     "dificultad": "Intermedio",
     "pregunta": "Completa la frase con la opción que mejor refleja iniciativa profesional ante la incertidumbre.",
     "modo": "slots",
@@ -524,7 +524,7 @@
   {
     "id": "sk-31",
     "categoria": "Skills",
-    "tipo": "multiple_unica",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué significa realmente ser proactivo dentro de un entorno técnico profesional?",
     "opciones": [
@@ -541,7 +541,7 @@
   {
     "id": "sk-32",
     "categoria": "Skills",
-    "tipo": "multiple_unica",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "Cuando una reunión no requiere realmente tu presencia activa, ¿qué comportamiento suele ser más profesional?",
     "opciones": [
@@ -558,7 +558,7 @@
   {
     "id": "sk-33",
     "categoria": "Skills",
-    "tipo": "multiple_multiple",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué comportamientos muestran pensamiento orientado a mejora continua dentro del trabajo diario?",
     "opciones": [
@@ -579,7 +579,7 @@
   {
     "id": "sk-34",
     "categoria": "Skills",
-    "tipo": "multiple_unica",
+    "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "En entrevistas para perfiles junior, además de conocimientos técnicos básicos, ¿qué suele pesar bastante en la decisión final?",
     "opciones": [
@@ -596,7 +596,7 @@
   {
     "id": "sk-35",
     "categoria": "Skills",
-    "tipo": "multiple_unica",
+    "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "Si descubres un error crítico pocos minutos antes de una entrega importante al cliente o al negocio, ¿qué suele ser lo más profesional hacer?",
     "opciones": [
@@ -613,7 +613,7 @@
   {
     "id": "sk-36",
     "categoria": "Skills",
-    "tipo": "multiple_multiple",
+    "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué comportamientos reflejan liderazgo positivo incluso sin tener un cargo formal dentro del equipo?",
     "opciones": [
@@ -634,7 +634,7 @@
   {
     "id": "sk-37",
     "categoria": "Skills",
-    "tipo": "codigo_slots",
+    "tipo": "codigo",
     "dificultad": "Avanzado",
     "pregunta": "Completa la frase con la opción más adecuada para comunicar iniciativa frente a un riesgo detectado.",
     "modo": "slots",
@@ -648,7 +648,7 @@
   {
     "id": "sk-38",
     "categoria": "Skills",
-    "tipo": "multiple_unica",
+    "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "Cuando dos líderes solicitan prioridades opuestas al mismo tiempo, ¿qué conviene hacer de forma profesional?",
     "opciones": [
@@ -665,7 +665,7 @@
   {
     "id": "sk-39",
     "categoria": "Skills",
-    "tipo": "multiple_unica",
+    "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué demuestra verdadera madurez profesional cuando cometes un error propio que ya es visible para otras personas?",
     "opciones": [
@@ -682,7 +682,7 @@
   {
     "id": "sk-40",
     "categoria": "Skills",
-    "tipo": "multiple_multiple",
+    "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué señales muestran pensamiento estratégico incluso en un perfil junior dentro de una empresa tecnológica?",
     "opciones": [
@@ -703,7 +703,7 @@
   {
     "id": "sk-41",
     "categoria": "Skills",
-    "tipo": "codigo_slots",
+    "tipo": "codigo",
     "dificultad": "Avanzado",
     "pregunta": "Completa la frase profesional con la opción que refleja desacuerdo constructivo.",
     "modo": "slots",
@@ -717,7 +717,7 @@
   {
     "id": "sk-42",
     "categoria": "Skills",
-    "tipo": "multiple_unica",
+    "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "Si una tarea parece pequeña pero puede tener alto impacto en negocio o usuarios, ¿qué conviene hacer?",
     "opciones": [
@@ -734,7 +734,7 @@
   {
     "id": "sk-43",
     "categoria": "Skills",
-    "tipo": "multiple_unica",
+    "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué suele diferenciar a una persona junior con alto potencial de otra con desempeño promedio dentro de un equipo técnico?",
     "opciones": [
@@ -751,7 +751,7 @@
   {
     "id": "sk-44",
     "categoria": "Skills",
-    "tipo": "multiple_multiple",
+    "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué acciones ayudan de forma directa a prevenir retrabajo y correcciones tardías en proyectos reales?",
     "opciones": [
@@ -772,7 +772,7 @@
   {
     "id": "sk-45",
     "categoria": "Skills",
-    "tipo": "codigo_slots",
+    "tipo": "codigo",
     "dificultad": "Avanzado",
     "pregunta": "Completa la frase con la opción que refleja aprendizaje compartido después de un cambio exitoso.",
     "modo": "slots",
@@ -786,7 +786,7 @@
   {
     "id": "sk-46",
     "categoria": "Skills",
-    "tipo": "multiple_unica",
+    "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "Si no estás de acuerdo con una prioridad ya definida por liderazgo, ¿qué comportamiento suele ser mejor?",
     "opciones": [
@@ -803,7 +803,7 @@
   {
     "id": "sk-47",
     "categoria": "Skills",
-    "tipo": "multiple_unica",
+    "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué indica una orientación a resultados saludable dentro de un entorno profesional exigente?",
     "opciones": [
@@ -820,7 +820,7 @@
   {
     "id": "sk-48",
     "categoria": "Skills",
-    "tipo": "multiple_multiple",
+    "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "¿Qué suele valorar una empresa tecnológica de alto nivel al contratar perfiles junior con potencial?",
     "opciones": [
@@ -841,7 +841,7 @@
   {
     "id": "sk-49",
     "categoria": "Skills",
-    "tipo": "codigo_slots",
+    "tipo": "codigo",
     "dificultad": "Avanzado",
     "pregunta": "Completa la frase con la opción que refleja toma de decisiones basada en información.",
     "modo": "slots",
@@ -855,7 +855,7 @@
   {
     "id": "sk-50",
     "categoria": "Skills",
-    "tipo": "multiple_unica",
+    "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "En una entrevista exigente para perfil junior, ¿qué combinación suele destacar más frente a otros candidatos?",
     "opciones": [
