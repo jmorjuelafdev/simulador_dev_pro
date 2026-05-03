@@ -4,12 +4,8 @@ Simulador web para practicar entrevistas técnicas con la **Biblioteca 2026**: b
 
 ## 1. ¿Qué incluye?
 
-- **Bloques de aprendizaje completos:**
-  - Fundamentos → Lógica y Lógica 2.
-  - Frontend → HTML, CSS, JavaScript, Estructura de Datos, Angular, React y API REST.
-  - Backend → Python, PHP, Java.
-  - Fullstack → Git y MySQL para proyectos completos.
-  - Skills → Habilidades blandas (Skills y Skills 2).
+- **Ruta de aprendizaje enfocada en React:**
+  - React → fundamentos, práctica y desafíos.
 - **Catálogo masivo:** hasta **50 preguntas por categoría** y opción "Todas" para practicar con el banco completo.
 - **Ejercicios aplicados:** preguntas de selección única, múltiples respuestas y desafíos de código con “slots” y validaciones remotas.
 - **Modo experto opcional:** auto‑avance configurable, sonido de finalización y carga offline de todos los bancos.
@@ -74,7 +70,6 @@ npm run dev   # inicia el servidor de desarrollo
 ## 7. Stack técnico
 
 - **React 19** + **Vite 8**
-- **Font Awesome** para iconos
 - **CSS** puro para estilos
 
 ## 8. ¿Quieres desplegarlo?
@@ -84,7 +79,7 @@ npm run dev   # inicia el servidor de desarrollo
 
 ## 9. Preguntas frecuentes
 
-- **¿Necesito backend?** No, todo corre en el navegador.
+- **¿Necesito servidor?** No, todo corre en el navegador.
 - **¿Puedo usarlo sin conexión?** Sí, activa “Modo offline” para cachear todo el banco.
 - **¿Dónde se guardan mis avances?** En `localStorage` del navegador.
 

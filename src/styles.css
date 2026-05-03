@@ -170,6 +170,59 @@ body {
   justify-content: center;
 }
 
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.btn-primary,
+.btn-secondary {
+  appearance: none;
+  border: none;
+  border-radius: 999px;
+  padding: 12px 18px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.2s ease, background 0.2s ease,
+    border-color 0.2s ease, color 0.2s ease;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--color-accent), var(--color-accent-strong));
+  color: var(--color-bg);
+  box-shadow: 0 14px 30px rgba(11, 24, 22, 0.45);
+}
+
+.btn-secondary {
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--color-text);
+  border: 1px solid rgba(155, 201, 192, 0.35);
+}
+
+:root.theme-light .btn-secondary {
+  background: rgba(15, 31, 28, 0.06);
+  border-color: rgba(41, 81, 74, 0.22);
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+  transform: translateY(-1px);
+}
+
+.btn-primary:active,
+.btn-secondary:active {
+  transform: translateY(0);
+}
+
+.btn-primary:focus-visible,
+.btn-secondary:focus-visible {
+  outline: 3px solid rgba(107, 195, 178, 0.55);
+  outline-offset: 3px;
+}
+
 .hero h1 {
   font-size: clamp(2.1rem, 4.8vw, 3.1rem);
   font-weight: 900;

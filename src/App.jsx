@@ -42,13 +42,13 @@ function App() {
     }
   });
   const [autoAdvanceDelay, setAutoAdvanceDelay] = useState(() => {
-    if (typeof window === "undefined") return 5;
+    if (typeof window === "undefined") return 6;
     try {
       const stored = window.localStorage.getItem("simulador_auto_advance_delay");
-      const parsed = stored ? Number(stored) : 2;
-      return [2, 5].includes(parsed) ? parsed : 2;
+      const parsed = stored ? Number(stored) : 6;
+      return parsed === 6 ? 6 : 6;
     } catch (error) {
-      return 2;
+      return 6;
     }
   });
   const [records, setRecords] = useRecords(STORAGE_KEY);
@@ -179,16 +179,16 @@ function App() {
               totalPreguntasDisponibles={totalPreguntasDisponibles}
               offlineMode={offlineMode}
               onToggleOffline={setOfflineMode}
-            finishSound={finishSound}
-            onToggleFinishSound={setFinishSound}
-            autoAdvance={autoAdvance}
-            onToggleAutoAdvance={setAutoAdvance}
-            autoAdvanceDelay={autoAdvanceDelay}
-            onChangeAutoAdvanceDelay={setAutoAdvanceDelay}
-            onClearCache={clearCache}
-            onClearUsage={clearCategoryUsage}
-            cacheInfo={cacheInfo}
-          />
+              finishSound={finishSound}
+              onToggleFinishSound={setFinishSound}
+              autoAdvance={autoAdvance}
+              onToggleAutoAdvance={setAutoAdvance}
+              autoAdvanceDelay={autoAdvanceDelay}
+              onChangeAutoAdvanceDelay={setAutoAdvanceDelay}
+              onClearCache={clearCache}
+              onClearUsage={clearCategoryUsage}
+              cacheInfo={cacheInfo}
+            />
 
             <div className="stacked-cards">
               <VacancyContext />

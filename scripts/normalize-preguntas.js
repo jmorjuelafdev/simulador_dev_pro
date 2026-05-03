@@ -3,13 +3,9 @@ const path = require("path");
 
 const ROOT = path.join(__dirname, "..", "src");
 const FILES = [
-  "preguntas_git.json",
-  "preguntas_javascript.json",
-  "preguntas_logica.json",
-  "preguntas_react.json",
-  "preguntas_python.json",
-  "preguntas_skills.json",
-  "preguntas_skills2.json"
+  "preguntas_fundamentos.json",
+  "preguntas_practica.json",
+  "preguntas_decisiones.json"
 ];
 
 const KEY_ORDER = [

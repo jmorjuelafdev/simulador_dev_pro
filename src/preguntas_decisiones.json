@@ -1,0 +1,992 @@
+[
+  {
+    "id": "decisiones-1",
+    "categoria": "Decisiones",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Por qué se reemplazó el routing manual de un proyecto?",
+    "opciones": [
+      "Porque no es reactivo y genera recargas completas de la página que hacen que la navegación sea lenta y no fluida.",
+      "Porque rompe el comportamiento SPA y dificulta la gestión de rutas y estados asociados a la navegación.",
+      "Porque no escala bien a rutas complejas con parámetros y lógica de autenticación.",
+      "Porque no mejora el rendimiento de la aplicación"
+    ],
+    "respuesta": [
+      "Porque no es reactivo y genera recargas completas de la página que hacen que la navegación sea lenta y no fluida.",
+      "Porque rompe el comportamiento SPA y dificulta la gestión de rutas y estados asociados a la navegación.",
+      "Porque no escala bien a rutas complejas con parámetros y lógica de autenticación."
+    ],
+    "feedbackExito": "Correcto. El routing manual genera problemas de navegación y escalabilidad porque no es reactivo y genera recargas completas de la página.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "decisiones-2",
+    "categoria": "Decisiones",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Por qué usar React Router?",
+    "opciones": [
+      "Porque permite navegación declarativa y gestión de rutas en aplicaciones React sin recargar la página.",
+      "Porque evita recargas completas de la página que rompen la experiencia SPA.",
+      "Porque mejora la organización del código y mejora mantenibilidad.",
+      "Porque reemplaza el backend para navegar entre rutas sin recargar la página."
+    ],
+    "respuesta": [
+      "Porque permite navegación declarativa y gestión de rutas en aplicaciones React sin recargar la página.",
+      "Porque evita recargas completas de la página que rompen la experiencia SPA.",
+      "Porque mejora la organización del código y mejora mantenibilidad."
+    ],
+    "feedbackExito": "Correcto. React Router mejora navegación y estructura de rutas para una mejor experiencia de usuario.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "decisiones-3",
+    "categoria": "Decisiones",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Por qué implementar ProtectedRoute?",
+    "opciones": [
+      "Porque permite centralizar la lógica de autenticación y control de acceso a rutas protegidas.",
+      "Porque evita la duplicación de código en cada componente que requiere autenticación.",
+      "Porque permite reutilizar la lógica de autenticación en otros componentes.",
+      "Porque reduce el tamaño del bundle al eliminar código de autenticación."
+    ],
+    "respuesta": [
+      "Porque permite centralizar la lógica de autenticación y control de acceso a rutas protegidas.",
+      "Porque evita la duplicación de código en cada componente que requiere autenticación.",
+      "Porque permite reutilizar la lógica de autenticación en otros componentes."
+    ],
+    "feedbackExito": "Correcto. ProtectedRoute mejora el mantenimiento y organización de la lógica de autenticación.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "decisiones-4",
+    "categoria": "Decisiones",
+    "tipo": "boolean",
+    "dificultad": "Basico",
+    "pregunta": "¿Context se usa para compartir estado global?",
+    "opciones": ["Verdadero", "Falso"],
+    "respuesta": "Verdadero",
+    "feedbackExito": "Correcto. Permite evitar prop drilling en componentes anidados y compartir estado global para toda la aplicación.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "decisiones-5",
+    "categoria": "Decisiones",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Por qué usar Context en lugar de props?",
+    "opciones": [
+      "Porque se busca evitar prop drilling en componentes anidados que requieren acceso a un estado global.",
+      "Porque se busca compartir estado global entre componentes.",
+      "Porque se busca mantener la consistencia del estado en toda la aplicación.",
+      "Porque se busca mejorar el rendimiento del backend."
+    ],
+    "respuesta": [
+      "Porque se busca evitar prop drilling en componentes anidados que requieren acceso a un estado global.",
+      "Porque se busca compartir estado global entre componentes.",
+      "Porque se busca mantener la consistencia del estado en toda la aplicación."
+    ],
+    "feedbackExito": "Correcto. Context facilita el manejo global del estado en una mejor experiencia de usuario.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "decisiones-6",
+    "categoria": "Decisiones",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Por qué implementar manejo global de errores?",
+    "opciones": [
+      "Porque se busca evitar fallos silenciosos que dejan al usuario con una pantalla en blanco sin información sobre lo que ocurrió.",
+      "Porque se busca mejorar estabilidad y facilitar debugging al capturar errores en un solo lugar.",
+      "Porque se busca mostrar feedback al usuario cuando ocurre un error, mejorando la experiencia de usuario.",
+      "Porque se busca reducir el tamaño del bundle al eliminar código de manejo de errores en cada componente."
+    ],
+    "respuesta": [
+      "Porque se busca evitar fallos silenciosos que dejan al usuario con una pantalla en blanco sin información sobre lo que ocurrió.",
+      "Porque se busca mejorar estabilidad y facilitar debugging al capturar errores en un solo lugar",
+      "Porque se busca mostrar feedback al usuario cuando ocurre un error, mejorando la experiencia de usuario"
+    ],
+    "feedbackExito": "Correcto. El manejo global de errores facilita la captura y manejo de errores en toda la aplicación y mejora la experiencia del usuario.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "decisiones-7",
+    "categoria": "Decisiones",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Por qué separar rutas públicas y protegidas?",
+    "opciones": [
+      "Para controlar acceso a rutas sensibles y proteger información del usuario.",
+      "Para mejor organización del código al separar rutas según su nivel de acceso.",
+      "Para escalabilidad al permitir agregar más rutas públicas o protegidas sin afectar la estructura general.",
+      "Para reducir CSS al eliminar estilos de rutas protegidas en rutas públicas."
+    ],
+    "respuesta": [
+      "Para controlar acceso a rutas sensibles y proteger información del usuario",
+      "Para mejor organización del código al separar rutas según su nivel de acceso.",
+      "Para escalabilidad al permitir agregar más rutas públicas o protegidas sin afectar la estructura general."
+    ],
+    "feedbackExito": "Correcto. La separación de rutas publicas y privadas mejora control y estructura de la aplicación.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "decisiones-8",
+    "categoria": "Decisiones",
+    "tipo": "boolean",
+    "dificultad": "Basico",
+    "pregunta": "¿Usar layouts ayuda a organizar la aplicación?",
+    "opciones": ["Verdadero", "Falso"],
+    "respuesta": "Verdadero",
+    "feedbackExito": "Correcto. Los layouts ayudan a organizar la aplicación y permiten reutilizar estructura.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "decisiones-9",
+    "categoria": "Decisiones",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Por qué usar layout?",
+    "opciones": [
+      "Para reutilizar UI común en varias páginas como header o sidebar. Esto mejora la consistencia visual y reduce duplicación de código.",
+      "Para separar responsabilidades entre la estructura general de la página y el contenido específico de cada ruta, mejorando mantenibilidad.",
+      "Para organizar contenido de manera más clara y mejorar la experiencia de usuario al tener una estructura visual consistente en toda la aplicación.",
+      "Para mejorar backend al manejar rutas con layouts específicos."
+    ],
+    "respuesta": [
+      "Para reutilizar UI común en varias páginas como header o sidebar. Esto mejora la consistencia visual y reduce duplicación de código.",
+      "Para separar responsabilidades entre la estructura general de la página y el contenido específico de cada ruta, mejorando mantenibilidad.",
+      "Para organizar contenido de manera más clara y mejorar la experiencia de usuario al tener una estructura visual consistente en toda la aplicación."
+    ],
+    "feedbackExito": "Correcto. El layout mejora mantenibilidad y consistencia de estructura visual en toda la aplicación.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "decisiones-10",
+    "categoria": "Decisiones",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Por qué crear NotFoundPage?",
+    "opciones": [
+      "Para manejar rutas inválidas y evitar pantallas vacías que confunden al usuario.",
+      "Para mejorar la experiencia de usuario al mostrar una página específica cuando una ruta no existe.",
+      "Para evitar errores en la aplicación.",
+      "Para reducir el tamaño del paquete de la aplicación."
+    ],
+    "respuesta": [
+      "Para manejar rutas inválidas y evitar pantallas vacías que confunden al usuario.",
+      "Para mejorar la experiencia de usuario al mostrar una página específica cuando una ruta no existe.",
+      "Para evitar errores en la aplicación."
+    ],
+    "feedbackExito": "Correcto. Es importante crear NotFoundPage para evitar pantallas vacías y mejorar la experiencia de usuario.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+
+  {
+    "id": "decisiones-11",
+    "categoria": "Decisiones",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Por qué usar ruta comodín (*)?",
+    "opciones": [
+      "Porque permite capturar rutas no definidas y evitar que el usuario vea una pantalla en blanco.",
+      "Poque muestra NotFoundPage cuando el usuario navega a una ruta que no existe, mejorando la experiencia de usuario.",
+      "Porque evita errores en la aplicación al manejar rutas no definidas de manera controlada.",
+      "Porque optimiza el rendimiento al evitar que el router tenga que evaluar cada ruta individualmente."
+    ],
+    "respuesta": [
+      "Porque permite capturar rutas no definidas y evitar que el usuario vea una pantalla en blanco.",
+      "Poque muestra NotFoundPage cuando el usuario navega a una ruta que no existe, mejorando la experiencia de usuario.",
+      "Porque evita errores en la aplicación al manejar rutas no definidas de manera controlada."
+    ],
+    "feedbackExito": "Correcto. La ruta comodín ayuda a mejorar la naveación y experiencia del usuario al manejar rutas no definidas de manera controlada.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "decisiones-12",
+    "categoria": "Decisiones",
+    "tipo": "boolean",
+    "dificultad": "Basico",
+    "pregunta": "¿Centralizar lógica facilita mantenimiento?",
+    "opciones": ["Verdadero", "Falso"],
+    "respuesta": "Verdadero",
+    "feedbackExito": "Correcto. Reduce duplicación de código y mejora mantenibilidad de la arquitectura de la aplicación.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "decisiones-13",
+    "categoria": "Decisiones",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Por qué evitar duplicación de lógica?",
+    "opciones": [
+      "Porque facilita el mantenimiento al tener la lógica en un solo lugar, evitando inconsistencias y errores al modificarla.",
+      "Porque reduce errores al evitar tener múltiples versiones de la misma lógica que pueden desincronizarse.",
+      "Porque mejora la claridad del código al tener una única fuente de verdad para esa lógica, facilitando su comprensión.",
+      "Porque aumenta el tamaño del código"
+    ],
+    "respuesta": [
+      "Porque facilita el mantenimiento al tener la lógica en un solo lugar, evitando inconsistencias y errores al modificarla.",
+      "Porque reduce errores al evitar tener múltiples versiones de la misma lógica que pueden desincronizarse.",
+      "Porque mejora la claridad del código al tener una única fuente de verdad para esa lógica, facilitando su comprensión."
+    ],
+    "feedbackExito": "Correcto. Evitar la duplicación de lógica facilita mantenimiento y mejora la calidad del código.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "decisiones-14",
+    "categoria": "Decisiones",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Por qué usar componentes reutilizables?",
+    "opciones": [
+      "Para reducir la duplicación de código al reutilizar componentes comunes en lugar de escribir el mismo código varias veces.",
+      "Para facilitar el mantenimiento al tener los componentes en un solo lugar.",
+      "Para mejorar la escalabilidad al permitir una estructura más organizada.",
+      "Para hacer el código más largo y complejo."
+    ],
+    "respuesta": [
+      "Para reducir la duplicación de código al reutilizar componentes comunes en lugar de escribir el mismo código varias veces.",
+      "Para facilitar el mantenimiento al tener los componentes en un solo lugar.",
+      "Para mejorar la escalabilidad al permitir una estructura más organizada."
+    ],
+    "feedbackExito": "Correcto. Usar componentes reutilizables facilita mantenimiento y mejora la escalabilidad de la arquitectura.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "decisiones-15",
+    "categoria": "Decisiones",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Por qué validar existencia de root?",
+    "opciones": [
+      "Porque evita errores críticos al arrancar la aplicación.",
+      "Porque mejora la estabilidad de la aplicación.",
+      "Porque permite detectar problemas temprano.",
+      "Porque mejora la estética del diseño."
+    ],
+    "respuesta": [
+      "Porque evita errores críticos al arrancar la aplicación.",
+      "Porque mejora la estabilidad de la aplicación.",
+      "Porque permite detectar problemas temprano."
+    ],
+    "feedbackExito": "Correcto. Validar existencia de root evita fallos en arranque.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "decisiones-16",
+    "categoria": "Decisiones",
+    "tipo": "boolean",
+    "dificultad": "Basico",
+    "pregunta": "¿Separar responsabilidades mejora escalabilidad?",
+    "opciones": ["Verdadero", "Falso"],
+    "respuesta": "Verdadero",
+    "feedbackExito": "Correcto. Separar responsabilidades reduce el acoplamiento y mejora la escalabilidad.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "decisiones-17",
+    "categoria": "Decisiones",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Por qué organizar código por componentes?",
+    "opciones": [
+      "Para reutilización de componentes y lógica asociada, facilitando mantenimiento.",
+      "Para mejorar la escalabilidad al permitir una estructura más organizada.",
+      "Para facilitar el mantenimiento al tener los componentes en un solo lugar.",
+      "Para reducir la cantidad de código HTML."
+    ],
+    "respuesta": [
+      "Para reutilización de componentes y lógica asociada, facilitando mantenimiento.",
+      "Para mejorar la escalabilidad al permitir una estructura más organizada.",
+      "Para facilitar el mantenimiento al tener los componentes en un solo lugar."
+    ],
+    "feedbackExito": "Correcto. Organizar código por componentes facilita mantenimiento y mejora la evolución del sistema.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "decisiones-18",
+    "categoria": "Decisiones",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Por qué mejorar la documentación para IA?",
+    "opciones": [
+      "Porque permite facilitar la comprensión de la arquitectura y decisiones tomadas, mejorando la comunicación entre desarrolladores y con herramientas de IA.",
+      "Porque permite recrear la app de manera más precisa al tener una descripción clara de la estructura y lógica del sistema.",
+      "Porque permite estandarizar la estructura del proyecto y mejorar la mantenibilidad a largo plazo.",
+      "Porque permite reducir CSS al eliminar estilos innecesarios en la documentación."
+    ],
+    "respuesta": [
+      "Porque permite facilitar la comprensión de la arquitectura y decisiones tomadas, mejorando la comunicación entre desarrolladores y con herramientas de IA.",
+      "Porque permite recrear la app de manera más precisa al tener una descripción clara de la estructura y lógica del sistema.",
+      "Porque permite estandarizar la estructura del proyecto y mejorar la mantenibilidad a largo plazo."
+    ],
+    "feedbackExito": "Correcto. La documentación para IA mejora la comunicación y la reconstrucción del sistema.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "decisiones-19",
+    "categoria": "Decisiones",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué pasaría si mantienes routing manual en una app React?",
+    "opciones": [
+      "La navegación no sería reactiva porque cada cambio de ruta recargaría la página completa, lo que genera una experiencia lenta y no fluida.",
+      "Las recargas quedarían completas cada vez que el usuario navega a una nueva ruta, lo que rompe la experiencia SPA y hace que la aplicación se sienta lenta.",
+      "Habría dificultad para escalar a rutas más complejas con parámetros, lógica de autenticación y anidamiento, lo que limita la evolución de la aplicación.",
+      "Mejoraría el rendimiento al evitar la sobrecarga de un router, pero a costa de una mala experiencia de usuario."
+    ],
+    "respuesta": [
+      "La navegación no sería reactiva porque cada cambio de ruta recargaría la página completa, lo que genera una experiencia lenta y no fluida.",
+      "Las recargas quedarían completas cada vez que el usuario navega a una nueva ruta, lo que rompe la experiencia SPA y hace que la aplicación se sienta lenta.",
+      "Habría dificultad para escalar a rutas más complejas con parámetros, lógica de autenticación y anidamiento, lo que limita la evolución de la aplicación."
+    ],
+    "feedbackExito": "Correcto. El routing manual rompe la lógica SPA y dificulta la evolución de la aplicación.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "decisiones-20",
+    "categoria": "Decisiones",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Por qué React Router es mejor que window.location?",
+    "opciones": [
+      "Porque es reactivo y mejora la navegación y experiencia de usuario.",
+      "Porque evita recargas completas de la página que rompen la experiencia SPA.",
+      "Porque mejora UX y mejora mantenibilidad del código.",
+      "Porque ejecuta backend para manejar rutas de manera más eficiente."
+    ],
+    "respuesta": [
+      "Porque es reactivo y mejora la navegación y experiencia de usuario.",
+      "Porque evita recargas completas de la página que rompen la experiencia SPA.",
+      "Porque mejora UX y mejora mantenibilidad del código."
+    ],
+    "feedbackExito": "Correcto. React Router es reactivo y mejora la navegación y experiencia de usuario.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "decisiones-21",
+    "categoria": "Decisiones",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué pasa si no usas Context y todo va por props?",
+    "opciones": [
+      "Ocurrirá Prop drilling porque los props tendrán que ser pasados manualmente a través de múltiples niveles de componentes, lo que hace que el código sea difícil de mantener y entender.",
+      "Tendrá código difícil de mantener porque la lógica de estado estará dispersa en muchos componentes, lo que dificulta su seguimiento y actualización.",
+      "Tendrá mayor complejidad al tener que manejar el estado global a través de props en lugar de Context.",
+      "Tendrá mejor rendimiento al evitar la sobrecarga de Context, pero a costa de una mala experiencia de desarrollo y mantenimiento."
+    ],
+    "respuesta": [
+      "Ocurrirá Prop drilling porque los props tendrán que ser pasados manualmente a través de múltiples niveles de componentes, lo que hace que el código sea difícil de mantener y entender.",
+      "Tendrá código difícil de mantener porque la lógica de estado estará dispersa en muchos componentes, lo que dificulta su seguimiento y actualización.",
+      "Tendrá mayor complejidad al tener que manejar el estado global a través de props en lugar de Context."
+    ],
+    "feedbackExito": "Correcto. Si no se usa Context y todo va por props, se produce prop drilling y el código se torna difícil de mantener y escalar.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "decisiones-22",
+    "categoria": "Decisiones",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Cuándo NO deberías usar Context?",
+    "opciones": [
+      "Para estado muy complejo en apps grandes que requieren optimización de rendimiento porque genera re-render innecesario.",
+      "Para estado pequeño local en componentes específicos donde el prop drilling no es un problema",
+      "Cuando genera re-render innecesario en componentes que no necesitan consumir ese estado, lo que puede afectar el rendimiento de la aplicación.",
+      "Para routing y manejo de rutas en aplicaciones React."
+    ],
+    "respuesta": [
+      "Para estado muy complejo en apps grandes que requieren optimización de rendimiento porque genera re-render innecesario.",
+      "Cuando genera re-render innecesario en componentes que no necesitan consumir ese estado, lo que puede afectar el rendimiento de la aplicación."
+    ],
+    "feedbackExito": "Correcto. Context no siempre es la mejor opción para compartir estado global porque puede generar re-render innecesario.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "decisiones-23",
+    "categoria": "Decisiones",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué pasa si no centralizas autenticación?",
+    "opciones": [
+      "Se produce duplicación de lógica en cada componente que requiere autenticación, lo que dificulta el mantenimiento y aumenta la probabilidad de errores.",
+      "Se produce errores inconsistentes en la lógica de autenticación al tener múltiples implementaciones dispersas en lugar de una única fuente de verdad.",
+      "Se torna difícil el mantenimiento al tener que actualizar la lógica de autenticación en múltiples lugares en lugar de un solo componente centralizado.",
+      "Mejora la claridad al tener la lógica de autenticación directamente en cada componente que la necesita, pero a costa de una mala experiencia de mantenimiento."
+    ],
+    "respuesta": [
+      "Se produce duplicación de lógica en cada componente que requiere autenticación, lo que dificulta el mantenimiento y aumenta la probabilidad de errores.",
+      "Se produce errores inconsistentes en la lógica de autenticación al tener múltiples implementaciones dispersas en lugar de una única fuente de verdad.",
+      "Se torna difícil el mantenimiento al tener que actualizar la lógica de autenticación en múltiples lugares en lugar de un solo componente centralizado."
+    ],
+    "feedbackExito": "Correcto. Se vuelve difícil mantener la lógica de autenticación al tener que actualizarla en múltiples lugares.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "decisiones-24",
+    "categoria": "Decisiones",
+    "tipo": "boolean",
+    "dificultad": "Intermedio",
+    "pregunta": "¿ProtectedRoute mejora la mantenibilidad?",
+    "opciones": ["Verdadero", "Falso"],
+    "respuesta": "Verdadero",
+    "feedbackExito": "Correcto. ProtectedRoute Centraliza la lógica de autenticación y controla el acceso a rutas protegidas.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "decisiones-25",
+    "categoria": "Decisiones",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué problema resuelve un Layout?",
+    "opciones": [
+      "Duplicación de UI y lógica común en varias páginas, lo que dificulta el mantenimiento y evolución del sistema.",
+      "Falta de estructura para organizar mejor la UI y mejorar la experiencia de usuario.",
+      "Desorden visual al no tener una estructura clara para la UI, lo que puede confundir al usuario y dificultar la navegación.",
+      "Errores backend al manejar rutas con layouts específicos."
+    ],
+    "respuesta": [
+      "Duplicación de UI y lógica común en varias páginas, lo que dificulta el mantenimiento y evolución del sistema.",
+      "Falta de estructura para organizar mejor la UI y mejorar la experiencia de usuario.",
+      "Desorden visual al no tener una estructura clara para la UI, lo que puede confundir al usuario y dificultar la navegación."
+    ],
+    "feedbackExito": "Correcto. Un Layout mejora la organización visual y la experiencia de usuario.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "decisiones-26",
+    "categoria": "Decisiones",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué pasaría sin el manejo de errores global?",
+    "opciones": [
+      "Fallos silenciosos que dejan al usuario con una pantalla en blanco sin información sobre lo que ocurrido.",
+      "Pantalla en blanco que confunde al usuario y no proporciona feedback sobre el error.",
+      "Difícil debugging al no tener un lugar centralizado para capturar y manejar errores, lo que dificulta la identificación y solución de problemas.",
+      "Mejor UX al no mostrar mensajes de error al usuario."
+    ],
+    "respuesta": [
+      "Fallos silenciosos que dejan al usuario con una pantalla en blanco sin información sobre lo que ocurrido.",
+      "Pantalla en blanco que confunde al usuario y no proporciona feedback sobre el error.",
+      "Difícil debugging al no tener un lugar centralizado para capturar y manejar errores, lo que dificulta la identificación y solución de problemas."
+    ],
+    "feedbackExito": "Correcto. Impacta la experiencia del usuario al no mostrar mensajes de error.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "decisiones-27",
+    "categoria": "Decisiones",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Por qué separar rutas públicas y privadas mejora la arquitectura?",
+    "opciones": [
+      "Claridad del código",
+      "Escalabilidad de la arquitectura",
+      "Seguridad lógica de la arquitectura",
+      "Reducción de CSS para rutas privadas"
+    ],
+    "respuesta": [
+      "Claridad del código",
+      "Escalabilidad de la arquitectura",
+      "Seguridad lógica de la arquitectura"
+    ],
+    "feedbackExito": "Correcto. Separar rutas públicas y privadas mejora la organización del sistema.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+
+  {
+    "id": "decisiones-28",
+    "categoria": "Decisiones",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué pasa si no usas componentes reutilizables?",
+    "opciones": [
+      "Ocurrirá código duplicado en varias partes de la aplicación, lo que dificulta el mantenimiento y evolución del sistema.",
+      "Será difícil el mantenimiento de la arquitectura de componentes.",
+      "Tendrá mayor complejidad al tener que manejar el estado global a través de props en lugar de Context.",
+      "Mejorará el rendimiento de la aplicación al evitar duplicación de código y mejorar mantenibilidad."
+    ],
+    "respuesta": [
+      "Ocurrirá código duplicado en varias partes de la aplicación, lo que dificulta el mantenimiento y evolución del sistema.",
+      "Será difícil el mantenimiento de la arquitectura de componentes.",
+      "Tendrá mayor complejidad al tener que manejar el estado global a través de props en lugar de Context."
+    ],
+    "feedbackExito": "Correcto. Si no se usan los componentes reutilizables, afecta la escalabilidad de la arquitectura.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "decisiones-29",
+    "categoria": "Decisiones",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué problema resuelve documentar bien para IA?",
+    "opciones": [
+      "Falta de claridad de la arquitectura y decisiones tomadas, lo que dificulta la comprensión del sistema por parte de otros desarrolladores y herramientas de IA.",
+      "Dificultad de recrear app de manera precisa al no tener una descripción clara de la estructura y lógica del sistema.",
+      "Ambigüedad en la estructura del proyecto que dificulta su evolución y mantenimiento a largo plazo.",
+      "Mejor rendimiento al reducir la cantidad de código necesario para entender la arquitectura."
+    ],
+    "respuesta": [
+      "Falta de claridad de la arquitectura y decisiones tomadas, lo que dificulta la comprensión del sistema por parte de otros desarrolladores y herramientas de IA.",
+      "Dificultad de recrear app de manera precisa al no tener una descripción clara de la estructura y lógica del sistema.",
+      "Ambigüedad en la estructura del proyecto que dificulta su evolución y mantenimiento a largo plazo."
+    ],
+    "feedbackExito": "Correcto. Mejora comprensión del sistema por parte de otros desarrolladores y herramientas de IA.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "decisiones-30",
+    "categoria": "Decisiones",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Por qué es importante validar root antes de renderizar?",
+    "opciones": [
+      "Porque se busca evitar errores críticos al arrancar la aplicación, lo que puede dejar al usuario con una pantalla en blanco sin información sobre lo que ocurrió.",
+      "Porque ayuda a detectar fallos temprano y facilita el debugging al tener un punto centralizado para validar la existencia del root.",
+      "Porque mejorar la estabilidad de la aplicación al evitar que falle al arrancar por no encontrar el root. Esto es especialmente importante en aplicaciones grandes donde un fallo de arranque puede afectar a muchos usuarios.",
+      "Porque ayuda a optimizar CSS al eliminar estilos innecesarios en caso de que el root no exista."
+    ],
+    "respuesta": [
+      "Porque se busca evitar errores críticos al arrancar la aplicación, lo que puede dejar al usuario con una pantalla en blanco sin información sobre lo que ocurrió.",
+      "Porque ayuda a detectar fallos temprano y facilita el debugging al tener un punto centralizado para validar la existencia del root.",
+      "Porque mejorar la estabilidad de la aplicación al evitar que falle al arrancar por no encontrar el root. Esto es especialmente importante en aplicaciones grandes donde un fallo de arranque puede afectar a muchos usuarios."
+    ],
+    "feedbackExito": "Correcto. Evita fallos de arranque y mejora la estabilidad de la aplicación.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "decisiones-31",
+    "categoria": "Decisiones",
+    "tipo": "boolean",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Separar lógica de UI mejora mantenibilidad?",
+    "opciones": ["Verdadero", "Falso"],
+    "respuesta": "Verdadero",
+    "feedbackExito": "Correcto. Reduce acoplamiento y mejora mantenibilidad de la arquitectura.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "decisiones-32",
+    "categoria": "Decisiones",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué ocurre si no organizas rutas correctamente?",
+    "opciones": [
+      "Puede generar confusión en la navegación al no tener una estructura clara para las rutas, lo que dificulta la experiencia de usuario.",
+      "Será difícil el mantenimiento de la arquitectura de componentes.",
+      "Puede ocurrir errores de navegación al no tener una estructura clara para las rutas, lo que puede llevar a que los usuarios naveguen a páginas incorrectas o encuentren errores al intentar acceder a ciertas rutas.",
+      "Puede mejorar la experiencia de UX"
+    ],
+    "respuesta": [
+      "Puede generar confusión en la navegación al no tener una estructura clara para las rutas, lo que dificulta la experiencia de usuario.",
+      "Será difícil el mantenimiento de la arquitectura de componentes.",
+      "Puede ocurrir errores de navegación al no tener una estructura clara para las rutas, lo que puede llevar a que los usuarios naveguen a páginas incorrectas o encuentren errores al intentar acceder a ciertas rutas."
+    ],
+    "feedbackExito": "Correcto. No organizar las rutas correctamente afecta la experiencia del usuario.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "decisiones-33",
+    "categoria": "Decisiones",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Por qué es importante evitar código acoplado?",
+    "opciones": [
+      "Para mejorar el mantenimiento al reducir la dependencia entre componentes, lo que facilita la evolución del sistema sin afectar otras partes de la aplicación.",
+      "Para tener escalabilidad al permitir que los componentes evolucionen de manera independiente, lo que facilita la adición de nuevas funcionalidades sin afectar el resto del sistema.",
+      "Para tener flexibilidad al permitir que los componentes se modifiquen o reemplacen sin afectar otras partes de la aplicación, lo que mejora la capacidad de adaptación a cambios futuros.",
+      "Para mayor complejidad al tener que manejar dependencias entre componentes de manera manual."
+    ],
+    "respuesta": [
+      "Para mejorar el mantenimiento al reducir la dependencia entre componentes, lo que facilita la evolución del sistema sin afectar otras partes de la aplicación.",
+      "Para tener escalabilidad al permitir que los componentes evolucionen de manera independiente, lo que facilita la adición de nuevas funcionalidades sin afectar el resto del sistema.",
+      "Para tener flexibilidad al permitir que los componentes se modifiquen o reemplacen sin afectar otras partes de la aplicación, lo que mejora la capacidad de adaptación a cambios futuros."
+    ],
+    "feedbackExito": "Correcto. Evitar código acoplado reduce dependencia entre componentes.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "decisiones-34",
+    "categoria": "Decisiones",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué ventajas tiene estructurar bien un proyecto desde el inicio?",
+    "opciones": [
+      "Escalabilidad para permitir que el proyecto crezca de manera organizada sin generar caos en la estructura del código.",
+      "Mantenibilidad para facilitar la actualización y modificación del código en el futuro.",
+      "Claridad para mejorar la comprensión y navegación del código por parte de los desarrolladores.",
+      "Mayor complejidad en la gestión del proyecto."
+    ],
+    "respuesta": [
+      "Escalabilidad para permitir que el proyecto crezca de manera organizada sin generar caos en la estructura del código",
+      "Mantenibilidad para facilitar la actualización y modificación del código en el futuro.",
+      "Claridad para mejorar la comprensión y navegación del código por parte de los desarrolladores."
+    ],
+    "feedbackExito": "Correcto. Una buena estructura de proyecto facilita la evolución del proyecto.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  [
+    {
+      "id": "decisiones-35",
+      "categoria": "Decisiones",
+      "tipo": "multiple",
+      "dificultad": "Avanzado",
+      "pregunta": "¿Qué trade-offs tiene usar Context para estado global?",
+      "opciones": [
+        "Re-render innecesario para actualización de estado que puede afectar rendimiento en apps grandes.",
+        "Simplicidad de implementación para manejo de estado global sin necesidad de librerías adicionales.",
+        "Menor complejidad que Redux al no requerir configuración adicional ni boilerplate para manejar estado global.",
+        "Escala mejor en apps grandes que requieren manejo de estado global."
+      ],
+      "respuesta": [
+        "Re-render innecesario para actualización de estado que puede afectar rendimiento en apps grandes.",
+        "Simplicidad de implementación para manejo de estado global sin necesidad de librerías adicionales.",
+        "Menor complejidad que Redux al no requerir configuración adicional ni boilerplate para manejar estado global."
+      ],
+      "feedbackExito": "Correcto. Context es simple pero puede afectar rendimiento en apps grandes que requieren manejo de estado global.",
+      "puntos": 30,
+      "timeLimit": 50
+    },
+    {
+      "id": "decisiones-36",
+      "categoria": "Decisiones",
+      "tipo": "multiple",
+      "dificultad": "Avanzado",
+      "pregunta": "¿Cuándo deberías considerar usar Redux o React Query en lugar de Context?",
+      "opciones": [
+        "Cuando el estado es muy complejo y requiere optimización de rendimiento en apps grandes.",
+        "Cuando muchos componentes están consumiendo estado global y se generan re-render innecesarios que afectan rendimiento.",
+        "Cuando hay necesidad de caching y manejo avanzado de estado que Context no puede manejar eficientemente.",
+        "Cuando hay una aplicación pequeña con estado local que no requiere manejo de estado global."
+      ],
+      "respuesta": [
+        "Cuando el estado es muy complejo y requiere optimización de rendimiento en apps grandes.",
+        "Cuando muchos componentes están consumiendo estado global y se generan re-render innecesarios que afectan rendimiento.",
+        "Cuando hay necesidad de caching y manejo avanzado de estado que Context no puede manejar eficientemente."
+      ],
+      "feedbackExito": "Correcto. Context no escala bien en todos los casos porque genera re-render innecesario y requiere optimización de rendimiento.",
+      "puntos": 30,
+      "timeLimit": 50
+    },
+    {
+      "id": "decisiones-37",
+      "categoria": "Decisiones",
+      "tipo": "multiple",
+      "dificultad": "Avanzado",
+      "pregunta": "¿Qué implica no usar un Layout en aplicaciones grandes?",
+      "opciones": [
+        "Implica duplicación de UI y lógica común en varias páginas, lo que dificulta el mantenimiento y evolución del sistema.",
+        "Implica desorganización visual al no tener una estructura clara para la UI, lo que puede confundir al usuario y dificultar la navegación.",
+        "Implica mayor dificultad de mantenimiento al tener que actualizar la UI común en múltiples lugares en lugar de un solo Layout centralizado.",
+        "Implica mejor rendimiento al aprovechar la estructura de la UI y lógica común en varias páginas."
+      ],
+      "respuesta": [
+        "Implica duplicación de UI y lógica común en varias páginas, lo que dificulta el mantenimiento y evolución del sistema.",
+        "Implica desorganización visual al no tener una estructura clara para la UI, lo que puede confundir al usuario y dificultar la navegación.",
+        "Implica mayor dificultad de mantenimiento al tener que actualizar la UI común en múltiples lugares en lugar de un solo Layout centralizado."
+      ],
+      "feedbackExito": "Correcto. El layout es clave para escalabilidad y mantenibilidad de la UI.",
+      "puntos": 30,
+      "timeLimit": 50
+    },
+    {
+      "id": "decisiones-38",
+      "categoria": "Decisiones",
+      "tipo": "multiple",
+      "dificultad": "Avanzado",
+      "pregunta": "¿Qué pasaría si ProtectedRoute no está centralizado?",
+      "opciones": [
+        "Ocurrirá duplicación de lógica de autenticación en cada componente que requiere protección, lo que dificulta el mantenimiento y aumenta la probabilidad de errores.",
+        "Inconsistencias en la lógica de autenticación al tener múltiples implementaciones dispersas en lugar de una única fuente de verdad.",
+        "Errores de seguridad lógica al tener múltiples implementaciones dispersas en lugar de una única fuente de verdad.",
+        "Mejor rendimiento al evitar la sobrecarga de un componente centralizado para manejar autenticación, pero a costa de una mala experiencia de mantenimiento y seguridad."
+      ],
+      "respuesta": [
+        "Ocurrirá duplicación de lógica de autenticación en cada componente que requiere protección, lo que dificulta el mantenimiento y aumenta la probabilidad de errores.",
+        "Inconsistencias en la lógica de autenticación al tener múltiples implementaciones dispersas en lugar de una única fuente de verdad.",
+        "Errores de seguridad lógica al tener múltiples implementaciones dispersas en lugar de una única fuente de verdad."
+      ],
+      "feedbackExito": "Correcto. La centralización evita errores de seguridad y mejora la experiencia de mantenimiento.",
+      "puntos": 30,
+      "timeLimit": 50
+    },
+    {
+      "id": "decisiones-39",
+      "categoria": "Decisiones",
+      "tipo": "multiple",
+      "dificultad": "Avanzado",
+      "pregunta": "¿Qué impacto tiene no manejar errores globales?",
+      "opciones": [
+        "Mala experiencia de usuario al detectar errores sin intervención del usuario, lo que puede dejar al usuario con una pantalla en blanco sin información sobre lo que ocurrió.",
+        "Difícil debugging de errores al no tener un lugar centralizado para capturar y manejar errores, lo que dificulta la identificación y solución de problemas.",
+        "Errores silenciosos que no proporcionan feedback al usuario sobre lo que ocurrió, lo que puede generar confusión y frustración.",
+        "Menor uso de memoria al no tener un manejador global de errores, pero a costa de una mala experiencia de usuario y difícil mantenimiento."
+      ],
+      "respuesta": [
+        "Mala experiencia de usuario al detectar errores sin intervención del usuario, lo que puede dejar al usuario con una pantalla en blanco sin información sobre lo que ocurrió.",
+        "Difícil debugging de errores al no tener un lugar centralizado para capturar y manejar errores, lo que dificulta la identificación y solución de problemas.",
+        "Errores silenciosos que no proporcionan feedback al usuario sobre lo que ocurrió, lo que puede generar confusión y frustración."
+      ],
+      "feedbackExito": "Correcto. No manejar errores globales implica una mala experiencia de usuario y dificultar el mantenimiento. Ilustra la importancia de tener un manejador de errores concreto e impacta directamente al usuario.",
+      "puntos": 30,
+      "timeLimit": 50
+    },
+    {
+      "id": "decisiones-40",
+      "categoria": "Decisiones",
+      "tipo": "multiple",
+      "dificultad": "Avanzado",
+      "pregunta": "¿Qué indica una mala separación de responsabilidades?",
+      "opciones": [
+        "Funciones grandes que hacen muchas cosas a la vez y no tienen una única responsabilidad clara, lo que dificulta su comprensión y mantenimiento.",
+        "Código difícil de leer al tener lógica mezclada en lugar de estar organizada en componentes o funciones con responsabilidades claras, lo que dificulta la navegación y comprensión del código.",
+        "Alta dependencia entre módulos al tener componentes o funciones que dependen fuertemente entre sí, lo que dificulta la evolución del sistema y aumenta la probabilidad de errores al modificar una parte del código.",
+        "Componentes pequeños y con responsabilidades claras que facilitan la comprensión y mantenimiento del código."
+      ],
+      "respuesta": [
+        "Funciones grandes que hacen muchas cosas a la vez y no tienen una única responsabilidad clara, lo que dificulta su comprensión y mantenimiento.",
+        "Código difícil de leer al tener lógica mezclada en lugar de estar organizada en componentes o funciones con responsabilidades claras, lo que dificulta la navegación y comprensión del código.",
+        "Alta dependencia entre módulos al tener componentes o funciones que dependen fuertemente entre sí, lo que dificulta la evolución del sistema y aumenta la probabilidad de errores al modificar una parte del código."
+      ],
+      "feedbackExito": "Correcto. La mala separación de responsabilidades aumenta acoplamiento y dificulta mantenimiento.",
+      "puntos": 30,
+      "timeLimit": 50
+    },
+    {
+      "id": "decisiones-41",
+      "categoria": "Decisiones",
+      "tipo": "multiple",
+      "dificultad": "Avanzado",
+      "pregunta": "¿Qué pasaría si no estructuras correctamente rutas en una app grande?",
+      "opciones": [
+        "Difícil navegación al no tener una estructura clara para las rutas, lo que dificulta la experiencia de usuario.",
+        "Errores de acceso al no tener una estructura clara para las rutas, lo que puede llevar a que los usuarios naveguen a páginas incorrectas o encuentren errores al intentar acceder a ciertas rutas.",
+        "Confusión en código al no tener una estructura clara para las rutas, lo que dificulta la comprensión y mantenimiento del código.",
+        "Mejor rendimiento al no tener una estructura clara para las rutas, pero a costa de una mala experiencia de usuario y difícil mantenimiento."
+      ],
+      "respuesta": [
+        "Difícil navegación al no tener una estructura clara para las rutas, lo que dificulta la experiencia de usuario.",
+        "Errores de acceso al no tener una estructura clara para las rutas, lo que puede llevar a que los usuarios naveguen a páginas incorrectas o encuentren errores al intentar acceder a ciertas rutas.",
+        "Confusión en código al no tener una estructura clara para las rutas, lo que dificulta la comprensión y mantenimiento del código."
+      ],
+      "feedbackExito": "Correcto. Afecta UX y mantenimiento al no tener una estructura clara para las rutas.",
+      "puntos": 30,
+      "timeLimit": 50
+    },
+    {
+      "id": "decisiones-42",
+      "categoria": "Decisiones",
+      "tipo": "boolean",
+      "dificultad": "Avanzado",
+      "pregunta": "¿Centralizar lógica siempre mejora el rendimiento?",
+      "opciones": ["Verdadero", "Falso"],
+      "respuesta": "Falso",
+      "feedbackExito": "Correcto. Centralizar lógica no siempre mejora mantenimiento,tambien mejora el rendimiento.",
+      "puntos": 30,
+      "timeLimit": 50
+    },
+    {
+      "id": "decisiones-43",
+      "categoria": "Decisiones",
+      "tipo": "multiple",
+      "dificultad": "Avanzado",
+      "pregunta": "¿Qué problemas genera el alto acoplamiento?",
+      "opciones": [
+        "Difícil mantenimiento al tener que modificar múltiples partes del código para realizar cambios, lo que aumenta la probabilidad de errores y dificulta la evolución del sistema.",
+        "Baja escalabilidad al dificultar la adición de nuevas funcionalidades sin afectar el resto del sistema, lo que limita la capacidad de crecimiento y evolución del proyecto.",
+        "Dependencias rígidas al tener componentes o módulos que dependen fuertemente entre sí, lo que dificulta la modificación o reemplazo de partes del código sin afectar otras áreas del sistema.",
+        "Mayor claridad al tener componentes o módulos que dependen fuertemente entre sí, lo que facilita la comprensión del código."
+      ],
+      "respuesta": [
+        "Difícil mantenimiento al tener que modificar múltiples partes del código para realizar cambios, lo que aumenta la probabilidad de errores y dificulta la evolución del sistema.",
+        "Baja escalabilidad al dificultar la adición de nuevas funcionalidades sin afectar el resto del sistema, lo que limita la capacidad de crecimiento y evolución del proyecto.",
+        "Dependencias rígidas al tener componentes o módulos que dependen fuertemente entre sí, lo que dificulta la modificación o reemplazo de partes del código sin afectar otras áreas del sistema."
+      ],
+      "feedbackExito": "Correcto. El acoplamiento limita la evolución del sistema y dificulta el mantenimiento de la arquitectura.",
+      "puntos": 30,
+      "timeLimit": 50
+    },
+    {
+      "id": "decisiones-44",
+      "categoria": "Decisiones",
+      "tipo": "multiple",
+      "dificultad": "Avanzado",
+      "pregunta": "¿Qué ventajas tiene diseñar pensando en escalabilidad desde el inicio?",
+      "opciones": [
+        "Menos refactorización de código al tener una arquitectura que permite la evolución del sistema sin generar caos en la estructura del código.",
+        "Mejor mantenimiento al facilitar la actualización y modificación del código en el futuro sin afectar otras partes del sistema.",
+        "Mayor claridad al tener una arquitectura bien diseñada que mejora la comprensión y navegación del código por parte de los desarrolladores.",
+        "Mayor complejidad innecesaria al tener que diseñar una arquitectura escalable desde el inicio, lo que puede dificultar la implementación y evolución del sistema."
+      ],
+      "respuesta": [
+        "Menos refactorización de código al tener una arquitectura que permite la evolución del sistema sin generar caos en la estructura del código.",
+        "Mejor mantenimiento al facilitar la actualización y modificación del código en el futuro sin afectar otras partes del sistema.",
+        "Mayor claridad al tener una arquitectura bien diseñada que mejora la comprensión y navegación del código por parte de los desarrolladores."
+      ],
+      "feedbackExito": "Correcto. Facilita crecimiento del sistema.",
+      "puntos": 30,
+      "timeLimit": 50
+    },
+    {
+      "id": "decisiones-45",
+      "categoria": "Decisiones",
+      "tipo": "multiple",
+      "dificultad": "Avanzado",
+      "pregunta": "¿Qué trade-off tiene implementar demasiada abstracción?",
+      "opciones": [
+        "Complejidad innecesaria al facilitar la comprensión y navegación del código por parte de los desarrolladores.",
+        "Difícil debugging al tener que navegar a través de múltiples capas de abstracción para entender el flujo del código, lo que dificulta la identificación y solución de problemas.",
+        "Curva de aprendizaje mayor al tener que entender la arquitectura y abstracciones implementadas para poder trabajar con el código de manera efectiva, lo que puede dificultar la incorporación de nuevos desarrolladores al proyecto.",
+        "Mejor rendimiento al tener una arquitectura bien diseñada que mejora la eficiencia del código."
+      ],
+      "respuesta": [
+        "Complejidad innecesaria al facilitar la comprensión y navegación del código por parte de los desarrolladores.",
+        "Difícil debugging al tener que navegar a través de múltiples capas de abstracción para entender el flujo del código, lo que dificulta la identificación y solución de problemas.",
+        "Curva de aprendizaje mayor al tener que entender la arquitectura y abstracciones implementadas para poder trabajar con el código de manera efectiva, lo que puede dificultar la incorporación de nuevos desarrolladores al proyecto."
+      ],
+      "feedbackExito": "Correcto. Demasiada abstracción puede complicar la comprensión y navegación del código.",
+      "puntos": 30,
+      "timeLimit": 50
+    },
+    {
+      "id": "decisiones-46",
+      "categoria": "Decisiones",
+      "tipo": "multiple",
+      "dificultad": "Avanzado",
+      "pregunta": "¿Qué beneficios aporta documentar bien una arquitectura?",
+      "opciones": [
+        "Facilita onboarding de nuevos desarrolladores al proporcionar una descripción clara de la estructura y lógica del sistema, lo que acelera su integración al proyecto.",
+        "Mejor comprensión del sistema por parte de otros desarrolladores y herramientas de IA al tener una descripción clara de la arquitectura y decisiones tomadas, lo que facilita su evolución y mantenimiento a largo plazo.",
+        "Menos errores al tener una descripción clara de la arquitectura y decisiones tomadas, lo que reduce la probabilidad de errores al modificar o agregar funcionalidades al sistema.",
+        "Reduce bundle size al tener una arquitectura bien diseñada que mejora la eficiencia del código."
+      ],
+      "respuesta": [
+        "Facilita onboarding de nuevos desarrolladores al proporcionar una descripción clara de la estructura y lógica del sistema, lo que acelera su integración al proyecto.",
+        "Mejor comprensión del sistema por parte de otros desarrolladores y herramientas de IA al tener una descripción clara de la arquitectura y decisiones tomadas, lo que facilita su evolución y mantenimiento a largo plazo.",
+        "Menos errores al tener una descripción clara de la arquitectura y decisiones tomadas, lo que reduce la probabilidad de errores al modificar o agregar funcionalidades al sistema."
+      ],
+      "feedbackExito": "Correcto. Mejora la comunicación del sistema al proporcionar una descripción clara de la arquitectura y decisiones tomadas.",
+      "puntos": 30,
+      "timeLimit": 50
+    },
+    {
+      "id": "decisiones-47",
+      "categoria": "Decisiones",
+      "tipo": "multiple",
+      "dificultad": "Avanzado",
+      "pregunta": "¿Qué pasa si no validas errores en el arranque?",
+      "opciones": [
+        "La App puede fallar completamente al no detectar errores críticos al arrancar la aplicación, lo que puede dejar al usuario con una pantalla en blanco sin información sobre lo que ocurrió.",
+        "Pantalla en blanco que confunde al usuario y no proporciona feedback sobre el error, lo que puede generar frustración y una mala experiencia de usuario.",
+        "Difícil detectar errores al no tener un punto centralizado para validar la existencia del root, lo que dificulta la identificación y solución de problemas relacionados con el arranque de la aplicación.",
+        "Mejor UX al no mostrar mensajes de error al usuario, pero a costa de una mala experiencia de usuario y difícil mantenimiento."
+      ],
+      "respuesta": [
+        "La App puede fallar completamente al no detectar errores críticos al arrancar la aplicación, lo que puede dejar al usuario con una pantalla en blanco sin información sobre lo que ocurrió.",
+        "Pantalla en blanco que confunde al usuario y no proporciona feedback sobre el error, lo que puede generar frustración y una mala experiencia de usuario.",
+        "Difícil detectar errores al no tener un punto centralizado para validar la existencia del root, lo que dificulta la identificación y solución de problemas relacionados con el arranque de la aplicación."
+      ],
+      "feedbackExito": "Correcto. Impacta estabilidad de la app al no detectar errores en el arranque y dejar al usuario con una pantalla en blanco.",
+      "puntos": 30,
+      "timeLimit": 50
+    },
+    {
+      "id": "decisiones-48",
+      "categoria": "Decisiones",
+      "tipo": "multiple",
+      "dificultad": "Avanzado",
+      "pregunta": "¿Qué criterio usarías para decidir entre Context y otra solución?",
+      "opciones": [
+        "Complejidad del estado de la arquitectura de componentes y necesidades de rendimiento de la aplicación.",
+        "Cantidad de componentes que necesitan acceder al estado global en la arquitectura.",
+        "Necesidad de performance en la aplicación y optimización de re-renderizados en la arquitectura.",
+        "Preferencia personal por Context."
+      ],
+      "respuesta": [
+        "Complejidad del estado de la arquitectura de componentes y necesidades de rendimiento de la aplicación.",
+        "Cantidad de componentes que necesitan acceder al estado global en la arquitectura.",
+        "Necesidad de performance en la aplicación y optimización de re-renderizados en la arquitectura."
+      ],
+      "feedbackExito": "Correcto. Se basa en necesidades técnicas de la arquitectura y optimización de rendimiento para elegir la mejor solución.",
+      "puntos": 30,
+      "timeLimit": 50
+    },
+    {
+      "id": "decisiones-49",
+      "categoria": "Decisiones",
+      "tipo": "multiple",
+      "dificultad": "Avanzado",
+      "pregunta": "¿Qué demuestra una buena decisión técnica?",
+      "opciones": [
+        "Resuelve un problema real de negocio o técnico y aporta valor a los usuarios o al equipo de desarrollo.",
+        "Es mantenible en el largo plazo y facilita la evolución del sistema sin generar caos en la estructura del código.",
+        "Escala bien para permitir que el proyecto crezca de manera organizada sin generar caos en la estructura del código.",
+        "Es la más compleja y sofisticada técnicamente, aunque no aporte valor real a los usuarios o al equipo de desarrollo."
+      ],
+      "respuesta": [
+        "Resuelve un problema real de negocio o técnico y aporta valor a los usuarios o al equipo de desarrollo.",
+        "Es mantenible en el largo plazo y facilita la evolución del sistema sin generar caos en la estructura del código.",
+        "Escala bien para permitir que el proyecto crezca de manera organizada sin generar caos en la estructura del código."
+      ],
+      "feedbackExito": "Correcto. No se trata de complejidad sino de valor real para los usuarios y equipo de desarrollo.",
+      "puntos": 30,
+      "timeLimit": 50
+    },
+    {
+      "id": "decisiones-50",
+      "categoria": "Decisiones",
+      "tipo": "multiple",
+      "dificultad": "Avanzado",
+      "pregunta": "¿Qué hace que una solución sea 'buena' en frontend?",
+      "opciones": [
+        "Es clara y simple de entender, lo que facilita la comprensión y navegación del código por parte de los desarrolladores.",
+        "Es mantenible en el largo plazo y facilita la evolución del sistema sin generar caos en la estructura del código.",
+        "Es escalable para permitir que el proyecto crezca de manera organizada sin generar caos en la estructura del código.",
+        "Es complicada y sofisticada técnicamente, aunque no aporte valor real a los usuarios o al equipo de desarrollo."
+      ],
+      "respuesta": [
+        "Es clara y simple de entender, lo que facilita la comprensión y navegación del código por parte de los desarrolladores.",
+        "Es mantenible en el largo plazo y facilita la evolución del sistema sin generar caos en la estructura del código.",
+        "Es escalable para permitir que el proyecto crezca de manera organizada sin generar caos en la estructura del código."
+      ],
+      "feedbackExito": "Correcto. Simplicidad y claridad son clave para una buena solución en frontend.",
+      "puntos": 30,
+      "timeLimit": 50
+    }
+  ]
+]

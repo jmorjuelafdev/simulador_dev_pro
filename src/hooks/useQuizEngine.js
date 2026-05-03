@@ -721,6 +721,9 @@ export function useQuizEngine({
         }
         return normalizarTexto(valor) === normalizarTexto(preguntaActual.respuesta);
       }
+      if (preguntaActual.tipo === "boolean") {
+        return normalizarTexto(valor) === normalizarTexto(preguntaActual.respuesta);
+      }
       if (preguntaActual.tipo === "completar") {
         const esperado = preguntaActual.respuesta;
         const normalizar = (dato) => String(dato ?? "").trim().toLowerCase();

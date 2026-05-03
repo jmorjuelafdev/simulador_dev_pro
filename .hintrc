@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "backdrop-filter",
+          "user-select",
+          "text-justify",
+          "text-justify: inter-word",
+          "min-height: auto",
+          "scrollbar-width",
+          "scrollbar-width: thin"
+        ]
+      }
+    ]
+  }
+}

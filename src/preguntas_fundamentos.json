@@ -1,0 +1,850 @@
+[
+  {
+    "id": "fundamentos-1",
+    "categoria": "Fundamentos",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué es el routing declarativo en React?",
+    "opciones": [
+      "Es cuando se define rutas mediante componentes en lugar de lógica manual para navegar entre vistas sin recargar la página",
+      "Crear rutas usando condicionales if en el código para mostrar componentes según la URL",
+      "Manejar base de datos en frontend para almacenar rutas y navegar según datos almacenados",
+      "Optimizar automáticamente el rendimiento de la aplicación sin necesidad de definir rutas explícitamente"
+    ],
+    "respuesta": "Es cuando se define rutas mediante componentes en lugar de lógica manual para navegar entre vistas sin recargar la página",
+    "feedbackExito": "Correcto. Permite una navegación más clara y mantenible de la aplicación sin la necesidad de manejar rutas manualmente.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "fundamentos-2",
+    "categoria": "Fundamentos",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué es un bundle en una aplicación web?",
+    "opciones": [
+      "Es el archivo final que contiene todo el código listo para el navegador (HTML, CSS y JavaScript)",
+      "Una base de datos en backend para almacenar datos de la aplicación",
+      "Un servidor backend que maneja las peticiones de la aplicación",
+      "Un componente de React que se renderiza en la página principal de la aplicación"
+    ],
+    "respuesta": "Es el archivo final que contiene todo el código listo para el navegador (HTML, CSS y JavaScript)",
+    "feedbackExito": "Correcto. Es el paquete que se ejecuta en el navegador para renderizar la página de la aplicación.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "fundamentos-3",
+    "categoria": "Fundamentos",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué es un Hook en React?",
+    "opciones": [
+      "Es una función que permite usar estado y efectos en componentes funcionales de React",
+      "Un archivo CSS para componentes de React",
+      "Una base de datos para almacenar datos de la aplicación",
+      "Un sistema operativo para ejecutar aplicaciones React en el navegador"
+    ],
+    "respuesta": "Es una función que permite usar estado y efectos en componentes funcionales de React",
+    "feedbackExito": "Correcto. Hooks como useState o useEffect permiten manejar lógica en componentes de React.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "fundamentos-4",
+    "categoria": "Fundamentos",
+    "tipo": "boolean",
+    "dificultad": "Basico",
+    "pregunta": "¿Un sistema reactivo actualiza la interfaz automáticamente cuando cambia el estado?",
+    "opciones": ["Verdadero", "Falso"],
+    "respuesta": "Verdadero",
+    "feedbackExito": "Correcto. React actualiza la interfaz automático cuando cambia el estado porque es un sistema reactivo que permite actualizaciones en tiempo real.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "fundamentos-5",
+    "categoria": "Fundamentos",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Cuál es la función principal de React Router?",
+    "opciones": [
+      "Manejar la navegación entre vistas sin recargar la página en aplicaciones React",
+      "Crear bases de datos para almacenar datos de la aplicación",
+      "Optimizar imágenes automáticamente para mejorar el rendimiento de la aplicación",
+      "Ejecutar código en el backend sin necesidad de un servidor adicional"
+    ],
+    "respuesta": "Manejar la navegación entre vistas sin recargar la página en aplicaciones React",
+    "feedbackExito": "Correcto. Permite navegación tipo SPA sin recargar la página de la aplicación.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "fundamentos-6",
+    "categoria": "Fundamentos",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué es SPA?",
+    "opciones": [
+      "Una aplicación web que se ejecuta completamente en el navegador sin necesidad de recargas de página para navegar entre vistas",
+      "Un sistema operativo para navegadores de escritorio con interfaz gráfica",
+      "Una base de datos relacional para almacenar datos de una aplicación web",
+      "Un backend en Java para una aplicación web con API RESTful"
+    ],
+    "respuesta": "Una aplicación web que se ejecuta completamente en el navegador sin necesidad de recargas de página para navegar entre vistas",
+    "feedbackExito": "Correcto. SPA significa Application de Página Única, donde toda la lógica y contenido se cargan una sola vez.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "fundamentos-7",
+    "categoria": "Fundamentos",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué hooks son comunes en React?",
+    "opciones": ["useState", "useEffect", "useContext", "useDatabase"],
+    "respuesta": ["useState", "useEffect", "useContext"],
+    "feedbackExito": "Correcto. Son hooks fundamentales en React para manejar estado y efectos en componentes funcionales.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "fundamentos-8",
+    "categoria": "Fundamentos",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Que es renderizado en React?",
+    "opciones": [
+      "Es la creación de elementos en el DOM para la interfaz de usuario del componente funcional",
+      "Es la actualización de la interfaz de usuario que refleja el estado del componente funcional",
+      "Es la gestión del estado que permite a los componentes funcionales manejar datos y comportamientos",
+      "Es la navegación entre vistas que permite a los usuarios navegar entre componentes de la aplicación sin recargar la página"
+    ],
+    "respuesta": "Es la creación de elementos en el DOM para la interfaz de usuario del componente funcional",
+    "feedbackExito": "Correcto. El renderizado en React se refiere a la creación y actualización de elementos en el DOM para la interfaz de usuario del componente funcional.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "fundamentos-9",
+    "categoria": "Fundamentos",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿De qué se trata el proyecto del desafío?",
+    "opciones": [
+      "Una aplicación e-commerce con navegación y estado global que contiene un carrito de compras y un sistema de login",
+      "Un sistema operativo para navegadores de escritorio con interfaz gráfica",
+      "Una base de datos relacional para almacenar datos de una aplicación web",
+      "Un backend en Java para una aplicación web con API REST"
+    ],
+    "respuesta": "Una aplicación e-commerce con navegación y estado global que contiene un carrito de compras y un sistema de login",
+    "feedbackExito": "Correcto. Es una app frontend tipo e-commerce para una tienda de productos y un sistema de login.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "fundamentos-10",
+    "categoria": "Fundamentos",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué elementos hacen parte de la estructura del proyecto?",
+    "opciones": ["Componentes", "Páginas", "Rutas", "Servidor SQL"],
+    "respuesta": ["Componentes", "Páginas", "Rutas"],
+    "feedbackExito": "Correcto. La estructura se basa en componentes, páginas y rutas para navegar entre vistas sin recargar la página.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "fundamentos-11",
+    "categoria": "Fundamentos",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué relación existe entre React Router y el concepto de aplicación SPA?",
+    "opciones": [
+      "Permite navegar entre vistas sin recargar la página en cada cambio de ruta o estado global",
+      "Recarga completamente la página en cada cambio de ruta o estado global",
+      "Ejecuta lógica del backend en cada cambio de ruta o estado global",
+      "Reemplaza el servidor en cada cambio de ruta o estado global"
+    ],
+    "respuesta": "Permite navegar entre vistas sin recargar la página en cada cambio de ruta o estado global",
+    "feedbackExito": "Correcto. React Router permite navegación interna sin recargas, característica clave de una SPA.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "fundamentos-12",
+    "categoria": "Fundamentos",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué implica que una aplicación sea reactiva en términos de experiencia de usuario?",
+    "opciones": [
+      "La interfaz se actualiza automáticamente cuando cambian los datos sin intervención manual del usuario",
+      "El usuario debe recargar manualmente la página para ver los cambios en la interfaz",
+      "El backend controla la UI directamente sin intervención manual del usuario",
+      "La aplicación deja de responder a eventos del usuario después de cierto tiempo"
+    ],
+    "respuesta": "La interfaz se actualiza automáticamente cuando cambian los datos sin intervención manual del usuario",
+    "feedbackExito": "Correcto. La reactividad mejora la experiencia al reflejar cambios sin intervención manual.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "fundamentos-13",
+    "categoria": "Fundamentos",
+    "tipo": "boolean",
+    "dificultad": "Basico",
+    "pregunta": "¿La aplicación usa React Router para manejar la navegación?",
+    "opciones": ["Verdadero", "Falso"],
+    "respuesta": "Verdadero",
+    "feedbackExito": "Correcto. React Router gestiona la navegación internamente sin recargas para una SPA.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "fundamentos-14",
+    "categoria": "Fundamentos",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué tecnologías principales se usan en la aplicación?",
+    "opciones": ["React", "React Router", "Context", "Oracle DB"],
+    "respuesta": ["React", "React Router", "Context"],
+    "feedbackExito": "Correcto. Estas tecnologías gestionan UI, rutas y estado global para una SPA y evitar recargas.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "fundamentos-15",
+    "categoria": "Fundamentos",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Cómo funciona el flujo de la aplicación?",
+    "opciones": [
+      "El usuario navega en la interfaz de usuario",
+      "React Router decide la vista en base al estado global o la URL",
+      "Se renderiza el componente en base al estado global o la URL",
+      "Se ejecuta un servidor SQL en base al estado global o la URL"
+    ],
+    "respuesta": [
+      "El usuario navega en la interfaz de usuario",
+      "React Router decide la vista en base al estado global o la URL",
+      "Se renderiza el componente en base al estado global o la URL"
+    ],
+    "feedbackExito": "Correcto. Ese es el flujo básico de navegación que se usa en una SPA para renderizar vistas.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "fundamentos-16",
+    "categoria": "Fundamentos",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Para qué se usa Context en la aplicación?",
+    "opciones": [
+      "Compartir estado global sin props de padre a hijo y viceversa",
+      "Evitar prop drilling en componentes anidados de hijo a padre",
+      "Crear bases de datos SQL en el backend para almacenar datos de la aplicación",
+      "Ejecutar código backend en el frontend sin intervención manual del usuario"
+    ],
+    "respuesta": [
+      "Compartir estado global sin props de padre a hijo y viceversa",
+      "Evitar prop drilling en componentes anidados de hijo a padre"
+    ],
+    "feedbackExito": "Correcto. Context permite compartir datos sin props de padre a hijo y viceversa para evitar prop drilling.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "fundamentos-17",
+    "categoria": "Fundamentos",
+    "tipo": "boolean",
+    "dificultad": "Basico",
+    "pregunta": "¿ProtectedRoute controla el acceso a ciertas rutas?",
+    "opciones": ["Verdadero", "Falso"],
+    "respuesta": "Verdadero",
+    "feedbackExito": "Correcto. Permite restringir acceso según autenticación del usuario a ciertas rutas en React Router.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "fundamentos-18",
+    "categoria": "Fundamentos",
+    "tipo": "codigo",
+    "dificultad": "Basico",
+    "pregunta": "Completa el componente para definir una ruta.",
+    "modo": "slots",
+    "plantilla": "<{{slot0}} path=\"/login\" element={<LoginPage />} />",
+    "opcionesSlots": ["Route", "Router", "Switch", "Navigate"],
+    "respuestasSlots": ["Route"],
+    "evaluacion": "slots",
+    "feedbackExito": "Correcto. Route define una ruta en React Router para renderizar un componente en base a la URL.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "fundamentos-19",
+    "categoria": "Fundamentos",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa el hook para usar el contexto.",
+    "modo": "slots",
+    "plantilla": "const { user } = {{slot0}}(AppContext);",
+    "opcionesSlots": ["useContext", "useState", "useEffect", "useRef"],
+    "respuestasSlots": ["useContext"],
+    "evaluacion": "slots",
+    "feedbackExito": "Correcto. useContext permite acceder al contexto de la aplicación para obtener el estado global.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "fundamentos-20",
+    "categoria": "Fundamentos",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa la redirección en rutas protegidas.",
+    "modo": "slots",
+    "plantilla": "return <{{slot0}} to=\"/login\" replace />;",
+    "opcionesSlots": ["Navigate", "Route", "Link", "Switch"],
+    "respuestasSlots": ["Navigate"],
+    "evaluacion": "slots",
+    "feedbackExito": "Correcto. Navigate se usa para redirigir al usuario a otra ruta para autenticación y autorización para acceder a ciertas rutas.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "fundamentos-21",
+    "categoria": "Fundamentos",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué problema principal tiene el uso de window.location para manejar rutas en React?",
+    "opciones": [
+      "No es reactivo porque no dispara re-render en React y no actualiza el DOM correctamente",
+      "Rompe el comportamiento SPA porque no se usa el history de React Router para manejar rutas",
+      "No escala bien para rutas complejas con parámetros y lógica de autenticación",
+      "Mejora el rendimiento porque no dispara re-render en React"
+    ],
+    "respuesta": "No es reactivo porque no dispara re-render en React y no actualiza el DOM correctamente",
+    "feedbackExito": "Correcto. No dispara re-render en React y no actualiza el DOM correctamente con window.location porque no es reactivo.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "fundamentos-22",
+    "categoria": "Fundamentos",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué ventajas aporta usar React Router?",
+    "opciones": [
+      "Navegación declarativa y rutas reutilizables para cualquier componente",
+      "Mejor escalabilidad para rutas complejas con parámetros y lógica de autenticación",
+      "Evita recargas completas de la página para navegar entre rutas sin recargar la página",
+      "Centraliza rutas para un mejor mantenimiento del código y mejora mantenibilidad",
+      "Aumenta velocidad del servidor y mejora rendimiento del sitio web",
+      "Reemplaza backend para navegar entre rutas sin recargar la página"
+    ],
+    "respuesta": [
+      "Navegación declarativa y rutas reutilizables para cualquier componente",
+      "Mejor escalabilidad para rutas complejas con parámetros y lógica de autenticación",
+      "Evita recargas completas de la página para navegar entre rutas sin recargar la página",
+      "Centraliza rutas para un mejor mantenimiento del código y mejora mantenibilidad"
+    ],
+    "feedbackExito": "Correcto. React Router mejora navegación y estructura de rutas para una mejor experiencia de usuario.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "fundamentos-23",
+    "categoria": "Fundamentos",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Cuál es el rol principal de un Layout en React?",
+    "opciones": [
+      "Reutilizar estructura visual para diferentes rutas sin duplicar el código de la interfaz",
+      "Definir rutas automáticamente para navegar entre vistas sin recargar la página o navegar entre rutas sin recargar la página",
+      "Manejar estado global para toda la aplicación sin duplicar el código de la interfaz",
+      "Crear base de datos para toda la aplicación sin duplicar el código de la interfaz"
+    ],
+    "respuesta": "Reutilizar estructura visual para diferentes rutas sin duplicar el código de la interfaz",
+    "feedbackExito": "Correcto. Permite mantener consistencia visual en toda la aplicación para una mejor experiencia de usuario.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "fundamentos-24",
+    "categoria": "Fundamentos",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué responsabilidades separa una buena arquitectura frontend?",
+    "opciones": ["UI", "Estado", "Navegación", "Base de datos"],
+    "respuesta": ["UI", "Estado", "Navegación"],
+    "feedbackExito": "Correcto. Separar responsabilidades mejora mantenibilidad y escalabilidad de la aplicación para una mejor experiencia de usuario.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "fundamentos-25",
+    "categoria": "Fundamentos",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué problemas resuelve Context?",
+    "opciones": [
+      "Evitar prop drilling en componentes anidados de hijo a padre",
+      "Compartir estado global para toda la aplicación sin duplicar el código de la interfaz",
+      "Mantener consistencia en toda la aplicación",
+      "Optimizar base de datos para toda la aplicación sin duplicar el código de la interfaz",
+      "Reemplazar backend para toda la aplicación"
+    ],
+    "respuesta": [
+      "Evitar prop drilling en componentes anidados de hijo a padre",
+      "Compartir estado global para toda la aplicación sin duplicar el código de la interfaz",
+      "Mantener consistencia en toda la aplicación"
+    ],
+    "feedbackExito": "Correcto. Context gestiona estado compartido para una mejor experiencia de usuario.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "fundamentos-26",
+    "categoria": "Fundamentos",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Por qué es importante manejar errores en el arranque?",
+    "opciones": [
+      "Para evitar fallos silenciosos que no se ven en el navegador y pueden afectar la experiencia de usuario",
+      "Mostrar feedback de errores a los usuarios",
+      "Reducir tamaño del bundle para mejorar rendimiento de la aplicación",
+      "Mejorar estabilidad de la aplicación al detectar errores en el arranque y evitar que la aplicación falle sin aviso"
+    ],
+    "respuesta": "Evitar fallos silenciosos que no se ven en el navegador y pueden afectar la experiencia de usuario",
+    "feedbackExito": "Correcto. Evita que la app falle sin aviso al arrancar y mejora la experiencia de usuario.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "fundamentos-27",
+    "categoria": "Fundamentos",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué hace ProtectedRoute en la arquitectura?",
+    "opciones": [
+      "Controla acceso a rutas según autenticación del usuario para proteger ciertas vistas de la aplicación",
+      "Centraliza validación de autenticación para toda la aplicación",
+      "Evita duplicación de código de autenticación para toda la aplicación",
+      "Mejora backend para toda la aplicación sin duplicar el código de la interfaz"
+    ],
+    "respuesta": "Controla acceso a rutas según autenticación del usuario para proteger ciertas vistas de la aplicación",
+    "feedbackExito": "Correcto. Protege rutas según autenticación del usuario.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "fundamentos-28",
+    "categoria": "Fundamentos",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa el componente ProtectedRoute.",
+    "modo": "slots",
+    "plantilla": "if (!user) return <{{slot0}} to=\"/login\" replace />;",
+    "opcionesSlots": ["Navigate", "Route", "Link", "Switch"],
+    "respuestasSlots": ["Navigate"],
+    "evaluacion": "slots",
+    "feedbackExito": "Correcto. Navigate redirige en React Router para proteger rutas según autenticación.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "fundamentos-29",
+    "categoria": "Fundamentos",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa el render del layout con contenido dinámico.",
+    "modo": "slots",
+    "plantilla": "<div><Navbar /><{{slot0}} /></div>",
+    "opcionesSlots": ["Outlet", "Route", "Switch", "Children"],
+    "respuestasSlots": ["Outlet"],
+    "evaluacion": "slots",
+    "feedbackExito": "Correcto. Outlet renderiza rutas hijas en React Router para evitar duplicación de código.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "fundamentos-30",
+    "categoria": "Fundamentos",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa la llamada asíncrona para obtener datos en React.",
+    "modo": "slots",
+    "plantilla": "const data = {{slot0}} fetchData();",
+    "opcionesSlots": ["await", "return", "useEffect", "async"],
+    "respuestasSlots": ["await"],
+    "evaluacion": "slots",
+    "feedbackExito": "Correcto. await permite manejar promesas que se resuelven asíncronamente en React.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "fundamentos-31",
+    "categoria": "Fundamentos",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa el hook para ejecutar lógica al montar el componente.",
+    "modo": "slots",
+    "plantilla": "{{slot0}}(() => { fetchData(); }, []);",
+    "opcionesSlots": ["useEffect", "useState", "useContext", "useRef"],
+    "respuestasSlots": ["useEffect"],
+    "evaluacion": "slots",
+    "feedbackExito": "Correcto. useEffect ejecuta efectos secundarios para manejar lógica al montar el componente.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "fundamentos-32",
+    "categoria": "Fundamentos",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué indica que una arquitectura frontend está bien diseñada?",
+    "opciones": [
+      "Separación de responsabilidades para mantener el código modularizado y organizado",
+      "Componentes reutilizables para evitar duplicación de código y mejorar mantenibilidad",
+      "Lógica centralizada cuando aplica para toda la aplicación para evitar duplicación de código y mejorar mantenibilidad",
+      "Código duplicado para evitar duplicación de código y mejorar mantenibilidad"
+    ],
+    "respuesta": "Separación de responsabilidades para mantener el código modularizado y organizado",
+    "feedbackExito": "Correcto. Es el principio base de una buena arquitectura frontend para mantener el código modularizado y organizado.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "fundamentos-33",
+    "categoria": "Fundamentos",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa el hook para manejar estado local en un componente.",
+    "modo": "slots",
+    "plantilla": "const [count, setCount] = {{slot0}}(0);",
+    "opcionesSlots": ["useState", "useEffect", "useContext", "useRef"],
+    "respuestasSlots": ["useState"],
+    "evaluacion": "slots",
+    "feedbackExito": "Correcto. useState permite manejar estado local en React para evitar duplicación de código.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "fundamentos-34",
+    "categoria": "Fundamentos",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa la validación de autenticación en un componente.",
+    "modo": "slots",
+    "plantilla": "if (!user) return <{{slot0}} to=\"/login\" replace />;",
+    "opcionesSlots": ["Navigate", "Route", "Link", "Switch"],
+    "respuestasSlots": ["Navigate"],
+    "evaluacion": "slots",
+    "feedbackExito": "Correcto. Navigate permite redirigir al usuario a otra ruta si no esta autenticado.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "fundamentos-35",
+    "categoria": "Fundamentos",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué características hacen escalable una aplicación React?",
+    "opciones": [
+      "Componentes reutilizables con responsabilidades claras y separadas para evitar duplicación de código y mejorar mantenibilidad",
+      "Separación de responsabilidades para mantener el código modularizado y organizado",
+      "Routing declarativo para navegar entre vistas sin recargar la página y evitar lógica manual de navegación",
+      "Estado global controlado para compartir datos entre componentes sin props de padre a hijo y viceversa",
+      "Código duplicado para evitar duplicación de código y mejorar mantenibilidad",
+      "Dependencia de una sola función para evitar duplicación de código y mejorar mantenibilidad"
+    ],
+    "respuesta": [
+      "Componentes reutilizables con responsabilidades claras y separadas para evitar duplicación de código y mejorar mantenibilidad",
+      "Separación de responsabilidades para mantener el código modularizado y organizado",
+      "Routing declarativo para navegar entre vistas sin recargar la página y evitar lógica manual de navegación",
+      "Estado global controlado para compartir datos entre componentes sin props de padre a hijo y viceversa"
+    ],
+    "feedbackExito": "Correcto. Estas características permiten escalar el sistema de manera eficiente y mantenible.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "fundamentos-36",
+    "categoria": "Fundamentos",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Cuál es el principal beneficio de centralizar lógica en un solo componente?",
+    "opciones": [
+      "Facilita mantenimiento de la arquitectura de la aplicación al evitar duplicación de código y mejorar organización",
+      "Aumenta tamaño del código y dificulta mantenimiento de la arquitectura de la aplicación al evitar duplicación de código y mejorar organización",
+      "Reduce claridad del código y arquitectura",
+      "Hace más complejo el sistema de navegación",
+      "Rompe arquitectura de la aplicación"
+    ],
+    "respuesta": "Facilita mantenimiento de la arquitectura de la aplicación al evitar duplicación de código y mejorar organización",
+    "feedbackExito": "Correcto. Permite modificar lógica en un solo lugar sin afectar la arquitectura de la aplicación.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "fundamentos-37",
+    "categoria": "Fundamentos",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué ventajas tiene separar UI, estado y navegación?",
+    "opciones": [
+      "Mejor mantenibilidad y testabilidad al mantener el código modularizado y organizado",
+      "Mayor escalabilidad y reusabilidad de componentes",
+      "Código más claro y mantenible al evitar mezclar responsabilidades en un mismo componente",
+      "Mayor acoplamiento y dificultad de mantenimiento"
+    ],
+    "respuesta": [
+      "Mejor mantenibilidad y testabilidad al mantener el código modularizado y organizado",
+      "Mayor escalabilidad y reusabilidad de componentes",
+      "Código más claro y mantenible al evitar mezclar responsabilidades en un mismo componente"
+    ],
+    "feedbackExito": "Correcto. Reduce acoplamiento y mejora organización de la arquitectura de la aplicación.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "fundamentos-38",
+    "categoria": "Fundamentos",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Por qué es importante el manejo global de errores?",
+    "opciones": [
+      "Porque evita fallos silenciosos que no se ven en el navegador y pueden afectar la experiencia de usuario",
+      "Porque permite detectar errores en el backend sin intervención manual del usuario",
+      "Porque mejora estabilidad de la arquitectura de la aplicación al detectar errores en el arranque y evitar que la aplicación falle sin aviso",
+      "Porque reduce peso del bundle para mejorar rendimiento de la aplicación"
+    ],
+    "respuesta": "Porque evita fallos silenciosos que no se ven en el navegador y pueden afectar la experiencia de usuario",
+    "feedbackExito": "Correcto. Evita errores invisibles y mejora la experiencia de usuario al detectar errores en el arranque.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "fundamentos-39",
+    "categoria": "Fundamentos",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué problemas aparecen si no hay separación de responsabilidades?",
+    "opciones": [
+      "Código difícil de mantener y depurar de manera eficiente",
+      "Mayor complejidad de la arquitectura de la aplicación",
+      "Duplicación de lógica entre componentes y rutas",
+      "Mejor rendimiento de la aplicación al evitar duplicación de código y mejorar mantenibilidad",
+      "Código más limpio y mantenible al evitar mezclar responsabilidades en un mismo componente"
+    ],
+    "respuesta": [
+      "Código difícil de mantener y depurar de manera eficiente",
+      "Mayor complejidad de la arquitectura de la aplicación",
+      "Duplicación de lógica entre componentes y rutas"
+    ],
+    "feedbackExito": "Correcto. Aumenta el desorden del sistema de navegación y dificulta mantenimiento porque hay duplicación de lógica.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "fundamentos-40",
+    "categoria": "Fundamentos",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa el patrón de render dinámico de rutas.",
+    "modo": "slots",
+    "plantilla": "<Routes><Route path=\"/\" element={<{{slot0}} />} /></Routes>",
+    "opcionesSlots": ["HomePage", "useEffect", "Context", "Navigate"],
+    "respuestasSlots": ["HomePage"],
+    "evaluacion": "slots",
+    "feedbackExito": "Correcto. Se renderiza el componente según la ruta actual del navegador en base a las rutas configuradas.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "fundamentos-41",
+    "categoria": "Fundamentos",
+    "tipo": "codigo",
+    "dificultad": "Avanzado",
+    "pregunta": "Completa la estructura básica de routing.",
+    "modo": "slots",
+    "plantilla": "<BrowserRouter><{{slot0}}><Route path=\"/\" element={<Home />} /></{{slot0}}></BrowserRouter>",
+    "opcionesSlots": ["Routes", "Route", "Switch", "Link"],
+    "respuestasSlots": ["Routes"],
+    "evaluacion": "slots",
+    "feedbackExito": "Correcto. Routes agrupa las rutas de la aplicación en un mismo componente para facilitar su mantenimiento.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  [
+    {
+      "id": "fundamentos-42",
+      "categoria": "Fundamentos",
+      "tipo": "multiple",
+      "dificultad": "Avanzado",
+      "pregunta": "¿Qué indica que una solución frontend es mantenible a largo plazo?",
+      "opciones": [
+        "Código modular para mantener el código modularizado y organizado",
+        "Separación de responsabilidades entre componentes",
+        "Componentes reutilizables",
+        "Funciones largas con múltiples responsabilidades"
+      ],
+      "respuesta": [
+        "Código modular para mantener el código modularizado y organizado",
+        "Separación de responsabilidades entre componentes",
+        "Componentes reutilizables"
+      ],
+      "feedbackExito": "Correcto. Estas prácticas facilitan mantenimiento y mejoran la experiencia de usuario.",
+      "puntos": 30,
+      "timeLimit": 50
+    },
+    {
+      "id": "fundamentos-43",
+      "categoria": "Fundamentos",
+      "tipo": "multiple",
+      "dificultad": "Avanzado",
+      "pregunta": "¿Cuál es el principal riesgo de no centralizar la lógica de autenticación?",
+      "opciones": [
+        "Duplicación de lógica de autenticación entre componentes y rutas, lo que dificulta mantenimiento y aumenta el riesgo de errores",
+        "Errores inconsistentes de autenticación en diferentes partes de la aplicación",
+        "Dificultad de mantenimiento de la lógica de autenticación al estar dispersa en diferentes componentes y rutas",
+        "Mejora del rendimiento de la aplicación al evitar duplicación de código y mejorar mantenibilidad"
+      ],
+      "respuesta": [
+        "Duplicación de lógica de autenticación entre componentes y rutas, lo que dificulta mantenimiento y aumenta el riesgo de errores",
+        "Errores inconsistentes de autenticación en diferentes partes de la aplicación",
+        "Dificultad de mantenimiento de la lógica de autenticación al estar dispersa en diferentes componentes y rutas"
+      ],
+      "feedbackExito": "Correcto. La lógica dispersa genera inconsistencias y dificulta mantenimiento porque hay duplicación de lógica.",
+      "puntos": 30,
+      "timeLimit": 50
+    },
+    {
+      "id": "fundamentos-44",
+      "categoria": "Fundamentos",
+      "tipo": "multiple",
+      "dificultad": "Avanzado",
+      "pregunta": "¿Qué ventajas tiene usar un Layout en conjunto con rutas?",
+      "opciones": [
+        "Reutilización de estructura de rutas y componentes comunes para evitar duplicación de código y mejorar mantenibilidad",
+        "Mejor organización visual de rutas y componentes para mejorar experiencia de usuario",
+        "Separación de responsabilidades entre componentes de UI y lógica de navegación para mejorar mantenibilidad",
+        "Aumenta el acoplamiento de componentes y dificulta mantenimiento de la aplicación",
+        "Reemplaza el router de React Router por un router personalizado para mejorar rendimiento de la aplicación"
+      ],
+      "respuesta": [
+        "Reutilización de estructura de rutas y componentes comunes para evitar duplicación de código y mejorar mantenibilidad",
+        "Mejor organización visual de rutas y componentes para mejorar experiencia de usuario",
+        "Separación de responsabilidades entre componentes de UI y lógica de navegación para mejorar mantenibilidad"
+      ],
+      "feedbackExito": "Correcto. Permite organizar mejor la UI y mejorar la experiencia de usuario.",
+      "puntos": 30,
+      "timeLimit": 50
+    },
+    {
+      "id": "fundamentos-45",
+      "categoria": "Fundamentos",
+      "tipo": "multiple",
+      "dificultad": "Avanzado",
+      "pregunta": "¿Qué factores afectan la escalabilidad de una aplicación React?",
+      "opciones": [
+        "Estructura de componentes de UI y lógica de navegación para mantener el código modularizado y organizado",
+        "Gestión de estado para mantener el código reutilizable y eficientemente compartido entre componentes",
+        "Organización de rutas",
+        "Uso de console.log para depurar el código y mejorar rendimiento de la aplicación",
+        "Separación de responsabilidades entre componentes de UI y lógica de navegación para mejorar mantenibilidad"
+      ],
+      "respuesta": [
+        "Estructura de componentes de UI y lógica de navegación para mantener el código modularizado y organizado",
+        "Gestión de estado para mantener el código reutilizable y eficientemente compartido entre componentes",
+        "Organización de rutas",
+        "Separación de responsabilidades entre componentes de UI y lógica de navegación para mejorar mantenibilidad"
+      ],
+      "feedbackExito": "Correcto. Estos factores impactan la escalabilidad de la aplicación para evitar duplicación de código.",
+      "puntos": 30,
+      "timeLimit": 50
+    },
+    {
+      "id": "fundamentos-46",
+      "categoria": "Fundamentos",
+      "tipo": "multiple",
+      "dificultad": "Avanzado",
+      "pregunta": "¿Qué prácticas ayudan a evitar código duplicado?",
+      "opciones": [
+        "Componentes reutilizables con responsabilidades claras y separadas",
+        "Funciones compartidas para reutilizar lógica común entre componentes y rutas",
+        "Centralización de lógica en un componente padre para reutilizarla en otros componentes",
+        "Copiar y pegar código",
+        "Separación de responsabilidades entre componentes de UI y lógica de navegación para mejorar mantenibilidad"
+      ],
+      "respuesta": [
+        "Componentes reutilizables con responsabilidades claras y separadas",
+        "Funciones compartidas para reutilizar lógica común entre componentes y rutas",
+        "Centralización de lógica en un componente padre para reutilizarla en otros componentes",
+        "Separación de responsabilidades entre componentes de UI y lógica de navegación para mejorar mantenibilidad"
+      ],
+      "feedbackExito": "Correcto. Estas prácticas reducen duplicación.",
+      "puntos": 30,
+      "timeLimit": 50
+    },
+    {
+      "id": "fundamentos-47",
+      "categoria": "Fundamentos",
+      "tipo": "codigo",
+      "dificultad": "Avanzado",
+      "pregunta": "Completa el hook para manejar estado global desde Context.",
+      "modo": "slots",
+      "plantilla": "const { user } = {{slot0}}(AppContext);",
+      "opcionesSlots": ["useContext", "useState", "useEffect", "useRef"],
+      "respuestasSlots": ["useContext"],
+      "evaluacion": "slots",
+      "feedbackExito": "Correcto. useContext accede al estado global desde el Context para obtener el usuario.",
+      "puntos": 30,
+      "timeLimit": 50
+    },
+    {
+      "id": "fundamentos-48",
+      "categoria": "Fundamentos",
+      "tipo": "codigo",
+      "dificultad": "Avanzado",
+      "pregunta": "Completa la protección de rutas en React Router.",
+      "modo": "slots",
+      "plantilla": "return user ? children : <{{slot0}} to=\"/login\" />;",
+      "opcionesSlots": ["Navigate", "Route", "Link", "Outlet"],
+      "respuestasSlots": ["Navigate"],
+      "evaluacion": "slots",
+      "feedbackExito": "Correcto. Navigate redirige si no hay usuario logueado para proteger rutas.",
+      "puntos": 30,
+      "timeLimit": 50
+    },
+    {
+      "id": "fundamentos-49",
+      "categoria": "Fundamentos",
+      "tipo": "codigo",
+      "dificultad": "Avanzado",
+      "pregunta": "Completa la navegación declarativa.",
+      "modo": "slots",
+      "plantilla": "<{{slot0}} path=\"/home\" element={<Home />} />",
+      "opcionesSlots": ["Route", "Router", "Switch", "Navigate"],
+      "respuestasSlots": ["Route"],
+      "evaluacion": "slots",
+      "feedbackExito": "Correcto. Route define navegación declarativa.",
+      "puntos": 30,
+      "timeLimit": 50
+    },
+    {
+      "id": "fundamentos-50",
+      "categoria": "Fundamentos",
+      "tipo": "codigo",
+      "dificultad": "Avanzado",
+      "pregunta": "Completa la estructura para agrupar rutas en React Router.",
+      "modo": "slots",
+      "plantilla": "<BrowserRouter><{{slot0}}>{routes}</{{slot0}}></BrowserRouter>",
+      "opcionesSlots": ["Routes", "Route", "Switch", "Link"],
+      "respuestasSlots": ["Routes"],
+      "evaluacion": "slots",
+      "feedbackExito": "Correcto. Routes agrupa múltiples rutas en una estructura de navegación en base a las rutas configuradas.",
+      "puntos": 30,
+      "timeLimit": 50
+    }
+  ]
+]

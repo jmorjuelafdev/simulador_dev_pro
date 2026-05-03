@@ -159,9 +159,9 @@ function SetupPanel({
       <h3>Personaliza tu sesión</h3>
       <div className="select-row">
         <div className="select-field">
-          <label htmlFor="bloque">Bloque</label>
+          <label htmlFor="bloque">Ruta</label>
           <small id="bloque-help" className="field-help">
-            Elige un bloque para ver sus categorías.
+            Elige la ruta de práctica.
           </small>
           <select
             id="bloque"
@@ -200,7 +200,7 @@ function SetupPanel({
         <div className="select-field">
           <label htmlFor="categoria">Categoría</label>
           <small id="categoria-help" className="field-help">
-            Filtra el banco de preguntas por dominio. La dificultad aumenta progresivamente.
+            Filtra el banco de preguntas por temas de React. La dificultad aumenta progresivamente.
           </small>
           <select
             id="categoria"
@@ -351,8 +351,7 @@ function SetupPanel({
               announcePreferenceSaved("delay");
             }}
           >
-            <option value={2}>2 segundos</option>
-            <option value={5}>5 segundos</option>
+            <option value={6}>6 segundos</option>
           </select>
           {prefAnnouncement && prefTarget === "delay" && (
             <small

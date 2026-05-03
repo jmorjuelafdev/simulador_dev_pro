@@ -8,7 +8,7 @@ function HeroHeader({
   offlineMode,
   categoriaActual,
   theme,
-  onToggleTheme
+  onToggleTheme,
 }) {
   const prevDisponiblesRef = useRef(preguntasDisponibles);
   const prevRecordsRef = useRef(recordsCount);
@@ -54,13 +54,29 @@ function HeroHeader({
     const countChanged = prevDisponiblesRef.current !== preguntasDisponibles;
     if (filtersChanged && countChanged) {
       setFiltrosAnnouncement(
-        `Categoría: ${categoriaActual}. Preguntas disponibles: ${preguntasDisponibles}.`
+        `Categoría: ${categoriaActual}. Preguntas disponibles: ${preguntasDisponibles}.`,
       );
     }
     if (filtersChanged) {
       prevFiltrosRef.current = { categoria: categoriaActual };
     }
   }, [categoriaActual, preguntasDisponibles]);
+
+  const handleStart = () => {
+    if (typeof window === "undefined") return;
+    const target = window.document?.querySelector(".setup-grid");
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
+  const handleExamples = () => {
+    if (typeof window === "undefined") return;
+    const target = window.document?.querySelector(".progress-section");
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
 
   return (
     <section className="glass-panel hero">
@@ -84,9 +100,8 @@ function HeroHeader({
           {filtrosAnnouncement}
         </span>
       )}
-      <div className="hero-title">
-        <h1>Simulador Junior Dev · Biblioteca 2026</h1>
-        <div className="hero-actions">
+      <div className="hero-content">
+        <div className="hero-actions" aria-label="Acciones rápidas">
           {offlineMode && <span className="badge offline-badge">Offline activo</span>}
           <label className="toggle" htmlFor="theme-toggle">
             <input
@@ -102,33 +117,22 @@ function HeroHeader({
             <span>{theme === "light" ? "Tema claro" : "Tema oscuro"}</span>
           </label>
         </div>
-      </div>
-      <p className="hero-subtitle">
-        Practica entrevistas completas con evaluaciones dinámicas, feedback guiado y rutas de
-        aprendizaje que acompañan tu progreso en cada bloque.
-      </p>
-      <div className="hero-copy">
-        <p>
-          Actualizamos todos los bancos de preguntas con escenarios modernos: API REST con
-          enunciados extensos, CSS con flexbox, grid y responsive, Angular y React con buenas
-          prácticas de componentes, además de Git, MySQL y Skills profesionales con situaciones
-          reales de colaboración.
+
+        <h1 className="hero-title">Practica entrevistas técnicas de forma realista</h1>
+
+        <p className="hero-subtitle">
+          Simula entrevistas, recibe feedback claro y mejora tu criterio técnico con práctica guiada.
         </p>
-        <ul className="hero-highlights">
-          <li>
-            <strong>Catálogo completo:</strong> Fundamentos, Frontend (HTML, CSS, JavaScript, Estructura de
-            Datos, Angular, React, API REST), Backend (Python, PHP, Java), Fullstack (Git, MySQL) y Skills
-            (niveles 1 y 2).
-          </li>
-          <li>
-            <strong>Ejercicios aplicados:</strong> preguntas múltiples, código con slots y validaciones remotas
-            listas para simular entrevistas técnicas.
-          </li>
-          <li>
-            <strong>Modo experto opcional:</strong> activa aprendizaje offline, sonido al finalizar e
-            autoavance para acelerar tus sesiones.
-          </li>
-        </ul>
+
+        <div className="hero-actions">
+          <button className="btn-primary" type="button" onClick={handleStart}>
+            Comenzar práctica
+          </button>
+
+          <button className="btn-secondary" type="button" onClick={handleExamples}>
+            Ver ejemplos
+          </button>
+        </div>
       </div>
     </section>
   );

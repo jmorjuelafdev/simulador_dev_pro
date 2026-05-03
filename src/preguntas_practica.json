@@ -1,0 +1,1019 @@
+[
+  {
+    "id": "practica-1",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa la importación para usar Component.",
+    "modo": "slots",
+    "plantilla": "import React, { {{slot0}} } from 'react';",
+    "opcionesSlots": [
+      "Component",
+      "Router",
+      "State",
+      "Hook"
+    ],
+    "respuestasSlots": [
+      "Component"
+    ],
+    "evaluacion": "slots",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "practica-2",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa la declaración del componente de clase.",
+    "modo": "slots",
+    "plantilla": "class Saludo extends {{slot0}} { }",
+    "opcionesSlots": [
+      "Component",
+      "ReactDOM",
+      "Props",
+      "Hook"
+    ],
+    "respuestasSlots": [
+      "Component"
+    ],
+    "evaluacion": "slots",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "practica-3",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa el método obligatorio para renderizar JSX.",
+    "modo": "slots",
+    "plantilla": "class Saludo extends Component { {{slot0}}(){ return <h1>Hola</h1>; } }",
+    "opcionesSlots": [
+      "render",
+      "return",
+      "map",
+      "show"
+    ],
+    "respuestasSlots": [
+      "render"
+    ],
+    "evaluacion": "slots",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "practica-4",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa acceso a props en componente de clase.",
+    "modo": "slots",
+    "plantilla": "return <h1>{this.props.{{slot0}}}</h1>;",
+    "opcionesSlots": [
+      "name",
+      "state",
+      "render",
+      "class"
+    ],
+    "respuestasSlots": [
+      "name"
+    ],
+    "evaluacion": "slots",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "practica-5",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa uso del componente de clase.",
+    "modo": "slots",
+    "plantilla": "<{{slot0}} name='Ana' />",
+    "opcionesSlots": [
+      "Saludo",
+      "saludo",
+      "render",
+      "component"
+    ],
+    "respuestasSlots": [
+      "Saludo"
+    ],
+    "evaluacion": "slots",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "practica-6",
+    "categoria": "Practica",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué son los Hooks en React?",
+    "opciones": [
+      "Funciones especiales que permiten usar estado y efectos en componentes funcionales",
+      "Archivos CSS para componentes",
+      "Métodos para conectar bases de datos SQL",
+      "Comandos de Git para React"
+    ],
+    "respuesta": "Funciones especiales que permiten usar estado y efectos en componentes funcionales",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "practica-7",
+    "categoria": "Practica",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "Selecciona hooks fundamentales y usos comunes en React.",
+    "opciones": [
+      "useState: para manejar estado local del componente",
+      "useEffect: para efectos secundarios y sincronización",
+      "useMemo / useCallback: para optimización",
+      "useRef: para referencias mutables o acceso al DOM",
+      "Custom Hooks: reutilizar lógica entre componentes",
+      "useDelete: hook oficial para borrar componentes automáticamente",
+      "useSQL: hook nativo para conectar React con bases de datos SQL"
+    ],
+    "respuesta": [
+      "useState: para manejar estado local del componente",
+      "useEffect: para efectos secundarios y sincronización",
+      "useMemo / useCallback: para optimización",
+      "useRef: para referencias mutables o acceso al DOM",
+      "Custom Hooks: reutilizar lógica entre componentes"
+    ],
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "practica-8",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa el hook para crear estado local.",
+    "modo": "slots",
+    "plantilla": "const [count, setCount] = {{slot0}}(0);",
+    "opcionesSlots": [
+      "useState",
+      "useEffect",
+      "useRef",
+      "map"
+    ],
+    "respuestasSlots": [
+      "useState"
+    ],
+    "evaluacion": "slots",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "practica-9",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa el hook para ejecutar código al cargar el componente.",
+    "modo": "slots",
+    "plantilla": "{{slot0}}(() => { console.log('Cargado'); }, []);",
+    "opcionesSlots": [
+      "useEffect",
+      "useState",
+      "useMemo",
+      "filter"
+    ],
+    "respuestasSlots": [
+      "useEffect"
+    ],
+    "evaluacion": "slots",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "practica-10",
+    "categoria": "Practica",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué función actualiza el estado en useState?",
+    "opciones": [
+      "setCount",
+      "getCount",
+      "count()",
+      "newState"
+    ],
+    "respuesta": "setCount",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "practica-11",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa hook para referencia DOM.",
+    "modo": "slots",
+    "plantilla": "const inputRef = {{slot0}}();",
+    "opcionesSlots": [
+      "useRef",
+      "useMap",
+      "useDom",
+      "useTag"
+    ],
+    "respuestasSlots": [
+      "useRef"
+    ],
+    "evaluacion": "slots",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "practica-12",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa el renderizado condicional para mostrar mensaje si usuario existe.",
+    "modo": "slots",
+    "plantilla": "function App(){ const usuario = true; return <div>{usuario {{slot0}} <h1>Bienvenido</h1>}</div>; }",
+    "opcionesSlots": [
+      "&&",
+      "||",
+      "==",
+      "+"
+    ],
+    "respuestasSlots": [
+      "&&"
+    ],
+    "evaluacion": "slots",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "practica-13",
+    "categoria": "Practica",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué se utiliza para renderizar listas?",
+    "opciones": [
+      "map()",
+      "push()",
+      "sort()",
+      "join()"
+    ],
+    "respuesta": "map()",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "practica-14",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa el componente para renderizar una lista usando map().",
+    "modo": "slots",
+    "plantilla": "function Lista(){ const nombres = ['Ana','Luis']; return <ul>{nombres.{{slot0}}(n => <li>{n}</li>)}</ul>; }",
+    "opcionesSlots": [
+      "map",
+      "filter",
+      "push",
+      "join"
+    ],
+    "respuestasSlots": [
+      "map"
+    ],
+    "evaluacion": "slots",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "practica-15",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa evento click en JSX.",
+    "modo": "slots",
+    "plantilla": "<button on{{slot0}}={guardar}>Guardar</button>",
+    "opcionesSlots": [
+      "Click",
+      "Press",
+      "Push",
+      "Tap"
+    ],
+    "respuestasSlots": [
+      "Click"
+    ],
+    "evaluacion": "slots",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "practica-16",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa el componente para cambiar el texto al hacer clic.",
+    "modo": "slots",
+    "plantilla": "function App(){ const [texto,setTexto] = useState('Not clicked'); return <button onClick={() => setTexto('{{slot0}}')}>{texto}</button>; }",
+    "opcionesSlots": [
+      "Clicked",
+      "React",
+      "Hola",
+      "Reset"
+    ],
+    "respuestasSlots": [
+      "Clicked"
+    ],
+    "evaluacion": "slots",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "practica-1-dup1",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa la importación para usar Component.",
+    "modo": "slots",
+    "plantilla": "import React, { {{slot0}} } from 'react';",
+    "opcionesSlots": [
+      "Component",
+      "Router",
+      "State",
+      "Hook"
+    ],
+    "respuestasSlots": [
+      "Component"
+    ],
+    "evaluacion": "slots",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "practica-2-dup2",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa la declaración del componente de clase.",
+    "modo": "slots",
+    "plantilla": "class Saludo extends {{slot0}} { }",
+    "opcionesSlots": [
+      "Component",
+      "ReactDOM",
+      "Props",
+      "Hook"
+    ],
+    "respuestasSlots": [
+      "Component"
+    ],
+    "evaluacion": "slots",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "practica-3-dup3",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa el método obligatorio para renderizar JSX.",
+    "modo": "slots",
+    "plantilla": "class Saludo extends Component { {{slot0}}(){ return <h1>Hola</h1>; } }",
+    "opcionesSlots": [
+      "render",
+      "return",
+      "map",
+      "show"
+    ],
+    "respuestasSlots": [
+      "render"
+    ],
+    "evaluacion": "slots",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "practica-4-dup4",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa acceso a props en componente de clase.",
+    "modo": "slots",
+    "plantilla": "return <h1>{this.props.{{slot0}}}</h1>;",
+    "opcionesSlots": [
+      "name",
+      "state",
+      "render",
+      "class"
+    ],
+    "respuestasSlots": [
+      "name"
+    ],
+    "evaluacion": "slots",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "practica-5-dup5",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa uso del componente de clase.",
+    "modo": "slots",
+    "plantilla": "<{{slot0}} name='Ana' />",
+    "opcionesSlots": [
+      "Saludo",
+      "saludo",
+      "render",
+      "component"
+    ],
+    "respuestasSlots": [
+      "Saludo"
+    ],
+    "evaluacion": "slots",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "practica-6-dup6",
+    "categoria": "Practica",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué son los Hooks en React?",
+    "opciones": [
+      "Funciones especiales que permiten usar estado y efectos en componentes funcionales",
+      "Archivos CSS para componentes",
+      "Métodos para conectar bases de datos SQL",
+      "Comandos de Git para React"
+    ],
+    "respuesta": "Funciones especiales que permiten usar estado y efectos en componentes funcionales",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "practica-7-dup7",
+    "categoria": "Practica",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "Selecciona hooks fundamentales y usos comunes en React.",
+    "opciones": [
+      "useState: para manejar estado local del componente",
+      "useEffect: para efectos secundarios y sincronización",
+      "useMemo / useCallback: para optimización",
+      "useRef: para referencias mutables o acceso al DOM",
+      "Custom Hooks: reutilizar lógica entre componentes",
+      "useDelete: hook oficial para borrar componentes automáticamente",
+      "useSQL: hook nativo para conectar React con bases de datos SQL"
+    ],
+    "respuesta": [
+      "useState: para manejar estado local del componente",
+      "useEffect: para efectos secundarios y sincronización",
+      "useMemo / useCallback: para optimización",
+      "useRef: para referencias mutables o acceso al DOM",
+      "Custom Hooks: reutilizar lógica entre componentes"
+    ],
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "practica-8-dup8",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa el hook para crear estado local.",
+    "modo": "slots",
+    "plantilla": "const [count, setCount] = {{slot0}}(0);",
+    "opcionesSlots": [
+      "useState",
+      "useEffect",
+      "useRef",
+      "map"
+    ],
+    "respuestasSlots": [
+      "useState"
+    ],
+    "evaluacion": "slots",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "practica-9-dup9",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa el hook para ejecutar código al cargar el componente.",
+    "modo": "slots",
+    "plantilla": "{{slot0}}(() => { console.log('Cargado'); }, []);",
+    "opcionesSlots": [
+      "useEffect",
+      "useState",
+      "useMemo",
+      "filter"
+    ],
+    "respuestasSlots": [
+      "useEffect"
+    ],
+    "evaluacion": "slots",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "practica-10-dup10",
+    "categoria": "Practica",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué función actualiza el estado en useState?",
+    "opciones": [
+      "setCount",
+      "getCount",
+      "count()",
+      "newState"
+    ],
+    "respuesta": "setCount",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "practica-11-dup11",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa hook para referencia DOM.",
+    "modo": "slots",
+    "plantilla": "const inputRef = {{slot0}}();",
+    "opcionesSlots": [
+      "useRef",
+      "useMap",
+      "useDom",
+      "useTag"
+    ],
+    "respuestasSlots": [
+      "useRef"
+    ],
+    "evaluacion": "slots",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "practica-12-dup12",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa el renderizado condicional para mostrar mensaje si usuario existe.",
+    "modo": "slots",
+    "plantilla": "function App(){ const usuario = true; return <div>{usuario {{slot0}} <h1>Bienvenido</h1>}</div>; }",
+    "opcionesSlots": [
+      "&&",
+      "||",
+      "==",
+      "+"
+    ],
+    "respuestasSlots": [
+      "&&"
+    ],
+    "evaluacion": "slots",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "practica-13-dup13",
+    "categoria": "Practica",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué se utiliza para renderizar listas?",
+    "opciones": [
+      "map()",
+      "push()",
+      "sort()",
+      "join()"
+    ],
+    "respuesta": "map()",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "practica-14-dup14",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa el componente para renderizar una lista usando map().",
+    "modo": "slots",
+    "plantilla": "function Lista(){ const nombres = ['Ana','Luis']; return <ul>{nombres.{{slot0}}(n => <li>{n}</li>)}</ul>; }",
+    "opcionesSlots": [
+      "map",
+      "filter",
+      "push",
+      "join"
+    ],
+    "respuestasSlots": [
+      "map"
+    ],
+    "evaluacion": "slots",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "practica-15-dup15",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa evento click en JSX.",
+    "modo": "slots",
+    "plantilla": "<button on{{slot0}}={guardar}>Guardar</button>",
+    "opcionesSlots": [
+      "Click",
+      "Press",
+      "Push",
+      "Tap"
+    ],
+    "respuestasSlots": [
+      "Click"
+    ],
+    "evaluacion": "slots",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "practica-16-dup16",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa el componente para cambiar el texto al hacer clic.",
+    "modo": "slots",
+    "plantilla": "function App(){ const [texto,setTexto] = useState('Not clicked'); return <button onClick={() => setTexto('{{slot0}}')}>{texto}</button>; }",
+    "opcionesSlots": [
+      "Clicked",
+      "React",
+      "Hola",
+      "Reset"
+    ],
+    "respuestasSlots": [
+      "Clicked"
+    ],
+    "evaluacion": "slots",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "practica-1-dup17",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa la importación para usar Component.",
+    "modo": "slots",
+    "plantilla": "import React, { {{slot0}} } from 'react';",
+    "opcionesSlots": [
+      "Component",
+      "Router",
+      "State",
+      "Hook"
+    ],
+    "respuestasSlots": [
+      "Component"
+    ],
+    "evaluacion": "slots",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "practica-2-dup18",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa la declaración del componente de clase.",
+    "modo": "slots",
+    "plantilla": "class Saludo extends {{slot0}} { }",
+    "opcionesSlots": [
+      "Component",
+      "ReactDOM",
+      "Props",
+      "Hook"
+    ],
+    "respuestasSlots": [
+      "Component"
+    ],
+    "evaluacion": "slots",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "practica-3-dup19",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa el método obligatorio para renderizar JSX.",
+    "modo": "slots",
+    "plantilla": "class Saludo extends Component { {{slot0}}(){ return <h1>Hola</h1>; } }",
+    "opcionesSlots": [
+      "render",
+      "return",
+      "map",
+      "show"
+    ],
+    "respuestasSlots": [
+      "render"
+    ],
+    "evaluacion": "slots",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "practica-4-dup20",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa acceso a props en componente de clase.",
+    "modo": "slots",
+    "plantilla": "return <h1>{this.props.{{slot0}}}</h1>;",
+    "opcionesSlots": [
+      "name",
+      "state",
+      "render",
+      "class"
+    ],
+    "respuestasSlots": [
+      "name"
+    ],
+    "evaluacion": "slots",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "practica-5-dup21",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa uso del componente de clase.",
+    "modo": "slots",
+    "plantilla": "<{{slot0}} name='Ana' />",
+    "opcionesSlots": [
+      "Saludo",
+      "saludo",
+      "render",
+      "component"
+    ],
+    "respuestasSlots": [
+      "Saludo"
+    ],
+    "evaluacion": "slots",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "practica-6-dup22",
+    "categoria": "Practica",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué son los Hooks en React?",
+    "opciones": [
+      "Funciones especiales que permiten usar estado y efectos en componentes funcionales",
+      "Archivos CSS para componentes",
+      "Métodos para conectar bases de datos SQL",
+      "Comandos de Git para React"
+    ],
+    "respuesta": "Funciones especiales que permiten usar estado y efectos en componentes funcionales",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "practica-7-dup23",
+    "categoria": "Practica",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "Selecciona hooks fundamentales y usos comunes en React.",
+    "opciones": [
+      "useState: para manejar estado local del componente",
+      "useEffect: para efectos secundarios y sincronización",
+      "useMemo / useCallback: para optimización",
+      "useRef: para referencias mutables o acceso al DOM",
+      "Custom Hooks: reutilizar lógica entre componentes",
+      "useDelete: hook oficial para borrar componentes automáticamente",
+      "useSQL: hook nativo para conectar React con bases de datos SQL"
+    ],
+    "respuesta": [
+      "useState: para manejar estado local del componente",
+      "useEffect: para efectos secundarios y sincronización",
+      "useMemo / useCallback: para optimización",
+      "useRef: para referencias mutables o acceso al DOM",
+      "Custom Hooks: reutilizar lógica entre componentes"
+    ],
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "practica-8-dup24",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa el hook para crear estado local.",
+    "modo": "slots",
+    "plantilla": "const [count, setCount] = {{slot0}}(0);",
+    "opcionesSlots": [
+      "useState",
+      "useEffect",
+      "useRef",
+      "map"
+    ],
+    "respuestasSlots": [
+      "useState"
+    ],
+    "evaluacion": "slots",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "practica-9-dup25",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa el hook para ejecutar código al cargar el componente.",
+    "modo": "slots",
+    "plantilla": "{{slot0}}(() => { console.log('Cargado'); }, []);",
+    "opcionesSlots": [
+      "useEffect",
+      "useState",
+      "useMemo",
+      "filter"
+    ],
+    "respuestasSlots": [
+      "useEffect"
+    ],
+    "evaluacion": "slots",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "practica-10-dup26",
+    "categoria": "Practica",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué función actualiza el estado en useState?",
+    "opciones": [
+      "setCount",
+      "getCount",
+      "count()",
+      "newState"
+    ],
+    "respuesta": "setCount",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "practica-11-dup27",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa hook para referencia DOM.",
+    "modo": "slots",
+    "plantilla": "const inputRef = {{slot0}}();",
+    "opcionesSlots": [
+      "useRef",
+      "useMap",
+      "useDom",
+      "useTag"
+    ],
+    "respuestasSlots": [
+      "useRef"
+    ],
+    "evaluacion": "slots",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "practica-12-dup28",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa el renderizado condicional para mostrar mensaje si usuario existe.",
+    "modo": "slots",
+    "plantilla": "function App(){ const usuario = true; return <div>{usuario {{slot0}} <h1>Bienvenido</h1>}</div>; }",
+    "opcionesSlots": [
+      "&&",
+      "||",
+      "==",
+      "+"
+    ],
+    "respuestasSlots": [
+      "&&"
+    ],
+    "evaluacion": "slots",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "practica-13-dup29",
+    "categoria": "Practica",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué se utiliza para renderizar listas?",
+    "opciones": [
+      "map()",
+      "push()",
+      "sort()",
+      "join()"
+    ],
+    "respuesta": "map()",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "practica-14-dup30",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa el componente para renderizar una lista usando map().",
+    "modo": "slots",
+    "plantilla": "function Lista(){ const nombres = ['Ana','Luis']; return <ul>{nombres.{{slot0}}(n => <li>{n}</li>)}</ul>; }",
+    "opcionesSlots": [
+      "map",
+      "filter",
+      "push",
+      "join"
+    ],
+    "respuestasSlots": [
+      "map"
+    ],
+    "evaluacion": "slots",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "practica-15-dup31",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa evento click en JSX.",
+    "modo": "slots",
+    "plantilla": "<button on{{slot0}}={guardar}>Guardar</button>",
+    "opcionesSlots": [
+      "Click",
+      "Press",
+      "Push",
+      "Tap"
+    ],
+    "respuestasSlots": [
+      "Click"
+    ],
+    "evaluacion": "slots",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "practica-16-dup32",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa el componente para cambiar el texto al hacer clic.",
+    "modo": "slots",
+    "plantilla": "function App(){ const [texto,setTexto] = useState('Not clicked'); return <button onClick={() => setTexto('{{slot0}}')}>{texto}</button>; }",
+    "opcionesSlots": [
+      "Clicked",
+      "React",
+      "Hola",
+      "Reset"
+    ],
+    "respuestasSlots": [
+      "Clicked"
+    ],
+    "evaluacion": "slots",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "practica-1-dup33",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa la importación para usar Component.",
+    "modo": "slots",
+    "plantilla": "import React, { {{slot0}} } from 'react';",
+    "opcionesSlots": [
+      "Component",
+      "Router",
+      "State",
+      "Hook"
+    ],
+    "respuestasSlots": [
+      "Component"
+    ],
+    "evaluacion": "slots",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "practica-2-dup34",
+    "categoria": "Practica",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa la declaración del componente de clase.",
+    "modo": "slots",
+    "plantilla": "class Saludo extends {{slot0}} { }",
+    "opcionesSlots": [
+      "Component",
+      "ReactDOM",
+      "Props",
+      "Hook"
+    ],
+    "respuestasSlots": [
+      "Component"
+    ],
+    "evaluacion": "slots",
+    "puntos": 20,
+    "timeLimit": 40
+  }
+]

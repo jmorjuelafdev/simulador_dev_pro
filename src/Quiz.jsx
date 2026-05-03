@@ -135,7 +135,7 @@ function Quiz({
     if (!autoAdvanceEnabled) return;
     if (!esCorrecta) return;
     if (enUltimaPregunta) return;
-    const delay = Number(autoAdvanceDelay) || 5;
+    const delay = Number(autoAdvanceDelay) || 6;
     setAutoCountdown(delay);
     let remaining = delay;
     const interval = setInterval(() => {
@@ -169,6 +169,7 @@ function Quiz({
         ? "Selecciona una o más opciones"
         : "Selecciona una opción";
     }
+    if (pregunta.tipo === "boolean") return "Selecciona Verdadero o Falso";
     if (pregunta.tipo === "completar") return "Escribe la palabra o frase faltante";
     if (pregunta.tipo === "arrastrar") return "Arrastra las opciones para completar la relación";
     if (pregunta.tipo === "codigo") return "Envía tu solución";
@@ -331,9 +332,9 @@ function Quiz({
         </small>
       </div>
 
-      {pregunta.tipo === "multiple" &&
+      {(pregunta.tipo === "multiple" || pregunta.tipo === "boolean") &&
         !!pregunta.opciones?.length &&
-        (Array.isArray(pregunta.respuesta) ? (
+        (pregunta.tipo === "multiple" && Array.isArray(pregunta.respuesta) ? (
           <div className="checkbox-container">
             <div
               className="options-grid"

@@ -1,13 +1,4 @@
-const BANK_FILES = import.meta.glob("../preguntas_*.json");
-
-const normalizeCategoryToFileKey = (category) => {
-  if (!category) return "";
-  return String(category)
-    .trim()
-    .replace(/[^a-z0-9]+/gi, "_")
-    .replace(/^_+|_+$/g, "")
-    .toLowerCase();
-};
+const BANK_FILES = import.meta.glob("../preguntas_{fundamentos,practica,decisiones}.json");
 
 const loadBankModule = async (fileKey) => {
   const loader = BANK_FILES[fileKey];
@@ -40,57 +31,17 @@ export async function loadTotalPreguntasCount() {
 
 export const BLOCKS = [
   {
-    id: "Fundamentos",
-    label: "Fundamentos",
+    id: "React",
+    label: "React",
     categorias: [
-      { id: "Logica", label: "Lógica", preguntasPorSesion: 50 },
-      { id: "Logica2", label: "Lógica 2", preguntasPorSesion: 50 }
-    ]
-  },
-  {
-    id: "Frontend",
-    label: "Frontend",
-    categorias: [
-      { id: "HTML", label: "HTML", preguntasPorSesion: 50 },
-      { id: "CSS", label: "CSS", preguntasPorSesion: 50 },
-      { id: "JavaScript", label: "JavaScript", preguntasPorSesion: 50 },
-      { id: "Estructura_Datos", label: "Estructura de Datos", preguntasPorSesion: 50 },
-      { id: "Angular", label: "Angular", preguntasPorSesion: 50 },
-      { id: "React", label: "React", preguntasPorSesion: 50 },
-      { id: "API_rest", label: "API REST", preguntasPorSesion: 50 }
-    ]
-  },
-  {
-    id: "Backend",
-    label: "Backend",
-    categorias: [
-      { id: "Python", label: "Python", preguntasPorSesion: 50 },
-      { id: "PHP", label: "PHP", preguntasPorSesion: 50 },
-      { id: "Java", label: "Java", preguntasPorSesion: 50 }
-    ]
-  },
-  {
-    id: "Fullstack",
-    label: "Fullstack",
-    categorias: [
-      { id: "Git", label: "Git", preguntasPorSesion: 50 },
-      { id: "Mysql", label: "Mysql", preguntasPorSesion: 50 }
-    ]
-  },
-  {
-    id: "Skills",
-    label: "Skills",
-    categorias: [
-      { id: "Skills", label: "Skills", preguntasPorSesion: 50 },
-      { id: "Skills2", label: "Skills 2", preguntasPorSesion: 50 }
+      { id: "Fundamentos", label: "Fundamentos", preguntasPorSesion: 50 },
+      { id: "Decisiones", label: "Decisiones", preguntasPorSesion: 50 },
+      { id: "Practica", label: "Práctica", preguntasPorSesion: 50 }
     ]
   }
 ];
 
-export const ORDER_BY_PROGRESION = [
-  ...BLOCKS.flatMap((block) => block.categorias.map((cat) => cat.id)),
-  "General"
-];
+export const ORDER_BY_PROGRESION = ["Fundamentos", "Decisiones", "Practica", "General"];
 
 export const CATEGORY_LIST = BLOCKS.flatMap((block) => block.categorias.map((cat) => cat.id));
 
@@ -123,10 +74,9 @@ export async function loadPreguntasByCategory(category) {
     return banks.flat().map((pregunta) => ({ ...pregunta }));
   }
 
-  const normalized = normalizeCategoryToFileKey(category);
-  const guessedKey = `../preguntas_${normalized}.json`;
+  const fileKey = `../preguntas_${String(category || "").toLowerCase()}.json`;
 
-  let bank = await loadBankModule(guessedKey);
+  let bank = await loadBankModule(fileKey);
   if (!bank.length) {
     const banks = await Promise.all(
       Object.keys(BANK_FILES).map((fileKey) => loadBankModule(fileKey))
